@@ -1,5 +1,5 @@
 // Service Worker for FUTMINNA 100L Grade-A Master (Offline-First)
-const CACHE_NAME = 'futminna-100l-v4';
+const CACHE_NAME = 'futminna-100l-v5';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',

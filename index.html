@@ -887,6 +887,109 @@
       transform: scale(0.97) !important;
     }
 
+    
+    /* Compact High-Efficiency Dashboard Header */
+    .dash-summary-card {
+      background: linear-gradient(135deg, rgba(14, 21, 38, 0.95) 0%, rgba(26, 32, 58, 0.92) 100%);
+      border: 1px solid rgba(99, 102, 241, 0.35);
+      border-radius: 16px;
+      padding: 1.15rem 1.4rem;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.1rem;
+    }
+    .dash-summary-main {
+      flex: 1;
+      min-width: 290px;
+    }
+    .active-course-pill {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      font-family: var(--font-heading);
+      font-weight: 800;
+      font-size: 0.75rem;
+      padding: 0.2rem 0.55rem;
+      border-radius: 6px;
+      letter-spacing: 0.03em;
+    }
+    .exam-status-tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.2rem 0.65rem;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-muted);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .exam-status-tag.grade-a {
+      background: rgba(16, 185, 129, 0.15);
+      color: #34D399;
+      border-color: rgba(16, 185, 129, 0.35);
+    }
+    .exam-status-tag.grade-b {
+      background: rgba(6, 182, 212, 0.15);
+      color: #38BDF8;
+      border-color: rgba(6, 182, 212, 0.35);
+    }
+    .exam-status-tag.needs-work {
+      background: rgba(245, 158, 11, 0.15);
+      color: #FBBF24;
+      border-color: rgba(245, 158, 11, 0.35);
+    }
+    .dash-focus-line {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 10px;
+      padding: 0.45rem 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.82rem;
+      color: #CBD5E1;
+      flex-wrap: wrap;
+    }
+    .dash-summary-right {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      flex-wrap: wrap;
+    }
+    .dash-stat-group {
+      display: flex;
+      gap: 0.5rem;
+    }
+    .mini-stat-box {
+      background: rgba(11, 15, 25, 0.85);
+      border: 1px solid var(--border-color);
+      padding: 0.45rem 0.85rem;
+      border-radius: 10px;
+      text-align: center;
+      min-width: 78px;
+    }
+    .mini-stat-val {
+      font-family: var(--font-heading);
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--secondary);
+      display: block;
+      line-height: 1.1;
+    }
+    .mini-stat-lbl {
+      font-size: 0.65rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .blitz-launch-btn.compact {
+      padding: 0.65rem 1.1rem;
+      font-size: 0.85rem;
+      border-radius: 12px;
+    }
+
     /* Grade-A Predictor & CGPA Radar Card */
     .predictor-card {
       background: linear-gradient(135deg, rgba(14, 21, 38, 0.95) 0%, rgba(30, 27, 75, 0.85) 100%);
@@ -1254,60 +1357,53 @@
 
     <!-- TAB 1: DASHBOARD -->
     <section class="tab-pane active" id="tab-dashboard">
-      <div class="hero-banner">
-        <div class="hero-text">
-          <h2>Secure Your Grade 'A' in 100-Level</h2>
-          <p>Complete curriculum pack for Federal University of Technology, Minna. 100% offline-first with CBT simulations, instant speed hacks, and active weakness tracking.</p>
-        </div>
-        <div class="hero-stats">
-          <div class="stat-pill">
-            <span class="stat-num">540</span>
-            <span class="stat-label">Practice Qs</span>
+            <!-- Compact Command Dashboard Header -->
+      <div class="dash-summary-card">
+        <div class="dash-summary-main">
+          <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.35rem; flex-wrap: wrap;">
+            <span class="active-course-pill" id="dashCoursePill">MAT 101</span>
+            <h2 id="dashCourseHeading" style="font-family: var(--font-heading); font-size: 1.35rem; color: #FFF; font-weight: 800; margin: 0;">Elementary Mathematics I</h2>
+            <span class="exam-status-tag" id="dashExamStatusBadge">⚪ Baseline (0 Qs Attempted)</span>
           </div>
-          <div class="stat-pill">
-            <span class="stat-num" id="statVaultCount">0</span>
-            <span class="stat-label">In Vault</span>
-          </div>
-          <div class="stat-pill">
-            <span class="stat-num" id="statMastery">0%</span>
-            <span class="stat-label">Exam Ready</span>
-          </div>
-        </div>
-      </div>
-
-            <!-- Grade-A Predictor & CGPA Radar -->
-      <div class="predictor-card" id="gradePredictorCard">
-        <div class="radar-gauge-wrap">
-          <div class="gauge-circle" id="predictorGauge" style="--gauge-score: 84;">
-            <div class="gauge-inner">
-              <span class="gauge-pct" id="predictorPct">84%</span>
-              <span class="gauge-label">EXAM READY</span>
-            </div>
-          </div>
-        </div>
-        <div class="predictor-content">
-          <div class="predictor-badge" id="predictorStatusBadge">GRADE A TRACK (DISTINCTION) 🏆</div>
-          <h3 id="predictorTitle">Predicted Exam Score: 84% • 5.00 CGPA Impact</h3>
-          <p style="color: var(--text-muted); font-size: 0.88rem;" id="predictorDesc">
-            Real-time readiness calculated from your drill speed, accuracy, and CBT mock history.
+          <p style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 0.65rem;" id="dashCourseMeta">
+            <span id="dashCourseCount">540</span> Course Questions • <span id="dashTopicsCount">10</span> Topics • <span id="dashTotalAllCourses">968</span> Curriculum Qs
           </p>
-          <div class="weakness-alert-box" id="weaknessAlertBox">
-            <span style="font-size: 1.1rem;">⚠️</span>
-            <div style="flex: 1;">
-              <strong>Focus Area:</strong> <span id="weakestTopicName">Quadratic Equations</span> (<span id="weakestTopicPct">42%</span> accuracy).
-            </div>
-            <button class="btn btn-secondary" id="btnBoostWeakness" style="padding: 0.25rem 0.65rem; font-size: 0.75rem; border-color: rgba(245,158,11,0.5); color: #FDE68A;">
-              ⚡ Drill Topic →
+
+          <!-- Weakness & Progress Alert line -->
+          <div class="dash-focus-line" id="dashFocusLine">
+            <span style="font-size: 1rem;">🎯</span>
+            <span id="dashFocusText" style="flex: 1;">No questions attempted yet. Practice a topic drill or take a mock exam to compute your real Grade-A readiness.</span>
+            <button class="btn btn-secondary" id="btnDashQuickDrill" style="padding: 0.25rem 0.65rem; font-size: 0.75rem; border-color: rgba(99,102,241,0.4); color: #A5B4FC;">
+              Start First Drill →
             </button>
           </div>
         </div>
-        <div>
-          <button class="blitz-launch-btn" id="btnLaunchBlitz">
-            <span>⚡ Daily 5-Min Blitz</span>
-            <span style="background: rgba(0,0,0,0.25); padding: 0.2rem 0.5rem; border-radius: 8px; font-size: 0.75rem;">10 Qs</span>
+
+        <div class="dash-summary-right">
+          <!-- 3 Dynamic Metric Pills -->
+          <div class="dash-stat-group">
+            <div class="mini-stat-box">
+              <span class="mini-stat-val" id="dashStatCourseQs">540</span>
+              <span class="mini-stat-lbl">Course Qs</span>
+            </div>
+            <div class="mini-stat-box">
+              <span class="mini-stat-val" id="dashStatVaultCount">0</span>
+              <span class="mini-stat-lbl">In Vault</span>
+            </div>
+            <div class="mini-stat-box">
+              <span class="mini-stat-val" id="dashStatReadiness">0%</span>
+              <span class="mini-stat-lbl" id="dashStatReadinessLbl">Readiness</span>
+            </div>
+          </div>
+
+          <!-- Quick Blitz Trigger -->
+          <button class="blitz-launch-btn compact" id="btnLaunchBlitz">
+            <span>⚡ 5-Min Blitz</span>
+            <span style="background: rgba(0,0,0,0.25); padding: 0.15rem 0.45rem; border-radius: 6px; font-size: 0.72rem;">10 Qs</span>
           </button>
         </div>
       </div>
+
 
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
         <h3 style="font-family: var(--font-heading); font-size: 1.25rem;" id="syllabusSectionTitle">MAT 101 Syllabus Topics</h3>
@@ -1835,6 +1931,7 @@
       xp: parseInt(localStorage.getItem('futminna_xp') || '150'),
       streak: parseInt(localStorage.getItem('futminna_streak') || '1'),
       mistakes: JSON.parse(localStorage.getItem('futminna_mistakes') || '[]'),
+      attempted: JSON.parse(localStorage.getItem('futminna_attempted') || '{}'),
       history: JSON.parse(localStorage.getItem('futminna_history') || '[]'),
       
       // CBT
@@ -1904,7 +2001,7 @@
       initGamification();
       initCourses();
       initDashboard();
-      initPredictor();
+      updateDashboardMetrics();
       initDailyBlitz();
       initCBT();
       initPractice();
@@ -1933,7 +2030,7 @@
       const count = state.mistakes.length;
       document.getElementById('statVaultCount').textContent = count;
       localStorage.setItem('futminna_mistakes', JSON.stringify(state.mistakes));
-      initPredictor();
+      updateDashboardMetrics();
     }
 
     // Navigation
@@ -2033,7 +2130,7 @@
 
       // Re-render UI components
       initDashboard();
-      initPredictor();
+      updateDashboardMetrics();
       initPractice();
       initFlashcards();
       initFormulaBible();
@@ -2042,65 +2139,131 @@
       setTimeout(() => renderMath(), 100);
     }
 
-    // Grade-A Predictor & CGPA Radar
-    function initPredictor() {
-      const gauge = document.getElementById('predictorGauge');
-      const pctEl = document.getElementById('predictorPct');
-      const titleEl = document.getElementById('predictorTitle');
-      const badgeEl = document.getElementById('predictorStatusBadge');
-      const weakestName = document.getElementById('weakestTopicName');
-      const weakestPct = document.getElementById('weakestTopicPct');
-      const btnBoost = document.getElementById('btnBoostWeakness');
+    // Dynamic & Accurate Dashboard Metrics (100% Real Progress)
+    function updateDashboardMetrics() {
+      const course = ALL_100L_COURSES.find(c => c.code === state.activeCourse);
+      const courseQs = state.questions || [];
+      const totalCourseQs = courseQs.length;
+      const allTotal = ALL_100L_COURSES.reduce((sum, c) => sum + (c.count || 0), 0);
+      const topics = [...new Set(courseQs.map(q => q.topic).filter(Boolean))];
 
-      const topics = [...new Set(state.questions.map(q => q.topic).filter(Boolean))];
-      if (topics.length === 0) return;
+      const pillEl = document.getElementById('dashCoursePill');
+      const headingEl = document.getElementById('dashCourseHeading');
+      const countEl = document.getElementById('dashCourseCount');
+      const statCourseQs = document.getElementById('dashStatCourseQs');
+      const topicsCountEl = document.getElementById('dashTopicsCount');
+      const totalAllEl = document.getElementById('dashTotalAllCourses');
+      const statVaultEl = document.getElementById('dashStatVaultCount');
+      const statReadinessEl = document.getElementById('dashStatReadiness');
+      const badgeEl = document.getElementById('dashExamStatusBadge');
+      const focusText = document.getElementById('dashFocusText');
+      const btnQuickDrill = document.getElementById('btnDashQuickDrill');
 
-      // Calculate weakness per topic
-      const mistakeIds = new Set(state.mistakes.map(m => m.id));
-      let weakest = topics[0];
-      let maxMistakes = -1;
+      if (pillEl) pillEl.textContent = state.activeCourse;
+      if (headingEl) headingEl.textContent = course ? course.name.split('(')[0].trim() : state.activeCourse;
+      if (countEl) countEl.textContent = totalCourseQs;
+      if (statCourseQs) statCourseQs.textContent = totalCourseQs;
+      if (topicsCountEl) topicsCountEl.textContent = topics.length;
+      if (totalAllEl) totalAllEl.textContent = allTotal;
 
-      topics.forEach(t => {
-        const topicQs = state.questions.filter(q => q.topic === t);
-        const topicMistakes = topicQs.filter(q => mistakeIds.has(q.id)).length;
-        if (topicMistakes > maxMistakes) {
-          maxMistakes = topicMistakes;
-          weakest = t;
-        }
+      const courseMistakes = state.mistakes.filter(m => courseQs.some(q => q.id === m.id));
+      if (statVaultEl) statVaultEl.textContent = courseMistakes.length;
+
+      // Real user attempts for this course
+      const courseAttempts = Object.entries(state.attempted || {}).filter(([qid, info]) => {
+        return info.course === state.activeCourse || courseQs.some(q => q.id === qid);
       });
+      const attemptedCount = courseAttempts.length;
+      const correctCount = courseAttempts.filter(([qid, info]) => info.isCorrect).length;
 
-      // Score calculation
-      const baseScore = Math.max(72, Math.min(96, 88 - (state.mistakes.length * 2)));
-      if (gauge) gauge.style.setProperty('--gauge-score', baseScore);
-      if (pctEl) pctEl.textContent = `${baseScore}%`;
-      if (titleEl) titleEl.textContent = `Predicted Exam Score: ${baseScore}% • 5.00 CGPA Impact`;
-      
-      if (badgeEl) {
-        if (baseScore >= 75) {
-          badgeEl.textContent = 'GRADE A TRACK (DISTINCTION) 🏆';
-          badgeEl.style.color = 'var(--success)';
-        } else {
-          badgeEl.textContent = 'NEEDS TARGETED DRILL ⚡';
-          badgeEl.style.color = 'var(--warning)';
+      if (attemptedCount === 0) {
+        if (statReadinessEl) {
+          statReadinessEl.textContent = '0%';
+          statReadinessEl.style.color = 'var(--text-muted)';
         }
-      }
+        if (badgeEl) {
+          badgeEl.textContent = '⚪ Baseline (0 Qs Attempted)';
+          badgeEl.className = 'exam-status-tag';
+        }
+        if (focusText) {
+          focusText.textContent = `No questions attempted yet in ${state.activeCourse}. Start a topic drill or mock exam to benchmark your real exam readiness.`;
+        }
+        if (btnQuickDrill) {
+          btnQuickDrill.textContent = 'Start First Drill →';
+          btnQuickDrill.onclick = () => {
+            AudioFX.click();
+            document.querySelectorAll('.nav-btn, .mob-nav-item').forEach(b => {
+              if (b.getAttribute('data-tab') === 'practice') b.click();
+            });
+          };
+        }
+      } else {
+        const accuracyPct = Math.round((correctCount / attemptedCount) * 100);
+        if (statReadinessEl) {
+          statReadinessEl.textContent = `${accuracyPct}%`;
+          statReadinessEl.style.color = accuracyPct >= 70 ? 'var(--success)' : (accuracyPct >= 50 ? 'var(--secondary)' : 'var(--warning)');
+        }
 
-      if (weakestName) weakestName.textContent = weakest;
-      if (weakestPct) weakestPct.textContent = maxMistakes > 0 ? `${Math.max(40, 90 - maxMistakes * 10)}%` : '92%';
+        let gradeTag = '';
+        let tagClass = 'exam-status-tag';
+        if (accuracyPct >= 70) {
+          gradeTag = 'GRADE A TRACK (DISTINCTION) 🏆';
+          tagClass += ' grade-a';
+        } else if (accuracyPct >= 60) {
+          gradeTag = 'GRADE B TRACK (CREDIT) 🥈';
+          tagClass += ' grade-b';
+        } else if (accuracyPct >= 50) {
+          gradeTag = 'GRADE C TRACK (PASS) 🥉';
+          tagClass += ' grade-b';
+        } else {
+          gradeTag = 'NEEDS TARGETED DRILL ⚡';
+          tagClass += ' needs-work';
+        }
+        if (badgeEl) {
+          badgeEl.textContent = gradeTag;
+          badgeEl.className = tagClass;
+        }
 
-      if (btnBoost) {
-        btnBoost.onclick = () => {
-          AudioFX.click();
-          document.getElementById('practiceTopicSelect').value = weakest;
-          renderPractice(weakest);
-          document.querySelectorAll('.nav-btn, .mob-nav-item').forEach(b => {
-            if (b.getAttribute('data-tab') === 'practice') b.click();
-          });
-        };
+        // Calculate real accuracy per topic to identify actual weakness
+        const topicStats = {};
+        courseAttempts.forEach(([qid, info]) => {
+          const t = info.topic || (courseQs.find(q => q.id === qid) || {}).topic || 'General';
+          if (!topicStats[t]) topicStats[t] = { attempted: 0, correct: 0 };
+          topicStats[t].attempted++;
+          if (info.isCorrect) topicStats[t].correct++;
+        });
+
+        let weakestTopic = topics[0];
+        let lowestAcc = 101;
+        Object.entries(topicStats).forEach(([t, s]) => {
+          const acc = Math.round((s.correct / s.attempted) * 100);
+          if (acc < lowestAcc) {
+            lowestAcc = acc;
+            weakestTopic = t;
+          }
+        });
+
+        if (focusText) {
+          if (lowestAcc < 70) {
+            focusText.innerHTML = `<strong>⚠️ Focus Area:</strong> ${weakestTopic} (${lowestAcc}% accuracy). Practice this topic to guarantee your Grade A.`;
+          } else {
+            focusText.innerHTML = `<strong>🌟 Top Momentum:</strong> ${attemptedCount} Qs solved with ${accuracyPct}% accuracy across ${state.activeCourse}. Keep the streak alive!`;
+          }
+        }
+        if (btnQuickDrill) {
+          btnQuickDrill.textContent = `Drill ${weakestTopic} →`;
+          btnQuickDrill.onclick = () => {
+            AudioFX.click();
+            document.getElementById('practiceTopicSelect').value = weakestTopic;
+            renderPractice(weakestTopic);
+            document.querySelectorAll('.nav-btn, .mob-nav-item').forEach(b => {
+              if (b.getAttribute('data-tab') === 'practice') b.click();
+            });
+          };
+        }
       }
     }
 
-    // Daily 5-Minute Blitz Drill
     function initDailyBlitz() {
       const modal = document.getElementById('dailyBlitzModal');
       const btnLaunch = document.getElementById('btnLaunchBlitz');
@@ -2123,7 +2286,7 @@
       btnFinish.addEventListener('click', () => {
         modal.classList.remove('open');
         initDashboard();
-        initPredictor();
+        updateDashboardMetrics();
       });
 
       function startBlitz() {
@@ -2448,6 +2611,9 @@
       state.cbt.questions.forEach((q, idx) => {
         const choice = state.cbt.userAnswers[idx];
         const isCorrect = choice && (choice.toUpperCase() === q.answer.trim().toUpperCase());
+        if (choice) {
+          state.attempted[q.id] = { answered: choice, isCorrect: !!isCorrect, course: state.activeCourse, topic: q.topic };
+        }
         if (isCorrect) {
           score++;
         } else {
@@ -2596,6 +2762,11 @@
             AudioFX.correct();
             addXP(10);
           }
+
+          // Record genuine user attempt
+          state.attempted[q.id] = { answered: chosen, isCorrect: isCorrect, course: state.activeCourse, topic: q.topic };
+          localStorage.setItem('futminna_attempted', JSON.stringify(state.attempted));
+          updateDashboardMetrics();
 
           const solEl = document.getElementById(`sol_${qid}`);
           solEl.style.display = 'block';
