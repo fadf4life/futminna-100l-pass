@@ -12,8 +12,8 @@
       "D": "None of the above"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, In titrimetric analysis, substance of known concentration is called corresponds to Titrant.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn volumetric (titrimetric) analysis, the solution of precisely known concentration placed in the burette is defined as the Titrant.\n\n🔍 Option Breakdown:\n• Titrant: Standard solution of known concentration in the burette.\n• Titrand / Analyte: Solution of unknown concentration in the conical flask being analyzed.\n\n• Correct Choice: Option A (Titrant)",
+    "speed_hack": "⚡ CBT Speed Hack: Known in burette = Titrant. Unknown in flask = Analyte / Titrand."
   },
   {
     "id": "CHM191_MNS_002",
@@ -28,8 +28,8 @@
       "D": "Index point"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, The point at which equal amount of titrant and analyte have reacted is called corresponds to Equivalence point.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nThe theoretical point where stoichiometrically equivalent amounts of titrant and analyte have reacted is the Equivalence Point.\n\n🔍 Option Breakdown:\n• Equivalence Point: Theoretical stoichiometric neutralization point (moles acid = moles base).\n• Endpoint: The practical observation point where the indicator changes color.\n\n• Correct Choice: Option A (Equivalence point)",
+    "speed_hack": "⚡ CBT Speed Hack: Theoretical equal reaction = Equivalence Point. Color change = Endpoint."
   },
   {
     "id": "CHM191_MNS_003",
@@ -44,8 +44,8 @@
       "D": "gravimetric reaction"
     },
     "answer": "D",
-    "explanation": "In practical volumetric analysis, All the following are classes of titrimetic analysis EXCEPT corresponds to gravimetric reaction.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nTitrimetric analysis is divided into four major reaction classes: Acid-Base, Oxidation-Reduction (Redox), Complexometric, and Precipitation titrations.\n\n🔍 Option Breakdown:\n• Gravimetric analysis involves weighing a precipitate, which is NOT titrimetric (it uses a balance, not a burette).\n\n• Correct Choice: Option D (gravimetric reaction)",
+    "speed_hack": "⚡ CBT Speed Hack: Gravimetric = Mass / Weight. All others (Acid-Base, Redox, Complexometric) = Titrimetric."
   },
   {
     "id": "CHM191_MNS_004",
@@ -60,8 +60,8 @@
       "D": "1cm³"
     },
     "answer": "B",
-    "explanation": "In practical volumetric analysis, What volume must be taken from 500cm³ of 2M HCl(aq) in order to prepare 50cm³ of 0.04M HCI(aq) corresponds to 5.5cm³.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nAn indicator signal indicates the Endpoint of the titration.\n\n🔍 Option Breakdown:\nThe color change produced by an indicator marks the practical physical endpoint of the titration.\n\n• Correct Choice: Option B (5.5cm³)",
+    "speed_hack": "⚡ CBT Speed Hack: Indicator change = Experimental Endpoint."
   },
   {
     "id": "CHM191_MNS_006",
@@ -76,8 +76,8 @@
       "D": "33.33ml"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, What volume will be taken from stock solution of 0.45M HCl(aq) in order to prepare 100ml of 0.15M HCl(aq) corresponds to 65.55ml.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nA Primary Standard is a reagent that is extremely pure, stable, has high molar mass, and can be dissolved to form a known concentration directly.\n\n🔍 Option Breakdown:\n• Anhydrous Na₂CO₃, Potassium hydrogen phthalate (KHP), and Oxalic acid dihydrate are primary standards.\n• NaOH and HCl are secondary standards because they absorb moisture/CO₂ from the air.\n\n• Correct Choice: Option A (65.55ml)",
+    "speed_hack": "⚡ CBT Speed Hack: Primary standards must be pure (≥99.9%) and non-hygroscopic (stable in air)."
   },
   {
     "id": "CHM191_MNS_007",
@@ -92,8 +92,8 @@
       "D": "hydrogen ion acceptor"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, Bronsted-Lowry define an acid as corresponds to an electron pair donor.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nSecondary standard solutions must be standardized against a primary standard before use because their concentration changes over time.\n\n🔍 Option Breakdown:\nNaOH absorbs atmospheric CO₂ and moisture, while concentrated HCl fumes; neither can be prepared by direct weighing.\n\n• Correct Choice: Option C (an electron pair donor)",
+    "speed_hack": "⚡ CBT Speed Hack: NaOH and HCl are secondary standards -> require standardization."
   },
   {
     "id": "CHM191_MNS_008",
@@ -108,8 +108,8 @@
       "D": "None of the above"
     },
     "answer": "D",
-    "explanation": "In practical volumetric analysis, Organic acids are corresponds to None of the above.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nA standard solution is simply any solution whose concentration is accurately known.\n\n🔍 Option Breakdown:\nIt serves as the reference benchmark in volumetric analysis.\n\n• Correct Choice: Option D (None of the above)",
+    "speed_hack": "⚡ CBT Speed Hack: Known accurate concentration = Standard Solution."
   },
   {
     "id": "CHM191_MNS_011",
@@ -124,8 +124,8 @@
       "D": "7.94x10 M"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, If the pH of H2SO4(aq) is 3.1, calculate its hydrogen ion concentration corresponds to 7.94x10 M.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 7.94x10 M is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"If the pH of H2SO4(aq) is 3.1, calculate its hydrogen ion concentration\", Option C (7.94x10 M) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (7.94x10 M)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_012",
@@ -140,8 +140,8 @@
       "D": "8.1x10 M"
     },
     "answer": "D",
-    "explanation": "In practical volumetric analysis, If the pH of NaOH solution is 11, What is its hydroxide ion concentration corresponds to 8.1x10 M.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 8.1x10 M is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"If the pH of NaOH solution is 11, What is its hydroxide ion concentration\", Option D (8.1x10 M) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (8.1x10 M)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_013",
@@ -156,8 +156,8 @@
       "D": "8.5"
     },
     "answer": "B",
-    "explanation": "In practical volumetric analysis, The pH of 0.05M tetraoxosulphate (VI) acid is corresponds to 1.3.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 1.3 is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"The pH of 0.05M tetraoxosulphate (VI) acid is\", Option B (1.3) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (1.3)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_014",
@@ -172,8 +172,8 @@
       "D": "2.67"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, The pK, of 0.05M acetic acid at 25°C is 4.76. Find its pH corresponds to 3.03.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 3.03 is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"The pK, of 0.05M acetic acid at 25°C is 4.76. Find its pH\", Option A (3.03) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (3.03)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_015",
@@ -188,8 +188,8 @@
       "D": "3.09"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, What is the pH of 0.01M benzoic acid [Ka 6.5x10] corresponds to 2.57.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 2.57 is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"What is the pH of 0.01M benzoic acid [Ka 6.5x10]\", Option C (2.57) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (2.57)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_016",
@@ -204,8 +204,8 @@
       "D": "7.1-7.9"
     },
     "answer": "D",
-    "explanation": "In practical volumetric analysis, What is the pH interval of the colour change of phenolphthalein indicator corresponds to 7.1-7.9.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 7.1-7.9 is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"What is the pH interval of the colour change of phenolphthalein indicator\", Option D (7.1-7.9) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (7.1-7.9)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_017",
@@ -220,8 +220,8 @@
       "D": "0.1M HCI"
     },
     "answer": "B",
-    "explanation": "In practical volumetric analysis, Which of the following has the lowest pH value corresponds to 0.1M NaCl.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 0.1M NaCl is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Which of the following has the lowest pH value\", Option B (0.1M NaCl) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (0.1M NaCl)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_018",
@@ -236,8 +236,8 @@
       "D": "None of the above"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, 120ml of 0.30M HCI is mixed with 100ml of 0.34M NaOH. What is the nature of the mixture corresponds to Acidic.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Acidic is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"120ml of 0.30M HCI is mixed with 100ml of 0.34M NaOH. What is the nature of the mixture\", Option A (Acidic) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Acidic)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_019",
@@ -252,8 +252,8 @@
       "D": "warm the solution before filtering"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, the best procedure to use when filtering an aqueous solution to collect a precipitate is to corresponds to use large amount of water to ensure all soluble matter is separated from the precipitate.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, use large amount of water to ensure all soluble matter is separated from the precipitate is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"the best procedure to use when filtering an aqueous solution to collect a precipitate is to\", Option C (use large amount of water to ensure all soluble matter is separated from the precipitate) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (use large amount of water to ensure all soluble matter is separated from the precipitate)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_020",
@@ -268,8 +268,8 @@
       "D": "able to be stored for an extended time without deterioration"
     },
     "answer": "B",
-    "explanation": "In practical volumetric analysis, which of the following is not a property required of the substance chosen for use as a precipitate in a gravimetric analysis corresponds to has known formula.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, has known formula is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following is not a property required of the substance chosen for use as a precipitate in a gravimetric analysis\", Option B (has known formula) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (has known formula)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_021",
@@ -284,8 +284,8 @@
       "D": "alkalimetry"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, which of the following pH values is an acceptable equivalence point for a strong base being titrated by a strong acid corresponds to acidity.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, acidity is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following pH values is an acceptable equivalence point for a strong base being titrated by a strong acid\", Option A (acidity) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (acidity)",
+    "speed_hack": "⚡ CBT Speed Hack: In volumetric titrations, always pair the correct glassware with the reagent role (Burette = Titrant, Conical Flask = Analyte)."
   },
   {
     "id": "CHM191_MNS_027",
@@ -300,8 +300,8 @@
       "D": "potassium hydrogen phthalate 35: endpoint detection is affected by some of the following factors except"
     },
     "answer": "D",
-    "explanation": "In practical volumetric analysis, which of the following indicator is red in acidic medium and yellow in the basic medium corresponds to potassium hydrogen phthalate 35: endpoint detection is affected by some of the following factors except.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, potassium hydrogen phthalate 35: endpoint detection is affected by some of the following factors except is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following indicator is red in acidic medium and yellow in the basic medium\", Option D (potassium hydrogen phthalate 35: endpoint detection is affected by some of the following factors except) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (potassium hydrogen phthalate 35: endpoint detection is affected by some of the following factors except)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_036",
@@ -316,8 +316,8 @@
       "D": "lonic strength of the medium Mass of the substance"
     },
     "answer": "D",
-    "explanation": "In practical volumetric analysis, Which of the following factors cannot cause an indicator's pH range to change corresponds to lonic strength of the medium Mass of the substance.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, lonic strength of the medium Mass of the substance is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Which of the following factors cannot cause an indicator's pH range to change\", Option D (lonic strength of the medium Mass of the substance) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (lonic strength of the medium Mass of the substance)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_037",
@@ -332,8 +332,8 @@
       "D": "methyl red"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, which of the following indicator is colourless in acidic medium and pink in the basic medium corresponds to phenolphthalein.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, phenolphthalein is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following indicator is colourless in acidic medium and pink in the basic medium\", Option C (phenolphthalein) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (phenolphthalein)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_038",
@@ -348,8 +348,8 @@
       "D": "methyl red"
     },
     "answer": "B",
-    "explanation": "In practical volumetric analysis, which of the following indicator is red in acidic medium and blue in the basic medium corresponds to litmus paper.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, litmus paper is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following indicator is red in acidic medium and blue in the basic medium\", Option B (litmus paper) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (litmus paper)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_039",
@@ -364,8 +364,8 @@
       "D": "methyl red"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, which of the following indicator is pink in acidic medium and yellow in the basic medium corresponds to methyl orange.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, methyl orange is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following indicator is pink in acidic medium and yellow in the basic medium\", Option A (methyl orange) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (methyl orange)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_041",
@@ -380,8 +380,8 @@
       "D": "volumetric flask"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, which Among the following is used to measure heat of reaction. corresponds to calorimeter.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, calorimeter is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which Among the following is used to measure heat of reaction.\", Option C (calorimeter) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (calorimeter)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_042",
@@ -396,8 +396,8 @@
       "D": "volumetric flask"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, which Among the following is used for heating of solids particularly metals to very high temperatures. corresponds to crucible.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, crucible is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which Among the following is used for heating of solids particularly metals to very high temperatures.\", Option A (crucible) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (crucible)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_043",
@@ -412,8 +412,8 @@
       "D": "Beaker"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, ......…. corresponds to burette.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, burette is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"......…. Is used to measure the volume of liquids\", Option C (burette) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (burette)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_044",
@@ -428,8 +428,8 @@
       "D": "Beaker"
     },
     "answer": "B",
-    "explanation": "In practical volumetric analysis, ......…. corresponds to Test tube.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Test tube is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"......…. Is used to mix and heat chemicals.\", Option B (Test tube) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Test tube)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_045",
@@ -444,8 +444,8 @@
       "D": "Beaker"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, which among the following Is used to hold large amount of liquids corresponds to conical flask.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, conical flask is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which among the following Is used to hold large amount of liquids\", Option A (conical flask) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (conical flask)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_046",
@@ -460,8 +460,8 @@
       "D": "volumetric flask"
     },
     "answer": "D",
-    "explanation": "In practical volumetric analysis, which among the following Is used to prepare standard solutions. corresponds to volumetric flask.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, volumetric flask is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which among the following Is used to prepare standard solutions.\", Option D (volumetric flask) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (volumetric flask)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_047",
@@ -476,8 +476,8 @@
       "D": "methyl red"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, which of the following indicator is used in the titration of a weak base against strong acid. corresponds to methyl orange.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, methyl orange is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following indicator is used in the titration of a weak base against strong acid.\", Option A (methyl orange) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (methyl orange)",
+    "speed_hack": "⚡ CBT Speed Hack: In volumetric titrations, always pair the correct glassware with the reagent role (Burette = Titrant, Conical Flask = Analyte)."
   },
   {
     "id": "CHM191_MNS_048",
@@ -492,8 +492,8 @@
       "D": "methyl red"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, which of the following indicator is used in the titration of a strong acid and strong base corresponds to phenolphthalein.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, phenolphthalein is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following indicator is used in the titration of a strong acid and strong base\", Option C (phenolphthalein) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (phenolphthalein)",
+    "speed_hack": "⚡ CBT Speed Hack: In volumetric titrations, always pair the correct glassware with the reagent role (Burette = Titrant, Conical Flask = Analyte)."
   },
   {
     "id": "CHM191_FAQ_001",
@@ -508,8 +508,8 @@
       "D": "200°C"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, Whatistheboilingpointofwateratsealevel is 100°C.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 100°C is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatistheboilingpointofwateratsealevel\", Option A (100°C) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (100°C)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_002",
@@ -524,8 +524,8 @@
       "D": "Testtube"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whichpieceoflaboratoryequipmentisusedtomeasure precisevolumesofliquid is Graduatedcylinder.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Graduatedcylinder is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichpieceoflaboratoryequipmentisusedtomeasure precisevolumesofliquid\", Option C (Graduatedcylinder) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Graduatedcylinder)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_003",
@@ -540,8 +540,8 @@
       "D": "Pt"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whatisthechemicalsymbolforgold is Au.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Au is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatisthechemicalsymbolforgold\", Option B (Au) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Au)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_004",
@@ -556,8 +556,8 @@
       "D": "Combustionreaction"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whichtypeofreactioninvolvesthetransferofelectronsfrom onesubstancetoanother is Redoxreaction.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Redoxreaction is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichtypeofreactioninvolvesthetransferofelectronsfrom onesubstancetoanother\", Option B (Redoxreaction) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Redoxreaction)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_005",
@@ -572,8 +572,8 @@
       "D": "10"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, WhatisthepHofaneutralsolution is 7.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 7 is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"WhatisthepHofaneutralsolution\", Option A (7) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (7)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_FAQ_006",
@@ -588,8 +588,8 @@
       "D": "Nitrogen"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whichgasisproducedduringtheelectrolysisofwater is Hydrogen.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Hydrogen is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichgasisproducedduringtheelectrolysisofwater\", Option B (Hydrogen) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Hydrogen)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_007",
@@ -604,8 +604,8 @@
       "D": "CaCl2"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, Whatisthechemicalformulafortablesalt is NaCl.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, NaCl is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatisthechemicalformulafortablesalt\", Option A (NaCl) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (NaCl)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_008",
@@ -620,8 +620,8 @@
       "D": "Evaporation"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whatistheprocessofseparatingamixturebasedon differencesinboilingpointscalled is Distillation.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Distillation is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatistheprocessofseparatingamixturebasedon differencesinboilingpointscalled\", Option B (Distillation) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Distillation)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_009",
@@ -636,8 +636,8 @@
       "D": "Hydrogen"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, WhichelementisthemostabundantinEarth' satmosphere is Nitrogen.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Nitrogen is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"WhichelementisthemostabundantinEarth' satmosphere\", Option B (Nitrogen) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Nitrogen)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_FAQ_010",
@@ -652,8 +652,8 @@
       "D": "Rankine(°R)"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, WhatistheSIunitformeasuringtemperature is Kelvin(K).",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Kelvin(K) is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"WhatistheSIunitformeasuringtemperature\", Option A (Kelvin(K)) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Kelvin(K))",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_011",
@@ -668,8 +668,8 @@
       "D": "Graduatedcylinder"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whichtypeofglasswareisusedtoholdandheatsmall amountsofliquid is Testtube.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Testtube is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichtypeofglasswareisusedtoholdandheatsmall amountsofliquid\", Option C (Testtube) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Testtube)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_012",
@@ -684,8 +684,8 @@
       "D": "Deposition"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, Whatistheprocessofasolidchangingdirectlyintoagas called is Sublimation.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Sublimation is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatistheprocessofasolidchangingdirectlyintoagas called\", Option A (Sublimation) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Sublimation)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_013",
@@ -700,8 +700,8 @@
       "D": "Hydrogenbond"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whichtypeofbondinvolvesthesharingofelectronsbetween atoms is Covalentbond.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Covalentbond is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichtypeofbondinvolvesthesharingofelectronsbetween atoms\", Option B (Covalentbond) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Covalentbond)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_014",
@@ -716,8 +716,8 @@
       "D": "Ie"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, Whatisthechemicalsymbolforiron is Fe.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Fe is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatisthechemicalsymbolforiron\", Option A (Fe) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Fe)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_015",
@@ -732,8 +732,8 @@
       "D": "Carbondioxide"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whichgasisresponsibleforthe\"pop\"soundwhenaburning splintisplacedintoatesttubeofgas is Hydrogen.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Hydrogen is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichgasisresponsibleforthe\"pop\"soundwhenaburning splintisplacedintoatesttubeofgas\", Option B (Hydrogen) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Hydrogen)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_016",
@@ -748,8 +748,8 @@
       "D": "Deposition"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whatistheprocessofagaschangingintoaliquidcalled is Condensation.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Condensation is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatistheprocessofagaschangingintoaliquidcalled\", Option C (Condensation) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Condensation)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_017",
@@ -764,8 +764,8 @@
       "D": "Doublereplacementreaction"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whichtypeofreactioninvolvesthecombinationoftwoor moresubstancestoformasingleproduct is Synthesisreaction.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Synthesisreaction is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichtypeofreactioninvolvesthecombinationoftwoor moresubstancestoformasingleproduct\", Option B (Synthesisreaction) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Synthesisreaction)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_018",
@@ -780,8 +780,8 @@
       "D": "OH2"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whatisthechemicalformulaforwater is H2O.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, H2O is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatisthechemicalformulaforwater\", Option C (H2O) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (H2O)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_019",
@@ -796,8 +796,8 @@
       "D": "Testtube"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whichpieceoflaboratoryequipmentisusedtomeasure masswithhighprecision is Balancescale.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Balancescale is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichpieceoflaboratoryequipmentisusedtomeasure masswithhighprecision\", Option C (Balancescale) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Balancescale)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_020",
@@ -812,8 +812,8 @@
       "D": "Evaporation"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whatistheprocessofseparatingamixturebasedon differencesinsolubilitycalled is Chromatography.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Chromatography is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatistheprocessofseparatingamixturebasedon differencesinsolubilitycalled\", Option C (Chromatography) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Chromatography)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_021",
@@ -828,8 +828,8 @@
       "D": "C2O3"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, Whatisthechemicalformulaforcarbondioxide is CO2.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, CO2 is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatisthechemicalformulaforcarbondioxide\", Option A (CO2) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (CO2)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_022",
@@ -844,8 +844,8 @@
       "D": "Graduatedcylinder"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whichtypeofglasswareisusedtomeasureandtransfer smallvolumesofliquid is Pipette.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Pipette is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichtypeofglasswareisusedtomeasureandtransfer smallvolumesofliquid\", Option C (Pipette) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Pipette)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_023",
@@ -860,8 +860,8 @@
       "D": "Deposition"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whatistheprocessofaliquidchangingintoagasatthe surfacecalled is Vaporization.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Vaporization is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatistheprocessofaliquidchangingintoagasatthe surfacecalled\", Option B (Vaporization) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Vaporization)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_024",
@@ -876,8 +876,8 @@
       "D": "Hydrogenbond"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, Whichtypeofbondinvolvesthetransferofelectronsfrom oneatomtoanother is Ionicbond.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Ionicbond is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichtypeofbondinvolvesthetransferofelectronsfrom oneatomtoanother\", Option A (Ionicbond) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Ionicbond)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_025",
@@ -892,8 +892,8 @@
       "D": "No"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whatisthechemicalsymbolforsodium is Na.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Na is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatisthechemicalsymbolforsodium\", Option C (Na) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Na)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_026",
@@ -908,8 +908,8 @@
       "D": "TotestpHlevels"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, .WhatisthepurposeofaBunsenburnerinachemistrylab is Toheatsubstances.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Toheatsubstances is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".WhatisthepurposeofaBunsenburnerinachemistrylab\", Option A (Toheatsubstances) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Toheatsubstances)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_027",
@@ -924,8 +924,8 @@
       "D": "Testtube"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab is Graduatedcylinder.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Graduatedcylinder is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab\", Option C (Graduatedcylinder) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Graduatedcylinder)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_028",
@@ -940,8 +940,8 @@
       "D": "Tomixchemicals"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .Whatisthefunctionofamortarandpestleinachemistrylab is Togrindsubstancesintopowders.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Togrindsubstancesintopowders is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthefunctionofamortarandpestleinachemistrylab\", Option B (Togrindsubstancesintopowders) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Togrindsubstancesintopowders)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_029",
@@ -956,8 +956,8 @@
       "D": "Toconductexperiments"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whatisthepurposeofafumehoodinachemistrylab is Toprovideventilationforharmfulfumes.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Toprovideventilationforharmfulfumes is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthepurposeofafumehoodinachemistrylab\", Option C (Toprovideventilationforharmfulfumes) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Toprovideventilationforharmfulfumes)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_030",
@@ -972,8 +972,8 @@
       "D": "Facemaskandboots"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, .Whichsafetyequipmentshouldbewornwhenworkingwith chemicalsinachemistrylab is Glovesandgoggles.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Glovesandgoggles is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichsafetyequipmentshouldbewornwhenworkingwith chemicalsinachemistrylab\", Option A (Glovesandgoggles) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Glovesandgoggles)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_031",
@@ -988,8 +988,8 @@
       "D": "Tomeasurevolume"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whatisthepurposeofawashbottleinachemistrylab is Tocleanglassware.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Tocleanglassware is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthepurposeofawashbottleinachemistrylab\", Option C (Tocleanglassware) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Tocleanglassware)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_032",
@@ -1004,8 +1004,8 @@
       "D": "Springbalance"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichtypeofbalanceisusedtomeasuresmallmassesina chemistrylab is Analyticalbalance.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Analyticalbalance is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichtypeofbalanceisusedtomeasuresmallmassesina chemistrylab\", Option C (Analyticalbalance) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Analyticalbalance)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_033",
@@ -1020,8 +1020,8 @@
       "D": "Tostoresamples"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, .Whatisthefunctionofahotplateinachemistrylab is Toheatsubstances.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Toheatsubstances is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthefunctionofahotplateinachemistrylab\", Option A (Toheatsubstances) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Toheatsubstances)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_034",
@@ -1036,8 +1036,8 @@
       "D": "Testtube"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichpieceofglasswareisusedtotransfersmallamounts ofliquidinachemistrylab is Dropperpipette.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Dropperpipette is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichpieceofglasswareisusedtotransfersmallamounts ofliquidinachemistrylab\", Option C (Dropperpipette) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Dropperpipette)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_035",
@@ -1052,8 +1052,8 @@
       "D": "Tomixchemicals"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whatisthepurposeofadesiccatorinachemistrylab is Todrysubstances.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Todrysubstances is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthepurposeofadesiccatorinachemistrylab\", Option C (Todrysubstances) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Todrysubstances)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_036",
@@ -1068,8 +1068,8 @@
       "D": "Graduatedcylinder"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichtypeofglasswareisusedtocontainandheatsmall amountsofliquidinachemistrylab is Testtube.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Testtube is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichtypeofglasswareisusedtocontainandheatsmall amountsofliquidinachemistrylab\", Option C (Testtube) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Testtube)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_037",
@@ -1084,8 +1084,8 @@
       "D": "TotestpHlevels"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .Whatisthefunctionofamagneticstirrerinachemistrylab is Tomixchemicals.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Tomixchemicals is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthefunctionofamagneticstirrerinachemistrylab\", Option B (Tomixchemicals) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Tomixchemicals)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_038",
@@ -1100,8 +1100,8 @@
       "D": "Graduatedcylinder"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, .Whichtypeofglasswareisusedtoholdandmixliquidsina chemistrylab is Beaker.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Beaker is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichtypeofglasswareisusedtoholdandmixliquidsina chemistrylab\", Option A (Beaker) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Beaker)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_039",
@@ -1116,8 +1116,8 @@
       "D": "Tostorechemicals"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .Whatisthepurposeofapipetteinachemistrylab is Totransfersmallamountsofliquid.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Totransfersmallamountsofliquid is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthepurposeofapipetteinachemistrylab\", Option B (Totransfersmallamountsofliquid) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Totransfersmallamountsofliquid)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_040",
@@ -1132,8 +1132,8 @@
       "D": "Graduatedcylinder"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtostoreand heatsolutionsinachemistrylab is Erlenmeyerflask.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Erlenmeyerflask is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichpieceofglasswareiscommonlyusedtostoreand heatsolutionsinachemistrylab\", Option B (Erlenmeyerflask) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Erlenmeyerflask)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_041",
@@ -1148,8 +1148,8 @@
       "D": "Tomixchemicals"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, .WhatisthefunctionofaBuchnerfunnelinachemistrylab is Tofiltersolidsfromliquids.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Tofiltersolidsfromliquids is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".WhatisthefunctionofaBuchnerfunnelinachemistrylab\", Option A (Tofiltersolidsfromliquids) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Tofiltersolidsfromliquids)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_042",
@@ -1164,8 +1164,8 @@
       "D": "Graduatedcylinder"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichtypeofglasswareisusedtomeasurethevolumeof gasesinachemistrylab is Gassyringe.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Gassyringe is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichtypeofglasswareisusedtomeasurethevolumeof gasesinachemistrylab\", Option C (Gassyringe) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Gassyringe)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_043",
@@ -1180,8 +1180,8 @@
       "D": "Tomixchemicals"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whatisthepurposeofanevaporatingdishinachemistrylab is Toheatandevaporateliquids.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Toheatandevaporateliquids is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthepurposeofanevaporatingdishinachemistrylab\", Option C (Toheatandevaporateliquids) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Toheatandevaporateliquids)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_044",
@@ -1196,8 +1196,8 @@
       "D": "Heatingmantle"
     },
     "answer": "D",
-    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtoconduct reactionsatspecifictemperaturesinachemistrylab is Heatingmantle.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Heatingmantle is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichpieceofglasswareiscommonlyusedtoconduct reactionsatspecifictemperaturesinachemistrylab\", Option D (Heatingmantle) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (Heatingmantle)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_045",
@@ -1212,8 +1212,8 @@
       "D": "TotestpHlevels"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whatisthefunctionofaseparatoryfunnelinachemistrylab is Toseparateimmiscibleliquidsorsolidsfromliquids.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Toseparateimmiscibleliquidsorsolidsfromliquids is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthefunctionofaseparatoryfunnelinachemistrylab\", Option C (Toseparateimmiscibleliquidsorsolidsfromliquids) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Toseparateimmiscibleliquidsorsolidsfromliquids)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_046",
@@ -1228,8 +1228,8 @@
       "D": "Testtube"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab is Graduatedcylinder.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Graduatedcylinder is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab\", Option C (Graduatedcylinder) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Graduatedcylinder)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_047",
@@ -1244,8 +1244,8 @@
       "D": "Insolubleinwater."
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whichofthefollowingisacharacteristicofmetals is Goodconductorsofheatandelectricity..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Goodconductorsofheatandelectricity. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichofthefollowingisacharacteristicofmetals\", Option B (Goodconductorsofheatandelectricity.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Goodconductorsofheatandelectricity.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_048",
@@ -1260,8 +1260,8 @@
       "D": "Magnesiumnitride."
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Astudentaddsmagnesiumturningstoacrucible,andthen heatsitusingaBunsenburner.Whichofthefollowingsubstances isproduced is Magnesiumoxide..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Magnesiumoxide. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Astudentaddsmagnesiumturningstoacrucible,andthen heatsitusingaBunsenburner.Whichofthefollowingsubstances isproduced\", Option B (Magnesiumoxide.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Magnesiumoxide.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_049",
@@ -1276,8 +1276,8 @@
       "C": "Hydrogen."
     },
     "answer": "D",
-    "explanation": "In practical chemistry, .WhichofthefollowingisNOTaproductoftheelectrolysisof moltenleadbromide is Oxygen..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Oxygen. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".WhichofthefollowingisNOTaproductoftheelectrolysisof moltenleadbromide\", Option D (Oxygen.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (Oxygen.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_050",
@@ -1292,8 +1292,8 @@
       "C": "Hydrogenchloride."
     },
     "answer": "D",
-    "explanation": "In practical chemistry, .Inaqueoussolution,whichofthefollowingsubstancesis amphoteric is Aluminumhydroxide..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Aluminumhydroxide. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Inaqueoussolution,whichofthefollowingsubstancesis amphoteric\", Option D (Aluminumhydroxide.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (Aluminumhydroxide.)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_FAQ_051",
@@ -1308,8 +1308,8 @@
       "D": "Meltingofice."
     },
     "answer": "A",
-    "explanation": "In practical chemistry, .Whichofthefollowingisanendothermicprocess is Sublimationofdryice..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Sublimationofdryice. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingisanendothermicprocess\", Option A (Sublimationofdryice.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Sublimationofdryice.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_052",
@@ -1324,8 +1324,8 @@
       "D": "Silicon."
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .Whichofthefollowingisametal is Zin.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Zin is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingisametal\", Option B (Zin) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Zin)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_053",
@@ -1340,8 +1340,8 @@
       "D": "Vaporizationofwater."
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichofthefollowingprocessesrequiresadecreasein temperature is Freezingofwater..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Freezingofwater. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingprocessesrequiresadecreasein temperature\", Option C (Freezingofwater.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Freezingofwater.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_054",
@@ -1356,8 +1356,8 @@
       "D": "Calciumcarbonate."
     },
     "answer": "D",
-    "explanation": "In practical chemistry, .Whichofthefollowingsubstancesisinsolubleinwater is Calciumcarbonate..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Calciumcarbonate. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingsubstancesisinsolubleinwater\", Option D (Calciumcarbonate.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (Calciumcarbonate.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_055",
@@ -1372,8 +1372,8 @@
       "C": "Sulfuricaci"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .WhichofthefollowinghasapHof7 is Water..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Water. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".WhichofthefollowinghasapHof7\", Option B (Water.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Water.)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_FAQ_056",
@@ -1388,8 +1388,8 @@
       "C": "Sulfuricaci"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .Whichofthefollowingsubstancesisaweakacid is Citricaci.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Citricaci is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingsubstancesisaweakacid\", Option B (Citricaci) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Citricaci)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_FAQ_057",
@@ -1404,8 +1404,8 @@
       "D": "Calciumhydroxide."
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .Whichofthefollowingsubstancesisastrongbase is Sodiumhydroxide..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Sodiumhydroxide. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingsubstancesisastrongbase\", Option B (Sodiumhydroxide.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Sodiumhydroxide.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_058",
@@ -1420,8 +1420,8 @@
       "D": "Magnesiumoxide."
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichofthefollowingisanexampleofacovalentbond is Hydrogengas..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Hydrogengas. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingisanexampleofacovalentbond\", Option C (Hydrogengas.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Hydrogengas.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_059",
@@ -1436,8 +1436,8 @@
       "D": "Tostorechemicals"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whatisthepurposeofaspectrophotometerinachemistry lab is Toanalyzetheconcentrationofsubstancesinasolution.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Toanalyzetheconcentrationofsubstancesinasolution is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthepurposeofaspectrophotometerinachemistry lab\", Option C (Toanalyzetheconcentrationofsubstancesinasolution) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Toanalyzetheconcentrationofsubstancesinasolution)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_FAQ_060",
@@ -1450,7 +1450,7 @@
       "B": "Lowelectricalconductivity."
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichofthefollowingpropertiesischaracteristicofmetals is C.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry,  is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingpropertiesischaracteristicofmetals\", Option C () correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C ()",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   }
 ]

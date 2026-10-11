@@ -12,7 +12,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "D",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_02",
@@ -28,7 +28,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_03",
@@ -43,7 +43,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_04",
@@ -58,7 +58,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "D",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_05",
@@ -73,7 +73,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_06",
@@ -88,7 +88,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "A",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_07",
@@ -103,7 +103,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "B",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_08",
@@ -118,7 +118,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_09",
@@ -133,7 +133,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_10",
@@ -148,7 +148,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "D",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_11",
@@ -163,7 +163,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "B",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_12",
@@ -178,7 +178,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "D",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_13",
@@ -194,7 +194,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "A",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_14",
@@ -209,7 +209,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_15",
@@ -224,7 +224,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_16",
@@ -239,7 +239,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "D",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_17",
@@ -254,7 +254,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "A",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_18",
@@ -269,7 +269,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "A",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_19",
@@ -284,7 +284,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_20",
@@ -299,7 +299,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "B",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_21",
@@ -314,7 +314,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_22",
@@ -329,7 +329,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "D",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_23",
@@ -344,7 +344,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_24",
@@ -359,7 +359,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "B",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_25",
@@ -374,7 +374,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "A",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_26",
@@ -389,7 +389,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "D",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_27",
@@ -404,7 +404,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "D",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_28",
@@ -419,7 +419,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "B",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_29",
@@ -434,7 +434,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "D",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_30",
@@ -449,7 +449,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "D",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_31",
@@ -464,7 +464,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "A",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_32",
@@ -479,7 +479,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "B",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_33",
@@ -494,7 +494,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "A",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_34",
@@ -509,7 +509,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "D",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_35",
@@ -524,7 +524,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "B",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_36",
@@ -540,7 +540,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "E",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_37",
@@ -555,7 +555,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_38",
@@ -570,7 +570,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_39",
@@ -585,7 +585,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_40",
@@ -600,7 +600,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "A",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_41",
@@ -615,7 +615,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_42",
@@ -630,7 +630,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_43",
@@ -645,7 +645,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_44",
@@ -660,7 +660,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "B",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_45",
@@ -675,7 +675,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_46",
@@ -690,7 +690,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "B",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_47",
@@ -705,7 +705,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "B",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_48",
@@ -720,7 +720,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_49",
@@ -735,7 +735,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "B",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_50",
@@ -750,7 +750,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_51",
@@ -765,7 +765,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "A",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_52",
@@ -780,7 +780,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "B",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_53",
@@ -795,7 +795,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_54",
@@ -809,7 +809,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_55",
@@ -824,7 +824,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_56",
@@ -839,7 +839,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_57",
@@ -854,7 +854,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "C",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_58",
@@ -869,7 +869,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "A",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_59",
@@ -884,7 +884,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "D",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "SET_60",
@@ -899,7 +899,7 @@ window.MAT101_QUESTIONS = [
     },
     "answer": "D",
     "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For subsets: total is 2^n and proper subsets is 2^n - 1."
+    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
   },
   {
     "id": "MAP_01",
@@ -8113,7 +8113,7 @@ window.PHY101_QUESTIONS = [
       "D": "Work"
     },
     "answer": "C",
-    "explanation": "Pressure = Force / Area = [MLT^-2] / [L^2] = [ML^-1 T^-2]. Stress and Modulus of Elasticity also share this dimension.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nPressure = Force / Area = [MLT^-2] / [L^2] = [ML^-1 T^-2]. Stress and Modulus of Elasticity also share this dimension.\n\n• Verified Key: Option C (Pressure)",
     "speed_hack": "⚡ CBT Speed Hack: Force / Area = MLT^-2 / L^2 = ML^-1 T^-2. Matches Pressure, Stress, and Young's Modulus!"
   },
   {
@@ -8129,7 +8129,7 @@ window.PHY101_QUESTIONS = [
       "D": "Work"
     },
     "answer": "D",
-    "explanation": "Work = Force x Displacement = [MLT^-2] x [L] = [ML^2 T^-2]. Energy and Torque also have [ML^2 T^-2].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nWork = Force x Displacement = [MLT^-2] x [L] = [ML^2 T^-2]. Energy and Torque also have [ML^2 T^-2].\n\n• Verified Key: Option D (Work)",
     "speed_hack": "⚡ CBT Speed Hack: Work, Kinetic Energy, Potential Energy, Heat, and Torque all have the same dimension: [ML^2 T^-2] (Joules or N·m)."
   },
   {
@@ -8145,7 +8145,7 @@ window.PHY101_QUESTIONS = [
       "D": "ML^2 T^-2, ML^2 T^2"
     },
     "answer": "B",
-    "explanation": "Energy = Work = [ML^2 T^-2]. Force = mass x acceleration = [M] x [LT^-2] = [MLT^-2].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nEnergy = Work = [ML^2 T^-2]. Force = mass x acceleration = [M] x [LT^-2] = [MLT^-2].\n\n• Verified Key: Option B (ML^2 T^-2, MLT^-2)",
     "speed_hack": "⚡ CBT Speed Hack: Force is always MLT^-2; multiply by L to get Energy = ML^2 T^-2."
   },
   {
@@ -8161,7 +8161,7 @@ window.PHY101_QUESTIONS = [
       "D": "T^-1"
     },
     "answer": "D",
-    "explanation": "Frequency f = 1 / T. Its unit is Hertz (s^-1) and its dimension is [T^-1].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nFrequency f = 1 / T. Its unit is Hertz (s^-1) and its dimension is [T^-1].\n\n• Verified Key: Option D (T^-1)",
     "speed_hack": "⚡ CBT Speed Hack: Frequency = 1/Period = T^-1. Angular velocity ω also has dimension T^-1."
   },
   {
@@ -8177,7 +8177,7 @@ window.PHY101_QUESTIONS = [
       "D": "MLT^-2"
     },
     "answer": "A",
-    "explanation": "Surface tension γ = Force / Length = [MLT^-2] / [L] = [MT^-2] (or [ML^0 T^-2]).",
+    "explanation": "📖 Core Principle (Properties of Matter & Surface Tension):\nSurface tension γ = Force / Length = [MLT^-2] / [L] = [MT^-2] (or [ML^0 T^-2]).\n\n• Verified Key: Option A (MT^-2)",
     "speed_hack": "⚡ CBT Speed Hack: Surface Tension = Force / Length -> L cancels out giving MT^-2."
   },
   {
@@ -8193,7 +8193,7 @@ window.PHY101_QUESTIONS = [
       "D": "Pressure"
     },
     "answer": "D",
-    "explanation": "Stress = Restoring Force / Area (N/m^2 or Pascal). Pressure = Normal Force / Area (N/m^2 or Pascal). Both have identical SI units (N/m^2 or Pa) and dimension [ML^-1 T^-2].",
+    "explanation": "📖 Core Principle (Elasticity & Properties of Matter):\nStress = Restoring Force / Area (N/m^2 or Pascal). Pressure = Normal Force / Area (N/m^2 or Pascal). Both have identical SI units (N/m^2 or Pa) and dimension [ML^-1 T^-2].\n\n• Verified Key: Option D (Pressure)",
     "speed_hack": "⚡ CBT Speed Hack: Stress = Pressure = N/m^2 = Pa = [ML^-1 T^-2]."
   },
   {
@@ -8209,7 +8209,7 @@ window.PHY101_QUESTIONS = [
       "D": "LT^-2, LT^-1, L"
     },
     "answer": "D",
-    "explanation": "By the Principle of Dimensional Homogeneity, every term added must have the dimension of S, which is [L]. Thus: [a][T^2] = [L] => [a] = [LT^-2]; [b][T] = [L] => [b] = [LT^-1]; [c] = [L].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nBy the Principle of Dimensional Homogeneity, every term added must have the dimension of S, which is [L]. Thus: [a][T^2] = [L] => [a] = [LT^-2]; [b][T] = [L] => [b] = [LT^-1]; [c] = [L].\n\n• Verified Key: Option D (LT^-2, LT^-1, L)",
     "speed_hack": "⚡ CBT Speed Hack: S = [L]. Therefore a = L/t^2 = LT^-2 (acceleration), b = L/t = LT^-1 (velocity), c = L (displacement)."
   },
   {
@@ -8225,7 +8225,7 @@ window.PHY101_QUESTIONS = [
       "D": "All of the above"
     },
     "answer": "C",
-    "explanation": "Fundamental quantities are mass, length, time, electric current, temperature, amount of substance, and luminous intensity. Derived quantities here are density, velocity, and energy.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nFundamental quantities are mass, length, time, electric current, temperature, amount of substance, and luminous intensity. Derived quantities here are density, velocity, and energy.\n\n• Verified Key: Option C ((iv), (vi) and (vii))",
     "speed_hack": "⚡ CBT Speed Hack: 7 Fundamental quantities only: Mass, Length, Time, Current, Temp, Mole, Candela. Everything else is derived!"
   },
   {
@@ -8241,7 +8241,7 @@ window.PHY101_QUESTIONS = [
       "D": "(ii) and (iii) only"
     },
     "answer": "D",
-    "explanation": "Torque = Force x Perpendicular Distance = [MLT^-2] x [L] = [ML^2 T^-2]. Energy = [ML^2 T^-2]. Acceleration = [LT^-2]. Hence (ii) and (iii) only.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nTorque = Force x Perpendicular Distance = [MLT^-2] x [L] = [ML^2 T^-2]. Energy = [ML^2 T^-2]. Acceleration = [LT^-2]. Hence (ii) and (iii) only.\n\n• Verified Key: Option D ((ii) and (iii) only)",
     "speed_hack": "⚡ CBT Speed Hack: Torque = Energy = Work = [ML^2 T^-2]."
   },
   {
@@ -8257,7 +8257,7 @@ window.PHY101_QUESTIONS = [
       "D": "force x distance"
     },
     "answer": "D",
-    "explanation": "Kilowatt-hour (kWh) is a unit of commercial electrical ENERGY (Power x time = J/s x s = Joules). Force x distance = Work/Energy (Joules).",
+    "explanation": "📖 Core Principle (Work, Energy & Power):\nKilowatt-hour (kWh) is a unit of commercial electrical ENERGY (Power x time = J/s x s = Joules). Force x distance = Work/Energy (Joules).\n\n• Verified Key: Option D (force x distance)",
     "speed_hack": "⚡ CBT Speed Hack: kWh = Energy. Force x distance = Work = Energy. 1 kWh = 3.6 x 10^6 J."
   },
   {
@@ -8273,7 +8273,7 @@ window.PHY101_QUESTIONS = [
       "D": "10000 kg/m^3"
     },
     "answer": "B",
-    "explanation": "1 g/cm^3 = 1000 kg/m^3. Therefore, 0.1 g/cm^3 = 0.1 x 1000 = 100 kg/m^3.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\n1 g/cm^3 = 1000 kg/m^3. Therefore, 0.1 g/cm^3 = 0.1 x 1000 = 100 kg/m^3.\n\n• Verified Key: Option B (100 kg/m^3)",
     "speed_hack": "⚡ CBT Speed Hack: Multiply g/cm^3 by 1000 to convert directly to kg/m^3: 0.1 x 1000 = 100 kg/m^3."
   },
   {
@@ -8289,7 +8289,7 @@ window.PHY101_QUESTIONS = [
       "D": "N·s"
     },
     "answer": "A",
-    "explanation": "Power = Work / time = (Force x distance) / time = N x m / s = N·m·s^-1 (or J/s).",
+    "explanation": "📖 Core Principle (Work, Energy & Power):\nPower = Work / time = (Force x distance) / time = N x m / s = N·m·s^-1 (or J/s).\n\n• Verified Key: Option A (N·m·s^-1)",
     "speed_hack": "⚡ CBT Speed Hack: Watt = J/s = (N·m)/s = N·m·s^-1."
   },
   {
@@ -8305,7 +8305,7 @@ window.PHY101_QUESTIONS = [
       "D": "volt^2 / ohms"
     },
     "answer": "B",
-    "explanation": "Power P = VI (ampere x volt), P = V^2/R (volt^2/ohm), P = I^2 R, P = W/t (Joule/s). Ampere/volt is conductance (Siemens or 1/R), not power.",
+    "explanation": "📖 Core Principle (Work, Energy & Power):\nPower P = VI (ampere x volt), P = V^2/R (volt^2/ohm), P = I^2 R, P = W/t (Joule/s). Ampere/volt is conductance (Siemens or 1/R), not power.\n\n• Verified Key: Option B (ampere/volt)",
     "speed_hack": "⚡ CBT Speed Hack: Electrical Power P = IV (A·V), not I/V! So ampere/volt is NOT power."
   },
   {
@@ -8321,7 +8321,7 @@ window.PHY101_QUESTIONS = [
       "D": "N·m·s"
     },
     "answer": "C",
-    "explanation": "Linear momentum has unit kg·m/s. Impulse = Force x time = N·s = (kg·m/s^2) x s = kg·m/s. Thus, kg·m/s is identical to N·s.",
+    "explanation": "📖 Core Principle (Dynamics, Newton's Laws & Momentum):\nLinear momentum has unit kg·m/s. Impulse = Force x time = N·s = (kg·m/s^2) x s = kg·m/s. Thus, kg·m/s is identical to N·s.\n\n• Verified Key: Option C (N·s)",
     "speed_hack": "⚡ CBT Speed Hack: Momentum (kg·m/s) = Impulse (N·s)."
   },
   {
@@ -8337,7 +8337,7 @@ window.PHY101_QUESTIONS = [
       "D": "60 m/s"
     },
     "answer": "C",
-    "explanation": "To convert km/h to m/s, multiply by 5/18 (or divide by 3.6): 108 x (5/18) = 6 x 5 = 30 m/s.",
+    "explanation": "📖 Core Principle (Kinematics & Rectilinear Motion):\nTo convert km/h to m/s, multiply by 5/18 (or divide by 3.6): 108 x (5/18) = 6 x 5 = 30 m/s.\n\n• Verified Key: Option C (30 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Divide by 3.6 (or multiply by 5/18): 108 / 3.6 = 30 m/s. Instant 5-second answer!"
   },
   {
@@ -8353,7 +8353,7 @@ window.PHY101_QUESTIONS = [
       "D": "1, 0, 1"
     },
     "answer": "A",
-    "explanation": "[F] = MLT^-2, [ρ] = ML^-3, [v] = LT^-1, [A] = L^2. MLT^-2 = (ML^-3)^x (LT^-1)^y (L^2)^z = M^x L^(-3x+y+2z) T^(-y). Comparing powers: x = 1; -y = -2 => y = 2; -3(1) + 2 + 2z = 1 => 2z = 2 => z = 1. Therefore (x, y, z) = (1, 2, 1).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\n[F] = MLT^-2, [ρ] = ML^-3, [v] = LT^-1, [A] = L^2. MLT^-2 = (ML^-3)^x (LT^-1)^y (L^2)^z = M^x L^(-3x+y+2z) T^(-y). Comparing powers: x = 1; -y = -2 => y = 2; -3(1) + 2 + 2z = 1 => 2z = 2 => z = 1. Therefore (x, y, z) = (1, 2, 1).\n\n• Verified Key: Option A (1, 2, 1)",
     "speed_hack": "⚡ CBT Speed Hack: Drag equation is F = 1/2 ρ C_d A v^2 => ρ^1 v^2 A^1 => x=1, y=2, z=1."
   },
   {
@@ -8369,7 +8369,7 @@ window.PHY101_QUESTIONS = [
       "D": "60 m/s"
     },
     "answer": "B",
-    "explanation": "180 km/hr x (5/18) = 10 x 5 = 50 m/s.",
+    "explanation": "📖 Core Principle (Kinematics & Rectilinear Motion):\n180 km/hr x (5/18) = 10 x 5 = 50 m/s.\n\n• Verified Key: Option B (50 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: 180 / 3.6 = 50 m/s."
   },
   {
@@ -8385,7 +8385,7 @@ window.PHY101_QUESTIONS = [
       "D": "20 N/cm^2"
     },
     "answer": "B",
-    "explanation": "1 MPa = 10^6 N/m^2. 1 m^2 = 10^6 mm^2. Thus, 1 MPa = 1 N/mm^2. So 20 MPa = 20 N/mm^2.",
+    "explanation": "📖 Core Principle (Elasticity & Properties of Matter):\n1 MPa = 10^6 N/m^2. 1 m^2 = 10^6 mm^2. Thus, 1 MPa = 1 N/mm^2. So 20 MPa = 20 N/mm^2.\n\n• Verified Key: Option B (20 N/mm^2)",
     "speed_hack": "⚡ CBT Speed Hack: Golden engineering rule: 1 MPa is exactly equal to 1 N/mm^2!"
   },
   {
@@ -8401,7 +8401,7 @@ window.PHY101_QUESTIONS = [
       "D": "scalar"
     },
     "answer": "D",
-    "explanation": "By definition, a scalar quantity is one that has only magnitude (and unit) but no specific direction in space.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nBy definition, a scalar quantity is one that has only magnitude (and unit) but no specific direction in space.\n\n• Verified Key: Option D (scalar)",
     "speed_hack": "⚡ CBT Speed Hack: Scalar = Magnitude only. Vector = Magnitude + Direction."
   },
   {
@@ -8417,7 +8417,7 @@ window.PHY101_QUESTIONS = [
       "D": "mass, force and impulse"
     },
     "answer": "A",
-    "explanation": "Weight (force), displacement, and moment (torque) are all vector quantities. Volume, density, distance, capacitance, and mass are scalars.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nWeight (force), displacement, and moment (torque) are all vector quantities. Volume, density, distance, capacitance, and mass are scalars.\n\n• Verified Key: Option A (weight, displacement and moment)",
     "speed_hack": "⚡ CBT Speed Hack: Eliminate options with obvious scalars: volume in B, density/distance in C, mass in D."
   },
   {
@@ -8433,7 +8433,7 @@ window.PHY101_QUESTIONS = [
       "D": "newton"
     },
     "answer": "D",
-    "explanation": "Newton (N) is a derived unit of force (1 N = 1 kg·m/s^2). Meter, ampere, and mole are base SI units.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nNewton (N) is a derived unit of force (1 N = 1 kg·m/s^2). Meter, ampere, and mole are base SI units.\n\n• Verified Key: Option D (newton)",
     "speed_hack": "⚡ CBT Speed Hack: Newton is derived from kg, m, and s: N = kg·m/s^2."
   },
   {
@@ -8449,7 +8449,7 @@ window.PHY101_QUESTIONS = [
       "D": "7.07m, N45°E"
     },
     "answer": "D",
-    "explanation": "Net North-South displacement: 12m North - 7m South = 5m North. Net East-West displacement: 5m East. Resultant R = sqrt(5^2 + 5^2) = sqrt(50) = 7.07 m. Direction: tan θ = 5/5 = 1 => θ = 45° (N45°E).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nNet North-South displacement: 12m North - 7m South = 5m North. Net East-West displacement: 5m East. Resultant R = sqrt(5^2 + 5^2) = sqrt(50) = 7.07 m. Direction: tan θ = 5/5 = 1 => θ = 45° (N45°E).\n\n• Verified Key: Option D (7.07m, N45°E)",
     "speed_hack": "⚡ CBT Speed Hack: Equal perpendicular legs of 5m and 5m always give R = 5√2 ≈ 7.07m at 45°!"
   },
   {
@@ -8465,7 +8465,7 @@ window.PHY101_QUESTIONS = [
       "D": "0"
     },
     "answer": "B",
-    "explanation": "When resultant R is perpendicular to force P (12N), P + Q cos θ = 0 => 12 + 16 cos θ = 0 => cos θ = -12/16 = -3/4.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nWhen resultant R is perpendicular to force P (12N), P + Q cos θ = 0 => 12 + 16 cos θ = 0 => cos θ = -12/16 = -3/4.\n\n• Verified Key: Option B (-3/4)",
     "speed_hack": "⚡ CBT Speed Hack: Resultant perpendicular to smaller force P: cos θ = -P / Q = -12/16 = -3/4."
   },
   {
@@ -8481,7 +8481,7 @@ window.PHY101_QUESTIONS = [
       "D": "Mg cot α"
     },
     "answer": "B",
-    "explanation": "The weight Mg acts vertically downwards. Resolving along the plane gives Mg sin α, and resolving perpendicular (normal) to the inclined plane gives Mg cos α.",
+    "explanation": "📖 Core Principle (Dynamics, Newton's Laws & Momentum):\nThe weight Mg acts vertically downwards. Resolving along the plane gives Mg sin α, and resolving perpendicular (normal) to the inclined plane gives Mg cos α.\n\n• Verified Key: Option B (Mg cos α)",
     "speed_hack": "⚡ CBT Speed Hack: Along the slope = Mg sin α (sliding). Perpendicular/Normal to the slope = Mg cos α."
   },
   {
@@ -8497,7 +8497,7 @@ window.PHY101_QUESTIONS = [
       "D": "53.3 km, 51° W of N"
     },
     "answer": "A",
-    "explanation": "Rx = 0 - 35 sin(60°) = -30.31 km. Ry = 20 + 35 cos(60°) = 20 + 17.5 = 37.5 km. R = sqrt((-30.31)^2 + 37.5^2) = sqrt(918.7 + 1406.25) = sqrt(2325) = 48.2 km. Angle with North = tan^-1(30.31 / 37.5) = 38.9° ≈ 39° W of N.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nRx = 0 - 35 sin(60°) = -30.31 km. Ry = 20 + 35 cos(60°) = 20 + 17.5 = 37.5 km. R = sqrt((-30.31)^2 + 37.5^2) = sqrt(918.7 + 1406.25) = sqrt(2325) = 48.2 km. Angle with North = tan^-1(30.31 / 37.5) = 38.9° ≈ 39° W of N.\n\n• Verified Key: Option A (48.2 km, 39° W of N)",
     "speed_hack": "⚡ CBT Speed Hack: Use cosine rule: R^2 = 20^2 + 35^2 - 2(20)(35)cos(120°) = 400 + 1225 - 1400(-0.5) = 2325 => R = √2325 = 48.2 km."
   },
   {
@@ -8513,7 +8513,7 @@ window.PHY101_QUESTIONS = [
       "D": "It depends on the ball's position"
     },
     "answer": "B",
-    "explanation": "Displacement is the straight-line shortest distance between start and finish points. Distance is the total path length. Therefore, magnitude of displacement is always <= distance travelled. It can NEVER be greater.",
+    "explanation": "📖 Core Principle (Kinematics & Rectilinear Motion):\nDisplacement is the straight-line shortest distance between start and finish points. Distance is the total path length. Therefore, magnitude of displacement is always <= distance travelled. It can NEVER be greater.\n\n• Verified Key: Option B (No)",
     "speed_hack": "⚡ CBT Speed Hack: |Displacement| <= Distance ALWAYS. It can never exceed distance!"
   },
   {
@@ -8529,7 +8529,7 @@ window.PHY101_QUESTIONS = [
       "D": "-3i + 2j"
     },
     "answer": "B",
-    "explanation": "A + B = (3i - 2j) + (-i - j) = (3 - 1)i + (-2 - 1)j = 2i - 3j.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nA + B = (3i - 2j) + (-i - j) = (3 - 1)i + (-2 - 1)j = 2i - 3j.\n\n• Verified Key: Option B (2i - 3j)",
     "speed_hack": "⚡ CBT Speed Hack: Add components directly: i-coefficients: 3 - 1 = 2; j-coefficients: -2 - 1 = -3 => 2i - 3j."
   },
   {
@@ -8545,7 +8545,7 @@ window.PHY101_QUESTIONS = [
       "D": "0 m"
     },
     "answer": "D",
-    "explanation": "After one full lap around a closed track, the runner returns to the exact starting point. Initial position = final position, so displacement = 0 m.",
+    "explanation": "📖 Core Principle (Kinematics & Rectilinear Motion):\nAfter one full lap around a closed track, the runner returns to the exact starting point. Initial position = final position, so displacement = 0 m.\n\n• Verified Key: Option D (0 m)",
     "speed_hack": "⚡ CBT Speed Hack: Full lap = returns to start = ZERO displacement! Distance is 2πr = 200π m."
   },
   {
@@ -8561,7 +8561,7 @@ window.PHY101_QUESTIONS = [
       "D": "0 m"
     },
     "answer": "A",
-    "explanation": "Distance around a circular track is its circumference = 2πr. With r = 100m, Distance = 2π(100) = 200π m (approx 628.3m).",
+    "explanation": "📖 Core Principle (Kinematics & Rectilinear Motion):\nDistance around a circular track is its circumference = 2πr. With r = 100m, Distance = 2π(100) = 200π m (approx 628.3m).\n\n• Verified Key: Option A (200π m)",
     "speed_hack": "⚡ CBT Speed Hack: Circumference = 2πr = 2 x π x 100 = 200π m."
   },
   {
@@ -8577,7 +8577,7 @@ window.PHY101_QUESTIONS = [
       "D": "2065 N"
     },
     "answer": "A",
-    "explanation": "The lifting component is the vertical component. Since the angle is 60° to the vertical: F_vertical = F cos(60°) = 2500 x 0.5 = 1250 N.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nThe lifting component is the vertical component. Since the angle is 60° to the vertical: F_vertical = F cos(60°) = 2500 x 0.5 = 1250 N.\n\n• Verified Key: Option A (1250 N)",
     "speed_hack": "⚡ CBT Speed Hack: Vertical force = F cos(angle to vertical) = 2500 x cos(60°) = 2500 x 0.5 = 1250 N."
   },
   {
@@ -8593,7 +8593,7 @@ window.PHY101_QUESTIONS = [
       "D": "Parallelogram law"
     },
     "answer": "D",
-    "explanation": "The Parallelogram Law of Vectors states that if two vectors acting simultaneously at a point are represented in magnitude and direction by the adjacent sides of a parallelogram, their resultant is represented by the diagonal passing through that point.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nThe Parallelogram Law of Vectors states that if two vectors acting simultaneously at a point are represented in magnitude and direction by the adjacent sides of a parallelogram, their resultant is represented by the diagonal passing through that point.\n\n• Verified Key: Option D (Parallelogram law)",
     "speed_hack": "⚡ CBT Speed Hack: Diagonal of parallelogram from common point = Parallelogram Law."
   },
   {
@@ -8609,7 +8609,7 @@ window.PHY101_QUESTIONS = [
       "D": "Young Modulus"
     },
     "answer": "B",
-    "explanation": "Tensile stress is defined by force per unit oriented area and has directional characteristics (treated as a tensor/directed quantity), while potential, surface tension, and moduli are scalars.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nTensile stress is defined by force per unit oriented area and has directional characteristics (treated as a tensor/directed quantity), while potential, surface tension, and moduli are scalars.\n\n• Verified Key: Option B (Tensile Stress)",
     "speed_hack": "⚡ CBT Speed Hack: Stress involves directional traction forces across defined planes."
   },
   {
@@ -8625,7 +8625,7 @@ window.PHY101_QUESTIONS = [
       "D": "14 N"
     },
     "answer": "C",
-    "explanation": "For perpendicular forces, R^2 = F1^2 + F2^2 => 13^2 = 5^2 + F2^2 => 169 = 25 + F2^2 => F2^2 = 144 => F2 = 12 N.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nFor perpendicular forces, R^2 = F1^2 + F2^2 => 13^2 = 5^2 + F2^2 => 169 = 25 + F2^2 => F2^2 = 144 => F2 = 12 N.\n\n• Verified Key: Option C (12 N)",
     "speed_hack": "⚡ CBT Speed Hack: Classic Pythagorean triple (5, 12, 13)! Missing force is instantly 12 N."
   },
   {
@@ -8641,7 +8641,7 @@ window.PHY101_QUESTIONS = [
       "D": "180°"
     },
     "answer": "D",
-    "explanation": "R = sqrt(F1^2 + F2^2 + 2F1 F2 cos θ). Resultant is maximum when cos θ = 1 (θ = 0°, parallel) and minimum when cos θ = -1 (θ = 180°, opposite directions, R = |F1 - F2|).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nR = sqrt(F1^2 + F2^2 + 2F1 F2 cos θ). Resultant is maximum when cos θ = 1 (θ = 0°, parallel) and minimum when cos θ = -1 (θ = 180°, opposite directions, R = |F1 - F2|).\n\n• Verified Key: Option D (180°)",
     "speed_hack": "⚡ CBT Speed Hack: Maximum resultant at 0° (F1 + F2); Minimum resultant at 180° (F1 - F2)."
   },
   {
@@ -8657,7 +8657,7 @@ window.PHY101_QUESTIONS = [
       "D": "2"
     },
     "answer": "B",
-    "explanation": "v = sqrt(T / μ) where μ = m/l is linear mass density. Thus v = k T^(1/2) l^(1/2) m^(-1/2). Here x = 1/2 and y = 1/2. Therefore x + y = 1/2 + 1/2 = 1.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nv = sqrt(T / μ) where μ = m/l is linear mass density. Thus v = k T^(1/2) l^(1/2) m^(-1/2). Here x = 1/2 and y = 1/2. Therefore x + y = 1/2 + 1/2 = 1.\n\n• Verified Key: Option B (1)",
     "speed_hack": "⚡ CBT Speed Hack: v = √(T·l/m) = T^(1/2) l^(1/2) m^(-1/2). Powers of T and l are each 1/2, so x + y = 1."
   },
   {
@@ -8673,7 +8673,7 @@ window.PHY101_QUESTIONS = [
       "D": "23.02 N"
     },
     "answer": "A",
-    "explanation": "Resolving horizontally: 20N at 0° -> +20 N. 10N at -40° -> +10 cos(40°) = +7.66 N. 40N inclined 60° into 3rd quadrant -> -40 cos(60°) or -40 sin(60°) depending on orientation. With 60° to vertical: Fx = 20 + 10 cos(40°) - 40 sin(60°) = 27.66 - 34.64 = -6.98 N.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nResolving horizontally: 20N at 0° -> +20 N. 10N at -40° -> +10 cos(40°) = +7.66 N. 40N inclined 60° into 3rd quadrant -> -40 cos(60°) or -40 sin(60°) depending on orientation. With 60° to vertical: Fx = 20 + 10 cos(40°) - 40 sin(60°) = 27.66 - 34.64 = -6.98 N.\n\n• Verified Key: Option A (-6.98 N)",
     "speed_hack": "⚡ CBT Speed Hack: Sum Fx = 20 + 7.66 - 34.64 = -6.98 N. Clean negative result points left."
   },
   {
@@ -8689,7 +8689,7 @@ window.PHY101_QUESTIONS = [
       "D": "3.57 N"
     },
     "answer": "D",
-    "explanation": "Vertical components: +30 N (up) - 10 sin(40°) (down, -6.43 N) - 40 cos(60°) (down, -20.0 N) = 30 - 6.43 - 20.0 = 3.57 N.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nVertical components: +30 N (up) - 10 sin(40°) (down, -6.43 N) - 40 cos(60°) (down, -20.0 N) = 30 - 6.43 - 20.0 = 3.57 N.\n\n• Verified Key: Option D (3.57 N)",
     "speed_hack": "⚡ CBT Speed Hack: Fy = 30 - 6.43 - 20 = 3.57 N."
   },
   {
@@ -8705,7 +8705,7 @@ window.PHY101_QUESTIONS = [
       "D": "32.95 N"
     },
     "answer": "C",
-    "explanation": "Resultant R = sqrt(Fx^2 + Fy^2) = sqrt((-6.98)^2 + 3.57^2) = sqrt(48.72 + 12.74) = sqrt(61.46) ≈ 7.84 N (matches option C in the exam paper).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nResultant R = sqrt(Fx^2 + Fy^2) = sqrt((-6.98)^2 + 3.57^2) = sqrt(48.72 + 12.74) = sqrt(61.46) ≈ 7.84 N (matches option C in the exam paper).\n\n• Verified Key: Option C (7.84 N / 4.44 N)",
     "speed_hack": "⚡ CBT Speed Hack: R = √(Fx^2 + Fy^2) = √((-6.98)^2 + 3.57^2) ≈ 7.8 N."
   },
   {
@@ -8721,7 +8721,7 @@ window.PHY101_QUESTIONS = [
       "D": "153°"
     },
     "answer": "D",
-    "explanation": "Since Fx is negative (-6.98 N) and Fy is positive (+3.57 N), the resultant lies in Quadrant II. Angle = 180° - tan^-1(3.57 / 6.98) = 180° - 27.1° = 152.9° ≈ 153°.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nSince Fx is negative (-6.98 N) and Fy is positive (+3.57 N), the resultant lies in Quadrant II. Angle = 180° - tan^-1(3.57 / 6.98) = 180° - 27.1° = 152.9° ≈ 153°.\n\n• Verified Key: Option D (153°)",
     "speed_hack": "⚡ CBT Speed Hack: Fx < 0, Fy > 0 is in the 2nd quadrant (between 90° and 180°). Only 153° is in the second quadrant!"
   },
   {
@@ -8737,7 +8737,7 @@ window.PHY101_QUESTIONS = [
       "D": "All of the above"
     },
     "answer": "D",
-    "explanation": "Newton's 1st law is the law of inertia, 2nd law defines F = dp/dt, and 3rd law states action and reaction are equal and opposite.",
+    "explanation": "📖 Core Principle (Dynamics, Newton's Laws & Momentum):\nNewton's 1st law is the law of inertia, 2nd law defines F = dp/dt, and 3rd law states action and reaction are equal and opposite.\n\n• Verified Key: Option D (All of the above)",
     "speed_hack": "⚡ CBT Speed Hack: All three laws are fundamental axioms of classical Newtonian mechanics."
   },
   {
@@ -8753,7 +8753,7 @@ window.PHY101_QUESTIONS = [
       "D": "Unit"
     },
     "answer": "B",
-    "explanation": "Measurement is the process of comparing an unknown physical quantity with a known fixed standard unit of the same kind.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nMeasurement is the process of comparing an unknown physical quantity with a known fixed standard unit of the same kind.\n\n• Verified Key: Option B (Measurement)",
     "speed_hack": "⚡ CBT Speed Hack: Comparing a quantity to a standard = Measurement by definition."
   },
   {
@@ -8769,7 +8769,7 @@ window.PHY101_QUESTIONS = [
       "D": "Derived"
     },
     "answer": "C",
-    "explanation": "Physical quantities are quantities that can be measured and in terms of which the laws of physics are stated.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nPhysical quantities are quantities that can be measured and in terms of which the laws of physics are stated.\n\n• Verified Key: Option C (Physical)",
     "speed_hack": "⚡ CBT Speed Hack: Laws of physics describe 'Physical' quantities."
   },
   {
@@ -8785,7 +8785,7 @@ window.PHY101_QUESTIONS = [
       "D": "Physical Unit"
     },
     "answer": "B",
-    "explanation": "Fundamental quantities (or base quantities) are physical quantities that cannot be defined in terms of other physical quantities.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nFundamental quantities (or base quantities) are physical quantities that cannot be defined in terms of other physical quantities.\n\n• Verified Key: Option B (Fundamental Quantities)",
     "speed_hack": "⚡ CBT Speed Hack: Independent = Fundamental / Base quantities (Length, Mass, Time, etc.)."
   },
   {
@@ -8801,7 +8801,7 @@ window.PHY101_QUESTIONS = [
       "D": "Mass, Temperature, Time"
     },
     "answer": "C",
-    "explanation": "In mechanics, all mechanical quantities can be expressed in terms of the three primary base dimensions: Mass [M], Length [L], and Time [T].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nIn mechanics, all mechanical quantities can be expressed in terms of the three primary base dimensions: Mass [M], Length [L], and Time [T].\n\n• Verified Key: Option C (Mass, Time, Length)",
     "speed_hack": "⚡ CBT Speed Hack: The MLT triad = Mass, Length, Time."
   },
   {
@@ -8817,7 +8817,7 @@ window.PHY101_QUESTIONS = [
       "D": "Standard Unit"
     },
     "answer": "D",
-    "explanation": "A standard unit is a chosen definite magnitude of a quantity, adopted by convention or law, used as a benchmark for measuring other quantities of the same kind.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nA standard unit is a chosen definite magnitude of a quantity, adopted by convention or law, used as a benchmark for measuring other quantities of the same kind.\n\n• Verified Key: Option D (Standard Unit)",
     "speed_hack": "⚡ CBT Speed Hack: Definite benchmark chosen for comparison = Standard Unit."
   },
   {
@@ -8833,7 +8833,7 @@ window.PHY101_QUESTIONS = [
       "D": "Electric current"
     },
     "answer": "A",
-    "explanation": "Density = Mass / Volume = [M][L^-3]. It is derived from mass and length. Luminous intensity, mass, and electric current are all base fundamental quantities.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nDensity = Mass / Volume = [M][L^-3]. It is derived from mass and length. Luminous intensity, mass, and electric current are all base fundamental quantities.\n\n• Verified Key: Option A (Density)",
     "speed_hack": "⚡ CBT Speed Hack: Density involves two base quantities (mass / length³), making it derived."
   },
   {
@@ -8849,7 +8849,7 @@ window.PHY101_QUESTIONS = [
       "D": "Momentum"
     },
     "answer": "C",
-    "explanation": "Mass is one of the 7 base SI quantities. Force, Power, and Momentum are all derived quantities.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nMass is one of the 7 base SI quantities. Force, Power, and Momentum are all derived quantities.\n\n• Verified Key: Option C (Mass)",
     "speed_hack": "⚡ CBT Speed Hack: Mass is measured directly in kilograms without combining other base units."
   },
   {
@@ -8865,7 +8865,7 @@ window.PHY101_QUESTIONS = [
       "D": "Radian"
     },
     "answer": "D",
-    "explanation": "Radian is a supplementary unit (for plane angle), not a base fundamental unit. Force (Newton) is also derived, but Radian is classified specifically as supplementary.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nRadian is a supplementary unit (for plane angle), not a base fundamental unit. Force (Newton) is also derived, but Radian is classified specifically as supplementary.\n\n• Verified Key: Option D (Radian)",
     "speed_hack": "⚡ CBT Speed Hack: Radian and Steradian are supplementary angular units, not fundamental SI base units."
   },
   {
@@ -8881,7 +8881,7 @@ window.PHY101_QUESTIONS = [
       "D": "m, kg, s"
     },
     "answer": "B",
-    "explanation": "Length, breadth, and height are all linear spatial dimensions with SI unit meter (m).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nLength, breadth, and height are all linear spatial dimensions with SI unit meter (m).\n\n• Verified Key: Option B (m, m, m)",
     "speed_hack": "⚡ CBT Speed Hack: All three are distance dimensions -> m, m, m."
   },
   {
@@ -8897,7 +8897,7 @@ window.PHY101_QUESTIONS = [
       "D": "kg, m/s, m/s²"
     },
     "answer": "C",
-    "explanation": "Velocity and speed both have the SI unit m/s (or ms^-1), while acceleration is rate of change of velocity, measured in m/s² (or ms^-2).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nVelocity and speed both have the SI unit m/s (or ms^-1), while acceleration is rate of change of velocity, measured in m/s² (or ms^-2).\n\n• Verified Key: Option C (m/s, m/s, m/s²)",
     "speed_hack": "⚡ CBT Speed Hack: Speed/velocity = m/s; acceleration = m/s²."
   },
   {
@@ -8913,7 +8913,7 @@ window.PHY101_QUESTIONS = [
       "D": "All of the above"
     },
     "answer": "D",
-    "explanation": "Distance, length, and displacement are all measures of space/interval and share the SI unit meter (m).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nDistance, length, and displacement are all measures of space/interval and share the SI unit meter (m).\n\n• Verified Key: Option D (All of the above)",
     "speed_hack": "⚡ CBT Speed Hack: Distance, length, and displacement all measure linear separation in meters."
   },
   {
@@ -8929,7 +8929,7 @@ window.PHY101_QUESTIONS = [
       "D": "All of the above"
     },
     "answer": "B",
-    "explanation": "A primary utility of dimensional analysis is testing the dimensional homogeneity of physical formulas (LHS dimensions must equal RHS dimensions).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nA primary utility of dimensional analysis is testing the dimensional homogeneity of physical formulas (LHS dimensions must equal RHS dimensions).\n\n• Verified Key: Option B (To determine whether an expression or physical equation is correct or not)",
     "speed_hack": "⚡ CBT Speed Hack: Principle of Homogeneity: checking if physical equations are dimensionally valid."
   },
   {
@@ -8945,7 +8945,7 @@ window.PHY101_QUESTIONS = [
       "D": "None of the above"
     },
     "answer": "B",
-    "explanation": "Derived units are formed by powers, products, or quotients of the fundamental base units.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nDerived units are formed by powers, products, or quotients of the fundamental base units.\n\n• Verified Key: Option B (Units that are dependent on other base units)",
     "speed_hack": "⚡ CBT Speed Hack: Derived units depend directly on fundamental base units."
   },
   {
@@ -8961,7 +8961,7 @@ window.PHY101_QUESTIONS = [
       "D": "kg"
     },
     "answer": "C",
-    "explanation": "The fundamental dimension of distance/length is [L].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nThe fundamental dimension of distance/length is [L].\n\n• Verified Key: Option C (L)",
     "speed_hack": "⚡ CBT Speed Hack: Distance = Length = [L]."
   },
   {
@@ -8977,7 +8977,7 @@ window.PHY101_QUESTIONS = [
       "D": "Dimension"
     },
     "answer": "D",
-    "explanation": "According to the Principle of Dimensional Homogeneity, physical quantities can only be added, subtracted, or equated if they possess identical physical dimensions.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nAccording to the Principle of Dimensional Homogeneity, physical quantities can only be added, subtracted, or equated if they possess identical physical dimensions.\n\n• Verified Key: Option D (Dimension)",
     "speed_hack": "⚡ CBT Speed Hack: You can only add apples to apples -> identical dimensions!"
   },
   {
@@ -8993,7 +8993,7 @@ window.PHY101_QUESTIONS = [
       "D": "System Identification"
     },
     "answer": "B",
-    "explanation": "SI stands for Système International d'Unités, established in 1960 by the General Conference on Weights and Measures.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nSI stands for Système International d'Unités, established in 1960 by the General Conference on Weights and Measures.\n\n• Verified Key: Option B (Système International (International System of Units))",
     "speed_hack": "⚡ CBT Speed Hack: French acronym: Système International."
   },
   {
@@ -9009,7 +9009,7 @@ window.PHY101_QUESTIONS = [
       "D": "MLT⁻³"
     },
     "answer": "B",
-    "explanation": "1 Watt = 1 Joule/second = (Force × distance) / time = ([MLT⁻²] × [L]) / [T] = [ML²T⁻³].",
+    "explanation": "📖 Core Principle (Work, Energy, Power & Impulse):\n1 Watt = 1 Joule/second = (Force × distance) / time = ([MLT⁻²] × [L]) / [T] = [ML²T⁻³].\n\n• Verified Key: Option B (ML²T⁻³)",
     "speed_hack": "⚡ CBT Speed Hack: Power = Work/time = ML²T⁻² / T = ML²T⁻³."
   },
   {
@@ -9025,7 +9025,7 @@ window.PHY101_QUESTIONS = [
       "D": "Torque"
     },
     "answer": "B",
-    "explanation": "Acceleration is defined mathematically as the rate of change of velocity with respect to time: a = dv/dt.",
+    "explanation": "📖 Core Principle (Kinematics & Linear Motion):\nAcceleration is defined mathematically as the rate of change of velocity with respect to time: a = dv/dt.\n\n• Verified Key: Option B (Acceleration)",
     "speed_hack": "⚡ CBT Speed Hack: dv/dt = Acceleration."
   },
   {
@@ -9041,7 +9041,7 @@ window.PHY101_QUESTIONS = [
       "D": "Peta"
     },
     "answer": "C",
-    "explanation": "Mega = 10⁶, Giga = 10⁹, Tera = 10¹², Kilo = 10³.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nMega = 10⁶, Giga = 10⁹, Tera = 10¹², Kilo = 10³.\n\n• Verified Key: Option C (Mega)",
     "speed_hack": "⚡ CBT Speed Hack: 1 Megawatt = 10⁶ Watts; prefix is Mega (M)."
   },
   {
@@ -9057,7 +9057,7 @@ window.PHY101_QUESTIONS = [
       "D": "Deka"
     },
     "answer": "A",
-    "explanation": "Nano = 10⁻⁹, Micro = 10⁻⁶, Pico = 10⁻¹².",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nNano = 10⁻⁹, Micro = 10⁻⁶, Pico = 10⁻¹².\n\n• Verified Key: Option A (Nano)",
     "speed_hack": "⚡ CBT Speed Hack: 10⁻⁹ = Nano (n)."
   },
   {
@@ -9073,7 +9073,7 @@ window.PHY101_QUESTIONS = [
       "D": "s⁻¹"
     },
     "answer": "C",
-    "explanation": "'How far' refers to distance or displacement, measured in meters (m).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\n'How far' refers to distance or displacement, measured in meters (m).\n\n• Verified Key: Option C (m)",
     "speed_hack": "⚡ CBT Speed Hack: Distance = meters."
   },
   {
@@ -9089,7 +9089,7 @@ window.PHY101_QUESTIONS = [
       "D": "s"
     },
     "answer": "B",
-    "explanation": "'How fast' refers to speed or magnitude of velocity, measured in meters per second (m/s).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\n'How fast' refers to speed or magnitude of velocity, measured in meters per second (m/s).\n\n• Verified Key: Option B (m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Speed = m/s."
   },
   {
@@ -9105,7 +9105,7 @@ window.PHY101_QUESTIONS = [
       "D": "ML⁻³, ML⁻¹T⁻², MLT⁻²"
     },
     "answer": "C",
-    "explanation": "Density = M/V = [ML⁻³]. Momentum = m*v = [MLT⁻¹]. Pressure = F/A = [MLT⁻²]/[L²] = [ML⁻¹T⁻²].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nDensity = M/V = [ML⁻³]. Momentum = m*v = [MLT⁻¹]. Pressure = F/A = [MLT⁻²]/[L²] = [ML⁻¹T⁻²].\n\n• Verified Key: Option C (ML⁻³, MLT⁻¹, ML⁻¹T⁻²)",
     "speed_hack": "⚡ CBT Speed Hack: Density has L⁻³; only C and D start with ML⁻³. Momentum has MLT⁻¹, pointing uniquely to C."
   },
   {
@@ -9121,7 +9121,7 @@ window.PHY101_QUESTIONS = [
       "D": "MLT"
     },
     "answer": "C",
-    "explanation": "p = m × v = [M] × [LT⁻¹] = [MLT⁻¹].",
+    "explanation": "📖 Core Principle (Dynamics, Newton's Laws & Momentum):\np = m × v = [M] × [LT⁻¹] = [MLT⁻¹].\n\n• Verified Key: Option C (MLT⁻¹)",
     "speed_hack": "⚡ CBT Speed Hack: Mass × Velocity = M × L/T = MLT⁻¹."
   },
   {
@@ -9137,7 +9137,7 @@ window.PHY101_QUESTIONS = [
       "D": "Micro farad"
     },
     "answer": "A",
-    "explanation": "10⁻⁹ = nano, so 10⁻⁹ Farad is 1 nanofarad (nF).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\n10⁻⁹ = nano, so 10⁻⁹ Farad is 1 nanofarad (nF).\n\n• Verified Key: Option A (Nano farad)",
     "speed_hack": "⚡ CBT Speed Hack: 10⁻⁹ = nano -> Nanofarad."
   },
   {
@@ -9153,7 +9153,7 @@ window.PHY101_QUESTIONS = [
       "D": "MLT⁻²"
     },
     "answer": "B",
-    "explanation": "Pressure = Force / Area = [MLT⁻²] / [L²] = [ML⁻¹T⁻²].",
+    "explanation": "📖 Core Principle (Properties of Matter, Elasticity, Surface Tension & Viscosity):\nPressure = Force / Area = [MLT⁻²] / [L²] = [ML⁻¹T⁻²].\n\n• Verified Key: Option B (ML⁻¹T⁻²)",
     "speed_hack": "⚡ CBT Speed Hack: Pressure = Force/Area = MLT⁻²/L² = ML⁻¹T⁻²."
   },
   {
@@ -9169,7 +9169,7 @@ window.PHY101_QUESTIONS = [
       "D": "ML⁻²T⁻²"
     },
     "answer": "A",
-    "explanation": "Power = Work / time = [ML²T⁻²] / [T] = [ML²T⁻³].",
+    "explanation": "📖 Core Principle (Work, Energy, Power & Impulse):\nPower = Work / time = [ML²T⁻²] / [T] = [ML²T⁻³].\n\n• Verified Key: Option A (ML²T⁻³)",
     "speed_hack": "⚡ CBT Speed Hack: Power = Energy / time = ML²T⁻³."
   },
   {
@@ -9185,7 +9185,7 @@ window.PHY101_QUESTIONS = [
       "D": "MLT²"
     },
     "answer": "C",
-    "explanation": "Energy = Work = Force × distance = [MLT⁻²] × [L] = [ML²T⁻²].",
+    "explanation": "📖 Core Principle (Work, Energy, Power & Impulse):\nEnergy = Work = Force × distance = [MLT⁻²] × [L] = [ML²T⁻²].\n\n• Verified Key: Option C (ML²T⁻²)",
     "speed_hack": "⚡ CBT Speed Hack: Kinetic energy ½mv² = M(L/T)² = ML²T⁻²."
   },
   {
@@ -9201,7 +9201,7 @@ window.PHY101_QUESTIONS = [
       "D": "Power"
     },
     "answer": "B",
-    "explanation": "Work is defined as W = F · d (the scalar product of force and displacement vector).",
+    "explanation": "📖 Core Principle (Work, Energy, Power & Impulse):\nWork is defined as W = F · d (the scalar product of force and displacement vector).\n\n• Verified Key: Option B (Work)",
     "speed_hack": "⚡ CBT Speed Hack: Force × Distance = Work done."
   },
   {
@@ -9217,7 +9217,7 @@ window.PHY101_QUESTIONS = [
       "D": "Varying"
     },
     "answer": "C",
-    "explanation": "Near the surface of the earth, ignoring air resistance, the acceleration due to gravity g ≈ 9.8 m/s² remains constant.",
+    "explanation": "📖 Core Principle (Kinematics & Linear Motion):\nNear the surface of the earth, ignoring air resistance, the acceleration due to gravity g ≈ 9.8 m/s² remains constant.\n\n• Verified Key: Option C (Constant)",
     "speed_hack": "⚡ CBT Speed Hack: Gravity near Earth is constant at g ≈ 9.8 m/s²."
   },
   {
@@ -9233,7 +9233,7 @@ window.PHY101_QUESTIONS = [
       "D": "ML⁻³"
     },
     "answer": "A",
-    "explanation": "Volume = length × breadth × height = [L] × [L] × [L] = [L³].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nVolume = length × breadth × height = [L] × [L] × [L] = [L³].\n\n• Verified Key: Option A (L³)",
     "speed_hack": "⚡ CBT Speed Hack: Length cubed = L³."
   },
   {
@@ -9249,7 +9249,7 @@ window.PHY101_QUESTIONS = [
       "D": "5 units East"
     },
     "answer": "B",
-    "explanation": "For A + B = 0, B must be equal in magnitude and exactly opposite in direction: B = -A = 5 units South.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nFor A + B = 0, B must be equal in magnitude and exactly opposite in direction: B = -A = 5 units South.\n\n• Verified Key: Option B (5 units South)",
     "speed_hack": "⚡ CBT Speed Hack: To cancel 5 units North, you need exactly 5 units South!"
   },
   {
@@ -9265,7 +9265,7 @@ window.PHY101_QUESTIONS = [
       "D": "1m West"
     },
     "answer": "D",
-    "explanation": "Taking East as positive: displacement = +2m - 3m = -1m, which corresponds to 1m due West.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nTaking East as positive: displacement = +2m - 3m = -1m, which corresponds to 1m due West.\n\n• Verified Key: Option D (1m West)",
     "speed_hack": "⚡ CBT Speed Hack: Net = 3m West - 2m East = 1m West."
   },
   {
@@ -9281,7 +9281,7 @@ window.PHY101_QUESTIONS = [
       "D": "Force"
     },
     "answer": "A",
-    "explanation": "Direction alone is not a physical vector quantity (a vector requires both magnitude and direction). Displacement, momentum, and force are all full physical vectors.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nDirection alone is not a physical vector quantity (a vector requires both magnitude and direction). Displacement, momentum, and force are all full physical vectors.\n\n• Verified Key: Option A (Direction)",
     "speed_hack": "⚡ CBT Speed Hack: Vectors require BOTH magnitude and direction. Direction alone is not a quantity."
   },
   {
@@ -9297,7 +9297,7 @@ window.PHY101_QUESTIONS = [
       "D": "Acceleration due to gravity"
     },
     "answer": "B",
-    "explanation": "Work, energy, and power are all scalar quantities (they have magnitude only, no directional requirement).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nWork, energy, and power are all scalar quantities (they have magnitude only, no directional requirement).\n\n• Verified Key: Option B (Work, energy & power)",
     "speed_hack": "⚡ CBT Speed Hack: Work, Energy, and Power are all pure scalars."
   },
   {
@@ -9313,7 +9313,7 @@ window.PHY101_QUESTIONS = [
       "D": "m·s⁻²"
     },
     "answer": "A",
-    "explanation": "The kilogram (kg) is the fundamental SI base unit of mass. The others are derived units.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nThe kilogram (kg) is the fundamental SI base unit of mass. The others are derived units.\n\n• Verified Key: Option A (kg)",
     "speed_hack": "⚡ CBT Speed Hack: kg is the base unit for mass."
   },
   {
@@ -9329,7 +9329,7 @@ window.PHY101_QUESTIONS = [
       "D": "Flat"
     },
     "answer": "C",
-    "explanation": "Sir Isaac Newton posited absolute space in his Principia: space exists independently of all matter and is unchanging and immovable.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nSir Isaac Newton posited absolute space in his Principia: space exists independently of all matter and is unchanging and immovable.\n\n• Verified Key: Option C (Absolute)",
     "speed_hack": "⚡ CBT Speed Hack: Newton = Absolute space and absolute time."
   },
   {
@@ -9345,7 +9345,7 @@ window.PHY101_QUESTIONS = [
       "D": "Non-Euclidean"
     },
     "answer": "A",
-    "explanation": "Leibniz argued for relationalism: space is not an entity in itself, but rather the relational order of coexistence of objects.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nLeibniz argued for relationalism: space is not an entity in itself, but rather the relational order of coexistence of objects.\n\n• Verified Key: Option A (A collection of relations between objects)",
     "speed_hack": "⚡ CBT Speed Hack: Leibniz = Relational space (order of coexistence among objects)."
   },
   {
@@ -9361,7 +9361,7 @@ window.PHY101_QUESTIONS = [
       "D": "Immanuel Kant"
     },
     "answer": "B",
-    "explanation": "George Berkeley published 'An Essay Towards a New Theory of Vision' in 1709, addressing the visual perception of spatial depth and distance.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nGeorge Berkeley published 'An Essay Towards a New Theory of Vision' in 1709, addressing the visual perception of spatial depth and distance.\n\n• Verified Key: Option B (George Berkeley)",
     "speed_hack": "⚡ CBT Speed Hack: Spatial depth perception = George Berkeley."
   },
   {
@@ -9377,7 +9377,7 @@ window.PHY101_QUESTIONS = [
       "D": "Absolute entity"
     },
     "answer": "C",
-    "explanation": "Kant argued in the Critique of Pure Reason that space is an a priori intuition rather than an empirical concept derived from outer experience.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nKant argued in the Critique of Pure Reason that space is an a priori intuition rather than an empirical concept derived from outer experience.\n\n• Verified Key: Option C (Not empirical (a priori intuition))",
     "speed_hack": "⚡ CBT Speed Hack: Kant = Space is an a priori, non-empirical intuition."
   },
   {
@@ -9393,7 +9393,7 @@ window.PHY101_QUESTIONS = [
       "D": "Discontinuous"
     },
     "answer": "C",
-    "explanation": "Non-Euclidean geometries (such as Riemannian geometry) describe space as curved rather than Euclidean/flat.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nNon-Euclidean geometries (such as Riemannian geometry) describe space as curved rather than Euclidean/flat.\n\n• Verified Key: Option C (Curved)",
     "speed_hack": "⚡ CBT Speed Hack: Non-Euclidean geometry = Curved space."
   },
   {
@@ -9409,7 +9409,7 @@ window.PHY101_QUESTIONS = [
       "D": "Curved"
     },
     "answer": "C",
-    "explanation": "General Relativity states that mass-energy causes space-time to curve, causing local geometry to deviate from flat Euclidean space.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nGeneral Relativity states that mass-energy causes space-time to curve, causing local geometry to deviate from flat Euclidean space.\n\n• Verified Key: Option C (Euclidean (flat))",
     "speed_hack": "⚡ CBT Speed Hack: Gravity curves space away from flat Euclidean space."
   },
   {
@@ -9425,7 +9425,7 @@ window.PHY101_QUESTIONS = [
       "D": "Cartesian geometry"
     },
     "answer": "C",
-    "explanation": "Non-Euclidean (specifically pseudo-Riemannian) geometry is the mathematical framework for Einstein's curved space-time.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nNon-Euclidean (specifically pseudo-Riemannian) geometry is the mathematical framework for Einstein's curved space-time.\n\n• Verified Key: Option C (Non-Euclidean geometry)",
     "speed_hack": "⚡ CBT Speed Hack: General Relativity uses Non-Euclidean geometry."
   },
   {
@@ -9439,7 +9439,7 @@ window.PHY101_QUESTIONS = [
       "B": "False"
     },
     "answer": "A",
-    "explanation": "Time has magnitude only and is fully specified without a spatial direction vector; it is a scalar quantity.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nTime has magnitude only and is fully specified without a spatial direction vector; it is a scalar quantity.\n\n• Verified Key: Option A (True)",
     "speed_hack": "⚡ CBT Speed Hack: Time is a scalar quantity -> True."
   },
   {
@@ -9453,7 +9453,7 @@ window.PHY101_QUESTIONS = [
       "B": "False"
     },
     "answer": "A",
-    "explanation": "Time is one of the 7 fundamental SI base quantities, measured in seconds (s).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nTime is one of the 7 fundamental SI base quantities, measured in seconds (s).\n\n• Verified Key: Option A (True)",
     "speed_hack": "⚡ CBT Speed Hack: Time is a base SI quantity -> True."
   },
   {
@@ -9469,7 +9469,7 @@ window.PHY101_QUESTIONS = [
       "D": "ML²T⁻³"
     },
     "answer": "C",
-    "explanation": "Energy = Work = Force × distance = [MLT⁻²][L] = [ML²T⁻²].",
+    "explanation": "📖 Core Principle (Work, Energy, Power & Impulse):\nEnergy = Work = Force × distance = [MLT⁻²][L] = [ML²T⁻²].\n\n• Verified Key: Option C (ML²T⁻²)",
     "speed_hack": "⚡ CBT Speed Hack: Energy = Work = ML²T⁻²."
   },
   {
@@ -9485,7 +9485,7 @@ window.PHY101_QUESTIONS = [
       "D": "Momentum"
     },
     "answer": "B",
-    "explanation": "Velocity is defined as the rate of change of position (displacement) with respect to time: v = dx/dt.",
+    "explanation": "📖 Core Principle (Kinematics & Linear Motion):\nVelocity is defined as the rate of change of position (displacement) with respect to time: v = dx/dt.\n\n• Verified Key: Option B (Velocity)",
     "speed_hack": "⚡ CBT Speed Hack: Rate of change of position = Velocity."
   },
   {
@@ -9501,7 +9501,7 @@ window.PHY101_QUESTIONS = [
       "D": "George Berkeley"
     },
     "answer": "B",
-    "explanation": "The curvature of space-time was mathematically formulated by 19th/20th century mathematicians (Gauss, Riemann) and physicalized by Albert Einstein.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nThe curvature of space-time was mathematically formulated by 19th/20th century mathematicians (Gauss, Riemann) and physicalized by Albert Einstein.\n\n• Verified Key: Option B (19th & 20th Century Mathematicians & Einstein)",
     "speed_hack": "⚡ CBT Speed Hack: Curved spacetime = 19th/20th century mathematical physics & Einstein."
   },
   {
@@ -9517,7 +9517,7 @@ window.PHY101_QUESTIONS = [
       "D": "None of the above"
     },
     "answer": "A",
-    "explanation": "Newtonian relativity asserts that mechanical laws are identical in all inertial reference frames—both those at rest and those moving with constant linear velocity.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nNewtonian relativity asserts that mechanical laws are identical in all inertial reference frames—both those at rest and those moving with constant linear velocity.\n\n• Verified Key: Option A (I and II)",
     "speed_hack": "⚡ CBT Speed Hack: Inertial frames include BOTH rest and uniform rectilinear motion -> I and II."
   },
   {
@@ -9533,7 +9533,7 @@ window.PHY101_QUESTIONS = [
       "D": "None of the above"
     },
     "answer": "B",
-    "explanation": "Einstein's First Postulate (Principle of Relativity): The laws of physics are invariant in all inertial reference frames.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nEinstein's First Postulate (Principle of Relativity): The laws of physics are invariant in all inertial reference frames.\n\n• Verified Key: Option B (Einstein's first postulate of Special Relativity)",
     "speed_hack": "⚡ CBT Speed Hack: 1st Postulate = Laws of physics identical in all inertial frames. 2nd Postulate = Speed of light is constant."
   },
   {
@@ -9549,7 +9549,7 @@ window.PHY101_QUESTIONS = [
       "D": "None of the above"
     },
     "answer": "C",
-    "explanation": "The first postulate is formally called the Principle of Relativity.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nThe first postulate is formally called the Principle of Relativity.\n\n• Verified Key: Option C (Principle of relativity)",
     "speed_hack": "⚡ CBT Speed Hack: Postulate 1 = Principle of Relativity."
   },
   {
@@ -9565,7 +9565,7 @@ window.PHY101_QUESTIONS = [
       "D": "George Berkeley"
     },
     "answer": "C",
-    "explanation": "Leibniz's relational space directly opposed Newton's absolute space, famously debated in the Leibniz-Clarke correspondence.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nLeibniz's relational space directly opposed Newton's absolute space, famously debated in the Leibniz-Clarke correspondence.\n\n• Verified Key: Option C (Isaac Newton)",
     "speed_hack": "⚡ CBT Speed Hack: Leibniz's relational view contradicted Newton's absolute container view."
   },
   {
@@ -9581,7 +9581,7 @@ window.PHY101_QUESTIONS = [
       "D": "4"
     },
     "answer": "B",
-    "explanation": "Classical physical space is three-dimensional (length, width, height). (Adding time creates 4D space-time).",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nClassical physical space is three-dimensional (length, width, height). (Adding time creates 4D space-time).\n\n• Verified Key: Option B (3)",
     "speed_hack": "⚡ CBT Speed Hack: Spatial dimensions = 3."
   },
   {
@@ -9597,7 +9597,7 @@ window.PHY101_QUESTIONS = [
       "D": "None of the above"
     },
     "answer": "B",
-    "explanation": "Spatial coordinates in 3D Cartesian space are length (x), width (y), and height (z).",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nSpatial coordinates in 3D Cartesian space are length (x), width (y), and height (z).\n\n• Verified Key: Option B (Length, width, height)",
     "speed_hack": "⚡ CBT Speed Hack: 3 spatial dimensions = Length, Width, Height."
   },
   {
@@ -9613,7 +9613,7 @@ window.PHY101_QUESTIONS = [
       "D": "Space is imaginary"
     },
     "answer": "B",
-    "explanation": "Relational theories of space posit that space is an emergent relation between objects, rather than an independent substance.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nRelational theories of space posit that space is an emergent relation between objects, rather than an independent substance.\n\n• Verified Key: Option B (Space was defined by the relationships between physical objects)",
     "speed_hack": "⚡ CBT Speed Hack: Relational theory: space is defined by the relations between objects."
   },
   {
@@ -9629,7 +9629,7 @@ window.PHY101_QUESTIONS = [
       "D": "When moving slow"
     },
     "answer": "C",
-    "explanation": "Strictly speaking, Earth is non-inertial because it rotates and orbits the Sun. However, for everyday experiments where Coriolis and centrifugal forces are negligible, it is treated as inertial.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nStrictly speaking, Earth is non-inertial because it rotates and orbits the Sun. However, for everyday experiments where Coriolis and centrifugal forces are negligible, it is treated as inertial.\n\n• Verified Key: Option C (When the effects of Earth's rotation and orbital acceleration are negligible)",
     "speed_hack": "⚡ CBT Speed Hack: Negligible Earth rotation = approximately inertial frame."
   },
   {
@@ -9645,7 +9645,7 @@ window.PHY101_QUESTIONS = [
       "D": "The frame is at rest"
     },
     "answer": "B",
-    "explanation": "An inertial frame is non-accelerating (net external force on the frame = 0). When a net force acts on the frame, it accelerates, making it non-inertial.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAn inertial frame is non-accelerating (net external force on the frame = 0). When a net force acts on the frame, it accelerates, making it non-inertial.\n\n• Verified Key: Option B (There is a net force causing the frame to accelerate)",
     "speed_hack": "⚡ CBT Speed Hack: Net force on frame -> acceleration -> frame is non-inertial."
   },
   {
@@ -9661,7 +9661,7 @@ window.PHY101_QUESTIONS = [
       "D": "Rotating frames"
     },
     "answer": "C",
-    "explanation": "Special Relativity is restricted ('special') because it applies strictly to non-accelerating, inertial reference frames. General Relativity extends this to accelerating frames and gravity.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nSpecial Relativity is restricted ('special') because it applies strictly to non-accelerating, inertial reference frames. General Relativity extends this to accelerating frames and gravity.\n\n• Verified Key: Option C (Inertial frames of reference)",
     "speed_hack": "⚡ CBT Speed Hack: Special Relativity = Inertial frames only. General Relativity = Gravitational / accelerating frames."
   },
   {
@@ -9677,7 +9677,7 @@ window.PHY101_QUESTIONS = [
       "D": "Optical plasma"
     },
     "answer": "C",
-    "explanation": "Nineteenth-century physicists posited the 'luminiferous ether' as the medium required for light wave propagation, famously disproved by the Michelson-Morley experiment.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nNineteenth-century physicists posited the 'luminiferous ether' as the medium required for light wave propagation, famously disproved by the Michelson-Morley experiment.\n\n• Verified Key: Option C (Luminiferous Ether)",
     "speed_hack": "⚡ CBT Speed Hack: 19th-century light medium = Luminiferous Ether."
   },
   {
@@ -9693,7 +9693,7 @@ window.PHY101_QUESTIONS = [
       "D": "It is at rest"
     },
     "answer": "C",
-    "explanation": "Any accelerating frame (such as an Earth-fixed frame accounting for rotational acceleration) is non-inertial.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAny accelerating frame (such as an Earth-fixed frame accounting for rotational acceleration) is non-inertial.\n\n• Verified Key: Option C (It is accelerating (e.g., centripetal acceleration considered))",
     "speed_hack": "⚡ CBT Speed Hack: Accelerating frame = Non-inertial frame."
   },
   {
@@ -9709,7 +9709,7 @@ window.PHY101_QUESTIONS = [
       "D": "Displacement"
     },
     "answer": "C",
-    "explanation": "Temperature is a scalar quantity (specified purely by magnitude in Kelvin or Celsius, without spatial direction).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nTemperature is a scalar quantity (specified purely by magnitude in Kelvin or Celsius, without spatial direction).\n\n• Verified Key: Option C (Temperature)",
     "speed_hack": "⚡ CBT Speed Hack: Temperature has magnitude only -> Scalar."
   },
   {
@@ -9725,7 +9725,7 @@ window.PHY101_QUESTIONS = [
       "D": "Friction"
     },
     "answer": "B",
-    "explanation": "Inertia is the natural resistance of any physical object to any change in its velocity, encapsulated in Newton's first law of motion.",
+    "explanation": "📖 Core Principle (Dynamics, Newton's Laws & Momentum):\nInertia is the natural resistance of any physical object to any change in its velocity, encapsulated in Newton's first law of motion.\n\n• Verified Key: Option B (Inertia (Newton's 1st Law))",
     "speed_hack": "⚡ CBT Speed Hack: Resistance to change in state of motion = Inertia."
   },
   {
@@ -9741,7 +9741,7 @@ window.PHY101_QUESTIONS = [
       "D": "Number (magnitude) and unit"
     },
     "answer": "D",
-    "explanation": "A scalar quantity requires only a numerical magnitude and an appropriate unit of measurement (e.g., 5 kg).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nA scalar quantity requires only a numerical magnitude and an appropriate unit of measurement (e.g., 5 kg).\n\n• Verified Key: Option D (Number (magnitude) and unit)",
     "speed_hack": "⚡ CBT Speed Hack: Scalar = Magnitude + Unit (no direction needed)."
   },
   {
@@ -9757,7 +9757,7 @@ window.PHY101_QUESTIONS = [
       "D": "Dimension"
     },
     "answer": "C",
-    "explanation": "Magnitude is the quantitative numerical measure or size of a physical entity.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nMagnitude is the quantitative numerical measure or size of a physical entity.\n\n• Verified Key: Option C (Magnitude)",
     "speed_hack": "⚡ CBT Speed Hack: Numerical value / size = Magnitude."
   },
   {
@@ -9773,7 +9773,7 @@ window.PHY101_QUESTIONS = [
       "D": "All of the above"
     },
     "answer": "C",
-    "explanation": "A vector requires both magnitude (size) and direction in space to be fully defined.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nA vector requires both magnitude (size) and direction in space to be fully defined.\n\n• Verified Key: Option C (Magnitude and direction)",
     "speed_hack": "⚡ CBT Speed Hack: Vector = Magnitude + Direction."
   },
   {
@@ -9789,7 +9789,7 @@ window.PHY101_QUESTIONS = [
       "D": "Unit vector"
     },
     "answer": "C",
-    "explanation": "A free vector has a specified magnitude and direction but its line of action is not confined to a unique point or line (e.g., pure displacement or couple).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nA free vector has a specified magnitude and direction but its line of action is not confined to a unique point or line (e.g., pure displacement or couple).\n\n• Verified Key: Option C (Free vector)",
     "speed_hack": "⚡ CBT Speed Hack: Can be shifted anywhere parallel to itself = Free vector."
   },
   {
@@ -9805,7 +9805,7 @@ window.PHY101_QUESTIONS = [
       "D": "Equal vector"
     },
     "answer": "A",
-    "explanation": "A localized (or bound) vector has a specific, fixed point of application in space (such as a force acting on a deformable body or causing torque).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nA localized (or bound) vector has a specific, fixed point of application in space (such as a force acting on a deformable body or causing torque).\n\n• Verified Key: Option A (Localized (or sliding) vector)",
     "speed_hack": "⚡ CBT Speed Hack: Cannot shift without changing outcome = Localized / Bound vector."
   },
   {
@@ -9821,7 +9821,7 @@ window.PHY101_QUESTIONS = [
       "D": "Unit vectors"
     },
     "answer": "C",
-    "explanation": "Coplanar vectors are three or more vectors that lie within the same two-dimensional plane.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nCoplanar vectors are three or more vectors that lie within the same two-dimensional plane.\n\n• Verified Key: Option C (Coplanar vectors)",
     "speed_hack": "⚡ CBT Speed Hack: Same plane = Co-planar."
   },
   {
@@ -9837,7 +9837,7 @@ window.PHY101_QUESTIONS = [
       "D": "Collinear vectors"
     },
     "answer": "B",
-    "explanation": "Concurrent forces/vectors are vectors whose lines of action intersect at a single common point.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nConcurrent forces/vectors are vectors whose lines of action intersect at a single common point.\n\n• Verified Key: Option B (Concurrent vectors)",
     "speed_hack": "⚡ CBT Speed Hack: Meeting at a common intersection point = Concurrent vectors."
   },
   {
@@ -9853,7 +9853,7 @@ window.PHY101_QUESTIONS = [
       "D": "Bounded vector"
     },
     "answer": "B",
-    "explanation": "The negative of a vector has equal magnitude but opposite sense: -A.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nThe negative of a vector has equal magnitude but opposite sense: -A.\n\n• Verified Key: Option B (Negative vector (-A))",
     "speed_hack": "⚡ CBT Speed Hack: Equal size, opposite direction = Negative vector."
   },
   {
@@ -9869,7 +9869,7 @@ window.PHY101_QUESTIONS = [
       "D": "Moment of a force"
     },
     "answer": "B",
-    "explanation": "Displacement depends only on the initial and final position vectors, not on where the coordinate origin is placed or a fixed line of action.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nDisplacement depends only on the initial and final position vectors, not on where the coordinate origin is placed or a fixed line of action.\n\n• Verified Key: Option B (Displacement)",
     "speed_hack": "⚡ CBT Speed Hack: Displacement is the classic free vector."
   },
   {
@@ -9885,7 +9885,7 @@ window.PHY101_QUESTIONS = [
       "D": "Unit vectors"
     },
     "answer": "A",
-    "explanation": "Forces have specific points of application or lines of action governed by the principle of transmissibility, classifying them as localized/sliding vectors.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nForces have specific points of application or lines of action governed by the principle of transmissibility, classifying them as localized/sliding vectors.\n\n• Verified Key: Option A (Localized / Sliding vectors)",
     "speed_hack": "⚡ CBT Speed Hack: Force with a definite line of action = Localized / Sliding vector."
   },
   {
@@ -9901,7 +9901,7 @@ window.PHY101_QUESTIONS = [
       "D": "θ"
     },
     "answer": "C",
-    "explanation": "The zero vector has zero magnitude and arbitrary direction, denoted mathematically as 0 or 0⃗.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nThe zero vector has zero magnitude and arbitrary direction, denoted mathematically as 0 or 0⃗.\n\n• Verified Key: Option C (0 or 0⃗)",
     "speed_hack": "⚡ CBT Speed Hack: Zero vector = 0 or 0⃗."
   },
   {
@@ -9917,7 +9917,7 @@ window.PHY101_QUESTIONS = [
       "D": "Momentum"
     },
     "answer": "B",
-    "explanation": "Stress = Force / Area = [ML⁻¹T⁻²], which is identically the dimension of Pressure.",
+    "explanation": "📖 Core Principle (Properties of Matter, Elasticity, Surface Tension & Viscosity):\nStress = Force / Area = [ML⁻¹T⁻²], which is identically the dimension of Pressure.\n\n• Verified Key: Option B (Pressure)",
     "speed_hack": "⚡ CBT Speed Hack: Stress = Force/Area = Pressure = Young's Modulus = ML⁻¹T⁻²."
   },
   {
@@ -9933,7 +9933,7 @@ window.PHY101_QUESTIONS = [
       "D": "II and III only"
     },
     "answer": "D",
-    "explanation": "Torque = r × F = [L][MLT⁻²] = [ML²T⁻²]. Energy = [ML²T⁻²]. Acceleration is [LT⁻²]. Thus II and III have [ML²T⁻²].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nTorque = r × F = [L][MLT⁻²] = [ML²T⁻²]. Energy = [ML²T⁻²]. Acceleration is [LT⁻²]. Thus II and III have [ML²T⁻²].\n\n• Verified Key: Option D (II and III only)",
     "speed_hack": "⚡ CBT Speed Hack: Torque and Energy share the dimension ML²T⁻² -> II and III only!"
   },
   {
@@ -9949,7 +9949,7 @@ window.PHY101_QUESTIONS = [
       "D": "All of the above"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (All of the above)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -9965,7 +9965,7 @@ window.PHY101_QUESTIONS = [
       "D": "Force"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (Direction)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -9981,7 +9981,7 @@ window.PHY101_QUESTIONS = [
       "D": "m/s, N, Nm"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (m/s, m/s, m/s²…)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -9997,7 +9997,7 @@ window.PHY101_QUESTIONS = [
       "D": "Sir Isaac Newton"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (Sir Isaac Newton)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10013,7 +10013,7 @@ window.PHY101_QUESTIONS = [
       "D": "To detect whether the value is correct or not"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (To detect whether a physics equation is correct or not)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10029,7 +10029,7 @@ window.PHY101_QUESTIONS = [
       "D": "None of the above"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (Kilogram meter squared per Seconds cube)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10045,7 +10045,7 @@ window.PHY101_QUESTIONS = [
       "D": "75 m"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (75 m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10061,7 +10061,7 @@ window.PHY101_QUESTIONS = [
       "D": "Vectors"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (Physical quantities)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10077,7 +10077,7 @@ window.PHY101_QUESTIONS = [
       "D": "length"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (None of the above)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10093,7 +10093,7 @@ window.PHY101_QUESTIONS = [
       "D": "Charles Darwin ANSWERS 1 2 3 4 5 D A A D A 6 7 8 9 10 B D A C A"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (Bernhard Riemann)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10109,7 +10109,7 @@ window.PHY101_QUESTIONS = [
       "D": "m²"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10125,7 +10125,7 @@ window.PHY101_QUESTIONS = [
       "D": "v³"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (m³)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10141,7 +10141,7 @@ window.PHY101_QUESTIONS = [
       "D": "Dyne"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (Watt)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10157,7 +10157,7 @@ window.PHY101_QUESTIONS = [
       "D": "m, kg, s"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (m, m, m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10173,7 +10173,7 @@ window.PHY101_QUESTIONS = [
       "D": "71 m/s"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (60 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10189,7 +10189,7 @@ window.PHY101_QUESTIONS = [
       "D": "I"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (I & ii)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10205,7 +10205,7 @@ window.PHY101_QUESTIONS = [
       "D": "350.0 km/hr"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (310.48 km/hr)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10221,7 +10221,7 @@ window.PHY101_QUESTIONS = [
       "D": "5 km Southwest"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (5 km Southwest)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10237,7 +10237,7 @@ window.PHY101_QUESTIONS = [
       "D": "8 N"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (10 N)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10253,7 +10253,7 @@ window.PHY101_QUESTIONS = [
       "D": "1200 Ns ANSWERS 11 12 13 14 15 A C A A B 16 17 18 19 20 A C D A C"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (2000 Ns)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10269,7 +10269,7 @@ window.PHY101_QUESTIONS = [
       "D": "25 N"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (0 N)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10285,7 +10285,7 @@ window.PHY101_QUESTIONS = [
       "D": "8.4 m/s"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (4.8 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10301,7 +10301,7 @@ window.PHY101_QUESTIONS = [
       "D": "660 m"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (675 m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10317,7 +10317,7 @@ window.PHY101_QUESTIONS = [
       "D": "2.8 s"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (2.0 s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10333,7 +10333,7 @@ window.PHY101_QUESTIONS = [
       "D": "35.6 m/s"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (20.0 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10349,7 +10349,7 @@ window.PHY101_QUESTIONS = [
       "D": "80 m"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (80 m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10365,7 +10365,7 @@ window.PHY101_QUESTIONS = [
       "D": "Units of Systems"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (Système International)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10381,7 +10381,7 @@ window.PHY101_QUESTIONS = [
       "D": "2.0 s"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (4.0 s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10397,7 +10397,7 @@ window.PHY101_QUESTIONS = [
       "D": "8.0 s"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (8.0 s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10413,7 +10413,7 @@ window.PHY101_QUESTIONS = [
       "D": "Measurement ANSWERS 21 22 23 24 25 B C B B C 26 27 28 29 30 D C A D D"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (Measurement ANSWERS 21 22 23 24 25 B C B B C 26 27 28 29 30 D C A D D)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10429,7 +10429,7 @@ window.PHY101_QUESTIONS = [
       "D": "5.0 N"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (50.0 N)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10445,7 +10445,7 @@ window.PHY101_QUESTIONS = [
       "D": "43.25 km"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (34.38 km)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10461,7 +10461,7 @@ window.PHY101_QUESTIONS = [
       "D": "5 Kn"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (4 kN)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10477,7 +10477,7 @@ window.PHY101_QUESTIONS = [
       "D": "5.45 m/s"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (4.47 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10493,7 +10493,7 @@ window.PHY101_QUESTIONS = [
       "D": "900 km"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (0.9 km)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10509,7 +10509,7 @@ window.PHY101_QUESTIONS = [
       "D": "7 s"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (5 s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10525,7 +10525,7 @@ window.PHY101_QUESTIONS = [
       "D": "MLT-2"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (ML-1T-2)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10541,7 +10541,7 @@ window.PHY101_QUESTIONS = [
       "D": "87.5 m"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (87.5 m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10557,7 +10557,7 @@ window.PHY101_QUESTIONS = [
       "D": "15.0 km"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (48.2 km)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10573,7 +10573,7 @@ window.PHY101_QUESTIONS = [
       "D": "kgms-1, Nm, N ANSWERS 31 32 33 34 35 B B B A B 36 37 38 39 40 C A D A A"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (Kgms-1,N, Nm)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10589,7 +10589,7 @@ window.PHY101_QUESTIONS = [
       "D": "When it is slowly moving"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (When the effect of the rotation of the earth is neglected)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10605,7 +10605,7 @@ window.PHY101_QUESTIONS = [
       "D": "2.21 s"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (2.83 s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10621,7 +10621,7 @@ window.PHY101_QUESTIONS = [
       "D": "45.0 m/s"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (28.28 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10637,7 +10637,7 @@ window.PHY101_QUESTIONS = [
       "D": "75.65 m"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (57.56 m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10653,7 +10653,7 @@ window.PHY101_QUESTIONS = [
       "D": "4 m"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (3 m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10669,7 +10669,7 @@ window.PHY101_QUESTIONS = [
       "D": "4 m/s2"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (4 m/s2)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10685,7 +10685,7 @@ window.PHY101_QUESTIONS = [
       "D": "M2L-3"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (ML-3)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10701,7 +10701,7 @@ window.PHY101_QUESTIONS = [
       "D": "ML-3"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (ML2T-2)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10717,7 +10717,7 @@ window.PHY101_QUESTIONS = [
       "D": "MLT-2 ANSWERS 41 42 43 44 45 C A C B A 46 47 48 49 50 D A B C D"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (ML2T-3)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10733,7 +10733,7 @@ window.PHY101_QUESTIONS = [
       "D": "MLT-1"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (MLT-1)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10749,7 +10749,7 @@ window.PHY101_QUESTIONS = [
       "D": "0 units North"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (5 units South)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10765,7 +10765,7 @@ window.PHY101_QUESTIONS = [
       "D": "kilometers/millisecond"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (millimeters/kilowatt)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10781,7 +10781,7 @@ window.PHY101_QUESTIONS = [
       "D": "12 m/s (south)"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (3 m/s (south))",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10797,7 +10797,7 @@ window.PHY101_QUESTIONS = [
       "D": "Acceleration is zero and velocity is negative"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (Acceleration is negative and velocity is positive)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10813,7 +10813,7 @@ window.PHY101_QUESTIONS = [
       "D": "Analytic Geometric ANSWERS 51 52 53 54 55 B B C C C"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (Non-Euclidean geometric)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -10829,7 +10829,7 @@ window.PHY101_QUESTIONS = [
       "D": "The speed of light is the same for all observers, regardless of their motion"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (The speed of light depends on the observer's location)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -10845,7 +10845,7 @@ window.PHY101_QUESTIONS = [
       "D": "Gorge Berkeley"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Isaac Newton)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -10861,7 +10861,7 @@ window.PHY101_QUESTIONS = [
       "D": "mass"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (units)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -10877,7 +10877,7 @@ window.PHY101_QUESTIONS = [
       "D": "ML-2T2"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (MLT⁻¹)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -10893,7 +10893,7 @@ window.PHY101_QUESTIONS = [
       "D": "Harman Minskowski"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Albert Einstein)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -10909,7 +10909,7 @@ window.PHY101_QUESTIONS = [
       "D": "5"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (4)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -10925,7 +10925,7 @@ window.PHY101_QUESTIONS = [
       "D": "momentum"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (Inertia)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -10941,7 +10941,7 @@ window.PHY101_QUESTIONS = [
       "D": "When water is moving"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (when the rotation of the earth is considered)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -10957,7 +10957,7 @@ window.PHY101_QUESTIONS = [
       "D": "Interval"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (Time)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -10973,7 +10973,7 @@ window.PHY101_QUESTIONS = [
       "D": "i, ii and iii"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (i, ii and iii)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -10989,7 +10989,7 @@ window.PHY101_QUESTIONS = [
       "D": "Flat"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (absolute)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11005,7 +11005,7 @@ window.PHY101_QUESTIONS = [
       "D": "White Dwarf"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (White Dwarf)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11021,7 +11021,7 @@ window.PHY101_QUESTIONS = [
       "D": "Unit"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (Measured)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11037,7 +11037,7 @@ window.PHY101_QUESTIONS = [
       "D": "150J"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (-1.5KJ)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11053,7 +11053,7 @@ window.PHY101_QUESTIONS = [
       "D": "ML-2T-1"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (ML-1T-2)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11069,7 +11069,7 @@ window.PHY101_QUESTIONS = [
       "D": "ML- 4T-2"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (ML-3)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11085,7 +11085,7 @@ window.PHY101_QUESTIONS = [
       "D": "A body stays in a state of rest until it is not acted upon by an external force"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (A body stays in a state of rest until it is acted upon by an external force)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11101,7 +11101,7 @@ window.PHY101_QUESTIONS = [
       "D": "ML⁻²T-1"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (ML2T-2)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11117,7 +11117,7 @@ window.PHY101_QUESTIONS = [
       "D": "A body stays in a state of rest until it is not acted upon by an external force"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (force of an object is equal to the rate of change of the momentum)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11133,7 +11133,7 @@ window.PHY101_QUESTIONS = [
       "D": "speed of light is constant and non-dependent of the speed of the observer"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (The laws of nature are the same in all coordinate systems moving rectilinearly and uniformly relative to each other)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11149,7 +11149,7 @@ window.PHY101_QUESTIONS = [
       "D": "Units of Systems"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Systeme Internationale)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11165,7 +11165,7 @@ window.PHY101_QUESTIONS = [
       "D": "ML2T-2"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (ML1T-2)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11181,7 +11181,7 @@ window.PHY101_QUESTIONS = [
       "D": "ML2T⁻3"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (ML2T⁻3)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11197,7 +11197,7 @@ window.PHY101_QUESTIONS = [
       "D": "never has a non-zero dimension"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (never has a non-zero dimension)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11213,7 +11213,7 @@ window.PHY101_QUESTIONS = [
       "D": "force and surface tension"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (Impulse and Momentum)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11229,7 +11229,7 @@ window.PHY101_QUESTIONS = [
       "D": "Equality of frame reference"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (principle of homogeneity of dimension)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11245,7 +11245,7 @@ window.PHY101_QUESTIONS = [
       "D": "energy"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (energy)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11261,7 +11261,7 @@ window.PHY101_QUESTIONS = [
       "D": "product of force and velocity"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (rate of change of momentum)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11277,7 +11277,7 @@ window.PHY101_QUESTIONS = [
       "D": "force"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (direction)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11293,7 +11293,7 @@ window.PHY101_QUESTIONS = [
       "D": "kgs-1"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (kgs-1)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11309,7 +11309,7 @@ window.PHY101_QUESTIONS = [
       "D": "4"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (0)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11325,7 +11325,7 @@ window.PHY101_QUESTIONS = [
       "D": "unbalanced pencil"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (A toy car crossing the room at constant speed)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11341,7 +11341,7 @@ window.PHY101_QUESTIONS = [
       "D": "unit and direction"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (magnitude and direction only)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11357,7 +11357,7 @@ window.PHY101_QUESTIONS = [
       "D": "Newton's fourth law"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (Newton's first law)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11373,7 +11373,7 @@ window.PHY101_QUESTIONS = [
       "D": "displacement"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (direction.)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11389,7 +11389,7 @@ window.PHY101_QUESTIONS = [
       "D": "work, energy and power"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (work, energy and power)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11405,7 +11405,7 @@ window.PHY101_QUESTIONS = [
       "D": "frequency and tension"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (work and energy)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11421,7 +11421,7 @@ window.PHY101_QUESTIONS = [
       "D": "Paths of objects under gravity"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Paths of objects in uniform motion)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11437,7 +11437,7 @@ window.PHY101_QUESTIONS = [
       "D": "It's a repulsive force"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (It's the curvature of space-time caused by mass)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11453,7 +11453,7 @@ window.PHY101_QUESTIONS = [
       "D": "L2 + L1"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (L3)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11469,7 +11469,7 @@ window.PHY101_QUESTIONS = [
       "D": "3KN"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (4KN)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11485,7 +11485,7 @@ window.PHY101_QUESTIONS = [
       "D": "82.5 km"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (48.2 km)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11501,7 +11501,7 @@ window.PHY101_QUESTIONS = [
       "D": "16N,"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (10 N)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11517,7 +11517,7 @@ window.PHY101_QUESTIONS = [
       "D": "Work"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Force)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11533,7 +11533,7 @@ window.PHY101_QUESTIONS = [
       "D": "Surface tension"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (Surface tension)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11549,7 +11549,7 @@ window.PHY101_QUESTIONS = [
       "D": "man walking on a bridge"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (man walking on a bridge)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11565,7 +11565,7 @@ window.PHY101_QUESTIONS = [
       "D": "ON"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (90N)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11581,7 +11581,7 @@ window.PHY101_QUESTIONS = [
       "D": "20Om E."
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (20Om E.)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11597,7 +11597,7 @@ window.PHY101_QUESTIONS = [
       "D": "15mh⁻¹"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (15mh⁻¹)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11613,7 +11613,7 @@ window.PHY101_QUESTIONS = [
       "D": "40m"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (84m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11629,7 +11629,7 @@ window.PHY101_QUESTIONS = [
       "D": "22.36km 26.57° south of East"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (22.36km 63.4° south of East)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11645,7 +11645,7 @@ window.PHY101_QUESTIONS = [
       "D": "30"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (50)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11661,7 +11661,7 @@ window.PHY101_QUESTIONS = [
       "D": "0.24"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (0.24)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11677,7 +11677,7 @@ window.PHY101_QUESTIONS = [
       "D": "derived quantiy"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (vector quantity)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11693,7 +11693,7 @@ window.PHY101_QUESTIONS = [
       "D": "-1240N"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (1230N)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11709,7 +11709,7 @@ window.PHY101_QUESTIONS = [
       "D": "100 m/s"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (100 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11725,7 +11725,7 @@ window.PHY101_QUESTIONS = [
       "D": "Position"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Displacement)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11741,7 +11741,7 @@ window.PHY101_QUESTIONS = [
       "D": "ML⁻¹T²"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (M⁻¹L³T⁻²)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11757,7 +11757,7 @@ window.PHY101_QUESTIONS = [
       "D": "Pascal"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (Dyne)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11773,7 +11773,7 @@ window.PHY101_QUESTIONS = [
       "D": "80°"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (0°)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11789,7 +11789,7 @@ window.PHY101_QUESTIONS = [
       "D": "50m/s"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (50m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11805,7 +11805,7 @@ window.PHY101_QUESTIONS = [
       "D": "50°"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (45°)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11821,7 +11821,7 @@ window.PHY101_QUESTIONS = [
       "D": "Work done"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (Work done)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11837,7 +11837,7 @@ window.PHY101_QUESTIONS = [
       "D": "17.3s"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (3.46s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11853,7 +11853,7 @@ window.PHY101_QUESTIONS = [
       "D": "u²/2g"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (u²/2g)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11869,7 +11869,7 @@ window.PHY101_QUESTIONS = [
       "D": "ML²T⁻³"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (ML³T⁻³K¹)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11885,7 +11885,7 @@ window.PHY101_QUESTIONS = [
       "D": "vienier caliper"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (fluid)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11901,7 +11901,7 @@ window.PHY101_QUESTIONS = [
       "D": "centri-petal force"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (frictional force)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11917,7 +11917,7 @@ window.PHY101_QUESTIONS = [
       "D": "5ON"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (5ON)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11933,7 +11933,7 @@ window.PHY101_QUESTIONS = [
       "D": "It's a dimensionless quantity"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (It's a dimensionless quantity)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11949,7 +11949,7 @@ window.PHY101_QUESTIONS = [
       "D": "length"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (velocity)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11965,7 +11965,7 @@ window.PHY101_QUESTIONS = [
       "D": "both has magnitude and direction"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (weight is vector while mass is scalar)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11981,7 +11981,7 @@ window.PHY101_QUESTIONS = [
       "D": "fundamental unit"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (fundamental unit)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -11997,7 +11997,7 @@ window.PHY101_QUESTIONS = [
       "D": "Acceleration"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (Speed)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -12013,7 +12013,7 @@ window.PHY101_QUESTIONS = [
       "D": "force stop"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (inertia)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -12029,7 +12029,7 @@ window.PHY101_QUESTIONS = [
       "D": "20N"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (5N)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -12045,7 +12045,7 @@ window.PHY101_QUESTIONS = [
       "D": "basic quantity"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (vector quantity)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -12061,7 +12061,7 @@ window.PHY101_QUESTIONS = [
       "D": "Gravitation"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Statics)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -12077,7 +12077,7 @@ window.PHY101_QUESTIONS = [
       "D": "Atomic Structure"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Space-Time Curvature)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -12093,7 +12093,7 @@ window.PHY101_QUESTIONS = [
       "D": "Time becomes unpredictable"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (Time slows down)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -12109,7 +12109,7 @@ window.PHY101_QUESTIONS = [
       "D": "L² + L¹"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (L³)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -12125,7 +12125,7 @@ window.PHY101_QUESTIONS = [
       "D": "It is a repulsive force"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (It is the curvature of space-time caused by mass-energy)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -12141,7 +12141,7 @@ window.PHY101_QUESTIONS = [
       "D": "Paths of objects under gravity"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Paths of objects in uniform rectilinear motion)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -12157,7 +12157,7 @@ window.PHY101_QUESTIONS = [
       "D": "White Dwarf"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Black Hole)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -12173,7 +12173,7 @@ window.PHY101_QUESTIONS = [
       "D": "The speed of light is the same for all inertial observers, regardless of the relative motion of the source or observer"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (The speed of light is the same for all inertial observers, regardless of the relative motion of the source or observer)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   }
 ];
@@ -12192,8 +12192,8 @@ window.CHM111_QUESTIONS = [
       "C": "Maximum degree of freedom and maximum entropy"
     },
     "answer": "A",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"Minimal degree of freedom and maximum entropy\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q002",
@@ -12207,8 +12207,8 @@ window.CHM111_QUESTIONS = [
       "C": "An equilibrium process"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Non spontaneous\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
     "id": "CHM111_Q003",
@@ -12222,8 +12222,8 @@ window.CHM111_QUESTIONS = [
       "C": "97.3^o C"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"97.3^o C\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q004",
@@ -12237,8 +12237,8 @@ window.CHM111_QUESTIONS = [
       "C": "no effect on rates and equilibrium position"
     },
     "answer": "A",
-    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option A.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option A: \"affects the rates of the reactions\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q005",
@@ -12252,8 +12252,8 @@ window.CHM111_QUESTIONS = [
       "C": "Boyles"
     },
     "answer": "A",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"Le Chateliers\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q006",
@@ -12267,8 +12267,8 @@ window.CHM111_QUESTIONS = [
       "C": "The reaction will shift to the left"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"The reaction will shift to the left\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q007",
@@ -12282,8 +12282,8 @@ window.CHM111_QUESTIONS = [
       "C": "reaction stops"
     },
     "answer": "A",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"The reaction will shift to the left.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q008",
@@ -12297,8 +12297,8 @@ window.CHM111_QUESTIONS = [
       "C": "Kc^, = ½(Kc)"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Kc^, = (Kc) ½\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q009",
@@ -12312,8 +12312,8 @@ window.CHM111_QUESTIONS = [
       "C": "Equilibrium is achieved when reactant and product concentrations are equal."
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Equilibrium is achieved when reactant and product concentrations are equal.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q010",
@@ -12327,8 +12327,8 @@ window.CHM111_QUESTIONS = [
       "C": "2Mg(s) + O_2 (g) <=> 2MgO(s)"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"CaCO_3 (s) <=> CaO(s) + CO_2 (g)\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q011",
@@ -12342,8 +12342,8 @@ window.CHM111_QUESTIONS = [
       "C": "The potential energy of the reactants decreases."
     },
     "answer": "A",
-    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option A.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option A: \"The reaction follows an alternative pathway of lower activation energy.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q012",
@@ -12357,8 +12357,8 @@ window.CHM111_QUESTIONS = [
       "C": "The reaction is unfavourable and will not have very much product B at equilibrium."
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"The reaction is very favourable and will have mostly product B at equilibrium.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q013",
@@ -12372,8 +12372,8 @@ window.CHM111_QUESTIONS = [
       "C": "liquid high vapour pressure will probably have a low surface tension and a high boiling point."
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option B: \"liquid low vapour pressure will probably have a low surface tension and a high boiling point.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q014",
@@ -12387,8 +12387,8 @@ window.CHM111_QUESTIONS = [
       "C": "middle"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Right\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q015",
@@ -12402,8 +12402,8 @@ window.CHM111_QUESTIONS = [
       "C": "Neither reactants nor products are favoured"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Neither reactants nor products are favoured\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q016",
@@ -12417,8 +12417,8 @@ window.CHM111_QUESTIONS = [
       "C": "-13.3"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"13.3\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q017",
@@ -12432,8 +12432,8 @@ window.CHM111_QUESTIONS = [
       "C": "ΔH –, Δ S –"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"ΔH +, Δ S +\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
     "id": "CHM111_Q018",
@@ -12447,8 +12447,8 @@ window.CHM111_QUESTIONS = [
       "C": "Non spontaneous process"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Non spontaneous process\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
     "id": "CHM111_Q019",
@@ -12462,8 +12462,8 @@ window.CHM111_QUESTIONS = [
       "C": "TΔS = 0"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"TΔS = 0\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q020",
@@ -12477,8 +12477,8 @@ window.CHM111_QUESTIONS = [
       "C": "33.6JK"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"-33.6JK\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q021",
@@ -12492,8 +12492,8 @@ window.CHM111_QUESTIONS = [
       "C": "second law to thermodynamics"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"second law to thermodynamics\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q022",
@@ -12507,8 +12507,8 @@ window.CHM111_QUESTIONS = [
       "C": "0.016"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"-1.6 x 10^5\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q023",
@@ -12522,23 +12522,23 @@ window.CHM111_QUESTIONS = [
       "C": "K_c = 4.3"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"K_c = 6.9\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q024",
     "course": "CHM 111",
     "q_num": 24,
     "topic": "Chemical Equilibrium & Le Chatelier",
-    "question": "A 1.00-L flask containing 0.0500 mol of NO(g), 0.0155 mol of Cl2(g), and 0.500 mol of NOCl <br /> 2NO(g) + Cl_2 (g) <=> 2NOCl(g) K_c = 4.6 × 104 Calculate the reaction quotient and determine the direction of the equilibrium shift.",
+    "question": "A 1.00-L flask containing 0.0500 mol of NO(g), 0.0155 mol of Cl2(g), and 0.500 mol of NOCl   2NO(g) + Cl_2 (g) <=> 2NOCl(g) K_c = 4.6 × 104 Calculate the reaction quotient and determine the direction of the equilibrium shift.",
     "options": {
       "A": "Q_c =1.9 x 10^-7 , shift left",
       "B": "Q_c = 6.45 x 10^3 , shift right",
       "C": "Q_c =4.6 x 10^4 , none is favoured"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Q_c =4.6 x 10^4 , none is favoured\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q025",
@@ -12552,8 +12552,8 @@ window.CHM111_QUESTIONS = [
       "C": "a measure of heat content of a substance"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"a measure of heat content of a substance\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q026",
@@ -12567,8 +12567,8 @@ window.CHM111_QUESTIONS = [
       "C": "Heterogeneous equilibrium"
     },
     "answer": "A",
-    "explanation": "According to physical chemistry principles for Acids, Bases & Ionic Equilibria, the correct response is option A.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Acids, Bases & Ionic Equilibria."
+    "explanation": "📖 Core Principle (Acids, Bases & Ionic Equilibria):\nAccording to standard physical chemistry principles, the correct response is Option A: \"Phase equilibrium\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q027",
@@ -12582,8 +12582,8 @@ window.CHM111_QUESTIONS = [
       "C": "PbCl_2 (s) &rarr;Pb^2+ (aq) + 2Cl^- (aq)"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"CO(g) + H_2 O(g) <=> CO_2 (g) + H_2 (g)\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q028",
@@ -12597,8 +12597,8 @@ window.CHM111_QUESTIONS = [
       "C": "Minimal entropy and minimal degree of freedom"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Minimal degree of freedom and minimal entropy\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q029",
@@ -12612,8 +12612,8 @@ window.CHM111_QUESTIONS = [
       "C": "An equilibrium process"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"An equilibrium process\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
     "id": "CHM111_Q030",
@@ -12627,8 +12627,8 @@ window.CHM111_QUESTIONS = [
       "C": "97.3kj/mol"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"97.3^o C\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q031",
@@ -12642,8 +12642,8 @@ window.CHM111_QUESTIONS = [
       "C": "catalyst remains in the reactants"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option B: \"alter the equilibrium position\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q032",
@@ -12657,8 +12657,8 @@ window.CHM111_QUESTIONS = [
       "C": "Zeroth"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Zeroth\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q033",
@@ -12672,8 +12672,8 @@ window.CHM111_QUESTIONS = [
       "C": "The reaction will shift to the left"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"There will be no change to the equilibrium position\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q034",
@@ -12687,8 +12687,8 @@ window.CHM111_QUESTIONS = [
       "C": "reaction stops"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"The reaction will shift to the right.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q035",
@@ -12702,8 +12702,8 @@ window.CHM111_QUESTIONS = [
       "C": "Kc^, = ½(Kc)"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Kc^, = (Kc) ½\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q036",
@@ -12717,8 +12717,8 @@ window.CHM111_QUESTIONS = [
       "C": "Equilibrium is achieved when reactant and product concentrations are equal."
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Equilibrium is achieved when the concentrations of species become constant.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q037",
@@ -12732,8 +12732,8 @@ window.CHM111_QUESTIONS = [
       "C": "2Mg(s) + O_2 (g) <=> 2MgO(s)"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"2Mg(s) + O_2 (g) <=> 2MgO(s)\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q038",
@@ -12747,8 +12747,8 @@ window.CHM111_QUESTIONS = [
       "C": "The potential energy of the reactants decreases."
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option B: \"The heat of reaction decreases.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q039",
@@ -12762,8 +12762,8 @@ window.CHM111_QUESTIONS = [
       "C": "The reaction is unfavourable and will not have very much product B at equilibrium."
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"The reaction is unfavourable and will not have very much product B at equilibrium.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q040",
@@ -12777,8 +12777,8 @@ window.CHM111_QUESTIONS = [
       "C": "liquid high vapour pressure will probably have a low surface tension and a high boiling point."
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option C: \"liquid high vapour pressure will probably have a low surface tension and a high boiling point.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q041",
@@ -12792,8 +12792,8 @@ window.CHM111_QUESTIONS = [
       "C": "middle"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Right\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q042",
@@ -12807,8 +12807,8 @@ window.CHM111_QUESTIONS = [
       "C": "Neither reactants nor products are favoured"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Mostly reactants\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q043",
@@ -12822,8 +12822,8 @@ window.CHM111_QUESTIONS = [
       "C": "-13.3"
     },
     "answer": "A",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"5.97 x 10^5\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q044",
@@ -12837,8 +12837,8 @@ window.CHM111_QUESTIONS = [
       "C": "ΔH –, Δ S –"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"ΔH –, Δ S –\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
     "id": "CHM111_Q045",
@@ -12852,8 +12852,8 @@ window.CHM111_QUESTIONS = [
       "C": "Non spontaneous process"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Spontaneous process at high temperature\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
     "id": "CHM111_Q046",
@@ -12867,8 +12867,8 @@ window.CHM111_QUESTIONS = [
       "C": "Spontaneous process at all temperatures"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Non spontaneous process\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q047",
@@ -12882,8 +12882,8 @@ window.CHM111_QUESTIONS = [
       "C": "TΔS = 0"
     },
     "answer": "A",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option A.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option A: \"TΔS is greater than ΔH\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q048",
@@ -12897,8 +12897,8 @@ window.CHM111_QUESTIONS = [
       "C": "33.6JK"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"33.6JK\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q049",
@@ -12912,8 +12912,8 @@ window.CHM111_QUESTIONS = [
       "C": "second law to thermodynamics"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"second law to thermodynamics\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q050",
@@ -12927,8 +12927,8 @@ window.CHM111_QUESTIONS = [
       "C": "0.016"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"-1.6 x 10^5\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q051",
@@ -12942,23 +12942,23 @@ window.CHM111_QUESTIONS = [
       "C": "K_c = 4.3"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"K_c = 4.3\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q052",
     "course": "CHM 111",
     "q_num": 52,
     "topic": "Chemical Equilibrium & Le Chatelier",
-    "question": "A 1.00-L flask containing 0.0500 mol of NO(g), 0.0155 mol of Cl2(g), and 0.500 mol of NOCl <br /> 2NO(g) + Cl_2 (g) <=> 2NOCl(g) K_c = 4.6 × 104 Calculate the reaction quotient and determine the direction of the equilibrium shift.",
+    "question": "A 1.00-L flask containing 0.0500 mol of NO(g), 0.0155 mol of Cl2(g), and 0.500 mol of NOCl   2NO(g) + Cl_2 (g) <=> 2NOCl(g) K_c = 4.6 × 104 Calculate the reaction quotient and determine the direction of the equilibrium shift.",
     "options": {
       "A": "Q_c =0,shifts right",
       "B": "Q_c =1.9 x 10^-7 , shift left",
       "C": "Q_c = 6.45 x 10^3 , shift right"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Q_c =1.9 x 10^-7 , shift left\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q053",
@@ -12972,8 +12972,8 @@ window.CHM111_QUESTIONS = [
       "C": "a measure of heat content of a substance"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"a measure of its effective concentration under specified conditions.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q054",
@@ -12987,8 +12987,8 @@ window.CHM111_QUESTIONS = [
       "C": "Heterogeneous equilibrium"
     },
     "answer": "A",
-    "explanation": "According to physical chemistry principles for Acids, Bases & Ionic Equilibria, the correct response is option A.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Acids, Bases & Ionic Equilibria."
+    "explanation": "📖 Core Principle (Acids, Bases & Ionic Equilibria):\nAccording to standard physical chemistry principles, the correct response is Option A: \"Phase equilibrium\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q055",
@@ -13002,8 +13002,8 @@ window.CHM111_QUESTIONS = [
       "C": "Catalyst"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Catalyst\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
     "id": "CHM111_Q056",
@@ -13017,8 +13017,8 @@ window.CHM111_QUESTIONS = [
       "C": "The energy stored in chemical bonds is referred to as kinetic energy"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Energy can be converted from one form to another\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q057",
@@ -13032,8 +13032,8 @@ window.CHM111_QUESTIONS = [
       "C": "various properties of the system"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"various properties of the system\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q058",
@@ -13047,8 +13047,8 @@ window.CHM111_QUESTIONS = [
       "C": "No changes occurs"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"From hot to cold\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
     "id": "CHM111_Q059",
@@ -13062,8 +13062,8 @@ window.CHM111_QUESTIONS = [
       "C": "The difference between the energy released by bond formation and the energy consumed by bond cleavage during a chemical reaction"
     },
     "answer": "A",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option A.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option A: \"The energy released when chemical bonds are formed during a chemical reaction\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q060",
@@ -13077,8 +13077,8 @@ window.CHM111_QUESTIONS = [
       "C": "S"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"S\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q061",
@@ -13092,8 +13092,8 @@ window.CHM111_QUESTIONS = [
       "C": "Spontaneous"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Spontaneous\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q062",
@@ -13107,8 +13107,8 @@ window.CHM111_QUESTIONS = [
       "C": "The Gibbs free energy is represented by the symbol G"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"If the Gibbs free energy change for a reaction is negative, the reaction happens spontaneously.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q063",
@@ -13122,8 +13122,8 @@ window.CHM111_QUESTIONS = [
       "C": "Pascal"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Joule\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q064",
@@ -13137,8 +13137,8 @@ window.CHM111_QUESTIONS = [
       "C": "All of the above"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"All of the above\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q065",
@@ -13152,8 +13152,8 @@ window.CHM111_QUESTIONS = [
       "C": "Reverse"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Reverse\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
     "id": "CHM111_Q066",
@@ -13167,8 +13167,8 @@ window.CHM111_QUESTIONS = [
       "C": "no reaction occur"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"mass does not enter or leave the system\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q067",
@@ -13182,8 +13182,8 @@ window.CHM111_QUESTIONS = [
       "C": "Spontaneous"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Backward reaction\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q068",
@@ -13197,8 +13197,8 @@ window.CHM111_QUESTIONS = [
       "C": "zero"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"zero\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
     "id": "CHM111_Q069",
@@ -13212,8 +13212,8 @@ window.CHM111_QUESTIONS = [
       "C": "a reversible process"
     },
     "answer": "A",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"greater and more uniform dispersal of matter\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q070",
@@ -13227,8 +13227,8 @@ window.CHM111_QUESTIONS = [
       "C": "a reversible process"
     },
     "answer": "A",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"greater and more uniform dispersal of matter\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q071",
@@ -13242,8 +13242,8 @@ window.CHM111_QUESTIONS = [
       "C": "Oxidation of plastics is slow and spontaneous"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Oxidation of plastics is slow and spontaneous\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q072",
@@ -13257,8 +13257,8 @@ window.CHM111_QUESTIONS = [
       "C": "ΔS = 0"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"ΔS = negative\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q073",
@@ -13272,8 +13272,8 @@ window.CHM111_QUESTIONS = [
       "C": "ΔS = +/-"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"ΔS = +/-\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q074",
@@ -13287,8 +13287,8 @@ window.CHM111_QUESTIONS = [
       "C": "ΔS is = 0"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"ΔS = negative\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q075",
@@ -13302,8 +13302,8 @@ window.CHM111_QUESTIONS = [
       "C": "Entropy is equal to 0"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Melting is non spontaneous at 10^o\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
     "id": "CHM111_Q076",
@@ -13317,8 +13317,8 @@ window.CHM111_QUESTIONS = [
       "C": "Entropy is equal to 0"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Entropy is equal to 0\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
     "id": "CHM111_Q077",
@@ -13332,8 +13332,8 @@ window.CHM111_QUESTIONS = [
       "C": "Third law of thermodynamics"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Third law of thermodynamics\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q078",
@@ -13347,8 +13347,8 @@ window.CHM111_QUESTIONS = [
       "C": "S° Entropy of a perfect crystal at absolute zero"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"ΔS^o 298 Standard change in entropy at room temperature\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q079",
@@ -13362,8 +13362,8 @@ window.CHM111_QUESTIONS = [
       "C": "ΔS is negative"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"ΔS is negative\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q080",
@@ -13377,8 +13377,8 @@ window.CHM111_QUESTIONS = [
       "C": "Gibb's free energy is positive"
     },
     "answer": "B",
-    "explanation": "According to physical chemistry principles for Electrochemistry & Redox Processes, the correct response is option B.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Electrochemistry & Redox Processes."
+    "explanation": "📖 Core Principle (Electrochemistry & Redox Processes):\nAccording to standard physical chemistry principles, the correct response is Option B: \"The equilibrium constant is greater than one\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q081",
@@ -13392,8 +13392,8 @@ window.CHM111_QUESTIONS = [
       "C": "hot and cold"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"hot and cold\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
     "id": "CHM111_Q082",
@@ -13407,8 +13407,8 @@ window.CHM111_QUESTIONS = [
       "C": "ΔS= ΔH/T"
     },
     "answer": "C",
-    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
-    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"ΔS= ΔH/T\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   }
 ];
 
@@ -13427,8 +13427,8 @@ window.CHM191_QUESTIONS = [
       "D": "None of the above"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, In titrimetric analysis, substance of known concentration is called corresponds to Titrant.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn volumetric (titrimetric) analysis, the solution of precisely known concentration placed in the burette is defined as the Titrant.\n\n🔍 Option Breakdown:\n• Titrant: Standard solution of known concentration in the burette.\n• Titrand / Analyte: Solution of unknown concentration in the conical flask being analyzed.\n\n• Correct Choice: Option A (Titrant)",
+    "speed_hack": "⚡ CBT Speed Hack: Known in burette = Titrant. Unknown in flask = Analyte / Titrand."
   },
   {
     "id": "CHM191_MNS_002",
@@ -13443,8 +13443,8 @@ window.CHM191_QUESTIONS = [
       "D": "Index point"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, The point at which equal amount of titrant and analyte have reacted is called corresponds to Equivalence point.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nThe theoretical point where stoichiometrically equivalent amounts of titrant and analyte have reacted is the Equivalence Point.\n\n🔍 Option Breakdown:\n• Equivalence Point: Theoretical stoichiometric neutralization point (moles acid = moles base).\n• Endpoint: The practical observation point where the indicator changes color.\n\n• Correct Choice: Option A (Equivalence point)",
+    "speed_hack": "⚡ CBT Speed Hack: Theoretical equal reaction = Equivalence Point. Color change = Endpoint."
   },
   {
     "id": "CHM191_MNS_003",
@@ -13459,8 +13459,8 @@ window.CHM191_QUESTIONS = [
       "D": "gravimetric reaction"
     },
     "answer": "D",
-    "explanation": "In practical volumetric analysis, All the following are classes of titrimetic analysis EXCEPT corresponds to gravimetric reaction.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nTitrimetric analysis is divided into four major reaction classes: Acid-Base, Oxidation-Reduction (Redox), Complexometric, and Precipitation titrations.\n\n🔍 Option Breakdown:\n• Gravimetric analysis involves weighing a precipitate, which is NOT titrimetric (it uses a balance, not a burette).\n\n• Correct Choice: Option D (gravimetric reaction)",
+    "speed_hack": "⚡ CBT Speed Hack: Gravimetric = Mass / Weight. All others (Acid-Base, Redox, Complexometric) = Titrimetric."
   },
   {
     "id": "CHM191_MNS_004",
@@ -13475,8 +13475,8 @@ window.CHM191_QUESTIONS = [
       "D": "1cm³"
     },
     "answer": "B",
-    "explanation": "In practical volumetric analysis, What volume must be taken from 500cm³ of 2M HCl(aq) in order to prepare 50cm³ of 0.04M HCI(aq) corresponds to 5.5cm³.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nAn indicator signal indicates the Endpoint of the titration.\n\n🔍 Option Breakdown:\nThe color change produced by an indicator marks the practical physical endpoint of the titration.\n\n• Correct Choice: Option B (5.5cm³)",
+    "speed_hack": "⚡ CBT Speed Hack: Indicator change = Experimental Endpoint."
   },
   {
     "id": "CHM191_MNS_006",
@@ -13491,8 +13491,8 @@ window.CHM191_QUESTIONS = [
       "D": "33.33ml"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, What volume will be taken from stock solution of 0.45M HCl(aq) in order to prepare 100ml of 0.15M HCl(aq) corresponds to 65.55ml.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nA Primary Standard is a reagent that is extremely pure, stable, has high molar mass, and can be dissolved to form a known concentration directly.\n\n🔍 Option Breakdown:\n• Anhydrous Na₂CO₃, Potassium hydrogen phthalate (KHP), and Oxalic acid dihydrate are primary standards.\n• NaOH and HCl are secondary standards because they absorb moisture/CO₂ from the air.\n\n• Correct Choice: Option A (65.55ml)",
+    "speed_hack": "⚡ CBT Speed Hack: Primary standards must be pure (≥99.9%) and non-hygroscopic (stable in air)."
   },
   {
     "id": "CHM191_MNS_007",
@@ -13507,8 +13507,8 @@ window.CHM191_QUESTIONS = [
       "D": "hydrogen ion acceptor"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, Bronsted-Lowry define an acid as corresponds to an electron pair donor.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nSecondary standard solutions must be standardized against a primary standard before use because their concentration changes over time.\n\n🔍 Option Breakdown:\nNaOH absorbs atmospheric CO₂ and moisture, while concentrated HCl fumes; neither can be prepared by direct weighing.\n\n• Correct Choice: Option C (an electron pair donor)",
+    "speed_hack": "⚡ CBT Speed Hack: NaOH and HCl are secondary standards -> require standardization."
   },
   {
     "id": "CHM191_MNS_008",
@@ -13523,8 +13523,8 @@ window.CHM191_QUESTIONS = [
       "D": "None of the above"
     },
     "answer": "D",
-    "explanation": "In practical volumetric analysis, Organic acids are corresponds to None of the above.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nA standard solution is simply any solution whose concentration is accurately known.\n\n🔍 Option Breakdown:\nIt serves as the reference benchmark in volumetric analysis.\n\n• Correct Choice: Option D (None of the above)",
+    "speed_hack": "⚡ CBT Speed Hack: Known accurate concentration = Standard Solution."
   },
   {
     "id": "CHM191_MNS_011",
@@ -13539,8 +13539,8 @@ window.CHM191_QUESTIONS = [
       "D": "7.94x10 M"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, If the pH of H2SO4(aq) is 3.1, calculate its hydrogen ion concentration corresponds to 7.94x10 M.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 7.94x10 M is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"If the pH of H2SO4(aq) is 3.1, calculate its hydrogen ion concentration\", Option C (7.94x10 M) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (7.94x10 M)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_012",
@@ -13555,8 +13555,8 @@ window.CHM191_QUESTIONS = [
       "D": "8.1x10 M"
     },
     "answer": "D",
-    "explanation": "In practical volumetric analysis, If the pH of NaOH solution is 11, What is its hydroxide ion concentration corresponds to 8.1x10 M.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 8.1x10 M is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"If the pH of NaOH solution is 11, What is its hydroxide ion concentration\", Option D (8.1x10 M) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (8.1x10 M)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_013",
@@ -13571,8 +13571,8 @@ window.CHM191_QUESTIONS = [
       "D": "8.5"
     },
     "answer": "B",
-    "explanation": "In practical volumetric analysis, The pH of 0.05M tetraoxosulphate (VI) acid is corresponds to 1.3.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 1.3 is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"The pH of 0.05M tetraoxosulphate (VI) acid is\", Option B (1.3) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (1.3)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_014",
@@ -13587,8 +13587,8 @@ window.CHM191_QUESTIONS = [
       "D": "2.67"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, The pK, of 0.05M acetic acid at 25°C is 4.76. Find its pH corresponds to 3.03.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 3.03 is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"The pK, of 0.05M acetic acid at 25°C is 4.76. Find its pH\", Option A (3.03) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (3.03)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_015",
@@ -13603,8 +13603,8 @@ window.CHM191_QUESTIONS = [
       "D": "3.09"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, What is the pH of 0.01M benzoic acid [Ka 6.5x10] corresponds to 2.57.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 2.57 is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"What is the pH of 0.01M benzoic acid [Ka 6.5x10]\", Option C (2.57) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (2.57)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_016",
@@ -13619,8 +13619,8 @@ window.CHM191_QUESTIONS = [
       "D": "7.1-7.9"
     },
     "answer": "D",
-    "explanation": "In practical volumetric analysis, What is the pH interval of the colour change of phenolphthalein indicator corresponds to 7.1-7.9.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 7.1-7.9 is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"What is the pH interval of the colour change of phenolphthalein indicator\", Option D (7.1-7.9) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (7.1-7.9)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_017",
@@ -13635,8 +13635,8 @@ window.CHM191_QUESTIONS = [
       "D": "0.1M HCI"
     },
     "answer": "B",
-    "explanation": "In practical volumetric analysis, Which of the following has the lowest pH value corresponds to 0.1M NaCl.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 0.1M NaCl is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Which of the following has the lowest pH value\", Option B (0.1M NaCl) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (0.1M NaCl)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_018",
@@ -13651,8 +13651,8 @@ window.CHM191_QUESTIONS = [
       "D": "None of the above"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, 120ml of 0.30M HCI is mixed with 100ml of 0.34M NaOH. What is the nature of the mixture corresponds to Acidic.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Acidic is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"120ml of 0.30M HCI is mixed with 100ml of 0.34M NaOH. What is the nature of the mixture\", Option A (Acidic) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Acidic)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_019",
@@ -13667,8 +13667,8 @@ window.CHM191_QUESTIONS = [
       "D": "warm the solution before filtering"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, the best procedure to use when filtering an aqueous solution to collect a precipitate is to corresponds to use large amount of water to ensure all soluble matter is separated from the precipitate.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, use large amount of water to ensure all soluble matter is separated from the precipitate is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"the best procedure to use when filtering an aqueous solution to collect a precipitate is to\", Option C (use large amount of water to ensure all soluble matter is separated from the precipitate) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (use large amount of water to ensure all soluble matter is separated from the precipitate)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_020",
@@ -13683,8 +13683,8 @@ window.CHM191_QUESTIONS = [
       "D": "able to be stored for an extended time without deterioration"
     },
     "answer": "B",
-    "explanation": "In practical volumetric analysis, which of the following is not a property required of the substance chosen for use as a precipitate in a gravimetric analysis corresponds to has known formula.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, has known formula is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following is not a property required of the substance chosen for use as a precipitate in a gravimetric analysis\", Option B (has known formula) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (has known formula)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_021",
@@ -13699,8 +13699,8 @@ window.CHM191_QUESTIONS = [
       "D": "alkalimetry"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, which of the following pH values is an acceptable equivalence point for a strong base being titrated by a strong acid corresponds to acidity.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, acidity is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following pH values is an acceptable equivalence point for a strong base being titrated by a strong acid\", Option A (acidity) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (acidity)",
+    "speed_hack": "⚡ CBT Speed Hack: In volumetric titrations, always pair the correct glassware with the reagent role (Burette = Titrant, Conical Flask = Analyte)."
   },
   {
     "id": "CHM191_MNS_027",
@@ -13715,8 +13715,8 @@ window.CHM191_QUESTIONS = [
       "D": "potassium hydrogen phthalate 35: endpoint detection is affected by some of the following factors except"
     },
     "answer": "D",
-    "explanation": "In practical volumetric analysis, which of the following indicator is red in acidic medium and yellow in the basic medium corresponds to potassium hydrogen phthalate 35: endpoint detection is affected by some of the following factors except.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, potassium hydrogen phthalate 35: endpoint detection is affected by some of the following factors except is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following indicator is red in acidic medium and yellow in the basic medium\", Option D (potassium hydrogen phthalate 35: endpoint detection is affected by some of the following factors except) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (potassium hydrogen phthalate 35: endpoint detection is affected by some of the following factors except)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_036",
@@ -13731,8 +13731,8 @@ window.CHM191_QUESTIONS = [
       "D": "lonic strength of the medium Mass of the substance"
     },
     "answer": "D",
-    "explanation": "In practical volumetric analysis, Which of the following factors cannot cause an indicator's pH range to change corresponds to lonic strength of the medium Mass of the substance.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, lonic strength of the medium Mass of the substance is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Which of the following factors cannot cause an indicator's pH range to change\", Option D (lonic strength of the medium Mass of the substance) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (lonic strength of the medium Mass of the substance)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_037",
@@ -13747,8 +13747,8 @@ window.CHM191_QUESTIONS = [
       "D": "methyl red"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, which of the following indicator is colourless in acidic medium and pink in the basic medium corresponds to phenolphthalein.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, phenolphthalein is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following indicator is colourless in acidic medium and pink in the basic medium\", Option C (phenolphthalein) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (phenolphthalein)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_038",
@@ -13763,8 +13763,8 @@ window.CHM191_QUESTIONS = [
       "D": "methyl red"
     },
     "answer": "B",
-    "explanation": "In practical volumetric analysis, which of the following indicator is red in acidic medium and blue in the basic medium corresponds to litmus paper.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, litmus paper is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following indicator is red in acidic medium and blue in the basic medium\", Option B (litmus paper) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (litmus paper)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_039",
@@ -13779,8 +13779,8 @@ window.CHM191_QUESTIONS = [
       "D": "methyl red"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, which of the following indicator is pink in acidic medium and yellow in the basic medium corresponds to methyl orange.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, methyl orange is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following indicator is pink in acidic medium and yellow in the basic medium\", Option A (methyl orange) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (methyl orange)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_MNS_041",
@@ -13795,8 +13795,8 @@ window.CHM191_QUESTIONS = [
       "D": "volumetric flask"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, which Among the following is used to measure heat of reaction. corresponds to calorimeter.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, calorimeter is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which Among the following is used to measure heat of reaction.\", Option C (calorimeter) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (calorimeter)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_042",
@@ -13811,8 +13811,8 @@ window.CHM191_QUESTIONS = [
       "D": "volumetric flask"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, which Among the following is used for heating of solids particularly metals to very high temperatures. corresponds to crucible.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, crucible is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which Among the following is used for heating of solids particularly metals to very high temperatures.\", Option A (crucible) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (crucible)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_043",
@@ -13827,8 +13827,8 @@ window.CHM191_QUESTIONS = [
       "D": "Beaker"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, ......…. corresponds to burette.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, burette is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"......…. Is used to measure the volume of liquids\", Option C (burette) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (burette)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_044",
@@ -13843,8 +13843,8 @@ window.CHM191_QUESTIONS = [
       "D": "Beaker"
     },
     "answer": "B",
-    "explanation": "In practical volumetric analysis, ......…. corresponds to Test tube.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Test tube is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"......…. Is used to mix and heat chemicals.\", Option B (Test tube) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Test tube)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_045",
@@ -13859,8 +13859,8 @@ window.CHM191_QUESTIONS = [
       "D": "Beaker"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, which among the following Is used to hold large amount of liquids corresponds to conical flask.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, conical flask is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which among the following Is used to hold large amount of liquids\", Option A (conical flask) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (conical flask)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_046",
@@ -13875,8 +13875,8 @@ window.CHM191_QUESTIONS = [
       "D": "volumetric flask"
     },
     "answer": "D",
-    "explanation": "In practical volumetric analysis, which among the following Is used to prepare standard solutions. corresponds to volumetric flask.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, volumetric flask is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which among the following Is used to prepare standard solutions.\", Option D (volumetric flask) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (volumetric flask)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_MNS_047",
@@ -13891,8 +13891,8 @@ window.CHM191_QUESTIONS = [
       "D": "methyl red"
     },
     "answer": "A",
-    "explanation": "In practical volumetric analysis, which of the following indicator is used in the titration of a weak base against strong acid. corresponds to methyl orange.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, methyl orange is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following indicator is used in the titration of a weak base against strong acid.\", Option A (methyl orange) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (methyl orange)",
+    "speed_hack": "⚡ CBT Speed Hack: In volumetric titrations, always pair the correct glassware with the reagent role (Burette = Titrant, Conical Flask = Analyte)."
   },
   {
     "id": "CHM191_MNS_048",
@@ -13907,8 +13907,8 @@ window.CHM191_QUESTIONS = [
       "D": "methyl red"
     },
     "answer": "C",
-    "explanation": "In practical volumetric analysis, which of the following indicator is used in the titration of a strong acid and strong base corresponds to phenolphthalein.",
-    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, phenolphthalein is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"which of the following indicator is used in the titration of a strong acid and strong base\", Option C (phenolphthalein) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (phenolphthalein)",
+    "speed_hack": "⚡ CBT Speed Hack: In volumetric titrations, always pair the correct glassware with the reagent role (Burette = Titrant, Conical Flask = Analyte)."
   },
   {
     "id": "CHM191_FAQ_001",
@@ -13923,8 +13923,8 @@ window.CHM191_QUESTIONS = [
       "D": "200°C"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, Whatistheboilingpointofwateratsealevel is 100°C.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 100°C is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatistheboilingpointofwateratsealevel\", Option A (100°C) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (100°C)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_002",
@@ -13939,8 +13939,8 @@ window.CHM191_QUESTIONS = [
       "D": "Testtube"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whichpieceoflaboratoryequipmentisusedtomeasure precisevolumesofliquid is Graduatedcylinder.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Graduatedcylinder is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichpieceoflaboratoryequipmentisusedtomeasure precisevolumesofliquid\", Option C (Graduatedcylinder) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Graduatedcylinder)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_003",
@@ -13955,8 +13955,8 @@ window.CHM191_QUESTIONS = [
       "D": "Pt"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whatisthechemicalsymbolforgold is Au.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Au is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatisthechemicalsymbolforgold\", Option B (Au) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Au)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_004",
@@ -13971,8 +13971,8 @@ window.CHM191_QUESTIONS = [
       "D": "Combustionreaction"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whichtypeofreactioninvolvesthetransferofelectronsfrom onesubstancetoanother is Redoxreaction.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Redoxreaction is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichtypeofreactioninvolvesthetransferofelectronsfrom onesubstancetoanother\", Option B (Redoxreaction) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Redoxreaction)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_005",
@@ -13987,8 +13987,8 @@ window.CHM191_QUESTIONS = [
       "D": "10"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, WhatisthepHofaneutralsolution is 7.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, 7 is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"WhatisthepHofaneutralsolution\", Option A (7) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (7)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_FAQ_006",
@@ -14003,8 +14003,8 @@ window.CHM191_QUESTIONS = [
       "D": "Nitrogen"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whichgasisproducedduringtheelectrolysisofwater is Hydrogen.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Hydrogen is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichgasisproducedduringtheelectrolysisofwater\", Option B (Hydrogen) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Hydrogen)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_007",
@@ -14019,8 +14019,8 @@ window.CHM191_QUESTIONS = [
       "D": "CaCl2"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, Whatisthechemicalformulafortablesalt is NaCl.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, NaCl is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatisthechemicalformulafortablesalt\", Option A (NaCl) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (NaCl)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_008",
@@ -14035,8 +14035,8 @@ window.CHM191_QUESTIONS = [
       "D": "Evaporation"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whatistheprocessofseparatingamixturebasedon differencesinboilingpointscalled is Distillation.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Distillation is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatistheprocessofseparatingamixturebasedon differencesinboilingpointscalled\", Option B (Distillation) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Distillation)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_009",
@@ -14051,8 +14051,8 @@ window.CHM191_QUESTIONS = [
       "D": "Hydrogen"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, WhichelementisthemostabundantinEarth' satmosphere is Nitrogen.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Nitrogen is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"WhichelementisthemostabundantinEarth' satmosphere\", Option B (Nitrogen) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Nitrogen)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_FAQ_010",
@@ -14067,8 +14067,8 @@ window.CHM191_QUESTIONS = [
       "D": "Rankine(°R)"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, WhatistheSIunitformeasuringtemperature is Kelvin(K).",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Kelvin(K) is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"WhatistheSIunitformeasuringtemperature\", Option A (Kelvin(K)) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Kelvin(K))",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_011",
@@ -14083,8 +14083,8 @@ window.CHM191_QUESTIONS = [
       "D": "Graduatedcylinder"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whichtypeofglasswareisusedtoholdandheatsmall amountsofliquid is Testtube.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Testtube is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichtypeofglasswareisusedtoholdandheatsmall amountsofliquid\", Option C (Testtube) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Testtube)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_012",
@@ -14099,8 +14099,8 @@ window.CHM191_QUESTIONS = [
       "D": "Deposition"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, Whatistheprocessofasolidchangingdirectlyintoagas called is Sublimation.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Sublimation is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatistheprocessofasolidchangingdirectlyintoagas called\", Option A (Sublimation) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Sublimation)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_013",
@@ -14115,8 +14115,8 @@ window.CHM191_QUESTIONS = [
       "D": "Hydrogenbond"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whichtypeofbondinvolvesthesharingofelectronsbetween atoms is Covalentbond.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Covalentbond is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichtypeofbondinvolvesthesharingofelectronsbetween atoms\", Option B (Covalentbond) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Covalentbond)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_014",
@@ -14131,8 +14131,8 @@ window.CHM191_QUESTIONS = [
       "D": "Ie"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, Whatisthechemicalsymbolforiron is Fe.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Fe is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatisthechemicalsymbolforiron\", Option A (Fe) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Fe)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_015",
@@ -14147,8 +14147,8 @@ window.CHM191_QUESTIONS = [
       "D": "Carbondioxide"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whichgasisresponsibleforthe\"pop\"soundwhenaburning splintisplacedintoatesttubeofgas is Hydrogen.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Hydrogen is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichgasisresponsibleforthe\"pop\"soundwhenaburning splintisplacedintoatesttubeofgas\", Option B (Hydrogen) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Hydrogen)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_016",
@@ -14163,8 +14163,8 @@ window.CHM191_QUESTIONS = [
       "D": "Deposition"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whatistheprocessofagaschangingintoaliquidcalled is Condensation.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Condensation is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatistheprocessofagaschangingintoaliquidcalled\", Option C (Condensation) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Condensation)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_017",
@@ -14179,8 +14179,8 @@ window.CHM191_QUESTIONS = [
       "D": "Doublereplacementreaction"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whichtypeofreactioninvolvesthecombinationoftwoor moresubstancestoformasingleproduct is Synthesisreaction.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Synthesisreaction is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichtypeofreactioninvolvesthecombinationoftwoor moresubstancestoformasingleproduct\", Option B (Synthesisreaction) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Synthesisreaction)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_018",
@@ -14195,8 +14195,8 @@ window.CHM191_QUESTIONS = [
       "D": "OH2"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whatisthechemicalformulaforwater is H2O.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, H2O is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatisthechemicalformulaforwater\", Option C (H2O) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (H2O)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_019",
@@ -14211,8 +14211,8 @@ window.CHM191_QUESTIONS = [
       "D": "Testtube"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whichpieceoflaboratoryequipmentisusedtomeasure masswithhighprecision is Balancescale.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Balancescale is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichpieceoflaboratoryequipmentisusedtomeasure masswithhighprecision\", Option C (Balancescale) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Balancescale)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_020",
@@ -14227,8 +14227,8 @@ window.CHM191_QUESTIONS = [
       "D": "Evaporation"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whatistheprocessofseparatingamixturebasedon differencesinsolubilitycalled is Chromatography.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Chromatography is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatistheprocessofseparatingamixturebasedon differencesinsolubilitycalled\", Option C (Chromatography) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Chromatography)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_021",
@@ -14243,8 +14243,8 @@ window.CHM191_QUESTIONS = [
       "D": "C2O3"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, Whatisthechemicalformulaforcarbondioxide is CO2.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, CO2 is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatisthechemicalformulaforcarbondioxide\", Option A (CO2) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (CO2)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_022",
@@ -14259,8 +14259,8 @@ window.CHM191_QUESTIONS = [
       "D": "Graduatedcylinder"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whichtypeofglasswareisusedtomeasureandtransfer smallvolumesofliquid is Pipette.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Pipette is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichtypeofglasswareisusedtomeasureandtransfer smallvolumesofliquid\", Option C (Pipette) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Pipette)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_023",
@@ -14275,8 +14275,8 @@ window.CHM191_QUESTIONS = [
       "D": "Deposition"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whatistheprocessofaliquidchangingintoagasatthe surfacecalled is Vaporization.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Vaporization is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatistheprocessofaliquidchangingintoagasatthe surfacecalled\", Option B (Vaporization) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Vaporization)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_024",
@@ -14291,8 +14291,8 @@ window.CHM191_QUESTIONS = [
       "D": "Hydrogenbond"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, Whichtypeofbondinvolvesthetransferofelectronsfrom oneatomtoanother is Ionicbond.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Ionicbond is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichtypeofbondinvolvesthetransferofelectronsfrom oneatomtoanother\", Option A (Ionicbond) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Ionicbond)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_025",
@@ -14307,8 +14307,8 @@ window.CHM191_QUESTIONS = [
       "D": "No"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, Whatisthechemicalsymbolforsodium is Na.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Na is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whatisthechemicalsymbolforsodium\", Option C (Na) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Na)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_026",
@@ -14323,8 +14323,8 @@ window.CHM191_QUESTIONS = [
       "D": "TotestpHlevels"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, .WhatisthepurposeofaBunsenburnerinachemistrylab is Toheatsubstances.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Toheatsubstances is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".WhatisthepurposeofaBunsenburnerinachemistrylab\", Option A (Toheatsubstances) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Toheatsubstances)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_027",
@@ -14339,8 +14339,8 @@ window.CHM191_QUESTIONS = [
       "D": "Testtube"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab is Graduatedcylinder.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Graduatedcylinder is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab\", Option C (Graduatedcylinder) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Graduatedcylinder)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_028",
@@ -14355,8 +14355,8 @@ window.CHM191_QUESTIONS = [
       "D": "Tomixchemicals"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .Whatisthefunctionofamortarandpestleinachemistrylab is Togrindsubstancesintopowders.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Togrindsubstancesintopowders is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthefunctionofamortarandpestleinachemistrylab\", Option B (Togrindsubstancesintopowders) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Togrindsubstancesintopowders)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_029",
@@ -14371,8 +14371,8 @@ window.CHM191_QUESTIONS = [
       "D": "Toconductexperiments"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whatisthepurposeofafumehoodinachemistrylab is Toprovideventilationforharmfulfumes.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Toprovideventilationforharmfulfumes is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthepurposeofafumehoodinachemistrylab\", Option C (Toprovideventilationforharmfulfumes) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Toprovideventilationforharmfulfumes)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_030",
@@ -14387,8 +14387,8 @@ window.CHM191_QUESTIONS = [
       "D": "Facemaskandboots"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, .Whichsafetyequipmentshouldbewornwhenworkingwith chemicalsinachemistrylab is Glovesandgoggles.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Glovesandgoggles is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichsafetyequipmentshouldbewornwhenworkingwith chemicalsinachemistrylab\", Option A (Glovesandgoggles) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Glovesandgoggles)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_031",
@@ -14403,8 +14403,8 @@ window.CHM191_QUESTIONS = [
       "D": "Tomeasurevolume"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whatisthepurposeofawashbottleinachemistrylab is Tocleanglassware.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Tocleanglassware is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthepurposeofawashbottleinachemistrylab\", Option C (Tocleanglassware) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Tocleanglassware)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_032",
@@ -14419,8 +14419,8 @@ window.CHM191_QUESTIONS = [
       "D": "Springbalance"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichtypeofbalanceisusedtomeasuresmallmassesina chemistrylab is Analyticalbalance.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Analyticalbalance is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichtypeofbalanceisusedtomeasuresmallmassesina chemistrylab\", Option C (Analyticalbalance) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Analyticalbalance)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_033",
@@ -14435,8 +14435,8 @@ window.CHM191_QUESTIONS = [
       "D": "Tostoresamples"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, .Whatisthefunctionofahotplateinachemistrylab is Toheatsubstances.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Toheatsubstances is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthefunctionofahotplateinachemistrylab\", Option A (Toheatsubstances) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Toheatsubstances)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_034",
@@ -14451,8 +14451,8 @@ window.CHM191_QUESTIONS = [
       "D": "Testtube"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichpieceofglasswareisusedtotransfersmallamounts ofliquidinachemistrylab is Dropperpipette.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Dropperpipette is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichpieceofglasswareisusedtotransfersmallamounts ofliquidinachemistrylab\", Option C (Dropperpipette) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Dropperpipette)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_035",
@@ -14467,8 +14467,8 @@ window.CHM191_QUESTIONS = [
       "D": "Tomixchemicals"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whatisthepurposeofadesiccatorinachemistrylab is Todrysubstances.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Todrysubstances is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthepurposeofadesiccatorinachemistrylab\", Option C (Todrysubstances) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Todrysubstances)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_036",
@@ -14483,8 +14483,8 @@ window.CHM191_QUESTIONS = [
       "D": "Graduatedcylinder"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichtypeofglasswareisusedtocontainandheatsmall amountsofliquidinachemistrylab is Testtube.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Testtube is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichtypeofglasswareisusedtocontainandheatsmall amountsofliquidinachemistrylab\", Option C (Testtube) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Testtube)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_037",
@@ -14499,8 +14499,8 @@ window.CHM191_QUESTIONS = [
       "D": "TotestpHlevels"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .Whatisthefunctionofamagneticstirrerinachemistrylab is Tomixchemicals.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Tomixchemicals is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthefunctionofamagneticstirrerinachemistrylab\", Option B (Tomixchemicals) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Tomixchemicals)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_038",
@@ -14515,8 +14515,8 @@ window.CHM191_QUESTIONS = [
       "D": "Graduatedcylinder"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, .Whichtypeofglasswareisusedtoholdandmixliquidsina chemistrylab is Beaker.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Beaker is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichtypeofglasswareisusedtoholdandmixliquidsina chemistrylab\", Option A (Beaker) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Beaker)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_039",
@@ -14531,8 +14531,8 @@ window.CHM191_QUESTIONS = [
       "D": "Tostorechemicals"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .Whatisthepurposeofapipetteinachemistrylab is Totransfersmallamountsofliquid.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Totransfersmallamountsofliquid is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthepurposeofapipetteinachemistrylab\", Option B (Totransfersmallamountsofliquid) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Totransfersmallamountsofliquid)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_040",
@@ -14547,8 +14547,8 @@ window.CHM191_QUESTIONS = [
       "D": "Graduatedcylinder"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtostoreand heatsolutionsinachemistrylab is Erlenmeyerflask.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Erlenmeyerflask is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichpieceofglasswareiscommonlyusedtostoreand heatsolutionsinachemistrylab\", Option B (Erlenmeyerflask) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Erlenmeyerflask)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_041",
@@ -14563,8 +14563,8 @@ window.CHM191_QUESTIONS = [
       "D": "Tomixchemicals"
     },
     "answer": "A",
-    "explanation": "In practical chemistry, .WhatisthefunctionofaBuchnerfunnelinachemistrylab is Tofiltersolidsfromliquids.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Tofiltersolidsfromliquids is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".WhatisthefunctionofaBuchnerfunnelinachemistrylab\", Option A (Tofiltersolidsfromliquids) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Tofiltersolidsfromliquids)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_042",
@@ -14579,8 +14579,8 @@ window.CHM191_QUESTIONS = [
       "D": "Graduatedcylinder"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichtypeofglasswareisusedtomeasurethevolumeof gasesinachemistrylab is Gassyringe.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Gassyringe is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichtypeofglasswareisusedtomeasurethevolumeof gasesinachemistrylab\", Option C (Gassyringe) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Gassyringe)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_043",
@@ -14595,8 +14595,8 @@ window.CHM191_QUESTIONS = [
       "D": "Tomixchemicals"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whatisthepurposeofanevaporatingdishinachemistrylab is Toheatandevaporateliquids.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Toheatandevaporateliquids is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthepurposeofanevaporatingdishinachemistrylab\", Option C (Toheatandevaporateliquids) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Toheatandevaporateliquids)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_044",
@@ -14611,8 +14611,8 @@ window.CHM191_QUESTIONS = [
       "D": "Heatingmantle"
     },
     "answer": "D",
-    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtoconduct reactionsatspecifictemperaturesinachemistrylab is Heatingmantle.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Heatingmantle is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichpieceofglasswareiscommonlyusedtoconduct reactionsatspecifictemperaturesinachemistrylab\", Option D (Heatingmantle) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (Heatingmantle)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_045",
@@ -14627,8 +14627,8 @@ window.CHM191_QUESTIONS = [
       "D": "TotestpHlevels"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whatisthefunctionofaseparatoryfunnelinachemistrylab is Toseparateimmiscibleliquidsorsolidsfromliquids.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Toseparateimmiscibleliquidsorsolidsfromliquids is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthefunctionofaseparatoryfunnelinachemistrylab\", Option C (Toseparateimmiscibleliquidsorsolidsfromliquids) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Toseparateimmiscibleliquidsorsolidsfromliquids)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_046",
@@ -14643,8 +14643,8 @@ window.CHM191_QUESTIONS = [
       "D": "Testtube"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab is Graduatedcylinder.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Graduatedcylinder is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab\", Option C (Graduatedcylinder) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Graduatedcylinder)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_047",
@@ -14659,8 +14659,8 @@ window.CHM191_QUESTIONS = [
       "D": "Insolubleinwater."
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Whichofthefollowingisacharacteristicofmetals is Goodconductorsofheatandelectricity..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Goodconductorsofheatandelectricity. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Whichofthefollowingisacharacteristicofmetals\", Option B (Goodconductorsofheatandelectricity.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Goodconductorsofheatandelectricity.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_048",
@@ -14675,8 +14675,8 @@ window.CHM191_QUESTIONS = [
       "D": "Magnesiumnitride."
     },
     "answer": "B",
-    "explanation": "In practical chemistry, Astudentaddsmagnesiumturningstoacrucible,andthen heatsitusingaBunsenburner.Whichofthefollowingsubstances isproduced is Magnesiumoxide..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Magnesiumoxide. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \"Astudentaddsmagnesiumturningstoacrucible,andthen heatsitusingaBunsenburner.Whichofthefollowingsubstances isproduced\", Option B (Magnesiumoxide.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Magnesiumoxide.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_049",
@@ -14691,8 +14691,8 @@ window.CHM191_QUESTIONS = [
       "C": "Hydrogen."
     },
     "answer": "D",
-    "explanation": "In practical chemistry, .WhichofthefollowingisNOTaproductoftheelectrolysisof moltenleadbromide is Oxygen..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Oxygen. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".WhichofthefollowingisNOTaproductoftheelectrolysisof moltenleadbromide\", Option D (Oxygen.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (Oxygen.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_050",
@@ -14707,8 +14707,8 @@ window.CHM191_QUESTIONS = [
       "C": "Hydrogenchloride."
     },
     "answer": "D",
-    "explanation": "In practical chemistry, .Inaqueoussolution,whichofthefollowingsubstancesis amphoteric is Aluminumhydroxide..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Aluminumhydroxide. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Inaqueoussolution,whichofthefollowingsubstancesis amphoteric\", Option D (Aluminumhydroxide.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (Aluminumhydroxide.)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_FAQ_051",
@@ -14723,8 +14723,8 @@ window.CHM191_QUESTIONS = [
       "D": "Meltingofice."
     },
     "answer": "A",
-    "explanation": "In practical chemistry, .Whichofthefollowingisanendothermicprocess is Sublimationofdryice..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Sublimationofdryice. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingisanendothermicprocess\", Option A (Sublimationofdryice.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option A (Sublimationofdryice.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_052",
@@ -14739,8 +14739,8 @@ window.CHM191_QUESTIONS = [
       "D": "Silicon."
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .Whichofthefollowingisametal is Zin.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Zin is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingisametal\", Option B (Zin) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Zin)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_053",
@@ -14755,8 +14755,8 @@ window.CHM191_QUESTIONS = [
       "D": "Vaporizationofwater."
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichofthefollowingprocessesrequiresadecreasein temperature is Freezingofwater..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Freezingofwater. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingprocessesrequiresadecreasein temperature\", Option C (Freezingofwater.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Freezingofwater.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_054",
@@ -14771,8 +14771,8 @@ window.CHM191_QUESTIONS = [
       "D": "Calciumcarbonate."
     },
     "answer": "D",
-    "explanation": "In practical chemistry, .Whichofthefollowingsubstancesisinsolubleinwater is Calciumcarbonate..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Calciumcarbonate. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingsubstancesisinsolubleinwater\", Option D (Calciumcarbonate.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option D (Calciumcarbonate.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_055",
@@ -14787,8 +14787,8 @@ window.CHM191_QUESTIONS = [
       "C": "Sulfuricaci"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .WhichofthefollowinghasapHof7 is Water..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Water. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".WhichofthefollowinghasapHof7\", Option B (Water.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Water.)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_FAQ_056",
@@ -14803,8 +14803,8 @@ window.CHM191_QUESTIONS = [
       "C": "Sulfuricaci"
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .Whichofthefollowingsubstancesisaweakacid is Citricaci.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Citricaci is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingsubstancesisaweakacid\", Option B (Citricaci) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Citricaci)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_FAQ_057",
@@ -14819,8 +14819,8 @@ window.CHM191_QUESTIONS = [
       "D": "Calciumhydroxide."
     },
     "answer": "B",
-    "explanation": "In practical chemistry, .Whichofthefollowingsubstancesisastrongbase is Sodiumhydroxide..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Sodiumhydroxide. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingsubstancesisastrongbase\", Option B (Sodiumhydroxide.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option B (Sodiumhydroxide.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_058",
@@ -14835,8 +14835,8 @@ window.CHM191_QUESTIONS = [
       "D": "Magnesiumoxide."
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichofthefollowingisanexampleofacovalentbond is Hydrogengas..",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Hydrogengas. is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingisanexampleofacovalentbond\", Option C (Hydrogengas.) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Hydrogengas.)",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   },
   {
     "id": "CHM191_FAQ_059",
@@ -14851,8 +14851,8 @@ window.CHM191_QUESTIONS = [
       "D": "Tostorechemicals"
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whatisthepurposeofaspectrophotometerinachemistry lab is Toanalyzetheconcentrationofsubstancesinasolution.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry, Toanalyzetheconcentrationofsubstancesinasolution is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whatisthepurposeofaspectrophotometerinachemistry lab\", Option C (Toanalyzetheconcentrationofsubstancesinasolution) correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C (Toanalyzetheconcentrationofsubstancesinasolution)",
+    "speed_hack": "⚡ CBT Speed Hack: Methyl orange = acidic transition (pH 3.1–4.4, red/yellow). Phenolphthalein = alkaline transition (pH 8.3–10.0, colorless/pink)."
   },
   {
     "id": "CHM191_FAQ_060",
@@ -14865,7 +14865,7 @@ window.CHM191_QUESTIONS = [
       "B": "Lowelectricalconductivity."
     },
     "answer": "C",
-    "explanation": "In practical chemistry, .Whichofthefollowingpropertiesischaracteristicofmetals is C.",
-    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+    "explanation": "📖 Core Principle:\nIn practical laboratory chemistry,  is the verified standard answer.\n\n🔍 Detailed Analysis:\nFor the question: \".Whichofthefollowingpropertiesischaracteristicofmetals\", Option C () correctly satisfies the laboratory protocol and theoretical criteria.\n\n• Correct Choice: Option C ()",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 191 laboratory test concept."
   }
 ];

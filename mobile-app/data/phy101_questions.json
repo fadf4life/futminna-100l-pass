@@ -12,7 +12,7 @@
       "D": "Work"
     },
     "answer": "C",
-    "explanation": "Pressure = Force / Area = [MLT^-2] / [L^2] = [ML^-1 T^-2]. Stress and Modulus of Elasticity also share this dimension.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nPressure = Force / Area = [MLT^-2] / [L^2] = [ML^-1 T^-2]. Stress and Modulus of Elasticity also share this dimension.\n\n• Verified Key: Option C (Pressure)",
     "speed_hack": "⚡ CBT Speed Hack: Force / Area = MLT^-2 / L^2 = ML^-1 T^-2. Matches Pressure, Stress, and Young's Modulus!"
   },
   {
@@ -28,7 +28,7 @@
       "D": "Work"
     },
     "answer": "D",
-    "explanation": "Work = Force x Displacement = [MLT^-2] x [L] = [ML^2 T^-2]. Energy and Torque also have [ML^2 T^-2].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nWork = Force x Displacement = [MLT^-2] x [L] = [ML^2 T^-2]. Energy and Torque also have [ML^2 T^-2].\n\n• Verified Key: Option D (Work)",
     "speed_hack": "⚡ CBT Speed Hack: Work, Kinetic Energy, Potential Energy, Heat, and Torque all have the same dimension: [ML^2 T^-2] (Joules or N·m)."
   },
   {
@@ -44,7 +44,7 @@
       "D": "ML^2 T^-2, ML^2 T^2"
     },
     "answer": "B",
-    "explanation": "Energy = Work = [ML^2 T^-2]. Force = mass x acceleration = [M] x [LT^-2] = [MLT^-2].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nEnergy = Work = [ML^2 T^-2]. Force = mass x acceleration = [M] x [LT^-2] = [MLT^-2].\n\n• Verified Key: Option B (ML^2 T^-2, MLT^-2)",
     "speed_hack": "⚡ CBT Speed Hack: Force is always MLT^-2; multiply by L to get Energy = ML^2 T^-2."
   },
   {
@@ -60,7 +60,7 @@
       "D": "T^-1"
     },
     "answer": "D",
-    "explanation": "Frequency f = 1 / T. Its unit is Hertz (s^-1) and its dimension is [T^-1].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nFrequency f = 1 / T. Its unit is Hertz (s^-1) and its dimension is [T^-1].\n\n• Verified Key: Option D (T^-1)",
     "speed_hack": "⚡ CBT Speed Hack: Frequency = 1/Period = T^-1. Angular velocity ω also has dimension T^-1."
   },
   {
@@ -76,7 +76,7 @@
       "D": "MLT^-2"
     },
     "answer": "A",
-    "explanation": "Surface tension γ = Force / Length = [MLT^-2] / [L] = [MT^-2] (or [ML^0 T^-2]).",
+    "explanation": "📖 Core Principle (Properties of Matter & Surface Tension):\nSurface tension γ = Force / Length = [MLT^-2] / [L] = [MT^-2] (or [ML^0 T^-2]).\n\n• Verified Key: Option A (MT^-2)",
     "speed_hack": "⚡ CBT Speed Hack: Surface Tension = Force / Length -> L cancels out giving MT^-2."
   },
   {
@@ -92,7 +92,7 @@
       "D": "Pressure"
     },
     "answer": "D",
-    "explanation": "Stress = Restoring Force / Area (N/m^2 or Pascal). Pressure = Normal Force / Area (N/m^2 or Pascal). Both have identical SI units (N/m^2 or Pa) and dimension [ML^-1 T^-2].",
+    "explanation": "📖 Core Principle (Elasticity & Properties of Matter):\nStress = Restoring Force / Area (N/m^2 or Pascal). Pressure = Normal Force / Area (N/m^2 or Pascal). Both have identical SI units (N/m^2 or Pa) and dimension [ML^-1 T^-2].\n\n• Verified Key: Option D (Pressure)",
     "speed_hack": "⚡ CBT Speed Hack: Stress = Pressure = N/m^2 = Pa = [ML^-1 T^-2]."
   },
   {
@@ -108,7 +108,7 @@
       "D": "LT^-2, LT^-1, L"
     },
     "answer": "D",
-    "explanation": "By the Principle of Dimensional Homogeneity, every term added must have the dimension of S, which is [L]. Thus: [a][T^2] = [L] => [a] = [LT^-2]; [b][T] = [L] => [b] = [LT^-1]; [c] = [L].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nBy the Principle of Dimensional Homogeneity, every term added must have the dimension of S, which is [L]. Thus: [a][T^2] = [L] => [a] = [LT^-2]; [b][T] = [L] => [b] = [LT^-1]; [c] = [L].\n\n• Verified Key: Option D (LT^-2, LT^-1, L)",
     "speed_hack": "⚡ CBT Speed Hack: S = [L]. Therefore a = L/t^2 = LT^-2 (acceleration), b = L/t = LT^-1 (velocity), c = L (displacement)."
   },
   {
@@ -124,7 +124,7 @@
       "D": "All of the above"
     },
     "answer": "C",
-    "explanation": "Fundamental quantities are mass, length, time, electric current, temperature, amount of substance, and luminous intensity. Derived quantities here are density, velocity, and energy.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nFundamental quantities are mass, length, time, electric current, temperature, amount of substance, and luminous intensity. Derived quantities here are density, velocity, and energy.\n\n• Verified Key: Option C ((iv), (vi) and (vii))",
     "speed_hack": "⚡ CBT Speed Hack: 7 Fundamental quantities only: Mass, Length, Time, Current, Temp, Mole, Candela. Everything else is derived!"
   },
   {
@@ -140,7 +140,7 @@
       "D": "(ii) and (iii) only"
     },
     "answer": "D",
-    "explanation": "Torque = Force x Perpendicular Distance = [MLT^-2] x [L] = [ML^2 T^-2]. Energy = [ML^2 T^-2]. Acceleration = [LT^-2]. Hence (ii) and (iii) only.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nTorque = Force x Perpendicular Distance = [MLT^-2] x [L] = [ML^2 T^-2]. Energy = [ML^2 T^-2]. Acceleration = [LT^-2]. Hence (ii) and (iii) only.\n\n• Verified Key: Option D ((ii) and (iii) only)",
     "speed_hack": "⚡ CBT Speed Hack: Torque = Energy = Work = [ML^2 T^-2]."
   },
   {
@@ -156,7 +156,7 @@
       "D": "force x distance"
     },
     "answer": "D",
-    "explanation": "Kilowatt-hour (kWh) is a unit of commercial electrical ENERGY (Power x time = J/s x s = Joules). Force x distance = Work/Energy (Joules).",
+    "explanation": "📖 Core Principle (Work, Energy & Power):\nKilowatt-hour (kWh) is a unit of commercial electrical ENERGY (Power x time = J/s x s = Joules). Force x distance = Work/Energy (Joules).\n\n• Verified Key: Option D (force x distance)",
     "speed_hack": "⚡ CBT Speed Hack: kWh = Energy. Force x distance = Work = Energy. 1 kWh = 3.6 x 10^6 J."
   },
   {
@@ -172,7 +172,7 @@
       "D": "10000 kg/m^3"
     },
     "answer": "B",
-    "explanation": "1 g/cm^3 = 1000 kg/m^3. Therefore, 0.1 g/cm^3 = 0.1 x 1000 = 100 kg/m^3.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\n1 g/cm^3 = 1000 kg/m^3. Therefore, 0.1 g/cm^3 = 0.1 x 1000 = 100 kg/m^3.\n\n• Verified Key: Option B (100 kg/m^3)",
     "speed_hack": "⚡ CBT Speed Hack: Multiply g/cm^3 by 1000 to convert directly to kg/m^3: 0.1 x 1000 = 100 kg/m^3."
   },
   {
@@ -188,7 +188,7 @@
       "D": "N·s"
     },
     "answer": "A",
-    "explanation": "Power = Work / time = (Force x distance) / time = N x m / s = N·m·s^-1 (or J/s).",
+    "explanation": "📖 Core Principle (Work, Energy & Power):\nPower = Work / time = (Force x distance) / time = N x m / s = N·m·s^-1 (or J/s).\n\n• Verified Key: Option A (N·m·s^-1)",
     "speed_hack": "⚡ CBT Speed Hack: Watt = J/s = (N·m)/s = N·m·s^-1."
   },
   {
@@ -204,7 +204,7 @@
       "D": "volt^2 / ohms"
     },
     "answer": "B",
-    "explanation": "Power P = VI (ampere x volt), P = V^2/R (volt^2/ohm), P = I^2 R, P = W/t (Joule/s). Ampere/volt is conductance (Siemens or 1/R), not power.",
+    "explanation": "📖 Core Principle (Work, Energy & Power):\nPower P = VI (ampere x volt), P = V^2/R (volt^2/ohm), P = I^2 R, P = W/t (Joule/s). Ampere/volt is conductance (Siemens or 1/R), not power.\n\n• Verified Key: Option B (ampere/volt)",
     "speed_hack": "⚡ CBT Speed Hack: Electrical Power P = IV (A·V), not I/V! So ampere/volt is NOT power."
   },
   {
@@ -220,7 +220,7 @@
       "D": "N·m·s"
     },
     "answer": "C",
-    "explanation": "Linear momentum has unit kg·m/s. Impulse = Force x time = N·s = (kg·m/s^2) x s = kg·m/s. Thus, kg·m/s is identical to N·s.",
+    "explanation": "📖 Core Principle (Dynamics, Newton's Laws & Momentum):\nLinear momentum has unit kg·m/s. Impulse = Force x time = N·s = (kg·m/s^2) x s = kg·m/s. Thus, kg·m/s is identical to N·s.\n\n• Verified Key: Option C (N·s)",
     "speed_hack": "⚡ CBT Speed Hack: Momentum (kg·m/s) = Impulse (N·s)."
   },
   {
@@ -236,7 +236,7 @@
       "D": "60 m/s"
     },
     "answer": "C",
-    "explanation": "To convert km/h to m/s, multiply by 5/18 (or divide by 3.6): 108 x (5/18) = 6 x 5 = 30 m/s.",
+    "explanation": "📖 Core Principle (Kinematics & Rectilinear Motion):\nTo convert km/h to m/s, multiply by 5/18 (or divide by 3.6): 108 x (5/18) = 6 x 5 = 30 m/s.\n\n• Verified Key: Option C (30 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Divide by 3.6 (or multiply by 5/18): 108 / 3.6 = 30 m/s. Instant 5-second answer!"
   },
   {
@@ -252,7 +252,7 @@
       "D": "1, 0, 1"
     },
     "answer": "A",
-    "explanation": "[F] = MLT^-2, [ρ] = ML^-3, [v] = LT^-1, [A] = L^2. MLT^-2 = (ML^-3)^x (LT^-1)^y (L^2)^z = M^x L^(-3x+y+2z) T^(-y). Comparing powers: x = 1; -y = -2 => y = 2; -3(1) + 2 + 2z = 1 => 2z = 2 => z = 1. Therefore (x, y, z) = (1, 2, 1).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\n[F] = MLT^-2, [ρ] = ML^-3, [v] = LT^-1, [A] = L^2. MLT^-2 = (ML^-3)^x (LT^-1)^y (L^2)^z = M^x L^(-3x+y+2z) T^(-y). Comparing powers: x = 1; -y = -2 => y = 2; -3(1) + 2 + 2z = 1 => 2z = 2 => z = 1. Therefore (x, y, z) = (1, 2, 1).\n\n• Verified Key: Option A (1, 2, 1)",
     "speed_hack": "⚡ CBT Speed Hack: Drag equation is F = 1/2 ρ C_d A v^2 => ρ^1 v^2 A^1 => x=1, y=2, z=1."
   },
   {
@@ -268,7 +268,7 @@
       "D": "60 m/s"
     },
     "answer": "B",
-    "explanation": "180 km/hr x (5/18) = 10 x 5 = 50 m/s.",
+    "explanation": "📖 Core Principle (Kinematics & Rectilinear Motion):\n180 km/hr x (5/18) = 10 x 5 = 50 m/s.\n\n• Verified Key: Option B (50 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: 180 / 3.6 = 50 m/s."
   },
   {
@@ -284,7 +284,7 @@
       "D": "20 N/cm^2"
     },
     "answer": "B",
-    "explanation": "1 MPa = 10^6 N/m^2. 1 m^2 = 10^6 mm^2. Thus, 1 MPa = 1 N/mm^2. So 20 MPa = 20 N/mm^2.",
+    "explanation": "📖 Core Principle (Elasticity & Properties of Matter):\n1 MPa = 10^6 N/m^2. 1 m^2 = 10^6 mm^2. Thus, 1 MPa = 1 N/mm^2. So 20 MPa = 20 N/mm^2.\n\n• Verified Key: Option B (20 N/mm^2)",
     "speed_hack": "⚡ CBT Speed Hack: Golden engineering rule: 1 MPa is exactly equal to 1 N/mm^2!"
   },
   {
@@ -300,7 +300,7 @@
       "D": "scalar"
     },
     "answer": "D",
-    "explanation": "By definition, a scalar quantity is one that has only magnitude (and unit) but no specific direction in space.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nBy definition, a scalar quantity is one that has only magnitude (and unit) but no specific direction in space.\n\n• Verified Key: Option D (scalar)",
     "speed_hack": "⚡ CBT Speed Hack: Scalar = Magnitude only. Vector = Magnitude + Direction."
   },
   {
@@ -316,7 +316,7 @@
       "D": "mass, force and impulse"
     },
     "answer": "A",
-    "explanation": "Weight (force), displacement, and moment (torque) are all vector quantities. Volume, density, distance, capacitance, and mass are scalars.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nWeight (force), displacement, and moment (torque) are all vector quantities. Volume, density, distance, capacitance, and mass are scalars.\n\n• Verified Key: Option A (weight, displacement and moment)",
     "speed_hack": "⚡ CBT Speed Hack: Eliminate options with obvious scalars: volume in B, density/distance in C, mass in D."
   },
   {
@@ -332,7 +332,7 @@
       "D": "newton"
     },
     "answer": "D",
-    "explanation": "Newton (N) is a derived unit of force (1 N = 1 kg·m/s^2). Meter, ampere, and mole are base SI units.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nNewton (N) is a derived unit of force (1 N = 1 kg·m/s^2). Meter, ampere, and mole are base SI units.\n\n• Verified Key: Option D (newton)",
     "speed_hack": "⚡ CBT Speed Hack: Newton is derived from kg, m, and s: N = kg·m/s^2."
   },
   {
@@ -348,7 +348,7 @@
       "D": "7.07m, N45°E"
     },
     "answer": "D",
-    "explanation": "Net North-South displacement: 12m North - 7m South = 5m North. Net East-West displacement: 5m East. Resultant R = sqrt(5^2 + 5^2) = sqrt(50) = 7.07 m. Direction: tan θ = 5/5 = 1 => θ = 45° (N45°E).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nNet North-South displacement: 12m North - 7m South = 5m North. Net East-West displacement: 5m East. Resultant R = sqrt(5^2 + 5^2) = sqrt(50) = 7.07 m. Direction: tan θ = 5/5 = 1 => θ = 45° (N45°E).\n\n• Verified Key: Option D (7.07m, N45°E)",
     "speed_hack": "⚡ CBT Speed Hack: Equal perpendicular legs of 5m and 5m always give R = 5√2 ≈ 7.07m at 45°!"
   },
   {
@@ -364,7 +364,7 @@
       "D": "0"
     },
     "answer": "B",
-    "explanation": "When resultant R is perpendicular to force P (12N), P + Q cos θ = 0 => 12 + 16 cos θ = 0 => cos θ = -12/16 = -3/4.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nWhen resultant R is perpendicular to force P (12N), P + Q cos θ = 0 => 12 + 16 cos θ = 0 => cos θ = -12/16 = -3/4.\n\n• Verified Key: Option B (-3/4)",
     "speed_hack": "⚡ CBT Speed Hack: Resultant perpendicular to smaller force P: cos θ = -P / Q = -12/16 = -3/4."
   },
   {
@@ -380,7 +380,7 @@
       "D": "Mg cot α"
     },
     "answer": "B",
-    "explanation": "The weight Mg acts vertically downwards. Resolving along the plane gives Mg sin α, and resolving perpendicular (normal) to the inclined plane gives Mg cos α.",
+    "explanation": "📖 Core Principle (Dynamics, Newton's Laws & Momentum):\nThe weight Mg acts vertically downwards. Resolving along the plane gives Mg sin α, and resolving perpendicular (normal) to the inclined plane gives Mg cos α.\n\n• Verified Key: Option B (Mg cos α)",
     "speed_hack": "⚡ CBT Speed Hack: Along the slope = Mg sin α (sliding). Perpendicular/Normal to the slope = Mg cos α."
   },
   {
@@ -396,7 +396,7 @@
       "D": "53.3 km, 51° W of N"
     },
     "answer": "A",
-    "explanation": "Rx = 0 - 35 sin(60°) = -30.31 km. Ry = 20 + 35 cos(60°) = 20 + 17.5 = 37.5 km. R = sqrt((-30.31)^2 + 37.5^2) = sqrt(918.7 + 1406.25) = sqrt(2325) = 48.2 km. Angle with North = tan^-1(30.31 / 37.5) = 38.9° ≈ 39° W of N.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nRx = 0 - 35 sin(60°) = -30.31 km. Ry = 20 + 35 cos(60°) = 20 + 17.5 = 37.5 km. R = sqrt((-30.31)^2 + 37.5^2) = sqrt(918.7 + 1406.25) = sqrt(2325) = 48.2 km. Angle with North = tan^-1(30.31 / 37.5) = 38.9° ≈ 39° W of N.\n\n• Verified Key: Option A (48.2 km, 39° W of N)",
     "speed_hack": "⚡ CBT Speed Hack: Use cosine rule: R^2 = 20^2 + 35^2 - 2(20)(35)cos(120°) = 400 + 1225 - 1400(-0.5) = 2325 => R = √2325 = 48.2 km."
   },
   {
@@ -412,7 +412,7 @@
       "D": "It depends on the ball's position"
     },
     "answer": "B",
-    "explanation": "Displacement is the straight-line shortest distance between start and finish points. Distance is the total path length. Therefore, magnitude of displacement is always <= distance travelled. It can NEVER be greater.",
+    "explanation": "📖 Core Principle (Kinematics & Rectilinear Motion):\nDisplacement is the straight-line shortest distance between start and finish points. Distance is the total path length. Therefore, magnitude of displacement is always <= distance travelled. It can NEVER be greater.\n\n• Verified Key: Option B (No)",
     "speed_hack": "⚡ CBT Speed Hack: |Displacement| <= Distance ALWAYS. It can never exceed distance!"
   },
   {
@@ -428,7 +428,7 @@
       "D": "-3i + 2j"
     },
     "answer": "B",
-    "explanation": "A + B = (3i - 2j) + (-i - j) = (3 - 1)i + (-2 - 1)j = 2i - 3j.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nA + B = (3i - 2j) + (-i - j) = (3 - 1)i + (-2 - 1)j = 2i - 3j.\n\n• Verified Key: Option B (2i - 3j)",
     "speed_hack": "⚡ CBT Speed Hack: Add components directly: i-coefficients: 3 - 1 = 2; j-coefficients: -2 - 1 = -3 => 2i - 3j."
   },
   {
@@ -444,7 +444,7 @@
       "D": "0 m"
     },
     "answer": "D",
-    "explanation": "After one full lap around a closed track, the runner returns to the exact starting point. Initial position = final position, so displacement = 0 m.",
+    "explanation": "📖 Core Principle (Kinematics & Rectilinear Motion):\nAfter one full lap around a closed track, the runner returns to the exact starting point. Initial position = final position, so displacement = 0 m.\n\n• Verified Key: Option D (0 m)",
     "speed_hack": "⚡ CBT Speed Hack: Full lap = returns to start = ZERO displacement! Distance is 2πr = 200π m."
   },
   {
@@ -460,7 +460,7 @@
       "D": "0 m"
     },
     "answer": "A",
-    "explanation": "Distance around a circular track is its circumference = 2πr. With r = 100m, Distance = 2π(100) = 200π m (approx 628.3m).",
+    "explanation": "📖 Core Principle (Kinematics & Rectilinear Motion):\nDistance around a circular track is its circumference = 2πr. With r = 100m, Distance = 2π(100) = 200π m (approx 628.3m).\n\n• Verified Key: Option A (200π m)",
     "speed_hack": "⚡ CBT Speed Hack: Circumference = 2πr = 2 x π x 100 = 200π m."
   },
   {
@@ -476,7 +476,7 @@
       "D": "2065 N"
     },
     "answer": "A",
-    "explanation": "The lifting component is the vertical component. Since the angle is 60° to the vertical: F_vertical = F cos(60°) = 2500 x 0.5 = 1250 N.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nThe lifting component is the vertical component. Since the angle is 60° to the vertical: F_vertical = F cos(60°) = 2500 x 0.5 = 1250 N.\n\n• Verified Key: Option A (1250 N)",
     "speed_hack": "⚡ CBT Speed Hack: Vertical force = F cos(angle to vertical) = 2500 x cos(60°) = 2500 x 0.5 = 1250 N."
   },
   {
@@ -492,7 +492,7 @@
       "D": "Parallelogram law"
     },
     "answer": "D",
-    "explanation": "The Parallelogram Law of Vectors states that if two vectors acting simultaneously at a point are represented in magnitude and direction by the adjacent sides of a parallelogram, their resultant is represented by the diagonal passing through that point.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nThe Parallelogram Law of Vectors states that if two vectors acting simultaneously at a point are represented in magnitude and direction by the adjacent sides of a parallelogram, their resultant is represented by the diagonal passing through that point.\n\n• Verified Key: Option D (Parallelogram law)",
     "speed_hack": "⚡ CBT Speed Hack: Diagonal of parallelogram from common point = Parallelogram Law."
   },
   {
@@ -508,7 +508,7 @@
       "D": "Young Modulus"
     },
     "answer": "B",
-    "explanation": "Tensile stress is defined by force per unit oriented area and has directional characteristics (treated as a tensor/directed quantity), while potential, surface tension, and moduli are scalars.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nTensile stress is defined by force per unit oriented area and has directional characteristics (treated as a tensor/directed quantity), while potential, surface tension, and moduli are scalars.\n\n• Verified Key: Option B (Tensile Stress)",
     "speed_hack": "⚡ CBT Speed Hack: Stress involves directional traction forces across defined planes."
   },
   {
@@ -524,7 +524,7 @@
       "D": "14 N"
     },
     "answer": "C",
-    "explanation": "For perpendicular forces, R^2 = F1^2 + F2^2 => 13^2 = 5^2 + F2^2 => 169 = 25 + F2^2 => F2^2 = 144 => F2 = 12 N.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nFor perpendicular forces, R^2 = F1^2 + F2^2 => 13^2 = 5^2 + F2^2 => 169 = 25 + F2^2 => F2^2 = 144 => F2 = 12 N.\n\n• Verified Key: Option C (12 N)",
     "speed_hack": "⚡ CBT Speed Hack: Classic Pythagorean triple (5, 12, 13)! Missing force is instantly 12 N."
   },
   {
@@ -540,7 +540,7 @@
       "D": "180°"
     },
     "answer": "D",
-    "explanation": "R = sqrt(F1^2 + F2^2 + 2F1 F2 cos θ). Resultant is maximum when cos θ = 1 (θ = 0°, parallel) and minimum when cos θ = -1 (θ = 180°, opposite directions, R = |F1 - F2|).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nR = sqrt(F1^2 + F2^2 + 2F1 F2 cos θ). Resultant is maximum when cos θ = 1 (θ = 0°, parallel) and minimum when cos θ = -1 (θ = 180°, opposite directions, R = |F1 - F2|).\n\n• Verified Key: Option D (180°)",
     "speed_hack": "⚡ CBT Speed Hack: Maximum resultant at 0° (F1 + F2); Minimum resultant at 180° (F1 - F2)."
   },
   {
@@ -556,7 +556,7 @@
       "D": "2"
     },
     "answer": "B",
-    "explanation": "v = sqrt(T / μ) where μ = m/l is linear mass density. Thus v = k T^(1/2) l^(1/2) m^(-1/2). Here x = 1/2 and y = 1/2. Therefore x + y = 1/2 + 1/2 = 1.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nv = sqrt(T / μ) where μ = m/l is linear mass density. Thus v = k T^(1/2) l^(1/2) m^(-1/2). Here x = 1/2 and y = 1/2. Therefore x + y = 1/2 + 1/2 = 1.\n\n• Verified Key: Option B (1)",
     "speed_hack": "⚡ CBT Speed Hack: v = √(T·l/m) = T^(1/2) l^(1/2) m^(-1/2). Powers of T and l are each 1/2, so x + y = 1."
   },
   {
@@ -572,7 +572,7 @@
       "D": "23.02 N"
     },
     "answer": "A",
-    "explanation": "Resolving horizontally: 20N at 0° -> +20 N. 10N at -40° -> +10 cos(40°) = +7.66 N. 40N inclined 60° into 3rd quadrant -> -40 cos(60°) or -40 sin(60°) depending on orientation. With 60° to vertical: Fx = 20 + 10 cos(40°) - 40 sin(60°) = 27.66 - 34.64 = -6.98 N.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nResolving horizontally: 20N at 0° -> +20 N. 10N at -40° -> +10 cos(40°) = +7.66 N. 40N inclined 60° into 3rd quadrant -> -40 cos(60°) or -40 sin(60°) depending on orientation. With 60° to vertical: Fx = 20 + 10 cos(40°) - 40 sin(60°) = 27.66 - 34.64 = -6.98 N.\n\n• Verified Key: Option A (-6.98 N)",
     "speed_hack": "⚡ CBT Speed Hack: Sum Fx = 20 + 7.66 - 34.64 = -6.98 N. Clean negative result points left."
   },
   {
@@ -588,7 +588,7 @@
       "D": "3.57 N"
     },
     "answer": "D",
-    "explanation": "Vertical components: +30 N (up) - 10 sin(40°) (down, -6.43 N) - 40 cos(60°) (down, -20.0 N) = 30 - 6.43 - 20.0 = 3.57 N.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nVertical components: +30 N (up) - 10 sin(40°) (down, -6.43 N) - 40 cos(60°) (down, -20.0 N) = 30 - 6.43 - 20.0 = 3.57 N.\n\n• Verified Key: Option D (3.57 N)",
     "speed_hack": "⚡ CBT Speed Hack: Fy = 30 - 6.43 - 20 = 3.57 N."
   },
   {
@@ -604,7 +604,7 @@
       "D": "32.95 N"
     },
     "answer": "C",
-    "explanation": "Resultant R = sqrt(Fx^2 + Fy^2) = sqrt((-6.98)^2 + 3.57^2) = sqrt(48.72 + 12.74) = sqrt(61.46) ≈ 7.84 N (matches option C in the exam paper).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nResultant R = sqrt(Fx^2 + Fy^2) = sqrt((-6.98)^2 + 3.57^2) = sqrt(48.72 + 12.74) = sqrt(61.46) ≈ 7.84 N (matches option C in the exam paper).\n\n• Verified Key: Option C (7.84 N / 4.44 N)",
     "speed_hack": "⚡ CBT Speed Hack: R = √(Fx^2 + Fy^2) = √((-6.98)^2 + 3.57^2) ≈ 7.8 N."
   },
   {
@@ -620,7 +620,7 @@
       "D": "153°"
     },
     "answer": "D",
-    "explanation": "Since Fx is negative (-6.98 N) and Fy is positive (+3.57 N), the resultant lies in Quadrant II. Angle = 180° - tan^-1(3.57 / 6.98) = 180° - 27.1° = 152.9° ≈ 153°.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nSince Fx is negative (-6.98 N) and Fy is positive (+3.57 N), the resultant lies in Quadrant II. Angle = 180° - tan^-1(3.57 / 6.98) = 180° - 27.1° = 152.9° ≈ 153°.\n\n• Verified Key: Option D (153°)",
     "speed_hack": "⚡ CBT Speed Hack: Fx < 0, Fy > 0 is in the 2nd quadrant (between 90° and 180°). Only 153° is in the second quadrant!"
   },
   {
@@ -636,7 +636,7 @@
       "D": "All of the above"
     },
     "answer": "D",
-    "explanation": "Newton's 1st law is the law of inertia, 2nd law defines F = dp/dt, and 3rd law states action and reaction are equal and opposite.",
+    "explanation": "📖 Core Principle (Dynamics, Newton's Laws & Momentum):\nNewton's 1st law is the law of inertia, 2nd law defines F = dp/dt, and 3rd law states action and reaction are equal and opposite.\n\n• Verified Key: Option D (All of the above)",
     "speed_hack": "⚡ CBT Speed Hack: All three laws are fundamental axioms of classical Newtonian mechanics."
   },
   {
@@ -652,7 +652,7 @@
       "D": "Unit"
     },
     "answer": "B",
-    "explanation": "Measurement is the process of comparing an unknown physical quantity with a known fixed standard unit of the same kind.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nMeasurement is the process of comparing an unknown physical quantity with a known fixed standard unit of the same kind.\n\n• Verified Key: Option B (Measurement)",
     "speed_hack": "⚡ CBT Speed Hack: Comparing a quantity to a standard = Measurement by definition."
   },
   {
@@ -668,7 +668,7 @@
       "D": "Derived"
     },
     "answer": "C",
-    "explanation": "Physical quantities are quantities that can be measured and in terms of which the laws of physics are stated.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nPhysical quantities are quantities that can be measured and in terms of which the laws of physics are stated.\n\n• Verified Key: Option C (Physical)",
     "speed_hack": "⚡ CBT Speed Hack: Laws of physics describe 'Physical' quantities."
   },
   {
@@ -684,7 +684,7 @@
       "D": "Physical Unit"
     },
     "answer": "B",
-    "explanation": "Fundamental quantities (or base quantities) are physical quantities that cannot be defined in terms of other physical quantities.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nFundamental quantities (or base quantities) are physical quantities that cannot be defined in terms of other physical quantities.\n\n• Verified Key: Option B (Fundamental Quantities)",
     "speed_hack": "⚡ CBT Speed Hack: Independent = Fundamental / Base quantities (Length, Mass, Time, etc.)."
   },
   {
@@ -700,7 +700,7 @@
       "D": "Mass, Temperature, Time"
     },
     "answer": "C",
-    "explanation": "In mechanics, all mechanical quantities can be expressed in terms of the three primary base dimensions: Mass [M], Length [L], and Time [T].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nIn mechanics, all mechanical quantities can be expressed in terms of the three primary base dimensions: Mass [M], Length [L], and Time [T].\n\n• Verified Key: Option C (Mass, Time, Length)",
     "speed_hack": "⚡ CBT Speed Hack: The MLT triad = Mass, Length, Time."
   },
   {
@@ -716,7 +716,7 @@
       "D": "Standard Unit"
     },
     "answer": "D",
-    "explanation": "A standard unit is a chosen definite magnitude of a quantity, adopted by convention or law, used as a benchmark for measuring other quantities of the same kind.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nA standard unit is a chosen definite magnitude of a quantity, adopted by convention or law, used as a benchmark for measuring other quantities of the same kind.\n\n• Verified Key: Option D (Standard Unit)",
     "speed_hack": "⚡ CBT Speed Hack: Definite benchmark chosen for comparison = Standard Unit."
   },
   {
@@ -732,7 +732,7 @@
       "D": "Electric current"
     },
     "answer": "A",
-    "explanation": "Density = Mass / Volume = [M][L^-3]. It is derived from mass and length. Luminous intensity, mass, and electric current are all base fundamental quantities.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nDensity = Mass / Volume = [M][L^-3]. It is derived from mass and length. Luminous intensity, mass, and electric current are all base fundamental quantities.\n\n• Verified Key: Option A (Density)",
     "speed_hack": "⚡ CBT Speed Hack: Density involves two base quantities (mass / length³), making it derived."
   },
   {
@@ -748,7 +748,7 @@
       "D": "Momentum"
     },
     "answer": "C",
-    "explanation": "Mass is one of the 7 base SI quantities. Force, Power, and Momentum are all derived quantities.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nMass is one of the 7 base SI quantities. Force, Power, and Momentum are all derived quantities.\n\n• Verified Key: Option C (Mass)",
     "speed_hack": "⚡ CBT Speed Hack: Mass is measured directly in kilograms without combining other base units."
   },
   {
@@ -764,7 +764,7 @@
       "D": "Radian"
     },
     "answer": "D",
-    "explanation": "Radian is a supplementary unit (for plane angle), not a base fundamental unit. Force (Newton) is also derived, but Radian is classified specifically as supplementary.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nRadian is a supplementary unit (for plane angle), not a base fundamental unit. Force (Newton) is also derived, but Radian is classified specifically as supplementary.\n\n• Verified Key: Option D (Radian)",
     "speed_hack": "⚡ CBT Speed Hack: Radian and Steradian are supplementary angular units, not fundamental SI base units."
   },
   {
@@ -780,7 +780,7 @@
       "D": "m, kg, s"
     },
     "answer": "B",
-    "explanation": "Length, breadth, and height are all linear spatial dimensions with SI unit meter (m).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nLength, breadth, and height are all linear spatial dimensions with SI unit meter (m).\n\n• Verified Key: Option B (m, m, m)",
     "speed_hack": "⚡ CBT Speed Hack: All three are distance dimensions -> m, m, m."
   },
   {
@@ -796,7 +796,7 @@
       "D": "kg, m/s, m/s²"
     },
     "answer": "C",
-    "explanation": "Velocity and speed both have the SI unit m/s (or ms^-1), while acceleration is rate of change of velocity, measured in m/s² (or ms^-2).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nVelocity and speed both have the SI unit m/s (or ms^-1), while acceleration is rate of change of velocity, measured in m/s² (or ms^-2).\n\n• Verified Key: Option C (m/s, m/s, m/s²)",
     "speed_hack": "⚡ CBT Speed Hack: Speed/velocity = m/s; acceleration = m/s²."
   },
   {
@@ -812,7 +812,7 @@
       "D": "All of the above"
     },
     "answer": "D",
-    "explanation": "Distance, length, and displacement are all measures of space/interval and share the SI unit meter (m).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nDistance, length, and displacement are all measures of space/interval and share the SI unit meter (m).\n\n• Verified Key: Option D (All of the above)",
     "speed_hack": "⚡ CBT Speed Hack: Distance, length, and displacement all measure linear separation in meters."
   },
   {
@@ -828,7 +828,7 @@
       "D": "All of the above"
     },
     "answer": "B",
-    "explanation": "A primary utility of dimensional analysis is testing the dimensional homogeneity of physical formulas (LHS dimensions must equal RHS dimensions).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nA primary utility of dimensional analysis is testing the dimensional homogeneity of physical formulas (LHS dimensions must equal RHS dimensions).\n\n• Verified Key: Option B (To determine whether an expression or physical equation is correct or not)",
     "speed_hack": "⚡ CBT Speed Hack: Principle of Homogeneity: checking if physical equations are dimensionally valid."
   },
   {
@@ -844,7 +844,7 @@
       "D": "None of the above"
     },
     "answer": "B",
-    "explanation": "Derived units are formed by powers, products, or quotients of the fundamental base units.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nDerived units are formed by powers, products, or quotients of the fundamental base units.\n\n• Verified Key: Option B (Units that are dependent on other base units)",
     "speed_hack": "⚡ CBT Speed Hack: Derived units depend directly on fundamental base units."
   },
   {
@@ -860,7 +860,7 @@
       "D": "kg"
     },
     "answer": "C",
-    "explanation": "The fundamental dimension of distance/length is [L].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nThe fundamental dimension of distance/length is [L].\n\n• Verified Key: Option C (L)",
     "speed_hack": "⚡ CBT Speed Hack: Distance = Length = [L]."
   },
   {
@@ -876,7 +876,7 @@
       "D": "Dimension"
     },
     "answer": "D",
-    "explanation": "According to the Principle of Dimensional Homogeneity, physical quantities can only be added, subtracted, or equated if they possess identical physical dimensions.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nAccording to the Principle of Dimensional Homogeneity, physical quantities can only be added, subtracted, or equated if they possess identical physical dimensions.\n\n• Verified Key: Option D (Dimension)",
     "speed_hack": "⚡ CBT Speed Hack: You can only add apples to apples -> identical dimensions!"
   },
   {
@@ -892,7 +892,7 @@
       "D": "System Identification"
     },
     "answer": "B",
-    "explanation": "SI stands for Système International d'Unités, established in 1960 by the General Conference on Weights and Measures.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nSI stands for Système International d'Unités, established in 1960 by the General Conference on Weights and Measures.\n\n• Verified Key: Option B (Système International (International System of Units))",
     "speed_hack": "⚡ CBT Speed Hack: French acronym: Système International."
   },
   {
@@ -908,7 +908,7 @@
       "D": "MLT⁻³"
     },
     "answer": "B",
-    "explanation": "1 Watt = 1 Joule/second = (Force × distance) / time = ([MLT⁻²] × [L]) / [T] = [ML²T⁻³].",
+    "explanation": "📖 Core Principle (Work, Energy, Power & Impulse):\n1 Watt = 1 Joule/second = (Force × distance) / time = ([MLT⁻²] × [L]) / [T] = [ML²T⁻³].\n\n• Verified Key: Option B (ML²T⁻³)",
     "speed_hack": "⚡ CBT Speed Hack: Power = Work/time = ML²T⁻² / T = ML²T⁻³."
   },
   {
@@ -924,7 +924,7 @@
       "D": "Torque"
     },
     "answer": "B",
-    "explanation": "Acceleration is defined mathematically as the rate of change of velocity with respect to time: a = dv/dt.",
+    "explanation": "📖 Core Principle (Kinematics & Linear Motion):\nAcceleration is defined mathematically as the rate of change of velocity with respect to time: a = dv/dt.\n\n• Verified Key: Option B (Acceleration)",
     "speed_hack": "⚡ CBT Speed Hack: dv/dt = Acceleration."
   },
   {
@@ -940,7 +940,7 @@
       "D": "Peta"
     },
     "answer": "C",
-    "explanation": "Mega = 10⁶, Giga = 10⁹, Tera = 10¹², Kilo = 10³.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nMega = 10⁶, Giga = 10⁹, Tera = 10¹², Kilo = 10³.\n\n• Verified Key: Option C (Mega)",
     "speed_hack": "⚡ CBT Speed Hack: 1 Megawatt = 10⁶ Watts; prefix is Mega (M)."
   },
   {
@@ -956,7 +956,7 @@
       "D": "Deka"
     },
     "answer": "A",
-    "explanation": "Nano = 10⁻⁹, Micro = 10⁻⁶, Pico = 10⁻¹².",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nNano = 10⁻⁹, Micro = 10⁻⁶, Pico = 10⁻¹².\n\n• Verified Key: Option A (Nano)",
     "speed_hack": "⚡ CBT Speed Hack: 10⁻⁹ = Nano (n)."
   },
   {
@@ -972,7 +972,7 @@
       "D": "s⁻¹"
     },
     "answer": "C",
-    "explanation": "'How far' refers to distance or displacement, measured in meters (m).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\n'How far' refers to distance or displacement, measured in meters (m).\n\n• Verified Key: Option C (m)",
     "speed_hack": "⚡ CBT Speed Hack: Distance = meters."
   },
   {
@@ -988,7 +988,7 @@
       "D": "s"
     },
     "answer": "B",
-    "explanation": "'How fast' refers to speed or magnitude of velocity, measured in meters per second (m/s).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\n'How fast' refers to speed or magnitude of velocity, measured in meters per second (m/s).\n\n• Verified Key: Option B (m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Speed = m/s."
   },
   {
@@ -1004,7 +1004,7 @@
       "D": "ML⁻³, ML⁻¹T⁻², MLT⁻²"
     },
     "answer": "C",
-    "explanation": "Density = M/V = [ML⁻³]. Momentum = m*v = [MLT⁻¹]. Pressure = F/A = [MLT⁻²]/[L²] = [ML⁻¹T⁻²].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nDensity = M/V = [ML⁻³]. Momentum = m*v = [MLT⁻¹]. Pressure = F/A = [MLT⁻²]/[L²] = [ML⁻¹T⁻²].\n\n• Verified Key: Option C (ML⁻³, MLT⁻¹, ML⁻¹T⁻²)",
     "speed_hack": "⚡ CBT Speed Hack: Density has L⁻³; only C and D start with ML⁻³. Momentum has MLT⁻¹, pointing uniquely to C."
   },
   {
@@ -1020,7 +1020,7 @@
       "D": "MLT"
     },
     "answer": "C",
-    "explanation": "p = m × v = [M] × [LT⁻¹] = [MLT⁻¹].",
+    "explanation": "📖 Core Principle (Dynamics, Newton's Laws & Momentum):\np = m × v = [M] × [LT⁻¹] = [MLT⁻¹].\n\n• Verified Key: Option C (MLT⁻¹)",
     "speed_hack": "⚡ CBT Speed Hack: Mass × Velocity = M × L/T = MLT⁻¹."
   },
   {
@@ -1036,7 +1036,7 @@
       "D": "Micro farad"
     },
     "answer": "A",
-    "explanation": "10⁻⁹ = nano, so 10⁻⁹ Farad is 1 nanofarad (nF).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\n10⁻⁹ = nano, so 10⁻⁹ Farad is 1 nanofarad (nF).\n\n• Verified Key: Option A (Nano farad)",
     "speed_hack": "⚡ CBT Speed Hack: 10⁻⁹ = nano -> Nanofarad."
   },
   {
@@ -1052,7 +1052,7 @@
       "D": "MLT⁻²"
     },
     "answer": "B",
-    "explanation": "Pressure = Force / Area = [MLT⁻²] / [L²] = [ML⁻¹T⁻²].",
+    "explanation": "📖 Core Principle (Properties of Matter, Elasticity, Surface Tension & Viscosity):\nPressure = Force / Area = [MLT⁻²] / [L²] = [ML⁻¹T⁻²].\n\n• Verified Key: Option B (ML⁻¹T⁻²)",
     "speed_hack": "⚡ CBT Speed Hack: Pressure = Force/Area = MLT⁻²/L² = ML⁻¹T⁻²."
   },
   {
@@ -1068,7 +1068,7 @@
       "D": "ML⁻²T⁻²"
     },
     "answer": "A",
-    "explanation": "Power = Work / time = [ML²T⁻²] / [T] = [ML²T⁻³].",
+    "explanation": "📖 Core Principle (Work, Energy, Power & Impulse):\nPower = Work / time = [ML²T⁻²] / [T] = [ML²T⁻³].\n\n• Verified Key: Option A (ML²T⁻³)",
     "speed_hack": "⚡ CBT Speed Hack: Power = Energy / time = ML²T⁻³."
   },
   {
@@ -1084,7 +1084,7 @@
       "D": "MLT²"
     },
     "answer": "C",
-    "explanation": "Energy = Work = Force × distance = [MLT⁻²] × [L] = [ML²T⁻²].",
+    "explanation": "📖 Core Principle (Work, Energy, Power & Impulse):\nEnergy = Work = Force × distance = [MLT⁻²] × [L] = [ML²T⁻²].\n\n• Verified Key: Option C (ML²T⁻²)",
     "speed_hack": "⚡ CBT Speed Hack: Kinetic energy ½mv² = M(L/T)² = ML²T⁻²."
   },
   {
@@ -1100,7 +1100,7 @@
       "D": "Power"
     },
     "answer": "B",
-    "explanation": "Work is defined as W = F · d (the scalar product of force and displacement vector).",
+    "explanation": "📖 Core Principle (Work, Energy, Power & Impulse):\nWork is defined as W = F · d (the scalar product of force and displacement vector).\n\n• Verified Key: Option B (Work)",
     "speed_hack": "⚡ CBT Speed Hack: Force × Distance = Work done."
   },
   {
@@ -1116,7 +1116,7 @@
       "D": "Varying"
     },
     "answer": "C",
-    "explanation": "Near the surface of the earth, ignoring air resistance, the acceleration due to gravity g ≈ 9.8 m/s² remains constant.",
+    "explanation": "📖 Core Principle (Kinematics & Linear Motion):\nNear the surface of the earth, ignoring air resistance, the acceleration due to gravity g ≈ 9.8 m/s² remains constant.\n\n• Verified Key: Option C (Constant)",
     "speed_hack": "⚡ CBT Speed Hack: Gravity near Earth is constant at g ≈ 9.8 m/s²."
   },
   {
@@ -1132,7 +1132,7 @@
       "D": "ML⁻³"
     },
     "answer": "A",
-    "explanation": "Volume = length × breadth × height = [L] × [L] × [L] = [L³].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nVolume = length × breadth × height = [L] × [L] × [L] = [L³].\n\n• Verified Key: Option A (L³)",
     "speed_hack": "⚡ CBT Speed Hack: Length cubed = L³."
   },
   {
@@ -1148,7 +1148,7 @@
       "D": "5 units East"
     },
     "answer": "B",
-    "explanation": "For A + B = 0, B must be equal in magnitude and exactly opposite in direction: B = -A = 5 units South.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nFor A + B = 0, B must be equal in magnitude and exactly opposite in direction: B = -A = 5 units South.\n\n• Verified Key: Option B (5 units South)",
     "speed_hack": "⚡ CBT Speed Hack: To cancel 5 units North, you need exactly 5 units South!"
   },
   {
@@ -1164,7 +1164,7 @@
       "D": "1m West"
     },
     "answer": "D",
-    "explanation": "Taking East as positive: displacement = +2m - 3m = -1m, which corresponds to 1m due West.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nTaking East as positive: displacement = +2m - 3m = -1m, which corresponds to 1m due West.\n\n• Verified Key: Option D (1m West)",
     "speed_hack": "⚡ CBT Speed Hack: Net = 3m West - 2m East = 1m West."
   },
   {
@@ -1180,7 +1180,7 @@
       "D": "Force"
     },
     "answer": "A",
-    "explanation": "Direction alone is not a physical vector quantity (a vector requires both magnitude and direction). Displacement, momentum, and force are all full physical vectors.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nDirection alone is not a physical vector quantity (a vector requires both magnitude and direction). Displacement, momentum, and force are all full physical vectors.\n\n• Verified Key: Option A (Direction)",
     "speed_hack": "⚡ CBT Speed Hack: Vectors require BOTH magnitude and direction. Direction alone is not a quantity."
   },
   {
@@ -1196,7 +1196,7 @@
       "D": "Acceleration due to gravity"
     },
     "answer": "B",
-    "explanation": "Work, energy, and power are all scalar quantities (they have magnitude only, no directional requirement).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nWork, energy, and power are all scalar quantities (they have magnitude only, no directional requirement).\n\n• Verified Key: Option B (Work, energy & power)",
     "speed_hack": "⚡ CBT Speed Hack: Work, Energy, and Power are all pure scalars."
   },
   {
@@ -1212,7 +1212,7 @@
       "D": "m·s⁻²"
     },
     "answer": "A",
-    "explanation": "The kilogram (kg) is the fundamental SI base unit of mass. The others are derived units.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nThe kilogram (kg) is the fundamental SI base unit of mass. The others are derived units.\n\n• Verified Key: Option A (kg)",
     "speed_hack": "⚡ CBT Speed Hack: kg is the base unit for mass."
   },
   {
@@ -1228,7 +1228,7 @@
       "D": "Flat"
     },
     "answer": "C",
-    "explanation": "Sir Isaac Newton posited absolute space in his Principia: space exists independently of all matter and is unchanging and immovable.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nSir Isaac Newton posited absolute space in his Principia: space exists independently of all matter and is unchanging and immovable.\n\n• Verified Key: Option C (Absolute)",
     "speed_hack": "⚡ CBT Speed Hack: Newton = Absolute space and absolute time."
   },
   {
@@ -1244,7 +1244,7 @@
       "D": "Non-Euclidean"
     },
     "answer": "A",
-    "explanation": "Leibniz argued for relationalism: space is not an entity in itself, but rather the relational order of coexistence of objects.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nLeibniz argued for relationalism: space is not an entity in itself, but rather the relational order of coexistence of objects.\n\n• Verified Key: Option A (A collection of relations between objects)",
     "speed_hack": "⚡ CBT Speed Hack: Leibniz = Relational space (order of coexistence among objects)."
   },
   {
@@ -1260,7 +1260,7 @@
       "D": "Immanuel Kant"
     },
     "answer": "B",
-    "explanation": "George Berkeley published 'An Essay Towards a New Theory of Vision' in 1709, addressing the visual perception of spatial depth and distance.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nGeorge Berkeley published 'An Essay Towards a New Theory of Vision' in 1709, addressing the visual perception of spatial depth and distance.\n\n• Verified Key: Option B (George Berkeley)",
     "speed_hack": "⚡ CBT Speed Hack: Spatial depth perception = George Berkeley."
   },
   {
@@ -1276,7 +1276,7 @@
       "D": "Absolute entity"
     },
     "answer": "C",
-    "explanation": "Kant argued in the Critique of Pure Reason that space is an a priori intuition rather than an empirical concept derived from outer experience.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nKant argued in the Critique of Pure Reason that space is an a priori intuition rather than an empirical concept derived from outer experience.\n\n• Verified Key: Option C (Not empirical (a priori intuition))",
     "speed_hack": "⚡ CBT Speed Hack: Kant = Space is an a priori, non-empirical intuition."
   },
   {
@@ -1292,7 +1292,7 @@
       "D": "Discontinuous"
     },
     "answer": "C",
-    "explanation": "Non-Euclidean geometries (such as Riemannian geometry) describe space as curved rather than Euclidean/flat.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nNon-Euclidean geometries (such as Riemannian geometry) describe space as curved rather than Euclidean/flat.\n\n• Verified Key: Option C (Curved)",
     "speed_hack": "⚡ CBT Speed Hack: Non-Euclidean geometry = Curved space."
   },
   {
@@ -1308,7 +1308,7 @@
       "D": "Curved"
     },
     "answer": "C",
-    "explanation": "General Relativity states that mass-energy causes space-time to curve, causing local geometry to deviate from flat Euclidean space.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nGeneral Relativity states that mass-energy causes space-time to curve, causing local geometry to deviate from flat Euclidean space.\n\n• Verified Key: Option C (Euclidean (flat))",
     "speed_hack": "⚡ CBT Speed Hack: Gravity curves space away from flat Euclidean space."
   },
   {
@@ -1324,7 +1324,7 @@
       "D": "Cartesian geometry"
     },
     "answer": "C",
-    "explanation": "Non-Euclidean (specifically pseudo-Riemannian) geometry is the mathematical framework for Einstein's curved space-time.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nNon-Euclidean (specifically pseudo-Riemannian) geometry is the mathematical framework for Einstein's curved space-time.\n\n• Verified Key: Option C (Non-Euclidean geometry)",
     "speed_hack": "⚡ CBT Speed Hack: General Relativity uses Non-Euclidean geometry."
   },
   {
@@ -1338,7 +1338,7 @@
       "B": "False"
     },
     "answer": "A",
-    "explanation": "Time has magnitude only and is fully specified without a spatial direction vector; it is a scalar quantity.",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nTime has magnitude only and is fully specified without a spatial direction vector; it is a scalar quantity.\n\n• Verified Key: Option A (True)",
     "speed_hack": "⚡ CBT Speed Hack: Time is a scalar quantity -> True."
   },
   {
@@ -1352,7 +1352,7 @@
       "B": "False"
     },
     "answer": "A",
-    "explanation": "Time is one of the 7 fundamental SI base quantities, measured in seconds (s).",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nTime is one of the 7 fundamental SI base quantities, measured in seconds (s).\n\n• Verified Key: Option A (True)",
     "speed_hack": "⚡ CBT Speed Hack: Time is a base SI quantity -> True."
   },
   {
@@ -1368,7 +1368,7 @@
       "D": "ML²T⁻³"
     },
     "answer": "C",
-    "explanation": "Energy = Work = Force × distance = [MLT⁻²][L] = [ML²T⁻²].",
+    "explanation": "📖 Core Principle (Work, Energy, Power & Impulse):\nEnergy = Work = Force × distance = [MLT⁻²][L] = [ML²T⁻²].\n\n• Verified Key: Option C (ML²T⁻²)",
     "speed_hack": "⚡ CBT Speed Hack: Energy = Work = ML²T⁻²."
   },
   {
@@ -1384,7 +1384,7 @@
       "D": "Momentum"
     },
     "answer": "B",
-    "explanation": "Velocity is defined as the rate of change of position (displacement) with respect to time: v = dx/dt.",
+    "explanation": "📖 Core Principle (Kinematics & Linear Motion):\nVelocity is defined as the rate of change of position (displacement) with respect to time: v = dx/dt.\n\n• Verified Key: Option B (Velocity)",
     "speed_hack": "⚡ CBT Speed Hack: Rate of change of position = Velocity."
   },
   {
@@ -1400,7 +1400,7 @@
       "D": "George Berkeley"
     },
     "answer": "B",
-    "explanation": "The curvature of space-time was mathematically formulated by 19th/20th century mathematicians (Gauss, Riemann) and physicalized by Albert Einstein.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nThe curvature of space-time was mathematically formulated by 19th/20th century mathematicians (Gauss, Riemann) and physicalized by Albert Einstein.\n\n• Verified Key: Option B (19th & 20th Century Mathematicians & Einstein)",
     "speed_hack": "⚡ CBT Speed Hack: Curved spacetime = 19th/20th century mathematical physics & Einstein."
   },
   {
@@ -1416,7 +1416,7 @@
       "D": "None of the above"
     },
     "answer": "A",
-    "explanation": "Newtonian relativity asserts that mechanical laws are identical in all inertial reference frames—both those at rest and those moving with constant linear velocity.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nNewtonian relativity asserts that mechanical laws are identical in all inertial reference frames—both those at rest and those moving with constant linear velocity.\n\n• Verified Key: Option A (I and II)",
     "speed_hack": "⚡ CBT Speed Hack: Inertial frames include BOTH rest and uniform rectilinear motion -> I and II."
   },
   {
@@ -1432,7 +1432,7 @@
       "D": "None of the above"
     },
     "answer": "B",
-    "explanation": "Einstein's First Postulate (Principle of Relativity): The laws of physics are invariant in all inertial reference frames.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nEinstein's First Postulate (Principle of Relativity): The laws of physics are invariant in all inertial reference frames.\n\n• Verified Key: Option B (Einstein's first postulate of Special Relativity)",
     "speed_hack": "⚡ CBT Speed Hack: 1st Postulate = Laws of physics identical in all inertial frames. 2nd Postulate = Speed of light is constant."
   },
   {
@@ -1448,7 +1448,7 @@
       "D": "None of the above"
     },
     "answer": "C",
-    "explanation": "The first postulate is formally called the Principle of Relativity.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nThe first postulate is formally called the Principle of Relativity.\n\n• Verified Key: Option C (Principle of relativity)",
     "speed_hack": "⚡ CBT Speed Hack: Postulate 1 = Principle of Relativity."
   },
   {
@@ -1464,7 +1464,7 @@
       "D": "George Berkeley"
     },
     "answer": "C",
-    "explanation": "Leibniz's relational space directly opposed Newton's absolute space, famously debated in the Leibniz-Clarke correspondence.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nLeibniz's relational space directly opposed Newton's absolute space, famously debated in the Leibniz-Clarke correspondence.\n\n• Verified Key: Option C (Isaac Newton)",
     "speed_hack": "⚡ CBT Speed Hack: Leibniz's relational view contradicted Newton's absolute container view."
   },
   {
@@ -1480,7 +1480,7 @@
       "D": "4"
     },
     "answer": "B",
-    "explanation": "Classical physical space is three-dimensional (length, width, height). (Adding time creates 4D space-time).",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nClassical physical space is three-dimensional (length, width, height). (Adding time creates 4D space-time).\n\n• Verified Key: Option B (3)",
     "speed_hack": "⚡ CBT Speed Hack: Spatial dimensions = 3."
   },
   {
@@ -1496,7 +1496,7 @@
       "D": "None of the above"
     },
     "answer": "B",
-    "explanation": "Spatial coordinates in 3D Cartesian space are length (x), width (y), and height (z).",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nSpatial coordinates in 3D Cartesian space are length (x), width (y), and height (z).\n\n• Verified Key: Option B (Length, width, height)",
     "speed_hack": "⚡ CBT Speed Hack: 3 spatial dimensions = Length, Width, Height."
   },
   {
@@ -1512,7 +1512,7 @@
       "D": "Space is imaginary"
     },
     "answer": "B",
-    "explanation": "Relational theories of space posit that space is an emergent relation between objects, rather than an independent substance.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nRelational theories of space posit that space is an emergent relation between objects, rather than an independent substance.\n\n• Verified Key: Option B (Space was defined by the relationships between physical objects)",
     "speed_hack": "⚡ CBT Speed Hack: Relational theory: space is defined by the relations between objects."
   },
   {
@@ -1528,7 +1528,7 @@
       "D": "When moving slow"
     },
     "answer": "C",
-    "explanation": "Strictly speaking, Earth is non-inertial because it rotates and orbits the Sun. However, for everyday experiments where Coriolis and centrifugal forces are negligible, it is treated as inertial.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nStrictly speaking, Earth is non-inertial because it rotates and orbits the Sun. However, for everyday experiments where Coriolis and centrifugal forces are negligible, it is treated as inertial.\n\n• Verified Key: Option C (When the effects of Earth's rotation and orbital acceleration are negligible)",
     "speed_hack": "⚡ CBT Speed Hack: Negligible Earth rotation = approximately inertial frame."
   },
   {
@@ -1544,7 +1544,7 @@
       "D": "The frame is at rest"
     },
     "answer": "B",
-    "explanation": "An inertial frame is non-accelerating (net external force on the frame = 0). When a net force acts on the frame, it accelerates, making it non-inertial.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAn inertial frame is non-accelerating (net external force on the frame = 0). When a net force acts on the frame, it accelerates, making it non-inertial.\n\n• Verified Key: Option B (There is a net force causing the frame to accelerate)",
     "speed_hack": "⚡ CBT Speed Hack: Net force on frame -> acceleration -> frame is non-inertial."
   },
   {
@@ -1560,7 +1560,7 @@
       "D": "Rotating frames"
     },
     "answer": "C",
-    "explanation": "Special Relativity is restricted ('special') because it applies strictly to non-accelerating, inertial reference frames. General Relativity extends this to accelerating frames and gravity.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nSpecial Relativity is restricted ('special') because it applies strictly to non-accelerating, inertial reference frames. General Relativity extends this to accelerating frames and gravity.\n\n• Verified Key: Option C (Inertial frames of reference)",
     "speed_hack": "⚡ CBT Speed Hack: Special Relativity = Inertial frames only. General Relativity = Gravitational / accelerating frames."
   },
   {
@@ -1576,7 +1576,7 @@
       "D": "Optical plasma"
     },
     "answer": "C",
-    "explanation": "Nineteenth-century physicists posited the 'luminiferous ether' as the medium required for light wave propagation, famously disproved by the Michelson-Morley experiment.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nNineteenth-century physicists posited the 'luminiferous ether' as the medium required for light wave propagation, famously disproved by the Michelson-Morley experiment.\n\n• Verified Key: Option C (Luminiferous Ether)",
     "speed_hack": "⚡ CBT Speed Hack: 19th-century light medium = Luminiferous Ether."
   },
   {
@@ -1592,7 +1592,7 @@
       "D": "It is at rest"
     },
     "answer": "C",
-    "explanation": "Any accelerating frame (such as an Earth-fixed frame accounting for rotational acceleration) is non-inertial.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAny accelerating frame (such as an Earth-fixed frame accounting for rotational acceleration) is non-inertial.\n\n• Verified Key: Option C (It is accelerating (e.g., centripetal acceleration considered))",
     "speed_hack": "⚡ CBT Speed Hack: Accelerating frame = Non-inertial frame."
   },
   {
@@ -1608,7 +1608,7 @@
       "D": "Displacement"
     },
     "answer": "C",
-    "explanation": "Temperature is a scalar quantity (specified purely by magnitude in Kelvin or Celsius, without spatial direction).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nTemperature is a scalar quantity (specified purely by magnitude in Kelvin or Celsius, without spatial direction).\n\n• Verified Key: Option C (Temperature)",
     "speed_hack": "⚡ CBT Speed Hack: Temperature has magnitude only -> Scalar."
   },
   {
@@ -1624,7 +1624,7 @@
       "D": "Friction"
     },
     "answer": "B",
-    "explanation": "Inertia is the natural resistance of any physical object to any change in its velocity, encapsulated in Newton's first law of motion.",
+    "explanation": "📖 Core Principle (Dynamics, Newton's Laws & Momentum):\nInertia is the natural resistance of any physical object to any change in its velocity, encapsulated in Newton's first law of motion.\n\n• Verified Key: Option B (Inertia (Newton's 1st Law))",
     "speed_hack": "⚡ CBT Speed Hack: Resistance to change in state of motion = Inertia."
   },
   {
@@ -1640,7 +1640,7 @@
       "D": "Number (magnitude) and unit"
     },
     "answer": "D",
-    "explanation": "A scalar quantity requires only a numerical magnitude and an appropriate unit of measurement (e.g., 5 kg).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nA scalar quantity requires only a numerical magnitude and an appropriate unit of measurement (e.g., 5 kg).\n\n• Verified Key: Option D (Number (magnitude) and unit)",
     "speed_hack": "⚡ CBT Speed Hack: Scalar = Magnitude + Unit (no direction needed)."
   },
   {
@@ -1656,7 +1656,7 @@
       "D": "Dimension"
     },
     "answer": "C",
-    "explanation": "Magnitude is the quantitative numerical measure or size of a physical entity.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nMagnitude is the quantitative numerical measure or size of a physical entity.\n\n• Verified Key: Option C (Magnitude)",
     "speed_hack": "⚡ CBT Speed Hack: Numerical value / size = Magnitude."
   },
   {
@@ -1672,7 +1672,7 @@
       "D": "All of the above"
     },
     "answer": "C",
-    "explanation": "A vector requires both magnitude (size) and direction in space to be fully defined.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nA vector requires both magnitude (size) and direction in space to be fully defined.\n\n• Verified Key: Option C (Magnitude and direction)",
     "speed_hack": "⚡ CBT Speed Hack: Vector = Magnitude + Direction."
   },
   {
@@ -1688,7 +1688,7 @@
       "D": "Unit vector"
     },
     "answer": "C",
-    "explanation": "A free vector has a specified magnitude and direction but its line of action is not confined to a unique point or line (e.g., pure displacement or couple).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nA free vector has a specified magnitude and direction but its line of action is not confined to a unique point or line (e.g., pure displacement or couple).\n\n• Verified Key: Option C (Free vector)",
     "speed_hack": "⚡ CBT Speed Hack: Can be shifted anywhere parallel to itself = Free vector."
   },
   {
@@ -1704,7 +1704,7 @@
       "D": "Equal vector"
     },
     "answer": "A",
-    "explanation": "A localized (or bound) vector has a specific, fixed point of application in space (such as a force acting on a deformable body or causing torque).",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nA localized (or bound) vector has a specific, fixed point of application in space (such as a force acting on a deformable body or causing torque).\n\n• Verified Key: Option A (Localized (or sliding) vector)",
     "speed_hack": "⚡ CBT Speed Hack: Cannot shift without changing outcome = Localized / Bound vector."
   },
   {
@@ -1720,7 +1720,7 @@
       "D": "Unit vectors"
     },
     "answer": "C",
-    "explanation": "Coplanar vectors are three or more vectors that lie within the same two-dimensional plane.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nCoplanar vectors are three or more vectors that lie within the same two-dimensional plane.\n\n• Verified Key: Option C (Coplanar vectors)",
     "speed_hack": "⚡ CBT Speed Hack: Same plane = Co-planar."
   },
   {
@@ -1736,7 +1736,7 @@
       "D": "Collinear vectors"
     },
     "answer": "B",
-    "explanation": "Concurrent forces/vectors are vectors whose lines of action intersect at a single common point.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nConcurrent forces/vectors are vectors whose lines of action intersect at a single common point.\n\n• Verified Key: Option B (Concurrent vectors)",
     "speed_hack": "⚡ CBT Speed Hack: Meeting at a common intersection point = Concurrent vectors."
   },
   {
@@ -1752,7 +1752,7 @@
       "D": "Bounded vector"
     },
     "answer": "B",
-    "explanation": "The negative of a vector has equal magnitude but opposite sense: -A.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nThe negative of a vector has equal magnitude but opposite sense: -A.\n\n• Verified Key: Option B (Negative vector (-A))",
     "speed_hack": "⚡ CBT Speed Hack: Equal size, opposite direction = Negative vector."
   },
   {
@@ -1768,7 +1768,7 @@
       "D": "Moment of a force"
     },
     "answer": "B",
-    "explanation": "Displacement depends only on the initial and final position vectors, not on where the coordinate origin is placed or a fixed line of action.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nDisplacement depends only on the initial and final position vectors, not on where the coordinate origin is placed or a fixed line of action.\n\n• Verified Key: Option B (Displacement)",
     "speed_hack": "⚡ CBT Speed Hack: Displacement is the classic free vector."
   },
   {
@@ -1784,7 +1784,7 @@
       "D": "Unit vectors"
     },
     "answer": "A",
-    "explanation": "Forces have specific points of application or lines of action governed by the principle of transmissibility, classifying them as localized/sliding vectors.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nForces have specific points of application or lines of action governed by the principle of transmissibility, classifying them as localized/sliding vectors.\n\n• Verified Key: Option A (Localized / Sliding vectors)",
     "speed_hack": "⚡ CBT Speed Hack: Force with a definite line of action = Localized / Sliding vector."
   },
   {
@@ -1800,7 +1800,7 @@
       "D": "θ"
     },
     "answer": "C",
-    "explanation": "The zero vector has zero magnitude and arbitrary direction, denoted mathematically as 0 or 0⃗.",
+    "explanation": "📖 Core Principle (Vectors, Scalars & Coordinate Systems):\nThe zero vector has zero magnitude and arbitrary direction, denoted mathematically as 0 or 0⃗.\n\n• Verified Key: Option C (0 or 0⃗)",
     "speed_hack": "⚡ CBT Speed Hack: Zero vector = 0 or 0⃗."
   },
   {
@@ -1816,7 +1816,7 @@
       "D": "Momentum"
     },
     "answer": "B",
-    "explanation": "Stress = Force / Area = [ML⁻¹T⁻²], which is identically the dimension of Pressure.",
+    "explanation": "📖 Core Principle (Properties of Matter, Elasticity, Surface Tension & Viscosity):\nStress = Force / Area = [ML⁻¹T⁻²], which is identically the dimension of Pressure.\n\n• Verified Key: Option B (Pressure)",
     "speed_hack": "⚡ CBT Speed Hack: Stress = Force/Area = Pressure = Young's Modulus = ML⁻¹T⁻²."
   },
   {
@@ -1832,7 +1832,7 @@
       "D": "II and III only"
     },
     "answer": "D",
-    "explanation": "Torque = r × F = [L][MLT⁻²] = [ML²T⁻²]. Energy = [ML²T⁻²]. Acceleration is [LT⁻²]. Thus II and III have [ML²T⁻²].",
+    "explanation": "📖 Core Principle (Units, Dimensions & Physical Quantities):\nTorque = r × F = [L][MLT⁻²] = [ML²T⁻²]. Energy = [ML²T⁻²]. Acceleration is [LT⁻²]. Thus II and III have [ML²T⁻²].\n\n• Verified Key: Option D (II and III only)",
     "speed_hack": "⚡ CBT Speed Hack: Torque and Energy share the dimension ML²T⁻² -> II and III only!"
   },
   {
@@ -1848,7 +1848,7 @@
       "D": "All of the above"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (All of the above)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -1864,7 +1864,7 @@
       "D": "Force"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (Direction)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -1880,7 +1880,7 @@
       "D": "m/s, N, Nm"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (m/s, m/s, m/s²…)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -1896,7 +1896,7 @@
       "D": "Sir Isaac Newton"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (Sir Isaac Newton)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -1912,7 +1912,7 @@
       "D": "To detect whether the value is correct or not"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (To detect whether a physics equation is correct or not)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -1928,7 +1928,7 @@
       "D": "None of the above"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (Kilogram meter squared per Seconds cube)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -1944,7 +1944,7 @@
       "D": "75 m"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (75 m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -1960,7 +1960,7 @@
       "D": "Vectors"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (Physical quantities)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -1976,7 +1976,7 @@
       "D": "length"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (None of the above)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -1992,7 +1992,7 @@
       "D": "Charles Darwin ANSWERS 1 2 3 4 5 D A A D A 6 7 8 9 10 B D A C A"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (Bernhard Riemann)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2008,7 +2008,7 @@
       "D": "m²"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2024,7 +2024,7 @@
       "D": "v³"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (m³)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2040,7 +2040,7 @@
       "D": "Dyne"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (Watt)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2056,7 +2056,7 @@
       "D": "m, kg, s"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (m, m, m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2072,7 +2072,7 @@
       "D": "71 m/s"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (60 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2088,7 +2088,7 @@
       "D": "I"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (I & ii)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2104,7 +2104,7 @@
       "D": "350.0 km/hr"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (310.48 km/hr)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2120,7 +2120,7 @@
       "D": "5 km Southwest"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (5 km Southwest)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2136,7 +2136,7 @@
       "D": "8 N"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (10 N)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2152,7 +2152,7 @@
       "D": "1200 Ns ANSWERS 11 12 13 14 15 A C A A B 16 17 18 19 20 A C D A C"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (2000 Ns)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2168,7 +2168,7 @@
       "D": "25 N"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (0 N)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2184,7 +2184,7 @@
       "D": "8.4 m/s"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (4.8 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2200,7 +2200,7 @@
       "D": "660 m"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (675 m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2216,7 +2216,7 @@
       "D": "2.8 s"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (2.0 s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2232,7 +2232,7 @@
       "D": "35.6 m/s"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (20.0 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2248,7 +2248,7 @@
       "D": "80 m"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (80 m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2264,7 +2264,7 @@
       "D": "Units of Systems"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (Système International)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2280,7 +2280,7 @@
       "D": "2.0 s"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (4.0 s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2296,7 +2296,7 @@
       "D": "8.0 s"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (8.0 s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2312,7 +2312,7 @@
       "D": "Measurement ANSWERS 21 22 23 24 25 B C B B C 26 27 28 29 30 D C A D D"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (Measurement ANSWERS 21 22 23 24 25 B C B B C 26 27 28 29 30 D C A D D)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2328,7 +2328,7 @@
       "D": "5.0 N"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (50.0 N)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2344,7 +2344,7 @@
       "D": "43.25 km"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (34.38 km)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2360,7 +2360,7 @@
       "D": "5 Kn"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (4 kN)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2376,7 +2376,7 @@
       "D": "5.45 m/s"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (4.47 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2392,7 +2392,7 @@
       "D": "900 km"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (0.9 km)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2408,7 +2408,7 @@
       "D": "7 s"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (5 s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2424,7 +2424,7 @@
       "D": "MLT-2"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (ML-1T-2)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2440,7 +2440,7 @@
       "D": "87.5 m"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (87.5 m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2456,7 +2456,7 @@
       "D": "15.0 km"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (48.2 km)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2472,7 +2472,7 @@
       "D": "kgms-1, Nm, N ANSWERS 31 32 33 34 35 B B B A B 36 37 38 39 40 C A D A A"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (Kgms-1,N, Nm)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2488,7 +2488,7 @@
       "D": "When it is slowly moving"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (When the effect of the rotation of the earth is neglected)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2504,7 +2504,7 @@
       "D": "2.21 s"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (2.83 s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2520,7 +2520,7 @@
       "D": "45.0 m/s"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (28.28 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2536,7 +2536,7 @@
       "D": "75.65 m"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (57.56 m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2552,7 +2552,7 @@
       "D": "4 m"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (3 m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2568,7 +2568,7 @@
       "D": "4 m/s2"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (4 m/s2)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2584,7 +2584,7 @@
       "D": "M2L-3"
     },
     "answer": "A",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is A.\n\n• Verified Key: Option A (ML-3)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2600,7 +2600,7 @@
       "D": "ML-3"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (ML2T-2)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2616,7 +2616,7 @@
       "D": "MLT-2 ANSWERS 41 42 43 44 45 C A C B A 46 47 48 49 50 D A B C D"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (ML2T-3)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2632,7 +2632,7 @@
       "D": "MLT-1"
     },
     "answer": "D",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is D.\n\n• Verified Key: Option D (MLT-1)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2648,7 +2648,7 @@
       "D": "0 units North"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (5 units South)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2664,7 +2664,7 @@
       "D": "kilometers/millisecond"
     },
     "answer": "B",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is B.\n\n• Verified Key: Option B (millimeters/kilowatt)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2680,7 +2680,7 @@
       "D": "12 m/s (south)"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (3 m/s (south))",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2696,7 +2696,7 @@
       "D": "Acceleration is zero and velocity is negative"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (Acceleration is negative and velocity is positive)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2712,7 +2712,7 @@
       "D": "Analytic Geometric ANSWERS 51 52 53 54 55 B B C C C"
     },
     "answer": "C",
-    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "explanation": "📖 Core Principle (Kinematics & Dynamics):\nBased on classical Newtonian mechanics, the correct choice is C.\n\n• Verified Key: Option C (Non-Euclidean geometric)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
   },
   {
@@ -2728,7 +2728,7 @@
       "D": "The speed of light is the same for all observers, regardless of their motion"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (The speed of light depends on the observer's location)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2744,7 +2744,7 @@
       "D": "Gorge Berkeley"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Isaac Newton)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2760,7 +2760,7 @@
       "D": "mass"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (units)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2776,7 +2776,7 @@
       "D": "ML-2T2"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (MLT⁻¹)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2792,7 +2792,7 @@
       "D": "Harman Minskowski"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Albert Einstein)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2808,7 +2808,7 @@
       "D": "5"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (4)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2824,7 +2824,7 @@
       "D": "momentum"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (Inertia)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2840,7 +2840,7 @@
       "D": "When water is moving"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (when the rotation of the earth is considered)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2856,7 +2856,7 @@
       "D": "Interval"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (Time)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2872,7 +2872,7 @@
       "D": "i, ii and iii"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (i, ii and iii)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2888,7 +2888,7 @@
       "D": "Flat"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (absolute)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2904,7 +2904,7 @@
       "D": "White Dwarf"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (White Dwarf)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2920,7 +2920,7 @@
       "D": "Unit"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (Measured)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2936,7 +2936,7 @@
       "D": "150J"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (-1.5KJ)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2952,7 +2952,7 @@
       "D": "ML-2T-1"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (ML-1T-2)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2968,7 +2968,7 @@
       "D": "ML- 4T-2"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (ML-3)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -2984,7 +2984,7 @@
       "D": "A body stays in a state of rest until it is not acted upon by an external force"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (A body stays in a state of rest until it is acted upon by an external force)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3000,7 +3000,7 @@
       "D": "ML⁻²T-1"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (ML2T-2)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3016,7 +3016,7 @@
       "D": "A body stays in a state of rest until it is not acted upon by an external force"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (force of an object is equal to the rate of change of the momentum)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3032,7 +3032,7 @@
       "D": "speed of light is constant and non-dependent of the speed of the observer"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (The laws of nature are the same in all coordinate systems moving rectilinearly and uniformly relative to each other)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3048,7 +3048,7 @@
       "D": "Units of Systems"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Systeme Internationale)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3064,7 +3064,7 @@
       "D": "ML2T-2"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (ML1T-2)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3080,7 +3080,7 @@
       "D": "ML2T⁻3"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (ML2T⁻3)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3096,7 +3096,7 @@
       "D": "never has a non-zero dimension"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (never has a non-zero dimension)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3112,7 +3112,7 @@
       "D": "force and surface tension"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (Impulse and Momentum)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3128,7 +3128,7 @@
       "D": "Equality of frame reference"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (principle of homogeneity of dimension)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3144,7 +3144,7 @@
       "D": "energy"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (energy)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3160,7 +3160,7 @@
       "D": "product of force and velocity"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (rate of change of momentum)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3176,7 +3176,7 @@
       "D": "force"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (direction)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3192,7 +3192,7 @@
       "D": "kgs-1"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (kgs-1)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3208,7 +3208,7 @@
       "D": "4"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (0)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3224,7 +3224,7 @@
       "D": "unbalanced pencil"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (A toy car crossing the room at constant speed)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3240,7 +3240,7 @@
       "D": "unit and direction"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (magnitude and direction only)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3256,7 +3256,7 @@
       "D": "Newton's fourth law"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (Newton's first law)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3272,7 +3272,7 @@
       "D": "displacement"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (direction.)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3288,7 +3288,7 @@
       "D": "work, energy and power"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (work, energy and power)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3304,7 +3304,7 @@
       "D": "frequency and tension"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (work and energy)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3320,7 +3320,7 @@
       "D": "Paths of objects under gravity"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Paths of objects in uniform motion)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3336,7 +3336,7 @@
       "D": "It's a repulsive force"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (It's the curvature of space-time caused by mass)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3352,7 +3352,7 @@
       "D": "L2 + L1"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (L3)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3368,7 +3368,7 @@
       "D": "3KN"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (4KN)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3384,7 +3384,7 @@
       "D": "82.5 km"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (48.2 km)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3400,7 +3400,7 @@
       "D": "16N,"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (10 N)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3416,7 +3416,7 @@
       "D": "Work"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Force)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3432,7 +3432,7 @@
       "D": "Surface tension"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (Surface tension)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3448,7 +3448,7 @@
       "D": "man walking on a bridge"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (man walking on a bridge)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3464,7 +3464,7 @@
       "D": "ON"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (90N)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3480,7 +3480,7 @@
       "D": "20Om E."
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (20Om E.)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3496,7 +3496,7 @@
       "D": "15mh⁻¹"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (15mh⁻¹)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3512,7 +3512,7 @@
       "D": "40m"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (84m)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3528,7 +3528,7 @@
       "D": "22.36km 26.57° south of East"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (22.36km 63.4° south of East)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3544,7 +3544,7 @@
       "D": "30"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (50)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3560,7 +3560,7 @@
       "D": "0.24"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (0.24)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3576,7 +3576,7 @@
       "D": "derived quantiy"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (vector quantity)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3592,7 +3592,7 @@
       "D": "-1240N"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (1230N)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3608,7 +3608,7 @@
       "D": "100 m/s"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (100 m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3624,7 +3624,7 @@
       "D": "Position"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Displacement)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3640,7 +3640,7 @@
       "D": "ML⁻¹T²"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (M⁻¹L³T⁻²)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3656,7 +3656,7 @@
       "D": "Pascal"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (Dyne)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3672,7 +3672,7 @@
       "D": "80°"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (0°)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3688,7 +3688,7 @@
       "D": "50m/s"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (50m/s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3704,7 +3704,7 @@
       "D": "50°"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (45°)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3720,7 +3720,7 @@
       "D": "Work done"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (Work done)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3736,7 +3736,7 @@
       "D": "17.3s"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (3.46s)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3752,7 +3752,7 @@
       "D": "u²/2g"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (u²/2g)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3768,7 +3768,7 @@
       "D": "ML²T⁻³"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (ML³T⁻³K¹)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3784,7 +3784,7 @@
       "D": "vienier caliper"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (fluid)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3800,7 +3800,7 @@
       "D": "centri-petal force"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (frictional force)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3816,7 +3816,7 @@
       "D": "5ON"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (5ON)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3832,7 +3832,7 @@
       "D": "It's a dimensionless quantity"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (It's a dimensionless quantity)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3848,7 +3848,7 @@
       "D": "length"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (velocity)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3864,7 +3864,7 @@
       "D": "both has magnitude and direction"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (weight is vector while mass is scalar)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3880,7 +3880,7 @@
       "D": "fundamental unit"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (fundamental unit)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3896,7 +3896,7 @@
       "D": "Acceleration"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (Speed)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3912,7 +3912,7 @@
       "D": "force stop"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (inertia)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3928,7 +3928,7 @@
       "D": "20N"
     },
     "answer": "A",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is A.\n\n• Verified Key: Option A (5N)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3944,7 +3944,7 @@
       "D": "basic quantity"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (vector quantity)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3960,7 +3960,7 @@
       "D": "Gravitation"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Statics)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3976,7 +3976,7 @@
       "D": "Atomic Structure"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Space-Time Curvature)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -3992,7 +3992,7 @@
       "D": "Time becomes unpredictable"
     },
     "answer": "B",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is B.\n\n• Verified Key: Option B (Time slows down)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -4008,7 +4008,7 @@
       "D": "L² + L¹"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (L³)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -4024,7 +4024,7 @@
       "D": "It is a repulsive force"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (It is the curvature of space-time caused by mass-energy)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -4040,7 +4040,7 @@
       "D": "Paths of objects under gravity"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Paths of objects in uniform rectilinear motion)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -4056,7 +4056,7 @@
       "D": "White Dwarf"
     },
     "answer": "C",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is C.\n\n• Verified Key: Option C (Black Hole)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   },
   {
@@ -4072,7 +4072,7 @@
       "D": "The speed of light is the same for all inertial observers, regardless of the relative motion of the source or observer"
     },
     "answer": "D",
-    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "explanation": "📖 Core Principle (Space-Time, Relativity & Modern Physics):\nAccording to Einstein's relativity and kinematics, the answer is D.\n\n• Verified Key: Option D (The speed of light is the same for all inertial observers, regardless of the relative motion of the source or observer)",
     "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
   }
 ]
