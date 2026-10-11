@@ -1,0 +1,1456 @@
+[
+  {
+    "id": "CHM191_MNS_001",
+    "course": "CHM 191",
+    "q_num": 1,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "In titrimetric analysis, substance of known concentration is called",
+    "options": {
+      "A": "Titrant",
+      "B": "Titrand",
+      "C": "Analyte",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, In titrimetric analysis, substance of known concentration is called corresponds to Titrant.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_002",
+    "course": "CHM 191",
+    "q_num": 2,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "The point at which equal amount of titrant and analyte have reacted is called",
+    "options": {
+      "A": "Equivalence point",
+      "B": "Indicator endpoint",
+      "C": "Endpoint",
+      "D": "Index point"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, The point at which equal amount of titrant and analyte have reacted is called corresponds to Equivalence point.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_003",
+    "course": "CHM 191",
+    "q_num": 3,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "All the following are classes of titrimetic analysis EXCEPT",
+    "options": {
+      "A": "Acid-base reaction",
+      "B": "Redox reaction",
+      "C": "Complexometric reaction",
+      "D": "gravimetric reaction"
+    },
+    "answer": "D",
+    "explanation": "In practical volumetric analysis, All the following are classes of titrimetic analysis EXCEPT corresponds to gravimetric reaction.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_004",
+    "course": "CHM 191",
+    "q_num": 4,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "What volume must be taken from 500cm³ of 2M HCl(aq) in order to prepare 50cm³ of 0.04M HCI(aq)",
+    "options": {
+      "A": "20cm³",
+      "B": "5.5cm³",
+      "C": "5cm³",
+      "D": "1cm³"
+    },
+    "answer": "B",
+    "explanation": "In practical volumetric analysis, What volume must be taken from 500cm³ of 2M HCl(aq) in order to prepare 50cm³ of 0.04M HCI(aq) corresponds to 5.5cm³.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_006",
+    "course": "CHM 191",
+    "q_num": 6,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "What volume will be taken from stock solution of 0.45M HCl(aq) in order to prepare 100ml of 0.15M HCl(aq)?",
+    "options": {
+      "A": "65.55ml",
+      "B": "60.22ml",
+      "C": "20.00ml",
+      "D": "33.33ml"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, What volume will be taken from stock solution of 0.45M HCl(aq) in order to prepare 100ml of 0.15M HCl(aq) corresponds to 65.55ml.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_007",
+    "course": "CHM 191",
+    "q_num": 7,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "Bronsted-Lowry define an acid as",
+    "options": {
+      "A": "a proton acceptor",
+      "B": "a proton donor",
+      "C": "an electron pair donor",
+      "D": "hydrogen ion acceptor"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, Bronsted-Lowry define an acid as corresponds to an electron pair donor.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_008",
+    "course": "CHM 191",
+    "q_num": 8,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "Organic acids are",
+    "options": {
+      "A": "Dissociation constant",
+      "B": "Stepwise formation constant",
+      "C": "Autoprotolysis constant",
+      "D": "None of the above"
+    },
+    "answer": "D",
+    "explanation": "In practical volumetric analysis, Organic acids are corresponds to None of the above.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_011",
+    "course": "CHM 191",
+    "q_num": 11,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "If the pH of H2SO4(aq) is 3.1, calculate its hydrogen ion concentration",
+    "options": {
+      "A": "1.5x10 M",
+      "B": "2.04x10³M",
+      "C": "7.94x10 M",
+      "D": "7.94x10 M"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, If the pH of H2SO4(aq) is 3.1, calculate its hydrogen ion concentration corresponds to 7.94x10 M.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_012",
+    "course": "CHM 191",
+    "q_num": 12,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "If the pH of NaOH solution is 11, What is its hydroxide ion concentration?",
+    "options": {
+      "A": "5.4 x10 M",
+      "B": "3.16x10 M",
+      "C": "1.0 x10 M",
+      "D": "8.1x10 M"
+    },
+    "answer": "D",
+    "explanation": "In practical volumetric analysis, If the pH of NaOH solution is 11, What is its hydroxide ion concentration corresponds to 8.1x10 M.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_013",
+    "course": "CHM 191",
+    "q_num": 13,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "The pH of 0.05M tetraoxosulphate (VI) acid is",
+    "options": {
+      "A": "1.0",
+      "B": "1.3",
+      "C": "4.1",
+      "D": "8.5"
+    },
+    "answer": "B",
+    "explanation": "In practical volumetric analysis, The pH of 0.05M tetraoxosulphate (VI) acid is corresponds to 1.3.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_014",
+    "course": "CHM 191",
+    "q_num": 14,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "The pK, of 0.05M acetic acid at 25°C is 4.76. Find its pH?",
+    "options": {
+      "A": "3.03",
+      "B": "4.83",
+      "C": "3.68",
+      "D": "2.67"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, The pK, of 0.05M acetic acid at 25°C is 4.76. Find its pH corresponds to 3.03.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_015",
+    "course": "CHM 191",
+    "q_num": 15,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "What is the pH of 0.01M benzoic acid [Ka 6.5x10]?",
+    "options": {
+      "A": "7.46",
+      "B": "7.89",
+      "C": "2.57",
+      "D": "3.09"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, What is the pH of 0.01M benzoic acid [Ka 6.5x10] corresponds to 2.57.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_016",
+    "course": "CHM 191",
+    "q_num": 16,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "What is the pH interval of the colour change of phenolphthalein indicator?",
+    "options": {
+      "A": "8.2-10.0",
+      "B": "6.7-7.9",
+      "C": "5.5-6.9",
+      "D": "7.1-7.9"
+    },
+    "answer": "D",
+    "explanation": "In practical volumetric analysis, What is the pH interval of the colour change of phenolphthalein indicator corresponds to 7.1-7.9.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_017",
+    "course": "CHM 191",
+    "q_num": 17,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "Which of the following has the lowest pH value?",
+    "options": {
+      "A": "0.1M CH3COONa",
+      "B": "0.1M NaCl",
+      "C": "0.1M NaOH",
+      "D": "0.1M HCI"
+    },
+    "answer": "B",
+    "explanation": "In practical volumetric analysis, Which of the following has the lowest pH value corresponds to 0.1M NaCl.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_018",
+    "course": "CHM 191",
+    "q_num": 18,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "120ml of 0.30M HCI is mixed with 100ml of 0.34M NaOH. What is the nature of the mixture?",
+    "options": {
+      "A": "Acidic",
+      "B": "Basic",
+      "C": "Neutral",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, 120ml of 0.30M HCI is mixed with 100ml of 0.34M NaOH. What is the nature of the mixture corresponds to Acidic.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_019",
+    "course": "CHM 191",
+    "q_num": 19,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "the best procedure to use when filtering an aqueous solution to collect a precipitate is to",
+    "options": {
+      "A": "not wash the precipitate at all",
+      "B": "wash the precipitate with a minimal amount of water",
+      "C": "use large amount of water to ensure all soluble matter is separated from the precipitate",
+      "D": "warm the solution before filtering"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, the best procedure to use when filtering an aqueous solution to collect a precipitate is to corresponds to use large amount of water to ensure all soluble matter is separated from the precipitate.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_020",
+    "course": "CHM 191",
+    "q_num": 20,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following is not a property required of the substance chosen for use as a precipitate in a gravimetric analysis",
+    "options": {
+      "A": "low solubility",
+      "B": "has known formula",
+      "C": "stable when heated to 100°C",
+      "D": "able to be stored for an extended time without deterioration"
+    },
+    "answer": "B",
+    "explanation": "In practical volumetric analysis, which of the following is not a property required of the substance chosen for use as a precipitate in a gravimetric analysis corresponds to has known formula.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_021",
+    "course": "CHM 191",
+    "q_num": 21,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following pH values is an acceptable equivalence point for a strong base being titrated by a strong acid",
+    "options": {
+      "A": "acidity",
+      "B": "basicity",
+      "C": "acidimetry",
+      "D": "alkalimetry"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, which of the following pH values is an acceptable equivalence point for a strong base being titrated by a strong acid corresponds to acidity.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_027",
+    "course": "CHM 191",
+    "q_num": 27,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following indicator is red in acidic medium and yellow in the basic medium",
+    "options": {
+      "A": "temperature change",
+      "B": "presence of colloidal substances",
+      "C": "Background noise",
+      "D": "potassium hydrogen phthalate 35: endpoint detection is affected by some of the following factors except"
+    },
+    "answer": "D",
+    "explanation": "In practical volumetric analysis, which of the following indicator is red in acidic medium and yellow in the basic medium corresponds to potassium hydrogen phthalate 35: endpoint detection is affected by some of the following factors except.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_036",
+    "course": "CHM 191",
+    "q_num": 36,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "Which of the following factors cannot cause an indicator's pH range to change?",
+    "options": {
+      "A": "Presence of colloidal particle",
+      "B": "Presence of the organic solvents",
+      "C": "Temperature of the solution",
+      "D": "lonic strength of the medium Mass of the substance"
+    },
+    "answer": "D",
+    "explanation": "In practical volumetric analysis, Which of the following factors cannot cause an indicator's pH range to change corresponds to lonic strength of the medium Mass of the substance.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_037",
+    "course": "CHM 191",
+    "q_num": 37,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following indicator is colourless in acidic medium and pink in the basic medium",
+    "options": {
+      "A": "methyl orange",
+      "B": "bromothymol blue",
+      "C": "phenolphthalein",
+      "D": "methyl red"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, which of the following indicator is colourless in acidic medium and pink in the basic medium corresponds to phenolphthalein.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_038",
+    "course": "CHM 191",
+    "q_num": 38,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following indicator is red in acidic medium and blue in the basic medium",
+    "options": {
+      "A": "methyl orange",
+      "B": "litmus paper",
+      "C": "phenolphthalein",
+      "D": "methyl red"
+    },
+    "answer": "B",
+    "explanation": "In practical volumetric analysis, which of the following indicator is red in acidic medium and blue in the basic medium corresponds to litmus paper.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_039",
+    "course": "CHM 191",
+    "q_num": 39,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following indicator is pink in acidic medium and yellow in the basic medium",
+    "options": {
+      "A": "methyl orange",
+      "B": "bromothymol blue",
+      "C": "litmus paper",
+      "D": "methyl red"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, which of the following indicator is pink in acidic medium and yellow in the basic medium corresponds to methyl orange.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_041",
+    "course": "CHM 191",
+    "q_num": 41,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which Among the following is used to measure heat of reaction.",
+    "options": {
+      "A": "Retort stand",
+      "B": "Reagent bottle",
+      "C": "calorimeter",
+      "D": "volumetric flask"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, which Among the following is used to measure heat of reaction. corresponds to calorimeter.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_042",
+    "course": "CHM 191",
+    "q_num": 42,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which Among the following is used for heating of solids particularly metals to very high temperatures.",
+    "options": {
+      "A": "crucible",
+      "B": "conical flask",
+      "C": "calorimeter",
+      "D": "volumetric flask"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, which Among the following is used for heating of solids particularly metals to very high temperatures. corresponds to crucible.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_043",
+    "course": "CHM 191",
+    "q_num": 43,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "......….? Is used to measure the volume of liquids",
+    "options": {
+      "A": "conical flask",
+      "B": "pipette",
+      "C": "burette",
+      "D": "Beaker"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, ......…. corresponds to burette.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_044",
+    "course": "CHM 191",
+    "q_num": 44,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "......….? Is used to mix and heat chemicals.",
+    "options": {
+      "A": "conical flask",
+      "B": "Test tube",
+      "C": "burette",
+      "D": "Beaker"
+    },
+    "answer": "B",
+    "explanation": "In practical volumetric analysis, ......…. corresponds to Test tube.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_045",
+    "course": "CHM 191",
+    "q_num": 45,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which among the following Is used to hold large amount of liquids",
+    "options": {
+      "A": "conical flask",
+      "B": "pipette",
+      "C": "burette",
+      "D": "Beaker"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, which among the following Is used to hold large amount of liquids corresponds to conical flask.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_046",
+    "course": "CHM 191",
+    "q_num": 46,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which among the following Is used to prepare standard solutions.",
+    "options": {
+      "A": "conical flask",
+      "B": "pipette",
+      "C": "beaker",
+      "D": "volumetric flask"
+    },
+    "answer": "D",
+    "explanation": "In practical volumetric analysis, which among the following Is used to prepare standard solutions. corresponds to volumetric flask.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_047",
+    "course": "CHM 191",
+    "q_num": 47,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following indicator is used in the titration of a weak base against strong acid.",
+    "options": {
+      "A": "methyl orange",
+      "B": "litmus paper",
+      "C": "phenolphthalein",
+      "D": "methyl red"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, which of the following indicator is used in the titration of a weak base against strong acid. corresponds to methyl orange.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_048",
+    "course": "CHM 191",
+    "q_num": 48,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following indicator is used in the titration of a strong acid and strong base",
+    "options": {
+      "A": "methyl orange",
+      "B": "bromothymol blue",
+      "C": "phenolphthalein",
+      "D": "methyl red"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, which of the following indicator is used in the titration of a strong acid and strong base corresponds to phenolphthalein.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_FAQ_001",
+    "course": "CHM 191",
+    "q_num": 51,
+    "topic": "Physical Constants & States of Matter",
+    "question": "Whatistheboilingpointofwateratsealevel?",
+    "options": {
+      "A": "100°C",
+      "B": "0°C",
+      "C": "50°C",
+      "D": "200°C"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, Whatistheboilingpointofwateratsealevel is 100°C.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_002",
+    "course": "CHM 191",
+    "q_num": 52,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whichpieceoflaboratoryequipmentisusedtomeasure precisevolumesofliquid?",
+    "options": {
+      "A": "Bunsenburner",
+      "B": "Beaker",
+      "C": "Graduatedcylinder",
+      "D": "Testtube"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whichpieceoflaboratoryequipmentisusedtomeasure precisevolumesofliquid is Graduatedcylinder.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_003",
+    "course": "CHM 191",
+    "q_num": 53,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whatisthechemicalsymbolforgold?",
+    "options": {
+      "A": "Ag",
+      "B": "Au",
+      "C": "Hg",
+      "D": "Pt"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whatisthechemicalsymbolforgold is Au.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_004",
+    "course": "CHM 191",
+    "q_num": 54,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": "Whichtypeofreactioninvolvesthetransferofelectronsfrom onesubstancetoanother?",
+    "options": {
+      "A": "Acid-basereaction",
+      "B": "Redoxreaction",
+      "C": "Precipitationreaction",
+      "D": "Combustionreaction"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whichtypeofreactioninvolvesthetransferofelectronsfrom onesubstancetoanother is Redoxreaction.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_005",
+    "course": "CHM 191",
+    "q_num": 55,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": "WhatisthepHofaneutralsolution?",
+    "options": {
+      "A": "7",
+      "B": "14",
+      "C": "0",
+      "D": "10"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, WhatisthepHofaneutralsolution is 7.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_006",
+    "course": "CHM 191",
+    "q_num": 56,
+    "topic": "Physical Constants & States of Matter",
+    "question": "Whichgasisproducedduringtheelectrolysisofwater?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Hydrogen",
+      "C": "Carbondioxide",
+      "D": "Nitrogen"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whichgasisproducedduringtheelectrolysisofwater is Hydrogen.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_007",
+    "course": "CHM 191",
+    "q_num": 57,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whatisthechemicalformulafortablesalt?",
+    "options": {
+      "A": "NaCl",
+      "B": "HCl",
+      "C": "KCl",
+      "D": "CaCl2"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, Whatisthechemicalformulafortablesalt is NaCl.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_008",
+    "course": "CHM 191",
+    "q_num": 58,
+    "topic": "Physical Constants & States of Matter",
+    "question": "Whatistheprocessofseparatingamixturebasedon differencesinboilingpointscalled?",
+    "options": {
+      "A": "Filtration",
+      "B": "Distillation",
+      "C": "Chromatography",
+      "D": "Evaporation"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whatistheprocessofseparatingamixturebasedon differencesinboilingpointscalled is Distillation.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_009",
+    "course": "CHM 191",
+    "q_num": 59,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": "WhichelementisthemostabundantinEarth' satmosphere?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Nitrogen",
+      "C": "Carbon",
+      "D": "Hydrogen"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, WhichelementisthemostabundantinEarth' satmosphere is Nitrogen.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_010",
+    "course": "CHM 191",
+    "q_num": 60,
+    "topic": "Physical Constants & States of Matter",
+    "question": "WhatistheSIunitformeasuringtemperature?",
+    "options": {
+      "A": "Kelvin(K)",
+      "B": "Celsius(°",
+      "C": "Fahrenheit(°F)",
+      "D": "Rankine(°R)"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, WhatistheSIunitformeasuringtemperature is Kelvin(K).",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_011",
+    "course": "CHM 191",
+    "q_num": 61,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whichtypeofglasswareisusedtoholdandheatsmall amountsofliquid?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Testtube",
+      "D": "Graduatedcylinder"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whichtypeofglasswareisusedtoholdandheatsmall amountsofliquid is Testtube.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_012",
+    "course": "CHM 191",
+    "q_num": 62,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": "Whatistheprocessofasolidchangingdirectlyintoagas called?",
+    "options": {
+      "A": "Sublimation",
+      "B": "Vaporization",
+      "C": "Condensation",
+      "D": "Deposition"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, Whatistheprocessofasolidchangingdirectlyintoagas called is Sublimation.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_013",
+    "course": "CHM 191",
+    "q_num": 63,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": "Whichtypeofbondinvolvesthesharingofelectronsbetween atoms?",
+    "options": {
+      "A": "Ionicbond",
+      "B": "Covalentbond",
+      "C": "Metallicbond",
+      "D": "Hydrogenbond"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whichtypeofbondinvolvesthesharingofelectronsbetween atoms is Covalentbond.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_014",
+    "course": "CHM 191",
+    "q_num": 64,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whatisthechemicalsymbolforiron?",
+    "options": {
+      "A": "Fe",
+      "B": "Ir",
+      "C": "In",
+      "D": "Ie"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, Whatisthechemicalsymbolforiron is Fe.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_015",
+    "course": "CHM 191",
+    "q_num": 65,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": "Whichgasisresponsibleforthe\"pop\"soundwhenaburning splintisplacedintoatesttubeofgas?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Hydrogen",
+      "C": "Nitrogen",
+      "D": "Carbondioxide"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whichgasisresponsibleforthe\"pop\"soundwhenaburning splintisplacedintoatesttubeofgas is Hydrogen.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_016",
+    "course": "CHM 191",
+    "q_num": 66,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": "Whatistheprocessofagaschangingintoaliquidcalled?",
+    "options": {
+      "A": "Sublimation",
+      "B": "Vaporization",
+      "C": "Condensation",
+      "D": "Deposition"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whatistheprocessofagaschangingintoaliquidcalled is Condensation.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_017",
+    "course": "CHM 191",
+    "q_num": 67,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whichtypeofreactioninvolvesthecombinationoftwoor moresubstancestoformasingleproduct?",
+    "options": {
+      "A": "Decompositionreaction",
+      "B": "Synthesisreaction",
+      "C": "Singlereplacementreaction",
+      "D": "Doublereplacementreaction"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whichtypeofreactioninvolvesthecombinationoftwoor moresubstancestoformasingleproduct is Synthesisreaction.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_018",
+    "course": "CHM 191",
+    "q_num": 68,
+    "topic": "Physical Constants & States of Matter",
+    "question": "Whatisthechemicalformulaforwater?",
+    "options": {
+      "A": "H2O2",
+      "B": "HOH",
+      "C": "H2O",
+      "D": "OH2"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whatisthechemicalformulaforwater is H2O.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_019",
+    "course": "CHM 191",
+    "q_num": 69,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whichpieceoflaboratoryequipmentisusedtomeasure masswithhighprecision?",
+    "options": {
+      "A": "Bunsenburner",
+      "B": "Beaker",
+      "C": "Balancescale",
+      "D": "Testtube"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whichpieceoflaboratoryequipmentisusedtomeasure masswithhighprecision is Balancescale.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_020",
+    "course": "CHM 191",
+    "q_num": 70,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": "Whatistheprocessofseparatingamixturebasedon differencesinsolubilitycalled?",
+    "options": {
+      "A": "Filtration",
+      "B": "Distillation",
+      "C": "Chromatography",
+      "D": "Evaporation"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whatistheprocessofseparatingamixturebasedon differencesinsolubilitycalled is Chromatography.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_021",
+    "course": "CHM 191",
+    "q_num": 71,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whatisthechemicalformulaforcarbondioxide?",
+    "options": {
+      "A": "CO2",
+      "B": "CO3",
+      "C": "C2O4",
+      "D": "C2O3"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, Whatisthechemicalformulaforcarbondioxide is CO2.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_022",
+    "course": "CHM 191",
+    "q_num": 72,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whichtypeofglasswareisusedtomeasureandtransfer smallvolumesofliquid?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Pipette",
+      "D": "Graduatedcylinder"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whichtypeofglasswareisusedtomeasureandtransfer smallvolumesofliquid is Pipette.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_023",
+    "course": "CHM 191",
+    "q_num": 73,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": "Whatistheprocessofaliquidchangingintoagasatthe surfacecalled?",
+    "options": {
+      "A": "Sublimation",
+      "B": "Vaporization",
+      "C": "Condensation",
+      "D": "Deposition"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whatistheprocessofaliquidchangingintoagasatthe surfacecalled is Vaporization.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_024",
+    "course": "CHM 191",
+    "q_num": 74,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": "Whichtypeofbondinvolvesthetransferofelectronsfrom oneatomtoanother?",
+    "options": {
+      "A": "Ionicbond",
+      "B": "Covalentbond",
+      "C": "Metallicbond",
+      "D": "Hydrogenbond"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, Whichtypeofbondinvolvesthetransferofelectronsfrom oneatomtoanother is Ionicbond.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_025",
+    "course": "CHM 191",
+    "q_num": 75,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whatisthechemicalsymbolforsodium?",
+    "options": {
+      "A": "So",
+      "B": "Sn",
+      "C": "Na",
+      "D": "No"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whatisthechemicalsymbolforsodium is Na.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_026",
+    "course": "CHM 191",
+    "q_num": 76,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".WhatisthepurposeofaBunsenburnerinachemistrylab?",
+    "options": {
+      "A": "Toheatsubstances",
+      "B": "Tomixchemicals",
+      "C": "Tomeasurevolume",
+      "D": "TotestpHlevels"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, .WhatisthepurposeofaBunsenburnerinachemistrylab is Toheatsubstances.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_027",
+    "course": "CHM 191",
+    "q_num": 77,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Graduatedcylinder",
+      "D": "Testtube"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab is Graduatedcylinder.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_028",
+    "course": "CHM 191",
+    "q_num": 78,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthefunctionofamortarandpestleinachemistrylab?",
+    "options": {
+      "A": "Tomeasuretemperature",
+      "B": "Togrindsubstancesintopowders",
+      "C": "TomeasurepHlevels",
+      "D": "Tomixchemicals"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .Whatisthefunctionofamortarandpestleinachemistrylab is Togrindsubstancesintopowders.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_029",
+    "course": "CHM 191",
+    "q_num": 79,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthepurposeofafumehoodinachemistrylab?",
+    "options": {
+      "A": "Tostorechemicals",
+      "B": "Todisposeofwaste",
+      "C": "Toprovideventilationforharmfulfumes",
+      "D": "Toconductexperiments"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whatisthepurposeofafumehoodinachemistrylab is Toprovideventilationforharmfulfumes.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_030",
+    "course": "CHM 191",
+    "q_num": 80,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichsafetyequipmentshouldbewornwhenworkingwith chemicalsinachemistrylab?",
+    "options": {
+      "A": "Glovesandgoggles",
+      "B": "Labcoatandsandals",
+      "C": "Apronandhat",
+      "D": "Facemaskandboots"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, .Whichsafetyequipmentshouldbewornwhenworkingwith chemicalsinachemistrylab is Glovesandgoggles.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_031",
+    "course": "CHM 191",
+    "q_num": 81,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthepurposeofawashbottleinachemistrylab?",
+    "options": {
+      "A": "Tostorewater",
+      "B": "Todispensedistilledwater",
+      "C": "Tocleanglassware",
+      "D": "Tomeasurevolume"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whatisthepurposeofawashbottleinachemistrylab is Tocleanglassware.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_032",
+    "course": "CHM 191",
+    "q_num": 82,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichtypeofbalanceisusedtomeasuresmallmassesina chemistrylab?",
+    "options": {
+      "A": "Triplebeambalance",
+      "B": "Digitalbalance",
+      "C": "Analyticalbalance",
+      "D": "Springbalance"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichtypeofbalanceisusedtomeasuresmallmassesina chemistrylab is Analyticalbalance.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_033",
+    "course": "CHM 191",
+    "q_num": 83,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthefunctionofahotplateinachemistrylab?",
+    "options": {
+      "A": "Toheatsubstances",
+      "B": "Tomeasuretemperature",
+      "C": "Tomixchemicals",
+      "D": "Tostoresamples"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, .Whatisthefunctionofahotplateinachemistrylab is Toheatsubstances.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_034",
+    "course": "CHM 191",
+    "q_num": 84,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichpieceofglasswareisusedtotransfersmallamounts ofliquidinachemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Dropperpipette",
+      "D": "Testtube"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichpieceofglasswareisusedtotransfersmallamounts ofliquidinachemistrylab is Dropperpipette.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_035",
+    "course": "CHM 191",
+    "q_num": 85,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthepurposeofadesiccatorinachemistrylab?",
+    "options": {
+      "A": "Tostorechemicals",
+      "B": "Tomeasurevolume",
+      "C": "Todrysubstances",
+      "D": "Tomixchemicals"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whatisthepurposeofadesiccatorinachemistrylab is Todrysubstances.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_036",
+    "course": "CHM 191",
+    "q_num": 86,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichtypeofglasswareisusedtocontainandheatsmall amountsofliquidinachemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Testtube",
+      "D": "Graduatedcylinder"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichtypeofglasswareisusedtocontainandheatsmall amountsofliquidinachemistrylab is Testtube.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_037",
+    "course": "CHM 191",
+    "q_num": 87,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthefunctionofamagneticstirrerinachemistrylab?",
+    "options": {
+      "A": "Toheatsubstances",
+      "B": "Tomixchemicals",
+      "C": "Tomeasurevolume",
+      "D": "TotestpHlevels"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .Whatisthefunctionofamagneticstirrerinachemistrylab is Tomixchemicals.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_038",
+    "course": "CHM 191",
+    "q_num": 88,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichtypeofglasswareisusedtoholdandmixliquidsina chemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Testtube",
+      "D": "Graduatedcylinder"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, .Whichtypeofglasswareisusedtoholdandmixliquidsina chemistrylab is Beaker.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_039",
+    "course": "CHM 191",
+    "q_num": 89,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthepurposeofapipetteinachemistrylab?",
+    "options": {
+      "A": "Tomeasuretemperature",
+      "B": "Totransfersmallamountsofliquid",
+      "C": "Tocleanglassware",
+      "D": "Tostorechemicals"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .Whatisthepurposeofapipetteinachemistrylab is Totransfersmallamountsofliquid.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_040",
+    "course": "CHM 191",
+    "q_num": 90,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichpieceofglasswareiscommonlyusedtostoreand heatsolutionsinachemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Testtube",
+      "D": "Graduatedcylinder"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtostoreand heatsolutionsinachemistrylab is Erlenmeyerflask.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_041",
+    "course": "CHM 191",
+    "q_num": 91,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".WhatisthefunctionofaBuchnerfunnelinachemistrylab?",
+    "options": {
+      "A": "Tofiltersolidsfromliquids",
+      "B": "Tomeasuretemperature",
+      "C": "Tostorechemicals",
+      "D": "Tomixchemicals"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, .WhatisthefunctionofaBuchnerfunnelinachemistrylab is Tofiltersolidsfromliquids.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_042",
+    "course": "CHM 191",
+    "q_num": 92,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": ".Whichtypeofglasswareisusedtomeasurethevolumeof gasesinachemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Gassyringe",
+      "D": "Graduatedcylinder"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichtypeofglasswareisusedtomeasurethevolumeof gasesinachemistrylab is Gassyringe.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_043",
+    "course": "CHM 191",
+    "q_num": 93,
+    "topic": "Physical Constants & States of Matter",
+    "question": ".Whatisthepurposeofanevaporatingdishinachemistrylab?",
+    "options": {
+      "A": "Tomeasuretemperature",
+      "B": "Tostorechemicals",
+      "C": "Toheatandevaporateliquids",
+      "D": "Tomixchemicals"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whatisthepurposeofanevaporatingdishinachemistrylab is Toheatandevaporateliquids.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_044",
+    "course": "CHM 191",
+    "q_num": 94,
+    "topic": "Physical Constants & States of Matter",
+    "question": ".Whichpieceofglasswareiscommonlyusedtoconduct reactionsatspecifictemperaturesinachemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Testtuberack",
+      "D": "Heatingmantle"
+    },
+    "answer": "D",
+    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtoconduct reactionsatspecifictemperaturesinachemistrylab is Heatingmantle.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_045",
+    "course": "CHM 191",
+    "q_num": 95,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthefunctionofaseparatoryfunnelinachemistrylab?",
+    "options": {
+      "A": "Tomeasurevolume",
+      "B": "Tomixchemicals",
+      "C": "Toseparateimmiscibleliquidsorsolidsfromliquids",
+      "D": "TotestpHlevels"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whatisthefunctionofaseparatoryfunnelinachemistrylab is Toseparateimmiscibleliquidsorsolidsfromliquids.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_046",
+    "course": "CHM 191",
+    "q_num": 96,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Graduatedcylinder",
+      "D": "Testtube"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab is Graduatedcylinder.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_047",
+    "course": "CHM 191",
+    "q_num": 97,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whichofthefollowingisacharacteristicofmetals?",
+    "options": {
+      "A": "Solubleinwater.",
+      "B": "Goodconductorsofheatandelectricity.",
+      "C": "Malleable.",
+      "D": "Insolubleinwater."
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whichofthefollowingisacharacteristicofmetals is Goodconductorsofheatandelectricity..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_048",
+    "course": "CHM 191",
+    "q_num": 98,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Astudentaddsmagnesiumturningstoacrucible,andthen heatsitusingaBunsenburner.Whichofthefollowingsubstances isproduced?",
+    "options": {
+      "A": "Hydrogen.",
+      "B": "Magnesiumoxide.",
+      "C": "Magnesiumchloride.",
+      "D": "Magnesiumnitride."
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Astudentaddsmagnesiumturningstoacrucible,andthen heatsitusingaBunsenburner.Whichofthefollowingsubstances isproduced is Magnesiumoxide..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_049",
+    "course": "CHM 191",
+    "q_num": 99,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": ".WhichofthefollowingisNOTaproductoftheelectrolysisof moltenleadbromide?",
+    "options": {
+      "A": "Lea",
+      "D": "Oxygen.",
+      "B": "Bromine.",
+      "C": "Hydrogen."
+    },
+    "answer": "D",
+    "explanation": "In practical chemistry, .WhichofthefollowingisNOTaproductoftheelectrolysisof moltenleadbromide is Oxygen..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_050",
+    "course": "CHM 191",
+    "q_num": 100,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": ".Inaqueoussolution,whichofthefollowingsubstancesis amphoteric?",
+    "options": {
+      "A": "Sulfuricaci",
+      "D": "Aluminumhydroxide.",
+      "B": "Sodiumhydroxide.",
+      "C": "Hydrogenchloride."
+    },
+    "answer": "D",
+    "explanation": "In practical chemistry, .Inaqueoussolution,whichofthefollowingsubstancesis amphoteric is Aluminumhydroxide..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_051",
+    "course": "CHM 191",
+    "q_num": 101,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichofthefollowingisanendothermicprocess?",
+    "options": {
+      "A": "Sublimationofdryice.",
+      "B": "Burningofnaturalgas.",
+      "C": "Vaporizationofwater.",
+      "D": "Meltingofice."
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, .Whichofthefollowingisanendothermicprocess is Sublimationofdryice..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_052",
+    "course": "CHM 191",
+    "q_num": 102,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichofthefollowingisametal?",
+    "options": {
+      "A": "Argon.",
+      "B": "Zin",
+      "C": "Chlorine.",
+      "D": "Silicon."
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .Whichofthefollowingisametal is Zin.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_053",
+    "course": "CHM 191",
+    "q_num": 103,
+    "topic": "Physical Constants & States of Matter",
+    "question": ".Whichofthefollowingprocessesrequiresadecreasein temperature?",
+    "options": {
+      "A": "Meltingofice.",
+      "B": "Sublimationofdryice.",
+      "C": "Freezingofwater.",
+      "D": "Vaporizationofwater."
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichofthefollowingprocessesrequiresadecreasein temperature is Freezingofwater..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_054",
+    "course": "CHM 191",
+    "q_num": 104,
+    "topic": "Physical Constants & States of Matter",
+    "question": ".Whichofthefollowingsubstancesisinsolubleinwater?",
+    "options": {
+      "A": "Sodiumchloride.",
+      "B": "Coppersulfate.",
+      "C": "Ammoniumchloride.",
+      "D": "Calciumcarbonate."
+    },
+    "answer": "D",
+    "explanation": "In practical chemistry, .Whichofthefollowingsubstancesisinsolubleinwater is Calciumcarbonate..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_055",
+    "course": "CHM 191",
+    "q_num": 105,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": ".WhichofthefollowinghasapHof7?",
+    "options": {
+      "A": "Hydrochloricaci",
+      "D": "Sodiumhydroxide.",
+      "B": "Water.",
+      "C": "Sulfuricaci"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .WhichofthefollowinghasapHof7 is Water..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_056",
+    "course": "CHM 191",
+    "q_num": 106,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": ".Whichofthefollowingsubstancesisaweakacid?",
+    "options": {
+      "A": "Hydrochloricaci",
+      "D": "",
+      "B": "Citricaci",
+      "C": "Sulfuricaci"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .Whichofthefollowingsubstancesisaweakacid is Citricaci.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_057",
+    "course": "CHM 191",
+    "q_num": 107,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": ".Whichofthefollowingsubstancesisastrongbase?",
+    "options": {
+      "A": "",
+      "B": "Sodiumhydroxide.",
+      "C": "Ammoni",
+      "D": "Calciumhydroxide."
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .Whichofthefollowingsubstancesisastrongbase is Sodiumhydroxide..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_058",
+    "course": "CHM 191",
+    "q_num": 108,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichofthefollowingisanexampleofacovalentbond?",
+    "options": {
+      "A": "Sodiumchloride.",
+      "B": "Sodiumbicarbonate.",
+      "C": "Hydrogengas.",
+      "D": "Magnesiumoxide."
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichofthefollowingisanexampleofacovalentbond is Hydrogengas..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_059",
+    "course": "CHM 191",
+    "q_num": 109,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": ".Whatisthepurposeofaspectrophotometerinachemistry lab?",
+    "options": {
+      "A": "Tomeasuretemperature",
+      "B": "Tomixchemicals",
+      "C": "Toanalyzetheconcentrationofsubstancesinasolution",
+      "D": "Tostorechemicals"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whatisthepurposeofaspectrophotometerinachemistry lab is Toanalyzetheconcentrationofsubstancesinasolution.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_060",
+    "course": "CHM 191",
+    "q_num": 110,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichofthefollowingpropertiesischaracteristicofmetals?",
+    "options": {
+      "A": "Lowmeltingpoints.",
+      "B": "Lowelectricalconductivity."
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichofthefollowingpropertiesischaracteristicofmetals is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  }
+]

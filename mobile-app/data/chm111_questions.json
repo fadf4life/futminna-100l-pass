@@ -1,0 +1,1232 @@
+[
+  {
+    "id": "CHM111_Q001",
+    "course": "CHM 111",
+    "q_num": 1,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "A chemical reaction is said to be at equilibrium at.",
+    "options": {
+      "A": "Minimal degree of freedom and maximum entropy",
+      "B": "Minimal degree of freedom and minimal entropy",
+      "C": "Maximum degree of freedom and maximum entropy"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q002",
+    "course": "CHM 111",
+    "q_num": 2,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Predict the spontaneity of a chemical process if ΔG^o = 141.7 and K = 1.4 x 10^-25 at 298K.",
+    "options": {
+      "A": "Spontaneous process",
+      "B": "Non spontaneous",
+      "C": "An equilibrium process"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q003",
+    "course": "CHM 111",
+    "q_num": 3,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Estimate the boiling point of water given ΔH^o = 44.01KJmol^-1 and ΔS^o = 118.3 J/Kmol^-1.",
+    "options": {
+      "A": "100^o C",
+      "B": "93.7^o C",
+      "C": "97.3^o C"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q004",
+    "course": "CHM 111",
+    "q_num": 4,
+    "topic": "Chemical Kinetics & Reaction Rates",
+    "question": "Which of the following statements is true for the effect of catalyst on equilibrium.",
+    "options": {
+      "A": "affects the rates of the reactions",
+      "B": "alter the equilibrium position",
+      "C": "no effect on rates and equilibrium position"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+  },
+  {
+    "id": "CHM111_Q005",
+    "course": "CHM 111",
+    "q_num": 5,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the following principles is used in predicting changes in equilibrium concentrations?",
+    "options": {
+      "A": "Le Chateliers",
+      "B": "Zeroth",
+      "C": "Boyles"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q006",
+    "course": "CHM 111",
+    "q_num": 6,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The following reaction is at equilibrium. C_l2 (g) + 3F_2 (g) <=> 2ClF_3 (g) How will the system respond if the volume is increased at constant temperature?",
+    "options": {
+      "A": "The reaction will shift to the right.",
+      "B": "There will be no change to the equilibrium position",
+      "C": "The reaction will shift to the left"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q007",
+    "course": "CHM 111",
+    "q_num": 7,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The following reaction is at equilibrium. CF_2 Br_2 (g) <=> CF_2 (g) + 2Br(g) ΔH= 424 kJ mol^–1 How will the system respond if the temperature is decreased?",
+    "options": {
+      "A": "The reaction will shift to the left.",
+      "B": "The reaction will shift to the right.",
+      "C": "reaction stops"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q008",
+    "course": "CHM 111",
+    "q_num": 8,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Consider this equation: 2CO(g) + O_2 (g) <=> 2CO_2 (g) Suppose the equation is rewritten as CO(g) + ½O_2 (g) <=> CO_2 (g) with an equilibrium constant Kc'. What is the relationship between Kc and Kc'?",
+    "options": {
+      "A": "Kc^, = Kc",
+      "B": "Kc^, = (Kc) ½",
+      "C": "Kc^, = ½(Kc)"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q009",
+    "course": "CHM 111",
+    "q_num": 9,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Identify the INCORRECT statement below regarding chemical equilibrium.",
+    "options": {
+      "A": "All chemical reactions are, in principle, reversible.",
+      "B": "Equilibrium is achieved when the concentrations of species become constant.",
+      "C": "Equilibrium is achieved when reactant and product concentrations are equal."
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q010",
+    "course": "CHM 111",
+    "q_num": 10,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "In which of the following reactions will the point of equilibrium shift to the left when the pressure on the system is increased?",
+    "options": {
+      "A": "C(s) + O_2 (g) <=> CO_2 (g)",
+      "B": "CaCO_3 (s) <=> CaO(s) + CO_2 (g)",
+      "C": "2Mg(s) + O_2 (g) <=> 2MgO(s)"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q011",
+    "course": "CHM 111",
+    "q_num": 11,
+    "topic": "Chemical Kinetics & Reaction Rates",
+    "question": "What happens when a catalyst is added to a system at equilibrium?",
+    "options": {
+      "A": "The reaction follows an alternative pathway of lower activation energy.",
+      "B": "The heat of reaction decreases.",
+      "C": "The potential energy of the reactants decreases."
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+  },
+  {
+    "id": "CHM111_Q012",
+    "course": "CHM 111",
+    "q_num": 12,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The reaction A <=> B has an equilibrium constant of K = 10^–4 . Which of the following statements is always correct?",
+    "options": {
+      "A": "The reaction will have 50% product B and 50% reactant A at equilibrium.",
+      "B": "The reaction is very favourable and will have mostly product B at equilibrium.",
+      "C": "The reaction is unfavourable and will not have very much product B at equilibrium."
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q013",
+    "course": "CHM 111",
+    "q_num": 13,
+    "topic": "Chemical Kinetics & Reaction Rates",
+    "question": "Which of the following statements most accurately relates the properties of a liquid at room temperature with its vapour pressure?",
+    "options": {
+      "A": "liquid low vapour pressure will probably have a high surface tension and a high boiling point.",
+      "B": "liquid low vapour pressure will probably have a low surface tension and a high boiling point.",
+      "C": "liquid high vapour pressure will probably have a low surface tension and a high boiling point."
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+  },
+  {
+    "id": "CHM111_Q014",
+    "course": "CHM 111",
+    "q_num": 14,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "For a reversible reaction, the equilibrium lies to the.",
+    "options": {
+      "A": "Left",
+      "B": "Right",
+      "C": "middle"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q015",
+    "course": "CHM 111",
+    "q_num": 15,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the following is true for the composition of equilibrium mixture. If ΔG = 0 and K = 1 the mixture is.",
+    "options": {
+      "A": "Mostly products",
+      "B": "Mostly reactants",
+      "C": "Neither reactants nor products are favoured"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q016",
+    "course": "CHM 111",
+    "q_num": 16,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Calculate the value of K at 298K for the following reaction N_2 (g) + 3H_2 (g) <=> 2NH_3 (g) Given ΔG = -32.96KJmol-1.",
+    "options": {
+      "A": "5.97 x 10^5",
+      "B": "13.3",
+      "C": "-13.3"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q017",
+    "course": "CHM 111",
+    "q_num": 17,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Of the following reactions, which of the reaction process is only spontaneous at high temperatures?",
+    "options": {
+      "A": "ΔH +, Δ S -",
+      "B": "ΔH +, Δ S +",
+      "C": "ΔH –, Δ S –"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q018",
+    "course": "CHM 111",
+    "q_num": 18,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "The incomplete combustion of carbon is described by the following equation 2C(s) + O_2 (g) &rarr;2CO(g) How does the spontaneity of this process depend upon temperature?",
+    "options": {
+      "A": "spontaneous (ΔG < 0) at all temperatures.",
+      "B": "Spontaneous process at high temperature",
+      "C": "Non spontaneous process"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q019",
+    "course": "CHM 111",
+    "q_num": 19,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "A condition of a predation process describes an endothermic process with an increase in system entropy, ?G will be negative if.",
+    "options": {
+      "A": "TΔS is greater than ΔH",
+      "B": "TΔS is less than ΔH",
+      "C": "TΔS = 0"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q020",
+    "course": "CHM 111",
+    "q_num": 20,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "At 25^?C, a reaction has a Gibb's free energy change of +45kJ. If the enthalpy change of the reaction is +35kJ, what is the entropy change of the reaction?",
+    "options": {
+      "A": "-400JK",
+      "B": "-33.6JK",
+      "C": "33.6JK"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q021",
+    "course": "CHM 111",
+    "q_num": 21,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Energy can neither be created nor destroyed but can be converted from one form to other is inferred from.",
+    "options": {
+      "A": "zeroth low of thermodynamic",
+      "B": "first law of thermodynamics",
+      "C": "second law to thermodynamics"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q022",
+    "course": "CHM 111",
+    "q_num": 22,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "From the eqution 2NO_2 (g) <=> N_2 O_4 (g) When the value of the reaction quotient before any reaction occurs is zero (0 ) at 25 °C, the concentration changes so that at equilibrium, [NO_2 ] = 0.016 M and [N_2 O_4 ] = 0.042 M. What is the value of the equilibrium constant for the reaction?",
+    "options": {
+      "A": "1.6 x 10^2",
+      "B": "-1.6 x 10^5",
+      "C": "0.016"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q023",
+    "course": "CHM 111",
+    "q_num": 23,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "For the reaction, 2SO_2 (g) + O_2 (g) <=> 2SO_3 (g) the concentrations at equilibrium are [SO_2 ] = 0.90 M, [O_2 ] = 0.35 M, and [SO_3 ] = 1.1 M. What is the value of the equilibrium constant, K_c ?",
+    "options": {
+      "A": "K_c = 3.4",
+      "B": "K_c = 6.9",
+      "C": "K_c = 4.3"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q024",
+    "course": "CHM 111",
+    "q_num": 24,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "A 1.00-L flask containing 0.0500 mol of NO(g), 0.0155 mol of Cl2(g), and 0.500 mol of NOCl <br /> 2NO(g) + Cl_2 (g) <=> 2NOCl(g) K_c = 4.6 × 104 Calculate the reaction quotient and determine the direction of the equilibrium shift.",
+    "options": {
+      "A": "Q_c =1.9 x 10^-7 , shift left",
+      "B": "Q_c = 6.45 x 10^3 , shift right",
+      "C": "Q_c =4.6 x 10^4 , none is favoured"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q025",
+    "course": "CHM 111",
+    "q_num": 25,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the statements defines the<b> activity</b> of a substance.",
+    "options": {
+      "A": "degree of randomness of a system",
+      "B": "a measure of its effective concentration under specified conditions.",
+      "C": "a measure of heat content of a substance"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q026",
+    "course": "CHM 111",
+    "q_num": 26,
+    "topic": "Acids, Bases & Ionic Equilibria",
+    "question": "A system in which reactants and products are found in two or more phases is a.",
+    "options": {
+      "A": "Phase equilibrium",
+      "B": "chemical equilibrium",
+      "C": "Heterogeneous equilibrium"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Acids, Bases & Ionic Equilibria, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Acids, Bases & Ionic Equilibria."
+  },
+  {
+    "id": "CHM111_Q027",
+    "course": "CHM 111",
+    "q_num": 27,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "One of the following is an example of heterogeneous equilibria.",
+    "options": {
+      "A": "C_2 H_6 (g) <=> C_2 H_4 (g) + H_2 (g)",
+      "B": "CO(g) + H_2 O(g) <=> CO_2 (g) + H_2 (g)",
+      "C": "PbCl_2 (s) &rarr;Pb^2+ (aq) + 2Cl^- (aq)"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q028",
+    "course": "CHM 111",
+    "q_num": 28,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "A chemical reaction is said to be at equilibrium at.",
+    "options": {
+      "A": "Minimal degree of freedom and maximum entropy",
+      "B": "Minimal degree of freedom and minimal entropy",
+      "C": "Minimal entropy and minimal degree of freedom"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q029",
+    "course": "CHM 111",
+    "q_num": 29,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Predict the spontaneity of a chemical process if ΔG^o = 141.7 and K = 1.4 x 10^-25 at 298K.",
+    "options": {
+      "A": "Spontaneous process",
+      "B": "Non spontaneous",
+      "C": "An equilibrium process"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q030",
+    "course": "CHM 111",
+    "q_num": 30,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Estimate the boiling point of water given ΔH^o = 44.01KJmol^-1 and ΔS^o = 118.3 J/Kmol^-1.",
+    "options": {
+      "A": "93.7^o C",
+      "B": "97.3^o C",
+      "C": "97.3kj/mol"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q031",
+    "course": "CHM 111",
+    "q_num": 31,
+    "topic": "Chemical Kinetics & Reaction Rates",
+    "question": "Which of the following statements is true for the effect of catalyst on equilibrium.",
+    "options": {
+      "A": "affects the rates of the reactions",
+      "B": "alter the equilibrium position",
+      "C": "catalyst remains in the reactants"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+  },
+  {
+    "id": "CHM111_Q032",
+    "course": "CHM 111",
+    "q_num": 32,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the following principles is used in predicting changes in equilibrium concentrations?",
+    "options": {
+      "A": "Fritz Haber",
+      "B": "Le Chateliers",
+      "C": "Zeroth"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q033",
+    "course": "CHM 111",
+    "q_num": 33,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The following reaction is at equilibrium. C_l2 (g) + 3F_2 (g) <=> 2ClF_3 (g) How will the system respond if the volume is increased at constant temperature?",
+    "options": {
+      "A": "The reaction will shift to the right.",
+      "B": "There will be no change to the equilibrium position",
+      "C": "The reaction will shift to the left"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q034",
+    "course": "CHM 111",
+    "q_num": 34,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The following reaction is at equilibrium. CF_2 Br_2 (g) <=> CF_2 (g) + 2Br(g) ΔH= 424 kJ mol^–1 How will the system respond if the temperature is decreased?",
+    "options": {
+      "A": "The reaction will shift to the left.",
+      "B": "The reaction will shift to the right.",
+      "C": "reaction stops"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q035",
+    "course": "CHM 111",
+    "q_num": 35,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Consider this equation: 2CO(g) + O_2 (g) <=> 2CO_2 (g) Suppose the equation is rewritten as CO(g) + ½O_2 (g) <=> CO_2 (g) with an equilibrium constant Kc'. What is the relationship between Kc and Kc'?",
+    "options": {
+      "A": "Kc^, = Kc",
+      "B": "Kc^, = (Kc) ½",
+      "C": "Kc^, = ½(Kc)"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q036",
+    "course": "CHM 111",
+    "q_num": 36,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Identify the INCORRECT statement below regarding chemical equilibrium.",
+    "options": {
+      "A": "All chemical reactions are, in principle, reversible.",
+      "B": "Equilibrium is achieved when the concentrations of species become constant.",
+      "C": "Equilibrium is achieved when reactant and product concentrations are equal."
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q037",
+    "course": "CHM 111",
+    "q_num": 37,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "In which of the following reactions will the point of equilibrium shift to the left when the pressure on the system is increased?",
+    "options": {
+      "A": "C(s) + O_2 (g) <=> CO_2 (g)",
+      "B": "CaCO_3 (s) <=> CaO(s) + CO_2 (g)",
+      "C": "2Mg(s) + O_2 (g) <=> 2MgO(s)"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q038",
+    "course": "CHM 111",
+    "q_num": 38,
+    "topic": "Chemical Kinetics & Reaction Rates",
+    "question": "What happens when a catalyst is added to a system at equilibrium?",
+    "options": {
+      "A": "The reaction follows an alternative pathway of lower activation energy.",
+      "B": "The heat of reaction decreases.",
+      "C": "The potential energy of the reactants decreases."
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+  },
+  {
+    "id": "CHM111_Q039",
+    "course": "CHM 111",
+    "q_num": 39,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The reaction A <=> B has an equilibrium constant of K = 10^–4 . Which of the following statements is always correct?",
+    "options": {
+      "A": "The reaction will have 50% product B and 50% reactant A at equilibrium.",
+      "B": "The reaction is very favourable and will have mostly product B at equilibrium.",
+      "C": "The reaction is unfavourable and will not have very much product B at equilibrium."
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q040",
+    "course": "CHM 111",
+    "q_num": 40,
+    "topic": "Chemical Kinetics & Reaction Rates",
+    "question": "Which of the following statements most accurately relates the properties of a liquid at room temperature with its vapour pressure?",
+    "options": {
+      "A": "liquid low vapour pressure will probably have a high surface tension and a high boiling point.",
+      "B": "liquid low vapour pressure will probably have a low surface tension and a high boiling point.",
+      "C": "liquid high vapour pressure will probably have a low surface tension and a high boiling point."
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+  },
+  {
+    "id": "CHM111_Q041",
+    "course": "CHM 111",
+    "q_num": 41,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "For a reversible reaction, the equilibrium lies to the.",
+    "options": {
+      "A": "Left",
+      "B": "Right",
+      "C": "middle"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q042",
+    "course": "CHM 111",
+    "q_num": 42,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the following is true for the composition of equilibrium mixture. If ΔG = 0 and K = 1 the mixture is.",
+    "options": {
+      "A": "Mostly products",
+      "B": "Mostly reactants",
+      "C": "Neither reactants nor products are favoured"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q043",
+    "course": "CHM 111",
+    "q_num": 43,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Calculate the value of K at 298K for the following reaction N_2 (g) + 3H_2 (g) <=> 2NH_3 (g) Given ΔG = -32.96KJmol-1.",
+    "options": {
+      "A": "5.97 x 10^5",
+      "B": "13.3",
+      "C": "-13.3"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q044",
+    "course": "CHM 111",
+    "q_num": 44,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Of the following reactions, which of the reaction process is only spontaneous at high temperatures?",
+    "options": {
+      "A": "ΔH +, Δ S -",
+      "B": "ΔH +, Δ S +",
+      "C": "ΔH –, Δ S –"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q045",
+    "course": "CHM 111",
+    "q_num": 45,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "The incomplete combustion of carbon is described by the following equation 2C(s) + O_2 (g) &rarr;2CO(g) How does the spontaneity of this process depend upon temperature?",
+    "options": {
+      "A": "spontaneous (ΔG < 0) at all temperatures.",
+      "B": "Spontaneous process at high temperature",
+      "C": "Non spontaneous process"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q046",
+    "course": "CHM 111",
+    "q_num": 46,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "If ΔH is negative and ΔS is positive, this condition describes.",
+    "options": {
+      "A": "Spontaneous process at low temperature",
+      "B": "Non spontaneous process",
+      "C": "Spontaneous process at all temperatures"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q047",
+    "course": "CHM 111",
+    "q_num": 47,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "A condition of a predation process describes an endothermic process with an increase in system entropy, ?G will be negative if.",
+    "options": {
+      "A": "TΔS is greater than ΔH",
+      "B": "TΔS is less than ΔH",
+      "C": "TΔS = 0"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q048",
+    "course": "CHM 111",
+    "q_num": 48,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "At 25^?C, a reaction has a Gibb's free energy change of +45kJ. If the enthalpy change of the reaction is +35kJ, what is the entropy change of the reaction?",
+    "options": {
+      "A": "-400JK",
+      "B": "-33.6JK",
+      "C": "33.6JK"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q049",
+    "course": "CHM 111",
+    "q_num": 49,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Energy can neither be created nor destroyed but can be converted from one form to other is inferred from.",
+    "options": {
+      "A": "zeroth low of thermodynamic",
+      "B": "first law of thermodynamics",
+      "C": "second law to thermodynamics"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q050",
+    "course": "CHM 111",
+    "q_num": 50,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "From the equation 2NO_2 (g) <=> N_2 O_4 (g) When the value of the reaction quotient before any reaction occurs is zero (0 ) at 25 °C, the concentration changes so that at equilibrium, [NO_2 ] = 0.016 M and [N_2 O_4 ] = 0.042 M. What is the value of the equilibrium constant for the reaction?",
+    "options": {
+      "A": "1.6 x 10^2",
+      "B": "-1.6 x 10^5",
+      "C": "0.016"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q051",
+    "course": "CHM 111",
+    "q_num": 51,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "For the reaction, 2SO_2 (g) + O_2 (g) <=> 2SO_3 (g) the concentrations at equilibrium are [SO_2 ] = 0.90 M, [O_2 ] = 0.35 M, and [SO_3 ] = 1.1 M. What is the value of the equilibrium constant, K_c ?",
+    "options": {
+      "A": "K_c = 3.4",
+      "B": "K_c = 6.9",
+      "C": "K_c = 4.3"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q052",
+    "course": "CHM 111",
+    "q_num": 52,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "A 1.00-L flask containing 0.0500 mol of NO(g), 0.0155 mol of Cl2(g), and 0.500 mol of NOCl <br /> 2NO(g) + Cl_2 (g) <=> 2NOCl(g) K_c = 4.6 × 104 Calculate the reaction quotient and determine the direction of the equilibrium shift.",
+    "options": {
+      "A": "Q_c =0,shifts right",
+      "B": "Q_c =1.9 x 10^-7 , shift left",
+      "C": "Q_c = 6.45 x 10^3 , shift right"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q053",
+    "course": "CHM 111",
+    "q_num": 53,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the statements defines the<b> activity</b> of a substance.",
+    "options": {
+      "A": "degree of randomness of a system",
+      "B": "a measure of its effective concentration under specified conditions.",
+      "C": "a measure of heat content of a substance"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q054",
+    "course": "CHM 111",
+    "q_num": 54,
+    "topic": "Acids, Bases & Ionic Equilibria",
+    "question": "A system in which reactants and products are found in two or more phases is a.",
+    "options": {
+      "A": "Phase equilibrium",
+      "B": "chemical equilibrium",
+      "C": "Heterogeneous equilibrium"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Acids, Bases & Ionic Equilibria, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Acids, Bases & Ionic Equilibria."
+  },
+  {
+    "id": "CHM111_Q055",
+    "course": "CHM 111",
+    "q_num": 55,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The following factors affects the position of an equilibrium EXCEPT.",
+    "options": {
+      "A": "Temperature",
+      "B": "Pressure",
+      "C": "Catalyst"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q056",
+    "course": "CHM 111",
+    "q_num": 56,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which one of the following statements regarding energy is false?",
+    "options": {
+      "A": "The total energy in a chemical universe (a system and its surroundings) is constant",
+      "B": "Energy can be converted from one form to another",
+      "C": "The energy stored in chemical bonds is referred to as kinetic energy"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q057",
+    "course": "CHM 111",
+    "q_num": 57,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "First law of thermodynamics furnishes the relationship between.",
+    "options": {
+      "A": "heat and work",
+      "B": "heat, work and properties of the system",
+      "C": "various properties of the system"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q058",
+    "course": "CHM 111",
+    "q_num": 58,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "In which direction does the transfer of energy as heat happen spontaneously?",
+    "options": {
+      "A": "From cold to hot",
+      "B": "From hot to cold",
+      "C": "No changes occurs"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q059",
+    "course": "CHM 111",
+    "q_num": 59,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Which one of the following statements best describes the enthalpy change of a reaction?",
+    "options": {
+      "A": "The energy released when chemical bonds are formed during a chemical reaction",
+      "B": "The energy consumed when chemical bonds are broken during a chemical reaction",
+      "C": "The difference between the energy released by bond formation and the energy consumed by bond cleavage during a chemical reaction"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q060",
+    "course": "CHM 111",
+    "q_num": 60,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Enthalpy is represented by which of the following symbols?",
+    "options": {
+      "A": "H",
+      "B": "K",
+      "C": "S"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q061",
+    "course": "CHM 111",
+    "q_num": 61,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the following terms describes a reaction in which there is a net transfer of energy from a system to its surroundings?",
+    "options": {
+      "A": "Exothermic",
+      "B": "Endothermic",
+      "C": "Spontaneous"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q062",
+    "course": "CHM 111",
+    "q_num": 62,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Which of the following statements regarding the Gibbs free energy change for a reaction is false?",
+    "options": {
+      "A": "The Gibbs free energy change is the proportion of the enthalpy change of a reaction that is used to increase the entropy.",
+      "B": "If the Gibbs free energy change for a reaction is negative, the reaction happens spontaneously.",
+      "C": "The Gibbs free energy is represented by the symbol G"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q063",
+    "course": "CHM 111",
+    "q_num": 63,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Energy is measured in which of the following units?",
+    "options": {
+      "A": "Kelvin",
+      "B": "Joule",
+      "C": "Pascal"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q064",
+    "course": "CHM 111",
+    "q_num": 64,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The formation of a chemical bond releases energy. True or false?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "All of the above"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q065",
+    "course": "CHM 111",
+    "q_num": 65,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "In case of spontaneous reaction, the reaction process favoured is.",
+    "options": {
+      "A": "Forward",
+      "B": "Both direction",
+      "C": "Reverse"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q066",
+    "course": "CHM 111",
+    "q_num": 66,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the following is true for a closed system?",
+    "options": {
+      "A": "mass entering = mass leaving",
+      "B": "mass does not enter or leave the system",
+      "C": "no reaction occur"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q067",
+    "course": "CHM 111",
+    "q_num": 67,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "When the value of K is greater than the I, then the reaction is.",
+    "options": {
+      "A": "Forward reaction",
+      "B": "Backward reaction",
+      "C": "Spontaneous"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q068",
+    "course": "CHM 111",
+    "q_num": 68,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "ΔG for spontaneous reaction is.",
+    "options": {
+      "A": "Negative",
+      "B": "Positive",
+      "C": "zero"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q069",
+    "course": "CHM 111",
+    "q_num": 69,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Describe how matter and/or energy is redistributed when you empty a canister of compressed air into a room.",
+    "options": {
+      "A": "greater and more uniform dispersal of matter",
+      "B": "much lesser dispersal of matter",
+      "C": "a reversible process"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q070",
+    "course": "CHM 111",
+    "q_num": 70,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Describe how matter and/or energy is redistributed when you empty a canister of compressed air into a room.",
+    "options": {
+      "A": "greater and more uniform dispersal of matter",
+      "B": "much lesser dispersal of matter",
+      "C": "a reversible process"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q071",
+    "course": "CHM 111",
+    "q_num": 71,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Why do plastic materials tend to persist in the environment?",
+    "options": {
+      "A": "Oxidation of plastics is fast and spontaneous",
+      "B": "Plastics are kinetically unstable",
+      "C": "Oxidation of plastics is slow and spontaneous"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q072",
+    "course": "CHM 111",
+    "q_num": 72,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Predict the sign of the entropy change for the following processes. C_6 H_6 (l) +15/2 O_2 (g)&rarr;6CO_2 (g) + 3H_2 O(l).",
+    "options": {
+      "A": "ΔS = positive",
+      "B": "ΔS = negative",
+      "C": "ΔS = 0"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q073",
+    "course": "CHM 111",
+    "q_num": 73,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "NaNO_3 (s)&rarr;Na^+ (aq) + NO ^?3 (aq).",
+    "options": {
+      "A": "ΔS = positive",
+      "B": "ΔS = negative",
+      "C": "ΔS = +/-"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q074",
+    "course": "CHM 111",
+    "q_num": 74,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The freezing of liquid water.",
+    "options": {
+      "A": "ΔS = positive",
+      "B": "ΔS = negative",
+      "C": "ΔS is = 0"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q075",
+    "course": "CHM 111",
+    "q_num": 75,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Will Ice Spontaneously Melt? The entropy change for the process H_2 O(s) &rarr;H_2 O(l) Given the ΔS of the system and the surrounding as 22.1J/k and requires that the surrounding transfer 6.00kj of heat to the system. Is the process spontaneous at -10.00 ^o C? Is it a spontaneous at +10.00^o C?",
+    "options": {
+      "A": "Melting is spontaneous at 10^o",
+      "B": "Melting is non spontaneous at 10^o",
+      "C": "Entropy is equal to 0"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q076",
+    "course": "CHM 111",
+    "q_num": 76,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Determine if liquid water will spontaneously freeze at the same temperatures. H_2 O(s) &rarr;H_2 O(l) Given the ΔS of the system and the surrounding as 22.1J/k and requires that the surrounding transfer 6.00kj of heat to the system. Is the process spontaneous at -10.00 ^o C? Is it a spontaneous at +10.00^o C?",
+    "options": {
+      "A": "Freeing is spontaneous at –10^o",
+      "B": "Freeing is spontaneous at 10^o",
+      "C": "Entropy is equal to 0"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q077",
+    "course": "CHM 111",
+    "q_num": 77,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "S = k lnΔ W = k ln(1) = 0 The above equation represents.",
+    "options": {
+      "A": "First law of thermodynamics",
+      "B": "Second law of thermodynamics",
+      "C": "Third law of thermodynamics"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q078",
+    "course": "CHM 111",
+    "q_num": 78,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "What is the difference between S°, and ?So298 for a chemical change?",
+    "options": {
+      "A": "S° standard enthalpy at 1 bar pressure",
+      "B": "ΔS^o 298 Standard change in entropy at room temperature",
+      "C": "S° Entropy of a perfect crystal at absolute zero"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q079",
+    "course": "CHM 111",
+    "q_num": 79,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the following options indicates that a chemical reaction is unfavorable?",
+    "options": {
+      "A": "ΔH is negative",
+      "B": "ΔG is negative",
+      "C": "ΔS is negative"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q080",
+    "course": "CHM 111",
+    "q_num": 80,
+    "topic": "Electrochemistry & Redox Processes",
+    "question": "Consider the following reaction in a galvanic cell Zn+Cu^2+ &rarr;Zn^2+ +Cu Which if the following statements about the reaction is false?",
+    "options": {
+      "A": "The cell potential is positive",
+      "B": "The equilibrium constant is greater than one",
+      "C": "Gibb's free energy is positive"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Electrochemistry & Redox Processes, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Electrochemistry & Redox Processes."
+  },
+  {
+    "id": "CHM111_Q081",
+    "course": "CHM 111",
+    "q_num": 81,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The two ways in which a closed system can share energy with it's surroundings are ------ and ---- --",
+    "options": {
+      "A": "heat and work",
+      "B": "exothermic and endothermic",
+      "C": "hot and cold"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q082",
+    "course": "CHM 111",
+    "q_num": 82,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "If a system is at equilibrium, what is the relationship between ΔH and ΔS.",
+    "options": {
+      "A": "S = TH",
+      "B": "ΔS=TΔH",
+      "C": "ΔS= ΔH/T"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  }
+]

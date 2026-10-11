@@ -184,3 +184,155 @@ window.MAT101_FLASHCARDS = [
     "category": "Speed Hacks"
   }
 ];
+
+// === PHY 101 FLASHCARDS ===
+window.PHY101_FLASHCARDS = [
+  {
+    "id": "PHY_FC_01",
+    "topic": "Dimensions & Units",
+    "front": "What are the dimensions of Pressure, Stress, and Young's Modulus?",
+    "back": "ML⁻¹T⁻²\nDerived from Force/Area = MLT⁻² / L².",
+    "tips": "Pressure, Stress, and all Elastic Moduli share ML⁻¹T⁻²!"
+  },
+  {
+    "id": "PHY_FC_02",
+    "topic": "Dimensions & Units",
+    "front": "What physical quantities share the dimension ML²T⁻²?",
+    "back": "Work, Kinetic Energy, Potential Energy, Heat, and Torque.",
+    "tips": "Torque = r × F and Work = F · d both have units of N·m -> ML²T⁻²."
+  },
+  {
+    "id": "PHY_FC_03",
+    "topic": "Vectors & Scalars",
+    "front": "What is the difference between a Free Vector and a Localized Vector?",
+    "back": "Free Vector: Can be shifted parallel to itself without changing effect (e.g. Displacement, Couple).\nLocalized Vector: Has a fixed line of action or point of application (e.g. Force on a rigid body).",
+    "tips": "Displacement is free; Force is localized."
+  },
+  {
+    "id": "PHY_FC_04",
+    "topic": "Vectors & Scalars",
+    "front": "What condition gives the MAXIMUM and MINIMUM resultant of two vectors A and B?",
+    "back": "Maximum: θ = 0° (parallel, R = A + B)\nMinimum: θ = 180° (anti-parallel, R = |A - B|)",
+    "tips": "If angle is 90°, R = √(A² + B²)."
+  },
+  {
+    "id": "PHY_FC_05",
+    "topic": "Kinematics",
+    "front": "What are the 4 fundamental Equations of Linear Motion (constant a)?",
+    "back": "1. v = u + at\n2. s = ut + ½at²\n3. v² = u² + 2as\n4. s = ½(u + v)t",
+    "tips": "For free fall under gravity, replace a with g (or -g when upward)."
+  },
+  {
+    "id": "PHY_FC_06",
+    "topic": "Dynamics & Momentum",
+    "front": "State Newton's Second Law of Motion in its most general form.",
+    "back": "Force = Rate of change of momentum (F = dp/dt).\nWhen mass is constant, F = m(dv/dt) = ma.",
+    "tips": "Impulse J = FΔt = Δp (change in momentum)."
+  },
+  {
+    "id": "PHY_FC_07",
+    "topic": "Relativity & Space-Time",
+    "front": "What are Einstein's Two Postulates of Special Relativity?",
+    "back": "1. Principle of Relativity: The laws of physics are identical in all inertial reference frames.\n2. Constancy of Speed of Light: The speed of light c in vacuum is constant (3 × 10⁸ m/s) for all observers regardless of source motion.",
+    "tips": "Special relativity applies ONLY to non-accelerating (inertial) frames."
+  },
+  {
+    "id": "PHY_FC_08",
+    "topic": "Relativity & Space-Time",
+    "front": "How did Leibniz's concept of space differ from Newton's?",
+    "back": "Newton: Space is absolute, an independent container.\nLeibniz: Space is relational, defined only by the spatial relations between objects.",
+    "tips": "Leibniz = Relational; Newton = Absolute."
+  },
+  {
+    "id": "PHY_FC_09",
+    "topic": "Work, Energy & Power",
+    "front": "What is the formula and dimension of Power?",
+    "back": "P = dW/dt = F · v\nDimension: ML²T⁻³ (SI unit: Watt = J/s)",
+    "tips": "1 Horsepower (hp) ≈ 746 Watts."
+  },
+  {
+    "id": "PHY_FC_10",
+    "topic": "Properties of Matter",
+    "front": "What is the dimension of Surface Tension (γ)?",
+    "back": "γ = Force / Length = [MLT⁻²] / [L] = MT⁻².\nEquivalently: Energy / Area = ML²T⁻² / L² = MT⁻².",
+    "tips": "Surface tension has NO length dimension: MT⁻²."
+  }
+];
+
+// === CHM 111 FLASHCARDS ===
+window.CHM111_FLASHCARDS = [
+  {
+    "id": "CHM111_FC_01",
+    "topic": "Chemical Thermodynamics",
+    "front": "State the Gibbs Free Energy equation and spontaneity conditions.",
+    "back": "ΔG = ΔH - TΔS\n• ΔG < 0: Spontaneous (exergonic)\n• ΔG = 0: System at dynamic equilibrium\n• ΔG > 0: Non-spontaneous (endergonic)",
+    "tips": "At equilibrium: ΔH = TΔS -> T_eq = ΔH / ΔS."
+  },
+  {
+    "id": "CHM111_FC_02",
+    "topic": "Chemical Equilibrium",
+    "front": "What is the relationship between ΔG° and the equilibrium constant K?",
+    "back": "ΔG° = -RT ln K\n• K > 1: ΔG° < 0 (products favored)\n• K = 1: ΔG° = 0\n• K < 1: ΔG° > 0 (reactants favored)",
+    "tips": "Large K means reaction goes virtually to completion!"
+  },
+  {
+    "id": "CHM111_FC_03",
+    "topic": "Le Chatelier's Principle",
+    "front": "How does increasing pressure/decreasing volume affect equilibrium?",
+    "back": "The equilibrium shifts toward the side with FEWER moles of gas.\nIf Δn_gas = 0, pressure change has NO effect on equilibrium position.",
+    "tips": "Count stoichiometric gas coefficients on left vs. right!"
+  },
+  {
+    "id": "CHM111_FC_04",
+    "topic": "Chemical Kinetics",
+    "front": "What is the Arrhenius equation and what does each term mean?",
+    "back": "k = A e^(-Ea / RT)\n• k = rate constant\n• A = frequency factor\n• Ea = activation energy\n• R = gas constant (8.314 J/mol·K)\n• T = temperature in Kelvin",
+    "tips": "Catalysts increase k by lowering Ea, without altering ΔH or K_eq!"
+  },
+  {
+    "id": "CHM111_FC_05",
+    "topic": "Ionic Equilibria",
+    "front": "What is the Henderson-Hasselbalch equation for an acidic buffer?",
+    "back": "pH = pKa + log([Conjugate Base] / [Weak Acid])\n= pKa + log([A⁻] / [HA])",
+    "tips": "When [A⁻] = [HA], pH = pKa (maximum buffer capacity)!"
+  }
+];
+
+// === CHM 191 FLASHCARDS ===
+window.CHM191_FLASHCARDS = [
+  {
+    "id": "CHM191_FC_01",
+    "topic": "Volumetric Analysis",
+    "front": "What is the difference between Titrant and Analyte (Titrand)?",
+    "back": "Titrant: Solution of known concentration placed in the burette.\nAnalyte (Titrand): Solution of unknown concentration placed in the conical flask.",
+    "tips": "Titrant delivers known volume from burette to neutralize analyte."
+  },
+  {
+    "id": "CHM191_FC_02",
+    "topic": "Volumetric Analysis",
+    "front": "Difference between Equivalence Point and Endpoint?",
+    "back": "Equivalence Point: Theoretical stoichiometric point where moles of acid = moles of base.\nEndpoint: Experimental point where indicator changes color.",
+    "tips": "Titration error = |Endpoint - Equivalence Point|."
+  },
+  {
+    "id": "CHM191_FC_03",
+    "topic": "Indicators & pH",
+    "front": "Which indicators are used for Strong Acid vs. Strong Base, and Strong Acid vs. Weak Base?",
+    "back": "• Strong Acid + Strong Base: Methyl Orange (red to yellow, pH 3.1-4.4) or Phenolphthalein (colorless to pink, pH 8.3-10.0).\n• Strong Acid + Weak Base: Methyl Orange (acidic equivalence point).\n• Weak Acid + Strong Base: Phenolphthalein (basic equivalence point).",
+    "tips": "NEVER use weak acid + weak base for volumetric titrations!"
+  },
+  {
+    "id": "CHM191_FC_04",
+    "topic": "Lab Apparatus & Safety",
+    "front": "How do you read the meniscus on a burette or pipette?",
+    "back": "• Clear/colorless liquids (water, acid): Read bottom of concave meniscus at eye level.\n• Highly colored liquids (KMnO₄): Read top of meniscus.",
+    "tips": "Always avoid parallax error by keeping eye strictly horizontal with meniscus."
+  },
+  {
+    "id": "CHM191_FC_05",
+    "topic": "Primary Standards",
+    "front": "What are the essential properties of a Primary Standard in CHM 191?",
+    "back": "1. Extremely high purity (≥ 99.9%)\n2. High molar mass (minimizes weighing error)\n3. Air-stable, non-hygroscopic (does not absorb moisture or CO₂)\n4. Ready solubility in solvent\nExamples: Anhydrous Na₂CO₃, Potassium hydrogen phthalate (KHP), Oxalic acid dihydrate.",
+    "tips": "NaOH and HCl are SECONDARY standards because they absorb moisture/air."
+  }
+];

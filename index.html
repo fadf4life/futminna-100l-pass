@@ -927,7 +927,7 @@
       </div>
 
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
-        <h3 style="font-family: var(--font-heading); font-size: 1.25rem;">MAT 101 Syllabus Topics</h3>
+        <h3 style="font-family: var(--font-heading); font-size: 1.25rem;" id="syllabusSectionTitle">MAT 101 Syllabus Topics</h3>
         <span style="font-size: 0.8rem; color: var(--secondary); font-weight: 600;">10 Topics Available</span>
       </div>
       
@@ -1089,7 +1089,7 @@
     <!-- TAB 6: FORMULA BIBLE -->
     <section class="tab-pane" id="tab-formulas">
       <div style="text-align: center; margin-bottom: 1.25rem;">
-        <h2 style="font-family: var(--font-heading); font-size: 1.6rem; color: #FFF; margin-bottom: 0.35rem;">MAT 101 Formula & Shortcuts Bible</h2>
+        <h2 style="font-family: var(--font-heading); font-size: 1.6rem; color: #FFF; margin-bottom: 0.35rem;" id="formulaBibleTitle">MAT 101 Formula & Shortcuts Bible</h2>
         <p style="color: var(--text-muted); font-size: 0.85rem;">Pocket reference for essential formulas, determinant shortcuts, and quadrant rules.</p>
       </div>
       <div class="grid-topics" id="sheetGrid"></div>
@@ -1155,9 +1155,10 @@
   <script>
     // 100L Course Registry
     const ALL_100L_COURSES = [
-      { code: 'MAT 101', name: 'Elementary Mathematics I', count: 540, semester: '1st Sem', active: true },
-      { code: 'PHY 101', name: 'General Physics I (Mechanics & Heat)', count: 0, semester: '1st Sem', active: false },
-      { code: 'CHM 101', name: 'General Chemistry I (Physical & Inorganic)', count: 0, semester: '1st Sem', active: false },
+      { code: 'MAT 101', name: 'Elementary Mathematics I (Algebra & Calc)', count: (window.MAT101_QUESTIONS || []).length || 540, semester: '1st Sem', active: true },
+      { code: 'PHY 101', name: 'General Physics I (Mechanics, Heat & Waves)', count: (window.PHY101_QUESTIONS || []).length || 255, semester: '1st Sem', active: true },
+      { code: 'CHM 111', name: 'General Chemistry I (Physical & Inorganic)', count: (window.CHM111_QUESTIONS || []).length || 82, semester: '1st Sem', active: true },
+      { code: 'CHM 191', name: 'Practical Chemistry I (Quantitative Lab)', count: (window.CHM191_QUESTIONS || []).length || 91, semester: '1st Sem', active: true },
       { code: 'GST 101', name: 'Use of English I', count: 0, semester: '1st Sem', active: false },
       { code: 'GST 103', name: 'Nigerian Peoples & Culture', count: 0, semester: '1st Sem', active: false },
       { code: 'CSC 101', name: 'Introduction to Computer Science', count: 0, semester: '1st Sem', active: false },
@@ -1345,23 +1346,60 @@
       list.querySelectorAll('.course-row').forEach(row => {
         row.addEventListener('click', () => {
           const code = row.getAttribute('data-code');
-          if (code === 'MAT 101') {
+          const course = ALL_100L_COURSES.find(c => c.code === code);
+          if (course && course.active) {
+            switchCourse(code);
             modal.classList.remove('open');
           } else {
-            alert(`${code} curriculum is registered! This pack currently has all 540 active practice questions and answers for MAT 101. Additional courses will load as your question packs expand.`);
+            alert(`${code} is registered in the 100-Level curriculum! Additional question materials for this course are being compiled.`);
           }
         });
       });
     }
 
+    // Switch active course dynamically
+    function switchCourse(courseCode) {
+      state.activeCourse = courseCode;
+      if (courseCode === 'MAT 101') {
+        state.questions = window.MAT101_QUESTIONS || [];
+        state.flashcards = window.MAT101_FLASHCARDS || [];
+      } else if (courseCode === 'PHY 101') {
+        state.questions = window.PHY101_QUESTIONS || [];
+        state.flashcards = window.PHY101_FLASHCARDS || [];
+      } else if (courseCode === 'CHM 111') {
+        state.questions = window.CHM111_QUESTIONS || [];
+        state.flashcards = window.CHM111_FLASHCARDS || [];
+      } else if (courseCode === 'CHM 191') {
+        state.questions = window.CHM191_QUESTIONS || [];
+        state.flashcards = window.CHM191_FLASHCARDS || [];
+      }
+
+      // Update header
+      const sub = document.getElementById('headerCourseSubtitle');
+      if (sub) sub.textContent = `${courseCode} • ${state.questions.length} Questions Solved`;
+      const badge = document.getElementById('activeCourseBadgeText');
+      if (badge) badge.textContent = courseCode;
+
+      // Update syllabus section title
+      const sylTitle = document.getElementById('syllabusSectionTitle');
+      if (sylTitle) sylTitle.textContent = `${courseCode} Syllabus Topics`;
+
+      // Update Formula Bible Title
+      const fbTitle = document.getElementById('formulaBibleTitle');
+      if (fbTitle) fbTitle.textContent = `${courseCode} Formula & Shortcuts Bible`;
+
+      // Re-render UI components
+      initDashboard();
+      initPractice();
+      initFlashcards();
+      initFormulaBible();
+      initCourses();
+    }
+
     // Dashboard
     function initDashboard() {
       const grid = document.getElementById('topicsGrid');
-      const topics = [
-        'SET THEORY', 'MAPPING AND FUNCTION', 'COMPLEX NUMBER', 'INEQUALITY', 'SURD',
-        'INDICES AND LOGARITHMS', 'MATHEMATICAL INDUCTION', 'BINOMIAL EXPANSION',
-        'MATRICES AND DETERMINANT', 'QUADRATIC EQUATION'
-      ];
+      const topics = [...new Set(state.questions.map(q => q.topic).filter(Boolean))];
 
       grid.innerHTML = topics.map(t => {
         const count = state.questions.filter(q => q.topic === t).length;
@@ -1585,13 +1623,10 @@
     // Topic Practice
     function initPractice() {
       const select = document.getElementById('practiceTopicSelect');
-      const topics = [
-        'SET THEORY', 'MAPPING AND FUNCTION', 'COMPLEX NUMBER', 'INEQUALITY', 'SURD',
-        'INDICES AND LOGARITHMS', 'MATHEMATICAL INDUCTION', 'BINOMIAL EXPANSION',
-        'MATRICES AND DETERMINANT', 'QUADRATIC EQUATION'
-      ];
+      const topics = [...new Set(state.questions.map(q => q.topic).filter(Boolean))];
 
-      select.innerHTML = topics.map(t => `<option value="${t}">${t}</option>`).join('');
+      select.innerHTML = `<option value="ALL">All Topics (${state.questions.length})</option>` + 
+        topics.map(t => `<option value="${t}">${t} (${state.questions.filter(q => q.topic === t).length})</option>`).join('');
       select.addEventListener('change', (e) => renderPractice(e.target.value));
       renderPractice(topics[0]);
     }
@@ -1767,22 +1802,48 @@
     // Formula Bible
     function initFormulaBible() {
       const grid = document.getElementById('sheetGrid');
-      const formulas = [
-        { topic: "SET THEORY", items: ["n(A ∪ B) = n(A) + n(B) - n(A ∩ B)", "Subsets: 2ⁿ | Proper: 2ⁿ - 1", "(A ∪ B)' = A' ∩ B'"] },
-        { topic: "MAPPING & FUNCTIONS", items: ["f(x) = (ax+b)/(cx+d) ⇒ f⁻¹(x) = (-dx+b)/(cx-a)", "Bijective ⟺ Invertible", "(f ∘ g)(x) = f(g(x))"] },
-        { topic: "COMPLEX NUMBERS", items: ["|z| = √(x² + y²)", "z·z̄ = x² + y² = |z|²", "i⁴ᵏ=1, i⁴ᵏ⁺¹=i, i⁴ᵏ⁺²=-1, i⁴ᵏ⁺³=-i"] },
-        { topic: "INEQUALITIES", items: ["-ax < b ⇒ x > -b/a (Sign Flips!)", "|x| ≤ a ⟺ -a ≤ x ≤ a", "|x| ≥ a ⟺ x ≤ -a OR x ≥ a"] },
-        { topic: "SURDS", items: ["(√a + √b)(√a - √b) = a - b", "Square root hack: square each option"] },
-        { topic: "INDICES & LOGS", items: ["log(xy) = log x + log y", "Change of Base: log_b(a) = log a / log b"] },
-        { topic: "MATHEMATICAL INDUCTION", items: ["Σr = n(n+1)/2", "Σr² = n(n+1)(2n+1)/6", "Test n = 1 & n = 2 into options"] },
-        { topic: "BINOMIAL EXPANSION", items: ["T_(r+1) = nCr · aⁿ⁻ʳ · bʳ", "Sum of coefficients: set variables = 1"] },
-        { topic: "MATRICES & DETERMINANTS", items: ["det [[a,b],[c,d]] = ad - bc", "A⁻¹ = (1/det) · [[d,-b],[-c,a]]", "det(A) = 0 ⇒ Singular"] },
-        { topic: "QUADRATIC EQUATIONS", items: ["α + β = -b/a | αβ = c/a", "α² + β² = (α+β)² - 2αβ", "Reciprocal roots: reverse coefficients"] }
-      ];
+      let formulas = [];
+
+      if (state.activeCourse === 'MAT 101') {
+        formulas = [
+          { topic: "SET THEORY", items: ["n(A ∪ B) = n(A) + n(B) - n(A ∩ B)", "Subsets: 2ⁿ | Proper: 2ⁿ - 1", "(A ∪ B)' = A' ∩ B'"] },
+          { topic: "MAPPING & FUNCTIONS", items: ["f(x) = (ax+b)/(cx+d) ⇒ f⁻¹(x) = (-dx+b)/(cx-a)", "Bijective ⇒ Invertible", "(f ∘ g)(x) = f(g(x))"] },
+          { topic: "COMPLEX NUMBERS", items: ["|z| = √(x² + y²)", "z·z̄ = x² + y² = |z|²", "i⁴ᵏ = 1, i⁴ᵏ⁺¹ = i, i⁴ᵏ⁺² = -1, i⁴ᵏ⁺³ = -i"] },
+          { topic: "INEQUALITIES", items: ["-ax < b ⇒ x > -b/a (Sign Flips!)", "|x| ≤ a ⇒ -a ≤ x ≤ a", "|x| ≥ a ⇒ x ≤ -a OR x ≥ a"] },
+          { topic: "SURDS", items: ["(√a + √b)(√a - √b) = a - b", "Square root hack: square each option"] },
+          { topic: "INDICES & LOGS", items: ["log(xy) = log x + log y", "Change of Base: log_b(a) = log a / log b"] },
+          { topic: "MATHEMATICAL INDUCTION", items: ["∑r = n(n+1)/2", "∑r² = n(n+1)(2n+1)/6", "Test n = 1 & n = 2 into options"] },
+          { topic: "BINOMIAL EXPANSION", items: ["T_(r+1) = ⁿCᵣ · aⁿ⁻ʳ · bʳ", "Sum of coefficients: set variables = 1"] },
+          { topic: "MATRICES & DETERMINANTS", items: ["det [[a,b],[c,d]] = ad - bc", "A⁻¹ = (1/det) · [[d,-b],[-c,a]]", "det(A) = 0 ⇒ Singular"] },
+          { topic: "QUADRATIC EQUATIONS", items: ["α + β = -b/a | αβ = c/a", "α² + β² = (α+β)² - 2αβ", "Reciprocal roots: reverse coefficients"] }
+        ];
+      } else if (state.activeCourse === 'PHY 101') {
+        formulas = [
+          { topic: "UNITS & DIMENSIONS", items: ["Pressure / Stress / Modulus: [ML⁻¹T⁻²]", "Work / Energy / Torque: [ML²T⁻²]", "Power: [ML²T⁻³]", "Surface Tension: [MT⁻²]", "Viscosity: [ML⁻¹T⁻¹]"] },
+          { topic: "VECTORS & COORDINATES", items: ["Resultant: R = √(A² + B² + 2AB cos θ)", "Max: θ = 0° (A + B) | Min: θ = 180° (|A - B|)", "Perpendicular: R = √(A² + B²)", "Free Vector (shiftable) vs. Localized (fixed line of action)"] },
+          { topic: "KINEMATICS & MOTION", items: ["v = u + at | s = ut + ½at²", "v² = u² + 2as | s = ½(u + v)t", "Projectile Range: R = (u² sin 2θ) / g (Max at 45°)", "Time of Flight: T = (2u sin θ) / g"] },
+          { topic: "DYNAMICS & MOMENTUM", items: ["Newton II: F = dp/dt = ma", "Impulse: J = F·Δt = Δp = m(v - u)", "Law of Conservation of Linear Momentum: m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂", "Inertia: Resistance to change in state of motion"] },
+          { topic: "SPACE-TIME & RELATIVITY", items: ["Principle of Relativity: Physics invariant in all inertial frames", "Constancy of c = 3 × 10⁸ m/s for all observers", "Leibniz (relational space) vs. Newton (absolute space)", "Time dilation: t = γ·t₀ | Length contraction: L = L₀/γ"] }
+        ];
+      } else if (state.activeCourse === 'CHM 111') {
+        formulas = [
+          { topic: "THERMODYNAMICS", items: ["ΔG = ΔH - TΔS (Gibbs Free Energy)", "ΔG < 0: Spontaneous | ΔG = 0: Equilibrium | ΔG > 0: Non-spontaneous", "At equilibrium: T_eq = ΔH / ΔS", "First Law: ΔU = q + w (w = -PΔV)"] },
+          { topic: "CHEMICAL EQUILIBRIUM", items: ["ΔG° = -RT ln K", "Kp = Kc(RT)^Δn_gas", "Le Chatelier: Pressure shift favors side with fewer gas moles", "Catalyst: Accelerates rate; DOES NOT change K or equilibrium position"] },
+          { topic: "CHEMICAL KINETICS", items: ["Arrhenius Equation: k = A·e^(-Ea/RT)", "ln(k₂/k₁) = (Ea/R)·(1/T₁ - 1/T₂)", "Rate Law: Rate = k[A]^m [B]^n", "Activation Energy: Minimum energy for effective collisions"] },
+          { topic: "ACIDS, BASES & BUFFERS", items: ["pH = -log[H⁺] | pH + pOH = 14", "Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA])", "Buffer capacity maximal when [A⁻] = [HA] (pH = pKa)", "Kw = [H⁺][OH⁻] = 1.0 × 10⁻¹⁴ at 25°C"] }
+        ];
+      } else if (state.activeCourse === 'CHM 191') {
+        formulas = [
+          { topic: "VOLUMETRIC ANALYSIS", items: ["CaVa / na = CbVb / nb", "Molarity (M) = moles / Volume (dm³)", "Mass Conc (g/dm³) = Molarity (mol/dm³) × Molar Mass (g/mol)", "Dilution Law: C₁V₁ = C₂V₂"] },
+          { topic: "PRIMARY STANDARDS", items: ["High purity (≥ 99.9%)", "High molar mass (minimizes weighing error)", "Non-hygroscopic & air-stable", "Examples: Anhydrous Na₂CO₃, Potassium hydrogen phthalate (KHP), Oxalic acid"] },
+          { topic: "INDICATOR RULES", items: ["Strong Acid + Strong Base: Methyl Orange or Phenolphthalein", "Strong Acid + Weak Base: Methyl Orange (acidic eq pt)", "Weak Acid + Strong Base: Phenolphthalein (basic eq pt)", "Weak Acid + Weak Base: NEVER titrate (indistinct endpoint)"] },
+          { topic: "LAB TECHNIQUES & MENISCUS", items: ["Clear solutions (water, acids): Read BOTTOM of concave meniscus at eye level", "Dark solutions (KMnO₄): Read TOP of meniscus", "Avoid parallax error: Eye strictly perpendicular to graduation scale", "Wash bottles: Use distilled water only for rinsing"] }
+        ];
+      }
 
       grid.innerHTML = formulas.map(f => `
         <div class="topic-card">
-          <div class="topic-title" style="color: var(--secondary); margin-bottom: 0.6rem;">📐 ${f.topic}</div>
+          <div class="topic-title" style="color: var(--secondary); margin-bottom: 0.6rem;">⚡ ${f.topic}</div>
           <div style="display: flex; flex-direction: column; gap: 0.4rem;">
             ${f.items.map(i => `<div style="background: rgba(0,0,0,0.3); padding: 0.4rem 0.65rem; border-radius: 6px; font-family: var(--font-mono); font-size: 0.8rem; color: #E2E8F0;">${i}</div>`).join('')}
           </div>
@@ -1790,7 +1851,7 @@
       `).join('');
     }
 
-    // 30-Day Plan
+        // 30-Day Plan
     function initRoadmap() {
       const container = document.getElementById('roadmapContainer');
       const weeks = [

@@ -8097,3 +8097,6775 @@ window.MAT101_QUESTIONS = [
     "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
   }
 ];
+
+// === PHY 101 QUESTIONS ===
+window.PHY101_QUESTIONS = [
+  {
+    "id": "PHY101_BT1_001",
+    "course": "PHY 101",
+    "q_num": 1,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "The derived dimension [ML^-1 T^-2] is a dimension of",
+    "options": {
+      "A": "Force",
+      "B": "Momentum",
+      "C": "Pressure",
+      "D": "Work"
+    },
+    "answer": "C",
+    "explanation": "Pressure = Force / Area = [MLT^-2] / [L^2] = [ML^-1 T^-2]. Stress and Modulus of Elasticity also share this dimension.",
+    "speed_hack": "⚡ CBT Speed Hack: Force / Area = MLT^-2 / L^2 = ML^-1 T^-2. Matches Pressure, Stress, and Young's Modulus!"
+  },
+  {
+    "id": "PHY101_BT1_002",
+    "course": "PHY 101",
+    "q_num": 2,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "The derived dimension [ML^2 T^-2] is a dimension of",
+    "options": {
+      "A": "Force",
+      "B": "Impulse",
+      "C": "Pressure",
+      "D": "Work"
+    },
+    "answer": "D",
+    "explanation": "Work = Force x Displacement = [MLT^-2] x [L] = [ML^2 T^-2]. Energy and Torque also have [ML^2 T^-2].",
+    "speed_hack": "⚡ CBT Speed Hack: Work, Kinetic Energy, Potential Energy, Heat, and Torque all have the same dimension: [ML^2 T^-2] (Joules or N·m)."
+  },
+  {
+    "id": "PHY101_BT1_003",
+    "course": "PHY 101",
+    "q_num": 3,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "What are the correct dimensions for energy and force?",
+    "options": {
+      "A": "ML^2 T^-2, MLT^-1",
+      "B": "ML^2 T^-2, MLT^-2",
+      "C": "ML^-3 T, MLT^2",
+      "D": "ML^2 T^-2, ML^2 T^2"
+    },
+    "answer": "B",
+    "explanation": "Energy = Work = [ML^2 T^-2]. Force = mass x acceleration = [M] x [LT^-2] = [MLT^-2].",
+    "speed_hack": "⚡ CBT Speed Hack: Force is always MLT^-2; multiply by L to get Energy = ML^2 T^-2."
+  },
+  {
+    "id": "PHY101_BT1_004",
+    "course": "PHY 101",
+    "q_num": 4,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "What is the dimension of frequency?",
+    "options": {
+      "A": "T",
+      "B": "T^-2",
+      "C": "T^2",
+      "D": "T^-1"
+    },
+    "answer": "D",
+    "explanation": "Frequency f = 1 / T. Its unit is Hertz (s^-1) and its dimension is [T^-1].",
+    "speed_hack": "⚡ CBT Speed Hack: Frequency = 1/Period = T^-1. Angular velocity ω also has dimension T^-1."
+  },
+  {
+    "id": "PHY101_BT1_005",
+    "course": "PHY 101",
+    "q_num": 5,
+    "topic": "Properties of Matter & Surface Tension",
+    "question": "What is the dimension for surface tension?",
+    "options": {
+      "A": "MT^-2",
+      "B": "MLT^-3",
+      "C": "ML^-2 T^2",
+      "D": "MLT^-2"
+    },
+    "answer": "A",
+    "explanation": "Surface tension γ = Force / Length = [MLT^-2] / [L] = [MT^-2] (or [ML^0 T^-2]).",
+    "speed_hack": "⚡ CBT Speed Hack: Surface Tension = Force / Length -> L cancels out giving MT^-2."
+  },
+  {
+    "id": "PHY101_BT1_006",
+    "course": "PHY 101",
+    "q_num": 6,
+    "topic": "Elasticity & Properties of Matter",
+    "question": "The unit for tensile stress is the same as ____",
+    "options": {
+      "A": "Force",
+      "B": "Tension",
+      "C": "Acceleration",
+      "D": "Pressure"
+    },
+    "answer": "D",
+    "explanation": "Stress = Restoring Force / Area (N/m^2 or Pascal). Pressure = Normal Force / Area (N/m^2 or Pascal). Both have identical SI units (N/m^2 or Pa) and dimension [ML^-1 T^-2].",
+    "speed_hack": "⚡ CBT Speed Hack: Stress = Pressure = N/m^2 = Pa = [ML^-1 T^-2]."
+  },
+  {
+    "id": "PHY101_BT1_007",
+    "course": "PHY 101",
+    "q_num": 7,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "What is the dimension of a, b and c respectively in the equation S = at^2 + bt + c (where S is displacement and t is time)?",
+    "options": {
+      "A": "LT^-1, LT^-2, LT^-3",
+      "B": "LT^-3, LT^-2, LT^-1",
+      "C": "LT^2, LT^-1, LT",
+      "D": "LT^-2, LT^-1, L"
+    },
+    "answer": "D",
+    "explanation": "By the Principle of Dimensional Homogeneity, every term added must have the dimension of S, which is [L]. Thus: [a][T^2] = [L] => [a] = [LT^-2]; [b][T] = [L] => [b] = [LT^-1]; [c] = [L].",
+    "speed_hack": "⚡ CBT Speed Hack: S = [L]. Therefore a = L/t^2 = LT^-2 (acceleration), b = L/t = LT^-1 (velocity), c = L (displacement)."
+  },
+  {
+    "id": "PHY101_BT1_008",
+    "course": "PHY 101",
+    "q_num": 8,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "Identify which of these quantities listed from (i) to (vii) are derived quantities: (i) mass (ii) length (iii) electric current (iv) density (v) temperature (vi) velocity (vii) energy",
+    "options": {
+      "A": "(i), (ii), (iii) and (v)",
+      "B": "(iv), (v), (vi) and (v)",
+      "C": "(iv), (vi) and (vii)",
+      "D": "All of the above"
+    },
+    "answer": "C",
+    "explanation": "Fundamental quantities are mass, length, time, electric current, temperature, amount of substance, and luminous intensity. Derived quantities here are density, velocity, and energy.",
+    "speed_hack": "⚡ CBT Speed Hack: 7 Fundamental quantities only: Mass, Length, Time, Current, Temp, Mole, Candela. Everything else is derived!"
+  },
+  {
+    "id": "PHY101_BT1_009",
+    "course": "PHY 101",
+    "q_num": 9,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "The derived dimension [ML^2 T^-2] is a dimension of: (i) acceleration (ii) torque (iii) energy",
+    "options": {
+      "A": "(i) only",
+      "B": "(iii) only",
+      "C": "(i) and (ii) only",
+      "D": "(ii) and (iii) only"
+    },
+    "answer": "D",
+    "explanation": "Torque = Force x Perpendicular Distance = [MLT^-2] x [L] = [ML^2 T^-2]. Energy = [ML^2 T^-2]. Acceleration = [LT^-2]. Hence (ii) and (iii) only.",
+    "speed_hack": "⚡ CBT Speed Hack: Torque = Energy = Work = [ML^2 T^-2]."
+  },
+  {
+    "id": "PHY101_BT1_010",
+    "course": "PHY 101",
+    "q_num": 10,
+    "topic": "Work, Energy & Power",
+    "question": "Which of the following quantities has the same unit as the kilowatt-hour?",
+    "options": {
+      "A": "force x acceleration",
+      "B": "force x velocity",
+      "C": "force / velocity",
+      "D": "force x distance"
+    },
+    "answer": "D",
+    "explanation": "Kilowatt-hour (kWh) is a unit of commercial electrical ENERGY (Power x time = J/s x s = Joules). Force x distance = Work/Energy (Joules).",
+    "speed_hack": "⚡ CBT Speed Hack: kWh = Energy. Force x distance = Work = Energy. 1 kWh = 3.6 x 10^6 J."
+  },
+  {
+    "id": "PHY101_BT1_011",
+    "course": "PHY 101",
+    "q_num": 11,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "0.1 g/cm^3 is equivalent to ____",
+    "options": {
+      "A": "10 kg/m^3",
+      "B": "100 kg/m^3",
+      "C": "1000 kg/m^3",
+      "D": "10000 kg/m^3"
+    },
+    "answer": "B",
+    "explanation": "1 g/cm^3 = 1000 kg/m^3. Therefore, 0.1 g/cm^3 = 0.1 x 1000 = 100 kg/m^3.",
+    "speed_hack": "⚡ CBT Speed Hack: Multiply g/cm^3 by 1000 to convert directly to kg/m^3: 0.1 x 1000 = 100 kg/m^3."
+  },
+  {
+    "id": "PHY101_BT1_012",
+    "course": "PHY 101",
+    "q_num": 12,
+    "topic": "Work, Energy & Power",
+    "question": "The watt is equivalent to ____",
+    "options": {
+      "A": "N·m·s^-1",
+      "B": "J·s",
+      "C": "kg·m^2·s^2",
+      "D": "N·s"
+    },
+    "answer": "A",
+    "explanation": "Power = Work / time = (Force x distance) / time = N x m / s = N·m·s^-1 (or J/s).",
+    "speed_hack": "⚡ CBT Speed Hack: Watt = J/s = (N·m)/s = N·m·s^-1."
+  },
+  {
+    "id": "PHY101_BT1_013",
+    "course": "PHY 101",
+    "q_num": 13,
+    "topic": "Work, Energy & Power",
+    "question": "Which of the following is not a unit of power?",
+    "options": {
+      "A": "Joule/second",
+      "B": "ampere/volt",
+      "C": "ampere x volt",
+      "D": "volt^2 / ohms"
+    },
+    "answer": "B",
+    "explanation": "Power P = VI (ampere x volt), P = V^2/R (volt^2/ohm), P = I^2 R, P = W/t (Joule/s). Ampere/volt is conductance (Siemens or 1/R), not power.",
+    "speed_hack": "⚡ CBT Speed Hack: Electrical Power P = IV (A·V), not I/V! So ampere/volt is NOT power."
+  },
+  {
+    "id": "PHY101_BT1_014",
+    "course": "PHY 101",
+    "q_num": 14,
+    "topic": "Dynamics, Newton's Laws & Momentum",
+    "question": "Which of the following is equivalent to kg·m/s?",
+    "options": {
+      "A": "J/s",
+      "B": "N/s",
+      "C": "N·s",
+      "D": "N·m·s"
+    },
+    "answer": "C",
+    "explanation": "Linear momentum has unit kg·m/s. Impulse = Force x time = N·s = (kg·m/s^2) x s = kg·m/s. Thus, kg·m/s is identical to N·s.",
+    "speed_hack": "⚡ CBT Speed Hack: Momentum (kg·m/s) = Impulse (N·s)."
+  },
+  {
+    "id": "PHY101_BT1_015",
+    "course": "PHY 101",
+    "q_num": 15,
+    "topic": "Kinematics & Rectilinear Motion",
+    "question": "Convert the speed 108 km/hr to units in m/s.",
+    "options": {
+      "A": "90 m/s",
+      "B": "45 m/s",
+      "C": "30 m/s",
+      "D": "60 m/s"
+    },
+    "answer": "C",
+    "explanation": "To convert km/h to m/s, multiply by 5/18 (or divide by 3.6): 108 x (5/18) = 6 x 5 = 30 m/s.",
+    "speed_hack": "⚡ CBT Speed Hack: Divide by 3.6 (or multiply by 5/18): 108 / 3.6 = 30 m/s. Instant 5-second answer!"
+  },
+  {
+    "id": "PHY101_BT1_016",
+    "course": "PHY 101",
+    "q_num": 16,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "Experiment shows that the frictional drag force F of a car moving in the air depends on the velocity v of its motion, density ρ of the air, and cross-sectional area A. If F = k ρ^x v^y A^z, find the values of x, y, and z.",
+    "options": {
+      "A": "1, 2, 1",
+      "B": "1, 1, -1",
+      "C": "1, -1, 1",
+      "D": "1, 0, 1"
+    },
+    "answer": "A",
+    "explanation": "[F] = MLT^-2, [ρ] = ML^-3, [v] = LT^-1, [A] = L^2. MLT^-2 = (ML^-3)^x (LT^-1)^y (L^2)^z = M^x L^(-3x+y+2z) T^(-y). Comparing powers: x = 1; -y = -2 => y = 2; -3(1) + 2 + 2z = 1 => 2z = 2 => z = 1. Therefore (x, y, z) = (1, 2, 1).",
+    "speed_hack": "⚡ CBT Speed Hack: Drag equation is F = 1/2 ρ C_d A v^2 => ρ^1 v^2 A^1 => x=1, y=2, z=1."
+  },
+  {
+    "id": "PHY101_BT1_017",
+    "course": "PHY 101",
+    "q_num": 17,
+    "topic": "Kinematics & Rectilinear Motion",
+    "question": "Convert the speed 180 km/hr to units in m/s.",
+    "options": {
+      "A": "100 m/s",
+      "B": "50 m/s",
+      "C": "150 m/s",
+      "D": "60 m/s"
+    },
+    "answer": "B",
+    "explanation": "180 km/hr x (5/18) = 10 x 5 = 50 m/s.",
+    "speed_hack": "⚡ CBT Speed Hack: 180 / 3.6 = 50 m/s."
+  },
+  {
+    "id": "PHY101_BT1_018",
+    "course": "PHY 101",
+    "q_num": 18,
+    "topic": "Elasticity & Properties of Matter",
+    "question": "20 MPa is equal to ____",
+    "options": {
+      "A": "20 N/m^2",
+      "B": "20 N/mm^2",
+      "C": "20 kN/m^2",
+      "D": "20 N/cm^2"
+    },
+    "answer": "B",
+    "explanation": "1 MPa = 10^6 N/m^2. 1 m^2 = 10^6 mm^2. Thus, 1 MPa = 1 N/mm^2. So 20 MPa = 20 N/mm^2.",
+    "speed_hack": "⚡ CBT Speed Hack: Golden engineering rule: 1 MPa is exactly equal to 1 N/mm^2!"
+  },
+  {
+    "id": "PHY101_BT1_019",
+    "course": "PHY 101",
+    "q_num": 19,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "A quantity with magnitude but no specified direction is a ____ quantity.",
+    "options": {
+      "A": "vector",
+      "B": "scaler",
+      "C": "vectoral",
+      "D": "scalar"
+    },
+    "answer": "D",
+    "explanation": "By definition, a scalar quantity is one that has only magnitude (and unit) but no specific direction in space.",
+    "speed_hack": "⚡ CBT Speed Hack: Scalar = Magnitude only. Vector = Magnitude + Direction."
+  },
+  {
+    "id": "PHY101_BT1_020",
+    "course": "PHY 101",
+    "q_num": 20,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Which of the following is a set of vectors?",
+    "options": {
+      "A": "weight, displacement and moment",
+      "B": "velocity, volume and upthrust",
+      "C": "density, capacitance and distance",
+      "D": "mass, force and impulse"
+    },
+    "answer": "A",
+    "explanation": "Weight (force), displacement, and moment (torque) are all vector quantities. Volume, density, distance, capacitance, and mass are scalars.",
+    "speed_hack": "⚡ CBT Speed Hack: Eliminate options with obvious scalars: volume in B, density/distance in C, mass in D."
+  },
+  {
+    "id": "PHY101_BT1_021",
+    "course": "PHY 101",
+    "q_num": 21,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "Which of the following is not a fundamental S.I. unit?",
+    "options": {
+      "A": "meter",
+      "B": "ampere",
+      "C": "mole",
+      "D": "newton"
+    },
+    "answer": "D",
+    "explanation": "Newton (N) is a derived unit of force (1 N = 1 kg·m/s^2). Meter, ampere, and mole are base SI units.",
+    "speed_hack": "⚡ CBT Speed Hack: Newton is derived from kg, m, and s: N = kg·m/s^2."
+  },
+  {
+    "id": "PHY101_BT1_022",
+    "course": "PHY 101",
+    "q_num": 22,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "A girl walks 12m northwards, 5m eastwards and 7m southwards. Her total displacement is:",
+    "options": {
+      "A": "5m, North",
+      "B": "5m, East",
+      "C": "7.07m, S45°W",
+      "D": "7.07m, N45°E"
+    },
+    "answer": "D",
+    "explanation": "Net North-South displacement: 12m North - 7m South = 5m North. Net East-West displacement: 5m East. Resultant R = sqrt(5^2 + 5^2) = sqrt(50) = 7.07 m. Direction: tan θ = 5/5 = 1 => θ = 45° (N45°E).",
+    "speed_hack": "⚡ CBT Speed Hack: Equal perpendicular legs of 5m and 5m always give R = 5√2 ≈ 7.07m at 45°!"
+  },
+  {
+    "id": "PHY101_BT1_023",
+    "course": "PHY 101",
+    "q_num": 23,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Two forces, 12N and 16N inclined at an angle to each other, have a resultant which is perpendicular to the 12N force. The value of cos θ is:",
+    "options": {
+      "A": "1",
+      "B": "-3/4",
+      "C": "1/2",
+      "D": "0"
+    },
+    "answer": "B",
+    "explanation": "When resultant R is perpendicular to force P (12N), P + Q cos θ = 0 => 12 + 16 cos θ = 0 => cos θ = -12/16 = -3/4.",
+    "speed_hack": "⚡ CBT Speed Hack: Resultant perpendicular to smaller force P: cos θ = -P / Q = -12/16 = -3/4."
+  },
+  {
+    "id": "PHY101_BT1_024",
+    "course": "PHY 101",
+    "q_num": 24,
+    "topic": "Dynamics, Newton's Laws & Momentum",
+    "question": "A body of mass M rests on a plane inclined at an angle α to the horizontal. The component of the weight of the body along the normal to the plane is:",
+    "options": {
+      "A": "Mg sin α",
+      "B": "Mg cos α",
+      "C": "Mg tan α",
+      "D": "Mg cot α"
+    },
+    "answer": "B",
+    "explanation": "The weight Mg acts vertically downwards. Resolving along the plane gives Mg sin α, and resolving perpendicular (normal) to the inclined plane gives Mg cos α.",
+    "speed_hack": "⚡ CBT Speed Hack: Along the slope = Mg sin α (sliding). Perpendicular/Normal to the slope = Mg cos α."
+  },
+  {
+    "id": "PHY101_BT1_025",
+    "course": "PHY 101",
+    "q_num": 25,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "A car travels 20.0 km due north and then 35.0 km in a direction 60° west of north. Find the magnitude and direction of the car's resultant displacement.",
+    "options": {
+      "A": "48.2 km, 39° W of N",
+      "B": "53.3 km, 39° W of N",
+      "C": "48.2 km, 51° W of N",
+      "D": "53.3 km, 51° W of N"
+    },
+    "answer": "A",
+    "explanation": "Rx = 0 - 35 sin(60°) = -30.31 km. Ry = 20 + 35 cos(60°) = 20 + 17.5 = 37.5 km. R = sqrt((-30.31)^2 + 37.5^2) = sqrt(918.7 + 1406.25) = sqrt(2325) = 48.2 km. Angle with North = tan^-1(30.31 / 37.5) = 38.9° ≈ 39° W of N.",
+    "speed_hack": "⚡ CBT Speed Hack: Use cosine rule: R^2 = 20^2 + 35^2 - 2(20)(35)cos(120°) = 400 + 1225 - 1400(-0.5) = 2325 => R = √2325 = 48.2 km."
+  },
+  {
+    "id": "PHY101_BT1_026",
+    "course": "PHY 101",
+    "q_num": 26,
+    "topic": "Kinematics & Rectilinear Motion",
+    "question": "Can the magnitude of Cristiano Ronaldo's displacement on the pitch be greater than the distance he travelled?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": "Maybe",
+      "D": "It depends on the ball's position"
+    },
+    "answer": "B",
+    "explanation": "Displacement is the straight-line shortest distance between start and finish points. Distance is the total path length. Therefore, magnitude of displacement is always <= distance travelled. It can NEVER be greater.",
+    "speed_hack": "⚡ CBT Speed Hack: |Displacement| <= Distance ALWAYS. It can never exceed distance!"
+  },
+  {
+    "id": "PHY101_BT1_027",
+    "course": "PHY 101",
+    "q_num": 27,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Two vectors are given by A = 3i - 2j and B = -i - j, calculate the value of A + B.",
+    "options": {
+      "A": "4i + 3j",
+      "B": "2i - 3j",
+      "C": "2i - 4j",
+      "D": "-3i + 2j"
+    },
+    "answer": "B",
+    "explanation": "A + B = (3i - 2j) + (-i - j) = (3 - 1)i + (-2 - 1)j = 2i - 3j.",
+    "speed_hack": "⚡ CBT Speed Hack: Add components directly: i-coefficients: 3 - 1 = 2; j-coefficients: -2 - 1 = -3 => 2i - 3j."
+  },
+  {
+    "id": "PHY101_BT1_028",
+    "course": "PHY 101",
+    "q_num": 28,
+    "topic": "Kinematics & Rectilinear Motion",
+    "question": "A runner makes one complete lap around a circular track of radius 100m in a time of 25s. What is the runner's displacement?",
+    "options": {
+      "A": "200π m",
+      "B": "200 m",
+      "C": "100 m",
+      "D": "0 m"
+    },
+    "answer": "D",
+    "explanation": "After one full lap around a closed track, the runner returns to the exact starting point. Initial position = final position, so displacement = 0 m.",
+    "speed_hack": "⚡ CBT Speed Hack: Full lap = returns to start = ZERO displacement! Distance is 2πr = 200π m."
+  },
+  {
+    "id": "PHY101_BT1_029",
+    "course": "PHY 101",
+    "q_num": 29,
+    "topic": "Kinematics & Rectilinear Motion",
+    "question": "A runner makes one complete lap around a track of radius 100m in a time of 25s. What is the distance covered by the runner?",
+    "options": {
+      "A": "200π m",
+      "B": "200 m",
+      "C": "100 m",
+      "D": "0 m"
+    },
+    "answer": "A",
+    "explanation": "Distance around a circular track is its circumference = 2πr. With r = 100m, Distance = 2π(100) = 200π m (approx 628.3m).",
+    "speed_hack": "⚡ CBT Speed Hack: Circumference = 2πr = 2 x π x 100 = 200π m."
+  },
+  {
+    "id": "PHY101_BT1_030",
+    "course": "PHY 101",
+    "q_num": 30,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "A force 2500N acting at 60° to the vertical is used to pull a lorry. What is the amount of force trying to lift the lorry?",
+    "options": {
+      "A": "1250 N",
+      "B": "2165 N",
+      "C": "4330 N",
+      "D": "2065 N"
+    },
+    "answer": "A",
+    "explanation": "The lifting component is the vertical component. Since the angle is 60° to the vertical: F_vertical = F cos(60°) = 2500 x 0.5 = 1250 N.",
+    "speed_hack": "⚡ CBT Speed Hack: Vertical force = F cos(angle to vertical) = 2500 x cos(60°) = 2500 x 0.5 = 1250 N."
+  },
+  {
+    "id": "PHY101_BT1_031",
+    "course": "PHY 101",
+    "q_num": 31,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "The resultant of two forces is represented by the diagonal of a parallelogram passing through their common point of action. This states the:",
+    "options": {
+      "A": "Triangular law",
+      "B": "Lami's theorem",
+      "C": "Polygon law",
+      "D": "Parallelogram law"
+    },
+    "answer": "D",
+    "explanation": "The Parallelogram Law of Vectors states that if two vectors acting simultaneously at a point are represented in magnitude and direction by the adjacent sides of a parallelogram, their resultant is represented by the diagonal passing through that point.",
+    "speed_hack": "⚡ CBT Speed Hack: Diagonal of parallelogram from common point = Parallelogram Law."
+  },
+  {
+    "id": "PHY101_BT1_032",
+    "course": "PHY 101",
+    "q_num": 32,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Which of the following is not a scalar quantity?",
+    "options": {
+      "A": "Electric Potential",
+      "B": "Tensile Stress",
+      "C": "Surface Tension",
+      "D": "Young Modulus"
+    },
+    "answer": "B",
+    "explanation": "Tensile stress is defined by force per unit oriented area and has directional characteristics (treated as a tensor/directed quantity), while potential, surface tension, and moduli are scalars.",
+    "speed_hack": "⚡ CBT Speed Hack: Stress involves directional traction forces across defined planes."
+  },
+  {
+    "id": "PHY101_BT1_033",
+    "course": "PHY 101",
+    "q_num": 33,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Two perpendicular forces have a resultant of 13N. If one of the forces is 5N, the other force is:",
+    "options": {
+      "A": "8 N",
+      "B": "9 N",
+      "C": "12 N",
+      "D": "14 N"
+    },
+    "answer": "C",
+    "explanation": "For perpendicular forces, R^2 = F1^2 + F2^2 => 13^2 = 5^2 + F2^2 => 169 = 25 + F2^2 => F2^2 = 144 => F2 = 12 N.",
+    "speed_hack": "⚡ CBT Speed Hack: Classic Pythagorean triple (5, 12, 13)! Missing force is instantly 12 N."
+  },
+  {
+    "id": "PHY101_BT1_034",
+    "course": "PHY 101",
+    "q_num": 34,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Two forces will have their resultant to be minimum if the angle between them is:",
+    "options": {
+      "A": "0°",
+      "B": "45°",
+      "C": "90°",
+      "D": "180°"
+    },
+    "answer": "D",
+    "explanation": "R = sqrt(F1^2 + F2^2 + 2F1 F2 cos θ). Resultant is maximum when cos θ = 1 (θ = 0°, parallel) and minimum when cos θ = -1 (θ = 180°, opposite directions, R = |F1 - F2|).",
+    "speed_hack": "⚡ CBT Speed Hack: Maximum resultant at 0° (F1 + F2); Minimum resultant at 180° (F1 - F2)."
+  },
+  {
+    "id": "PHY101_BT1_035",
+    "course": "PHY 101",
+    "q_num": 35,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "The velocity v of a wave on a stretched string is given by v = k T^x l^y m^z, where T is tension, l is length, and m is mass. Find the summation (x + y).",
+    "options": {
+      "A": "1/2",
+      "B": "1",
+      "C": "3/2",
+      "D": "2"
+    },
+    "answer": "B",
+    "explanation": "v = sqrt(T / μ) where μ = m/l is linear mass density. Thus v = k T^(1/2) l^(1/2) m^(-1/2). Here x = 1/2 and y = 1/2. Therefore x + y = 1/2 + 1/2 = 1.",
+    "speed_hack": "⚡ CBT Speed Hack: v = √(T·l/m) = T^(1/2) l^(1/2) m^(-1/2). Powers of T and l are each 1/2, so x + y = 1."
+  },
+  {
+    "id": "PHY101_BT1_036",
+    "course": "PHY 101",
+    "q_num": 36,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Using the force diagram (20N along +x, 30N along +y, 40N at 60° below -x axis, 10N at 40° below +x axis): What is the net horizontal force Fx?",
+    "options": {
+      "A": "-6.98 N",
+      "B": "62.30 N",
+      "C": "-4.64 N",
+      "D": "23.02 N"
+    },
+    "answer": "A",
+    "explanation": "Resolving horizontally: 20N at 0° -> +20 N. 10N at -40° -> +10 cos(40°) = +7.66 N. 40N inclined 60° into 3rd quadrant -> -40 cos(60°) or -40 sin(60°) depending on orientation. With 60° to vertical: Fx = 20 + 10 cos(40°) - 40 sin(60°) = 27.66 - 34.64 = -6.98 N.",
+    "speed_hack": "⚡ CBT Speed Hack: Sum Fx = 20 + 7.66 - 34.64 = -6.98 N. Clean negative result points left."
+  },
+  {
+    "id": "PHY101_BT1_037",
+    "course": "PHY 101",
+    "q_num": 37,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Using the force diagram: What is the net vertical force Fy?",
+    "options": {
+      "A": "56.42 N",
+      "B": "43.57 N",
+      "C": "23.57 N",
+      "D": "3.57 N"
+    },
+    "answer": "D",
+    "explanation": "Vertical components: +30 N (up) - 10 sin(40°) (down, -6.43 N) - 40 cos(60°) (down, -20.0 N) = 30 - 6.43 - 20.0 = 3.57 N.",
+    "speed_hack": "⚡ CBT Speed Hack: Fy = 30 - 6.43 - 20 = 3.57 N."
+  },
+  {
+    "id": "PHY101_BT1_038",
+    "course": "PHY 101",
+    "q_num": 38,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Using the force diagram: What is the magnitude of the resultant force?",
+    "options": {
+      "A": "85.05 N",
+      "B": "48.95 N",
+      "C": "7.84 N / 4.44 N",
+      "D": "32.95 N"
+    },
+    "answer": "C",
+    "explanation": "Resultant R = sqrt(Fx^2 + Fy^2) = sqrt((-6.98)^2 + 3.57^2) = sqrt(48.72 + 12.74) = sqrt(61.46) ≈ 7.84 N (matches option C in the exam paper).",
+    "speed_hack": "⚡ CBT Speed Hack: R = √(Fx^2 + Fy^2) = √((-6.98)^2 + 3.57^2) ≈ 7.8 N."
+  },
+  {
+    "id": "PHY101_BT1_039",
+    "course": "PHY 101",
+    "q_num": 39,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Using the force diagram: What is the resultant angle from the positive horizontal axis?",
+    "options": {
+      "A": "27°",
+      "B": "207°",
+      "C": "63°",
+      "D": "153°"
+    },
+    "answer": "D",
+    "explanation": "Since Fx is negative (-6.98 N) and Fy is positive (+3.57 N), the resultant lies in Quadrant II. Angle = 180° - tan^-1(3.57 / 6.98) = 180° - 27.1° = 152.9° ≈ 153°.",
+    "speed_hack": "⚡ CBT Speed Hack: Fx < 0, Fy > 0 is in the 2nd quadrant (between 90° and 180°). Only 153° is in the second quadrant!"
+  },
+  {
+    "id": "PHY101_BT1_040",
+    "course": "PHY 101",
+    "q_num": 40,
+    "topic": "Dynamics, Newton's Laws & Momentum",
+    "question": "Which of the following is correct regarding Newton's laws of motion?",
+    "options": {
+      "A": "A body continues in its state of rest unless compelled by external force",
+      "B": "Force is rate of change of momentum",
+      "C": "To every action there is equal and opposite reaction",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Newton's 1st law is the law of inertia, 2nd law defines F = dp/dt, and 3rd law states action and reaction are equal and opposite.",
+    "speed_hack": "⚡ CBT Speed Hack: All three laws are fundamental axioms of classical Newtonian mechanics."
+  },
+  {
+    "id": "PHY101_BET_001",
+    "course": "PHY 101",
+    "q_num": 41,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "The comparison of any physical quantity with its standard units is called:",
+    "options": {
+      "A": "Dimension",
+      "B": "Measurement",
+      "C": "S.I. Unit",
+      "D": "Unit"
+    },
+    "answer": "B",
+    "explanation": "Measurement is the process of comparing an unknown physical quantity with a known fixed standard unit of the same kind.",
+    "speed_hack": "⚡ CBT Speed Hack: Comparing a quantity to a standard = Measurement by definition."
+  },
+  {
+    "id": "PHY101_BET_002",
+    "course": "PHY 101",
+    "q_num": 42,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "______ quantities are all quantities in which laws of physics are described and whose measurement is necessary.",
+    "options": {
+      "A": "Measurement",
+      "B": "Fundamental",
+      "C": "Physical",
+      "D": "Derived"
+    },
+    "answer": "C",
+    "explanation": "Physical quantities are quantities that can be measured and in terms of which the laws of physics are stated.",
+    "speed_hack": "⚡ CBT Speed Hack: Laws of physics describe 'Physical' quantities."
+  },
+  {
+    "id": "PHY101_BET_003",
+    "course": "PHY 101",
+    "q_num": 43,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "Physical Quantities that are independent of other quantities are referred to as:",
+    "options": {
+      "A": "Derived Unit",
+      "B": "Fundamental Quantities",
+      "C": "Basic Unit",
+      "D": "Physical Unit"
+    },
+    "answer": "B",
+    "explanation": "Fundamental quantities (or base quantities) are physical quantities that cannot be defined in terms of other physical quantities.",
+    "speed_hack": "⚡ CBT Speed Hack: Independent = Fundamental / Base quantities (Length, Mass, Time, etc.)."
+  },
+  {
+    "id": "PHY101_BET_004",
+    "course": "PHY 101",
+    "q_num": 44,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "The 3 fundamental quantities in mechanics are:",
+    "options": {
+      "A": "Temperature, Length, Time",
+      "B": "Electric Current, Temperature, Intensity",
+      "C": "Mass, Time, Length",
+      "D": "Mass, Temperature, Time"
+    },
+    "answer": "C",
+    "explanation": "In mechanics, all mechanical quantities can be expressed in terms of the three primary base dimensions: Mass [M], Length [L], and Time [T].",
+    "speed_hack": "⚡ CBT Speed Hack: The MLT triad = Mass, Length, Time."
+  },
+  {
+    "id": "PHY101_BET_005",
+    "course": "PHY 101",
+    "q_num": 45,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "A definite amount of physical quantity taken as standard is called:",
+    "options": {
+      "A": "Density",
+      "B": "Luminous Intensity",
+      "C": "Mass",
+      "D": "Standard Unit"
+    },
+    "answer": "D",
+    "explanation": "A standard unit is a chosen definite magnitude of a quantity, adopted by convention or law, used as a benchmark for measuring other quantities of the same kind.",
+    "speed_hack": "⚡ CBT Speed Hack: Definite benchmark chosen for comparison = Standard Unit."
+  },
+  {
+    "id": "PHY101_BET_006",
+    "course": "PHY 101",
+    "q_num": 46,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "Which of the following is a derived Quantity?",
+    "options": {
+      "A": "Density",
+      "B": "Luminous Intensity",
+      "C": "Mass",
+      "D": "Electric current"
+    },
+    "answer": "A",
+    "explanation": "Density = Mass / Volume = [M][L^-3]. It is derived from mass and length. Luminous intensity, mass, and electric current are all base fundamental quantities.",
+    "speed_hack": "⚡ CBT Speed Hack: Density involves two base quantities (mass / length³), making it derived."
+  },
+  {
+    "id": "PHY101_BET_007",
+    "course": "PHY 101",
+    "q_num": 47,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "Which of the following is a fundamental quantity?",
+    "options": {
+      "A": "Force",
+      "B": "Power",
+      "C": "Mass",
+      "D": "Momentum"
+    },
+    "answer": "C",
+    "explanation": "Mass is one of the 7 base SI quantities. Force, Power, and Momentum are all derived quantities.",
+    "speed_hack": "⚡ CBT Speed Hack: Mass is measured directly in kilograms without combining other base units."
+  },
+  {
+    "id": "PHY101_BET_008",
+    "course": "PHY 101",
+    "q_num": 48,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "Which of this is NOT a fundamental S.I Unit?",
+    "options": {
+      "A": "Force",
+      "B": "Kelvin",
+      "C": "Mole",
+      "D": "Radian"
+    },
+    "answer": "D",
+    "explanation": "Radian is a supplementary unit (for plane angle), not a base fundamental unit. Force (Newton) is also derived, but Radian is classified specifically as supplementary.",
+    "speed_hack": "⚡ CBT Speed Hack: Radian and Steradian are supplementary angular units, not fundamental SI base units."
+  },
+  {
+    "id": "PHY101_BET_009",
+    "course": "PHY 101",
+    "q_num": 49,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "What is the Unit of the following: Length, Breadth, Height?",
+    "options": {
+      "A": "m, s, m",
+      "B": "m, m, m",
+      "C": "kg, m, s",
+      "D": "m, kg, s"
+    },
+    "answer": "B",
+    "explanation": "Length, breadth, and height are all linear spatial dimensions with SI unit meter (m).",
+    "speed_hack": "⚡ CBT Speed Hack: All three are distance dimensions -> m, m, m."
+  },
+  {
+    "id": "PHY101_BET_010",
+    "course": "PHY 101",
+    "q_num": 50,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "The units of velocity, speed and acceleration are respectively:",
+    "options": {
+      "A": "m/s, m/s, kg/s",
+      "B": "kg/m, m/s, m/s",
+      "C": "m/s, m/s, m/s²",
+      "D": "kg, m/s, m/s²"
+    },
+    "answer": "C",
+    "explanation": "Velocity and speed both have the SI unit m/s (or ms^-1), while acceleration is rate of change of velocity, measured in m/s² (or ms^-2).",
+    "speed_hack": "⚡ CBT Speed Hack: Speed/velocity = m/s; acceleration = m/s²."
+  },
+  {
+    "id": "PHY101_BET_011",
+    "course": "PHY 101",
+    "q_num": 51,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "Which of the following has the unit of meter?",
+    "options": {
+      "A": "Distance",
+      "B": "Length",
+      "C": "Displacement",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Distance, length, and displacement are all measures of space/interval and share the SI unit meter (m).",
+    "speed_hack": "⚡ CBT Speed Hack: Distance, length, and displacement all measure linear separation in meters."
+  },
+  {
+    "id": "PHY101_BET_012",
+    "course": "PHY 101",
+    "q_num": 52,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "Dimensional analysis is useful in which of the following ways?",
+    "options": {
+      "A": "To determine if a quantity is fundamental or derived",
+      "B": "To determine whether an expression or physical equation is correct or not",
+      "C": "To determine the units of physical quantities",
+      "D": "All of the above"
+    },
+    "answer": "B",
+    "explanation": "A primary utility of dimensional analysis is testing the dimensional homogeneity of physical formulas (LHS dimensions must equal RHS dimensions).",
+    "speed_hack": "⚡ CBT Speed Hack: Principle of Homogeneity: checking if physical equations are dimensionally valid."
+  },
+  {
+    "id": "PHY101_BET_013",
+    "course": "PHY 101",
+    "q_num": 53,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "How can you describe derived units?",
+    "options": {
+      "A": "Unit independent of others",
+      "B": "Units that are dependent on other base units",
+      "C": "Units that cannot be expressed mathematically",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "Derived units are formed by powers, products, or quotients of the fundamental base units.",
+    "speed_hack": "⚡ CBT Speed Hack: Derived units depend directly on fundamental base units."
+  },
+  {
+    "id": "PHY101_BET_014",
+    "course": "PHY 101",
+    "q_num": 54,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "The physical nature (dimension) of distance is:",
+    "options": {
+      "A": "M",
+      "B": "T",
+      "C": "L",
+      "D": "kg"
+    },
+    "answer": "C",
+    "explanation": "The fundamental dimension of distance/length is [L].",
+    "speed_hack": "⚡ CBT Speed Hack: Distance = Length = [L]."
+  },
+  {
+    "id": "PHY101_BET_015",
+    "course": "PHY 101",
+    "q_num": 55,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "Quantities can only be added or subtracted if they have the same:",
+    "options": {
+      "A": "Unit",
+      "B": "Measurement",
+      "C": "Values",
+      "D": "Dimension"
+    },
+    "answer": "D",
+    "explanation": "According to the Principle of Dimensional Homogeneity, physical quantities can only be added, subtracted, or equated if they possess identical physical dimensions.",
+    "speed_hack": "⚡ CBT Speed Hack: You can only add apples to apples -> identical dimensions!"
+  },
+  {
+    "id": "PHY101_BET_016",
+    "course": "PHY 101",
+    "q_num": 56,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "The acronym 'S.I.' Unit means:",
+    "options": {
+      "A": "System Intentional",
+      "B": "Système International (International System of Units)",
+      "C": "System Intensification",
+      "D": "System Identification"
+    },
+    "answer": "B",
+    "explanation": "SI stands for Système International d'Unités, established in 1960 by the General Conference on Weights and Measures.",
+    "speed_hack": "⚡ CBT Speed Hack: French acronym: Système International."
+  },
+  {
+    "id": "PHY101_BET_017",
+    "course": "PHY 101",
+    "q_num": 57,
+    "topic": "Work, Energy, Power & Impulse",
+    "question": "The base unit dimension of watt (power) is:",
+    "options": {
+      "A": "ML³T⁻³",
+      "B": "ML²T⁻³",
+      "C": "M²LT⁻³",
+      "D": "MLT⁻³"
+    },
+    "answer": "B",
+    "explanation": "1 Watt = 1 Joule/second = (Force × distance) / time = ([MLT⁻²] × [L]) / [T] = [ML²T⁻³].",
+    "speed_hack": "⚡ CBT Speed Hack: Power = Work/time = ML²T⁻² / T = ML²T⁻³."
+  },
+  {
+    "id": "PHY101_BET_018",
+    "course": "PHY 101",
+    "q_num": 58,
+    "topic": "Kinematics & Linear Motion",
+    "question": "The time rate of increase in velocity is called:",
+    "options": {
+      "A": "Density",
+      "B": "Acceleration",
+      "C": "Momentum",
+      "D": "Torque"
+    },
+    "answer": "B",
+    "explanation": "Acceleration is defined mathematically as the rate of change of velocity with respect to time: a = dv/dt.",
+    "speed_hack": "⚡ CBT Speed Hack: dv/dt = Acceleration."
+  },
+  {
+    "id": "PHY101_BET_019",
+    "course": "PHY 101",
+    "q_num": 59,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "The metric prefix for 10⁶ is:",
+    "options": {
+      "A": "Tera",
+      "B": "Kilo",
+      "C": "Mega",
+      "D": "Peta"
+    },
+    "answer": "C",
+    "explanation": "Mega = 10⁶, Giga = 10⁹, Tera = 10¹², Kilo = 10³.",
+    "speed_hack": "⚡ CBT Speed Hack: 1 Megawatt = 10⁶ Watts; prefix is Mega (M)."
+  },
+  {
+    "id": "PHY101_BET_020",
+    "course": "PHY 101",
+    "q_num": 60,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "The metric prefix for 10⁻⁹ is:",
+    "options": {
+      "A": "Nano",
+      "B": "Zetta",
+      "C": "Hecto",
+      "D": "Deka"
+    },
+    "answer": "A",
+    "explanation": "Nano = 10⁻⁹, Micro = 10⁻⁶, Pico = 10⁻¹².",
+    "speed_hack": "⚡ CBT Speed Hack: 10⁻⁹ = Nano (n)."
+  },
+  {
+    "id": "PHY101_BET_021",
+    "course": "PHY 101",
+    "q_num": 61,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "When calculating 'how far', the SI unit of the answer will be in:",
+    "options": {
+      "A": "s",
+      "B": "kg",
+      "C": "m",
+      "D": "s⁻¹"
+    },
+    "answer": "C",
+    "explanation": "'How far' refers to distance or displacement, measured in meters (m).",
+    "speed_hack": "⚡ CBT Speed Hack: Distance = meters."
+  },
+  {
+    "id": "PHY101_BET_022",
+    "course": "PHY 101",
+    "q_num": 62,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "When calculating 'how fast', the SI unit of the answer will be in:",
+    "options": {
+      "A": "kg",
+      "B": "m/s",
+      "C": "kg/m",
+      "D": "s"
+    },
+    "answer": "B",
+    "explanation": "'How fast' refers to speed or magnitude of velocity, measured in meters per second (m/s).",
+    "speed_hack": "⚡ CBT Speed Hack: Speed = m/s."
+  },
+  {
+    "id": "PHY101_BET_023",
+    "course": "PHY 101",
+    "q_num": 63,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "The dimensions of density, momentum and pressure are respectively:",
+    "options": {
+      "A": "MLT, ML⁻³, MLT⁻²",
+      "B": "ML⁻¹T⁻², ML⁻³, MLT⁻¹",
+      "C": "ML⁻³, MLT⁻¹, ML⁻¹T⁻²",
+      "D": "ML⁻³, ML⁻¹T⁻², MLT⁻²"
+    },
+    "answer": "C",
+    "explanation": "Density = M/V = [ML⁻³]. Momentum = m*v = [MLT⁻¹]. Pressure = F/A = [MLT⁻²]/[L²] = [ML⁻¹T⁻²].",
+    "speed_hack": "⚡ CBT Speed Hack: Density has L⁻³; only C and D start with ML⁻³. Momentum has MLT⁻¹, pointing uniquely to C."
+  },
+  {
+    "id": "PHY101_BET_024",
+    "course": "PHY 101",
+    "q_num": 64,
+    "topic": "Dynamics, Newton's Laws & Momentum",
+    "question": "The dimension of momentum is:",
+    "options": {
+      "A": "ML",
+      "B": "ML²T",
+      "C": "MLT⁻¹",
+      "D": "MLT"
+    },
+    "answer": "C",
+    "explanation": "p = m × v = [M] × [LT⁻¹] = [MLT⁻¹].",
+    "speed_hack": "⚡ CBT Speed Hack: Mass × Velocity = M × L/T = MLT⁻¹."
+  },
+  {
+    "id": "PHY101_BET_025",
+    "course": "PHY 101",
+    "q_num": 65,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "What does 10⁻⁹ F mean in capacitance?",
+    "options": {
+      "A": "Nano farad",
+      "B": "Pico farad",
+      "C": "Macro farad",
+      "D": "Micro farad"
+    },
+    "answer": "A",
+    "explanation": "10⁻⁹ = nano, so 10⁻⁹ Farad is 1 nanofarad (nF).",
+    "speed_hack": "⚡ CBT Speed Hack: 10⁻⁹ = nano -> Nanofarad."
+  },
+  {
+    "id": "PHY101_BET_026",
+    "course": "PHY 101",
+    "q_num": 66,
+    "topic": "Properties of Matter, Elasticity, Surface Tension & Viscosity",
+    "question": "The dimension of pressure is:",
+    "options": {
+      "A": "ML²T⁻²",
+      "B": "ML⁻¹T⁻²",
+      "C": "MLT⁻¹",
+      "D": "MLT⁻²"
+    },
+    "answer": "B",
+    "explanation": "Pressure = Force / Area = [MLT⁻²] / [L²] = [ML⁻¹T⁻²].",
+    "speed_hack": "⚡ CBT Speed Hack: Pressure = Force/Area = MLT⁻²/L² = ML⁻¹T⁻²."
+  },
+  {
+    "id": "PHY101_BET_027",
+    "course": "PHY 101",
+    "q_num": 67,
+    "topic": "Work, Energy, Power & Impulse",
+    "question": "The dimension of power is:",
+    "options": {
+      "A": "ML²T⁻³",
+      "B": "ML⁻¹T⁻²",
+      "C": "MLT⁻²",
+      "D": "ML⁻²T⁻²"
+    },
+    "answer": "A",
+    "explanation": "Power = Work / time = [ML²T⁻²] / [T] = [ML²T⁻³].",
+    "speed_hack": "⚡ CBT Speed Hack: Power = Energy / time = ML²T⁻³."
+  },
+  {
+    "id": "PHY101_BET_028",
+    "course": "PHY 101",
+    "q_num": 68,
+    "topic": "Work, Energy, Power & Impulse",
+    "question": "The dimension of energy is:",
+    "options": {
+      "A": "MLT⁻²",
+      "B": "ML²T⁻¹",
+      "C": "ML²T⁻²",
+      "D": "MLT²"
+    },
+    "answer": "C",
+    "explanation": "Energy = Work = Force × distance = [MLT⁻²] × [L] = [ML²T⁻²].",
+    "speed_hack": "⚡ CBT Speed Hack: Kinetic energy ½mv² = M(L/T)² = ML²T⁻²."
+  },
+  {
+    "id": "PHY101_BET_029",
+    "course": "PHY 101",
+    "q_num": 69,
+    "topic": "Work, Energy, Power & Impulse",
+    "question": "The product of force and displacement is:",
+    "options": {
+      "A": "Pressure",
+      "B": "Work",
+      "C": "Stress",
+      "D": "Power"
+    },
+    "answer": "B",
+    "explanation": "Work is defined as W = F · d (the scalar product of force and displacement vector).",
+    "speed_hack": "⚡ CBT Speed Hack: Force × Distance = Work done."
+  },
+  {
+    "id": "PHY101_BET_030",
+    "course": "PHY 101",
+    "q_num": 70,
+    "topic": "Kinematics & Linear Motion",
+    "question": "The acceleration of a freely falling body near the earth's surface is:",
+    "options": {
+      "A": "Decreasing",
+      "B": "Increasing",
+      "C": "Constant",
+      "D": "Varying"
+    },
+    "answer": "C",
+    "explanation": "Near the surface of the earth, ignoring air resistance, the acceleration due to gravity g ≈ 9.8 m/s² remains constant.",
+    "speed_hack": "⚡ CBT Speed Hack: Gravity near Earth is constant at g ≈ 9.8 m/s²."
+  },
+  {
+    "id": "PHY101_BET_031",
+    "course": "PHY 101",
+    "q_num": 71,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "The dimension of volume is:",
+    "options": {
+      "A": "L³",
+      "B": "kg³",
+      "C": "m²",
+      "D": "ML⁻³"
+    },
+    "answer": "A",
+    "explanation": "Volume = length × breadth × height = [L] × [L] × [L] = [L³].",
+    "speed_hack": "⚡ CBT Speed Hack: Length cubed = L³."
+  },
+  {
+    "id": "PHY101_BET_032",
+    "course": "PHY 101",
+    "q_num": 72,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "A vector having magnitude of 5 units pointing north is combined with another vector to give zero resultant. What is the other vector?",
+    "options": {
+      "A": "5 units West",
+      "B": "5 units South",
+      "C": "5 units North",
+      "D": "5 units East"
+    },
+    "answer": "B",
+    "explanation": "For A + B = 0, B must be equal in magnitude and exactly opposite in direction: B = -A = 5 units South.",
+    "speed_hack": "⚡ CBT Speed Hack: To cancel 5 units North, you need exactly 5 units South!"
+  },
+  {
+    "id": "PHY101_BET_033",
+    "course": "PHY 101",
+    "q_num": 73,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "If a body moves 2m due east and then 3m due west, its resultant displacement is:",
+    "options": {
+      "A": "5m",
+      "B": "-4m",
+      "C": "0m",
+      "D": "1m West"
+    },
+    "answer": "D",
+    "explanation": "Taking East as positive: displacement = +2m - 3m = -1m, which corresponds to 1m due West.",
+    "speed_hack": "⚡ CBT Speed Hack: Net = 3m West - 2m East = 1m West."
+  },
+  {
+    "id": "PHY101_BET_034",
+    "course": "PHY 101",
+    "q_num": 74,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Which of the following is NOT a vector quantity?",
+    "options": {
+      "A": "Direction",
+      "B": "Displacement",
+      "C": "Momentum",
+      "D": "Force"
+    },
+    "answer": "A",
+    "explanation": "Direction alone is not a physical vector quantity (a vector requires both magnitude and direction). Displacement, momentum, and force are all full physical vectors.",
+    "speed_hack": "⚡ CBT Speed Hack: Vectors require BOTH magnitude and direction. Direction alone is not a quantity."
+  },
+  {
+    "id": "PHY101_BET_035",
+    "course": "PHY 101",
+    "q_num": 75,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Which of the following is NOT a vector quantity?",
+    "options": {
+      "A": "Force of gravity",
+      "B": "Work, energy & power",
+      "C": "2m due east",
+      "D": "Acceleration due to gravity"
+    },
+    "answer": "B",
+    "explanation": "Work, energy, and power are all scalar quantities (they have magnitude only, no directional requirement).",
+    "speed_hack": "⚡ CBT Speed Hack: Work, Energy, and Power are all pure scalars."
+  },
+  {
+    "id": "PHY101_BET_036",
+    "course": "PHY 101",
+    "q_num": 76,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "Which of the following is a fundamental SI base unit?",
+    "options": {
+      "A": "kg",
+      "B": "kg·m⁻³",
+      "C": "N·m⁻²",
+      "D": "m·s⁻²"
+    },
+    "answer": "A",
+    "explanation": "The kilogram (kg) is the fundamental SI base unit of mass. The others are derived units.",
+    "speed_hack": "⚡ CBT Speed Hack: kg is the base unit for mass."
+  },
+  {
+    "id": "PHY101_BET_037",
+    "course": "PHY 101",
+    "q_num": 77,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "According to Isaac Newton, space is:",
+    "options": {
+      "A": "Not empirical",
+      "B": "Non-Euclidean",
+      "C": "Absolute",
+      "D": "Flat"
+    },
+    "answer": "C",
+    "explanation": "Sir Isaac Newton posited absolute space in his Principia: space exists independently of all matter and is unchanging and immovable.",
+    "speed_hack": "⚡ CBT Speed Hack: Newton = Absolute space and absolute time."
+  },
+  {
+    "id": "PHY101_BET_038",
+    "course": "PHY 101",
+    "q_num": 78,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "According to Gottfried Leibniz, space was:",
+    "options": {
+      "A": "A collection of relations between objects",
+      "B": "Empirical",
+      "C": "Not empirical",
+      "D": "Non-Euclidean"
+    },
+    "answer": "A",
+    "explanation": "Leibniz argued for relationalism: space is not an entity in itself, but rather the relational order of coexistence of objects.",
+    "speed_hack": "⚡ CBT Speed Hack: Leibniz = Relational space (order of coexistence among objects)."
+  },
+  {
+    "id": "PHY101_BET_039",
+    "course": "PHY 101",
+    "q_num": 79,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The credit of work on the visibility and perception of spatial depth in the 18th century belongs to which philosopher?",
+    "options": {
+      "A": "Gottfried Leibniz",
+      "B": "George Berkeley",
+      "C": "Isaac Newton",
+      "D": "Immanuel Kant"
+    },
+    "answer": "B",
+    "explanation": "George Berkeley published 'An Essay Towards a New Theory of Vision' in 1709, addressing the visual perception of spatial depth and distance.",
+    "speed_hack": "⚡ CBT Speed Hack: Spatial depth perception = George Berkeley."
+  },
+  {
+    "id": "PHY101_BET_040",
+    "course": "PHY 101",
+    "q_num": 80,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "According to Immanuel Kant, space is:",
+    "options": {
+      "A": "Non-Euclidean",
+      "B": "Flat",
+      "C": "Not empirical (a priori intuition)",
+      "D": "Absolute entity"
+    },
+    "answer": "C",
+    "explanation": "Kant argued in the Critique of Pure Reason that space is an a priori intuition rather than an empirical concept derived from outer experience.",
+    "speed_hack": "⚡ CBT Speed Hack: Kant = Space is an a priori, non-empirical intuition."
+  },
+  {
+    "id": "PHY101_BET_041",
+    "course": "PHY 101",
+    "q_num": 81,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "In the 19th and 20th centuries, mathematicians examined geometries that are non-Euclidean, in which space is conceived as _____ rather than flat:",
+    "options": {
+      "A": "Empirical",
+      "B": "Not-empirical",
+      "C": "Curved",
+      "D": "Discontinuous"
+    },
+    "answer": "C",
+    "explanation": "Non-Euclidean geometries (such as Riemannian geometry) describe space as curved rather than Euclidean/flat.",
+    "speed_hack": "⚡ CBT Speed Hack: Non-Euclidean geometry = Curved space."
+  },
+  {
+    "id": "PHY101_BET_042",
+    "course": "PHY 101",
+    "q_num": 82,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "According to Albert Einstein's theory of General Relativity, space around a gravitational field deviates from _____ space:",
+    "options": {
+      "A": "Flat",
+      "B": "Non-Euclidean",
+      "C": "Euclidean (flat)",
+      "D": "Curved"
+    },
+    "answer": "C",
+    "explanation": "General Relativity states that mass-energy causes space-time to curve, causing local geometry to deviate from flat Euclidean space.",
+    "speed_hack": "⚡ CBT Speed Hack: Gravity curves space away from flat Euclidean space."
+  },
+  {
+    "id": "PHY101_BET_043",
+    "course": "PHY 101",
+    "q_num": 83,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "_____ geometry provides a better mathematical model for the shape of space-time in the theory of General Relativity:",
+    "options": {
+      "A": "Euclidean geometry",
+      "B": "Flat geometry",
+      "C": "Non-Euclidean geometry",
+      "D": "Cartesian geometry"
+    },
+    "answer": "C",
+    "explanation": "Non-Euclidean (specifically pseudo-Riemannian) geometry is the mathematical framework for Einstein's curved space-time.",
+    "speed_hack": "⚡ CBT Speed Hack: General Relativity uses Non-Euclidean geometry."
+  },
+  {
+    "id": "PHY101_BET_044",
+    "course": "PHY 101",
+    "q_num": 84,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "Time is a scalar quantity:",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "answer": "A",
+    "explanation": "Time has magnitude only and is fully specified without a spatial direction vector; it is a scalar quantity.",
+    "speed_hack": "⚡ CBT Speed Hack: Time is a scalar quantity -> True."
+  },
+  {
+    "id": "PHY101_BET_045",
+    "course": "PHY 101",
+    "q_num": 85,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "Time is referred to as a fundamental base quantity:",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "answer": "A",
+    "explanation": "Time is one of the 7 fundamental SI base quantities, measured in seconds (s).",
+    "speed_hack": "⚡ CBT Speed Hack: Time is a base SI quantity -> True."
+  },
+  {
+    "id": "PHY101_BET_046",
+    "course": "PHY 101",
+    "q_num": 86,
+    "topic": "Work, Energy, Power & Impulse",
+    "question": "What is the dimension of energy?",
+    "options": {
+      "A": "MLT⁻²",
+      "B": "ML²T⁻¹",
+      "C": "ML²T⁻²",
+      "D": "ML²T⁻³"
+    },
+    "answer": "C",
+    "explanation": "Energy = Work = Force × distance = [MLT⁻²][L] = [ML²T⁻²].",
+    "speed_hack": "⚡ CBT Speed Hack: Energy = Work = ML²T⁻²."
+  },
+  {
+    "id": "PHY101_BET_047",
+    "course": "PHY 101",
+    "q_num": 87,
+    "topic": "Kinematics & Linear Motion",
+    "question": "The time rate of change of position is:",
+    "options": {
+      "A": "Acceleration",
+      "B": "Velocity",
+      "C": "Density",
+      "D": "Momentum"
+    },
+    "answer": "B",
+    "explanation": "Velocity is defined as the rate of change of position (displacement) with respect to time: v = dx/dt.",
+    "speed_hack": "⚡ CBT Speed Hack: Rate of change of position = Velocity."
+  },
+  {
+    "id": "PHY101_BET_048",
+    "course": "PHY 101",
+    "q_num": 88,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Who proved that space-time is curved by the presence of mass and energy?",
+    "options": {
+      "A": "Immanuel Kant",
+      "B": "19th & 20th Century Mathematicians & Einstein",
+      "C": "Isaac Newton",
+      "D": "George Berkeley"
+    },
+    "answer": "B",
+    "explanation": "The curvature of space-time was mathematically formulated by 19th/20th century mathematicians (Gauss, Riemann) and physicalized by Albert Einstein.",
+    "speed_hack": "⚡ CBT Speed Hack: Curved spacetime = 19th/20th century mathematical physics & Einstein."
+  },
+  {
+    "id": "PHY101_BET_049",
+    "course": "PHY 101",
+    "q_num": 89,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The independence of space according to Sir Isaac Newton is in relation to: (I) those frames considered at rest, (II) those with constant velocity in a straight line:",
+    "options": {
+      "A": "I and II",
+      "B": "I only",
+      "C": "II only",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "Newtonian relativity asserts that mechanical laws are identical in all inertial reference frames—both those at rest and those moving with constant linear velocity.",
+    "speed_hack": "⚡ CBT Speed Hack: Inertial frames include BOTH rest and uniform rectilinear motion -> I and II."
+  },
+  {
+    "id": "PHY101_BET_050",
+    "course": "PHY 101",
+    "q_num": 90,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "'The laws of physics are the same in every inertial frame of reference' is:",
+    "options": {
+      "A": "Law of non-relativity",
+      "B": "Einstein's first postulate of Special Relativity",
+      "C": "Einstein's second postulate",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "Einstein's First Postulate (Principle of Relativity): The laws of physics are invariant in all inertial reference frames.",
+    "speed_hack": "⚡ CBT Speed Hack: 1st Postulate = Laws of physics identical in all inertial frames. 2nd Postulate = Speed of light is constant."
+  },
+  {
+    "id": "PHY101_BET_051",
+    "course": "PHY 101",
+    "q_num": 91,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Einstein's first postulate of Special Relativity is also called:",
+    "options": {
+      "A": "Principle of initial",
+      "B": "Principle of frame of reference",
+      "C": "Principle of relativity",
+      "D": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "The first postulate is formally called the Principle of Relativity.",
+    "speed_hack": "⚡ CBT Speed Hack: Postulate 1 = Principle of Relativity."
+  },
+  {
+    "id": "PHY101_BET_052",
+    "course": "PHY 101",
+    "q_num": 92,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Gottfried Leibniz's concept of space is a direct contradiction of whose concept?",
+    "options": {
+      "A": "Immanuel Kant",
+      "B": "Albert Einstein",
+      "C": "Isaac Newton",
+      "D": "George Berkeley"
+    },
+    "answer": "C",
+    "explanation": "Leibniz's relational space directly opposed Newton's absolute space, famously debated in the Leibniz-Clarke correspondence.",
+    "speed_hack": "⚡ CBT Speed Hack: Leibniz's relational view contradicted Newton's absolute container view."
+  },
+  {
+    "id": "PHY101_BET_053",
+    "course": "PHY 101",
+    "q_num": 93,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Physical space has how many spatial dimensions?",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "4"
+    },
+    "answer": "B",
+    "explanation": "Classical physical space is three-dimensional (length, width, height). (Adding time creates 4D space-time).",
+    "speed_hack": "⚡ CBT Speed Hack: Spatial dimensions = 3."
+  },
+  {
+    "id": "PHY101_BET_054",
+    "course": "PHY 101",
+    "q_num": 94,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The 3 dimensions of physical space are:",
+    "options": {
+      "A": "Length, mass, time",
+      "B": "Length, width, height",
+      "C": "Mass, temperature, height",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "Spatial coordinates in 3D Cartesian space are length (x), width (y), and height (z).",
+    "speed_hack": "⚡ CBT Speed Hack: 3 spatial dimensions = Length, Width, Height."
+  },
+  {
+    "id": "PHY101_BET_055",
+    "course": "PHY 101",
+    "q_num": 95,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "While Newton believed that space was absolute, others like Leibniz believed that:",
+    "options": {
+      "A": "Flat",
+      "B": "Space was defined by the relationships between physical objects",
+      "C": "Space existed independently of any physical objects",
+      "D": "Space is imaginary"
+    },
+    "answer": "B",
+    "explanation": "Relational theories of space posit that space is an emergent relation between objects, rather than an independent substance.",
+    "speed_hack": "⚡ CBT Speed Hack: Relational theory: space is defined by the relations between objects."
+  },
+  {
+    "id": "PHY101_BET_056",
+    "course": "PHY 101",
+    "q_num": 96,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "When can a reference frame fixed to the Earth be treated as an inertial frame?",
+    "options": {
+      "A": "When it is moving fast",
+      "B": "When it is rotating rapidly",
+      "C": "When the effects of Earth's rotation and orbital acceleration are negligible",
+      "D": "When moving slow"
+    },
+    "answer": "C",
+    "explanation": "Strictly speaking, Earth is non-inertial because it rotates and orbits the Sun. However, for everyday experiments where Coriolis and centrifugal forces are negligible, it is treated as inertial.",
+    "speed_hack": "⚡ CBT Speed Hack: Negligible Earth rotation = approximately inertial frame."
+  },
+  {
+    "id": "PHY101_BET_057",
+    "course": "PHY 101",
+    "q_num": 97,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "An inertial frame of reference is NOT possible when:",
+    "options": {
+      "A": "There is no net force acting on the frame",
+      "B": "There is a net force causing the frame to accelerate",
+      "C": "The frame moves at constant velocity",
+      "D": "The frame is at rest"
+    },
+    "answer": "B",
+    "explanation": "An inertial frame is non-accelerating (net external force on the frame = 0). When a net force acts on the frame, it accelerates, making it non-inertial.",
+    "speed_hack": "⚡ CBT Speed Hack: Net force on frame -> acceleration -> frame is non-inertial."
+  },
+  {
+    "id": "PHY101_BET_058",
+    "course": "PHY 101",
+    "q_num": 98,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Special Relativity deals only with physical phenomena viewed from:",
+    "options": {
+      "A": "Accelerating frames",
+      "B": "Gravitational frames",
+      "C": "Inertial frames of reference",
+      "D": "Rotating frames"
+    },
+    "answer": "C",
+    "explanation": "Special Relativity is restricted ('special') because it applies strictly to non-accelerating, inertial reference frames. General Relativity extends this to accelerating frames and gravity.",
+    "speed_hack": "⚡ CBT Speed Hack: Special Relativity = Inertial frames only. General Relativity = Gravitational / accelerating frames."
+  },
+  {
+    "id": "PHY101_BET_059",
+    "course": "PHY 101",
+    "q_num": 99,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "During the 19th century, most physicists believed that light traveled through a hypothetical medium called:",
+    "options": {
+      "A": "Air",
+      "B": "Mercury",
+      "C": "Luminiferous Ether",
+      "D": "Optical plasma"
+    },
+    "answer": "C",
+    "explanation": "Nineteenth-century physicists posited the 'luminiferous ether' as the medium required for light wave propagation, famously disproved by the Michelson-Morley experiment.",
+    "speed_hack": "⚡ CBT Speed Hack: 19th-century light medium = Luminiferous Ether."
+  },
+  {
+    "id": "PHY101_BET_060",
+    "course": "PHY 101",
+    "q_num": 100,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A frame fixed on Earth is NOT an inertial frame when:",
+    "options": {
+      "A": "It is not accelerating",
+      "B": "It is moving at a constant speed in a straight line",
+      "C": "It is accelerating (e.g., centripetal acceleration considered)",
+      "D": "It is at rest"
+    },
+    "answer": "C",
+    "explanation": "Any accelerating frame (such as an Earth-fixed frame accounting for rotational acceleration) is non-inertial.",
+    "speed_hack": "⚡ CBT Speed Hack: Accelerating frame = Non-inertial frame."
+  },
+  {
+    "id": "PHY101_BET_061",
+    "course": "PHY 101",
+    "q_num": 101,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Which of the following is NOT a vector quantity?",
+    "options": {
+      "A": "Momentum",
+      "B": "Force",
+      "C": "Temperature",
+      "D": "Displacement"
+    },
+    "answer": "C",
+    "explanation": "Temperature is a scalar quantity (specified purely by magnitude in Kelvin or Celsius, without spatial direction).",
+    "speed_hack": "⚡ CBT Speed Hack: Temperature has magnitude only -> Scalar."
+  },
+  {
+    "id": "PHY101_BET_062",
+    "course": "PHY 101",
+    "q_num": 102,
+    "topic": "Dynamics, Newton's Laws & Momentum",
+    "question": "The tendency of a body to remain at rest or to continue moving with constant velocity in a straight line is known as:",
+    "options": {
+      "A": "Acceleration",
+      "B": "Inertia (Newton's 1st Law)",
+      "C": "Newton's 3rd law of motion",
+      "D": "Friction"
+    },
+    "answer": "B",
+    "explanation": "Inertia is the natural resistance of any physical object to any change in its velocity, encapsulated in Newton's first law of motion.",
+    "speed_hack": "⚡ CBT Speed Hack: Resistance to change in state of motion = Inertia."
+  },
+  {
+    "id": "PHY101_BET_063",
+    "course": "PHY 101",
+    "q_num": 103,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "A scalar quantity is completely specified by:",
+    "options": {
+      "A": "Number and measurement",
+      "B": "Direction and number",
+      "C": "Displacement and number",
+      "D": "Number (magnitude) and unit"
+    },
+    "answer": "D",
+    "explanation": "A scalar quantity requires only a numerical magnitude and an appropriate unit of measurement (e.g., 5 kg).",
+    "speed_hack": "⚡ CBT Speed Hack: Scalar = Magnitude + Unit (no direction needed)."
+  },
+  {
+    "id": "PHY101_BET_064",
+    "course": "PHY 101",
+    "q_num": 104,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "The numerical value describing the size of a particular scalar or vector quantity is known as its:",
+    "options": {
+      "A": "Displacement",
+      "B": "Direction",
+      "C": "Magnitude",
+      "D": "Dimension"
+    },
+    "answer": "C",
+    "explanation": "Magnitude is the quantitative numerical measure or size of a physical entity.",
+    "speed_hack": "⚡ CBT Speed Hack: Numerical value / size = Magnitude."
+  },
+  {
+    "id": "PHY101_BET_065",
+    "course": "PHY 101",
+    "q_num": 105,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "A vector quantity is completely specified by both:",
+    "options": {
+      "A": "Magnitude and measurement",
+      "B": "Measurement and direction",
+      "C": "Magnitude and direction",
+      "D": "All of the above"
+    },
+    "answer": "C",
+    "explanation": "A vector requires both magnitude (size) and direction in space to be fully defined.",
+    "speed_hack": "⚡ CBT Speed Hack: Vector = Magnitude + Direction."
+  },
+  {
+    "id": "PHY101_BET_066",
+    "course": "PHY 101",
+    "q_num": 106,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "The type of vector whose line of action can be shifted parallel to itself without changing its effect is a:",
+    "options": {
+      "A": "Localized vector",
+      "B": "Bonded vector",
+      "C": "Free vector",
+      "D": "Unit vector"
+    },
+    "answer": "C",
+    "explanation": "A free vector has a specified magnitude and direction but its line of action is not confined to a unique point or line (e.g., pure displacement or couple).",
+    "speed_hack": "⚡ CBT Speed Hack: Can be shifted anywhere parallel to itself = Free vector."
+  },
+  {
+    "id": "PHY101_BET_067",
+    "course": "PHY 101",
+    "q_num": 107,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "The type of vector whose line of action CANNOT be shifted parallel to itself is called a:",
+    "options": {
+      "A": "Localized (or sliding) vector",
+      "B": "Coplanar vector",
+      "C": "Zero vector",
+      "D": "Equal vector"
+    },
+    "answer": "A",
+    "explanation": "A localized (or bound) vector has a specific, fixed point of application in space (such as a force acting on a deformable body or causing torque).",
+    "speed_hack": "⚡ CBT Speed Hack: Cannot shift without changing outcome = Localized / Bound vector."
+  },
+  {
+    "id": "PHY101_BET_068",
+    "course": "PHY 101",
+    "q_num": 108,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Vectors that lie in the same geometric plane are called:",
+    "options": {
+      "A": "Negative vectors",
+      "B": "Equal vectors",
+      "C": "Coplanar vectors",
+      "D": "Unit vectors"
+    },
+    "answer": "C",
+    "explanation": "Coplanar vectors are three or more vectors that lie within the same two-dimensional plane.",
+    "speed_hack": "⚡ CBT Speed Hack: Same plane = Co-planar."
+  },
+  {
+    "id": "PHY101_BET_069",
+    "course": "PHY 101",
+    "q_num": 109,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Vectors whose lines of action all pass through a common point are called:",
+    "options": {
+      "A": "Coplanar vectors",
+      "B": "Concurrent vectors",
+      "C": "Bounded vectors",
+      "D": "Collinear vectors"
+    },
+    "answer": "B",
+    "explanation": "Concurrent forces/vectors are vectors whose lines of action intersect at a single common point.",
+    "speed_hack": "⚡ CBT Speed Hack: Meeting at a common intersection point = Concurrent vectors."
+  },
+  {
+    "id": "PHY101_BET_070",
+    "course": "PHY 101",
+    "q_num": 110,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "A vector that has the same magnitude as vector 'A' but points in the exactly opposite direction is called:",
+    "options": {
+      "A": "Equal vector",
+      "B": "Negative vector (-A)",
+      "C": "Unit vector",
+      "D": "Bounded vector"
+    },
+    "answer": "B",
+    "explanation": "The negative of a vector has equal magnitude but opposite sense: -A.",
+    "speed_hack": "⚡ CBT Speed Hack: Equal size, opposite direction = Negative vector."
+  },
+  {
+    "id": "PHY101_BET_071",
+    "course": "PHY 101",
+    "q_num": 111,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Which of the following is an example of a free vector?",
+    "options": {
+      "A": "Force applied to a point",
+      "B": "Displacement",
+      "C": "Density",
+      "D": "Moment of a force"
+    },
+    "answer": "B",
+    "explanation": "Displacement depends only on the initial and final position vectors, not on where the coordinate origin is placed or a fixed line of action.",
+    "speed_hack": "⚡ CBT Speed Hack: Displacement is the classic free vector."
+  },
+  {
+    "id": "PHY101_BET_072",
+    "course": "PHY 101",
+    "q_num": 112,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "Forces applied to rigid bodies that produce specific lines of action are examples of what type of vectors?",
+    "options": {
+      "A": "Localized / Sliding vectors",
+      "B": "Coplanar vectors",
+      "C": "Concurrent vectors",
+      "D": "Unit vectors"
+    },
+    "answer": "A",
+    "explanation": "Forces have specific points of application or lines of action governed by the principle of transmissibility, classifying them as localized/sliding vectors.",
+    "speed_hack": "⚡ CBT Speed Hack: Force with a definite line of action = Localized / Sliding vector."
+  },
+  {
+    "id": "PHY101_BET_073",
+    "course": "PHY 101",
+    "q_num": 113,
+    "topic": "Vectors, Scalars & Coordinate Systems",
+    "question": "The null or zero vector is denoted by:",
+    "options": {
+      "A": "[ ]",
+      "B": "∅",
+      "C": "0 or 0⃗",
+      "D": "θ"
+    },
+    "answer": "C",
+    "explanation": "The zero vector has zero magnitude and arbitrary direction, denoted mathematically as 0 or 0⃗.",
+    "speed_hack": "⚡ CBT Speed Hack: Zero vector = 0 or 0⃗."
+  },
+  {
+    "id": "PHY101_BET_074",
+    "course": "PHY 101",
+    "q_num": 114,
+    "topic": "Properties of Matter, Elasticity, Surface Tension & Viscosity",
+    "question": "Which of the following has the same dimension as stress?",
+    "options": {
+      "A": "Flow rate",
+      "B": "Pressure",
+      "C": "Work",
+      "D": "Momentum"
+    },
+    "answer": "B",
+    "explanation": "Stress = Force / Area = [ML⁻¹T⁻²], which is identically the dimension of Pressure.",
+    "speed_hack": "⚡ CBT Speed Hack: Stress = Force/Area = Pressure = Young's Modulus = ML⁻¹T⁻²."
+  },
+  {
+    "id": "PHY101_BET_075",
+    "course": "PHY 101",
+    "q_num": 115,
+    "topic": "Units, Dimensions & Physical Quantities",
+    "question": "The derived dimension [ML²T⁻²] is a dimension of: (I) acceleration, (II) Torque, (III) energy:",
+    "options": {
+      "A": "I only",
+      "B": "III only",
+      "C": "I and II only",
+      "D": "II and III only"
+    },
+    "answer": "D",
+    "explanation": "Torque = r × F = [L][MLT⁻²] = [ML²T⁻²]. Energy = [ML²T⁻²]. Acceleration is [LT⁻²]. Thus II and III have [ML²T⁻²].",
+    "speed_hack": "⚡ CBT Speed Hack: Torque and Energy share the dimension ML²T⁻² -> II and III only!"
+  },
+  {
+    "id": "PHY101_CP1_001",
+    "course": "PHY 101",
+    "q_num": 116,
+    "topic": "Kinematics & Dynamics",
+    "question": "Which of the following units is/are fundamental units? i) Kelvin ii) Ampere iii) Mole",
+    "options": {
+      "A": "None",
+      "B": "ii &iii only",
+      "C": "I and ii only",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_002",
+    "course": "PHY 101",
+    "q_num": 117,
+    "topic": "Kinematics & Dynamics",
+    "question": "Which of the following is not a vector?",
+    "options": {
+      "A": "Direction",
+      "B": "Displacement",
+      "C": "Momentum",
+      "D": "Force"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_003",
+    "course": "PHY 101",
+    "q_num": 118,
+    "topic": "Kinematics & Dynamics",
+    "question": "Identity the unit of the following physical quantities respectively: speed, velocity and acceleration.",
+    "options": {
+      "A": "m/s, m/s, m/s²…",
+      "B": "m/s², kgm/s, m³",
+      "C": "N, Nm, kg",
+      "D": "m/s, N, Nm"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_004",
+    "course": "PHY 101",
+    "q_num": 119,
+    "topic": "Kinematics & Dynamics",
+    "question": "Gottfried Leibniz's concept of space is a contradiction of which of the full concept",
+    "options": {
+      "A": "Albert Einstein",
+      "B": "George Berkeley",
+      "C": "Immanuel Kant",
+      "D": "Sir Isaac Newton"
+    },
+    "answer": "D",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_005",
+    "course": "PHY 101",
+    "q_num": 120,
+    "topic": "Kinematics & Dynamics",
+    "question": "Dimensional analysis is useful in what ways?",
+    "options": {
+      "A": "To detect whether a physics equation is correct or not",
+      "B": "To detect whether the quantity is correct or not",
+      "C": "To detect whether a mathematical equation is correct or not",
+      "D": "To detect whether the value is correct or not"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_006",
+    "course": "PHY 101",
+    "q_num": 121,
+    "topic": "Kinematics & Dynamics",
+    "question": "Kgm²s-³ can be fully written as",
+    "options": {
+      "A": "Kilogram meter squared second Cube",
+      "B": "Kilogram meter squared per Seconds cube",
+      "C": "Kilogram meter squared per second",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_007",
+    "course": "PHY 101",
+    "q_num": 122,
+    "topic": "Kinematics & Dynamics",
+    "question": "A car starts from rest and accelerates uniformly until it reaches a velocity of 30 m/s after 5s. It travels with a uniform velocity of 30 m/s for 15 s and is then brought to rest in 10 s with a uniform retardation. Determine the distance covered after 5s.",
+    "options": {
+      "A": "77.4 m",
+      "B": "66.8 m",
+      "C": "82.3 m",
+      "D": "75 m"
+    },
+    "answer": "D",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_008",
+    "course": "PHY 101",
+    "q_num": 123,
+    "topic": "Kinematics & Dynamics",
+    "question": "All measurable parameters in physics are known as ________",
+    "options": {
+      "A": "Physical quantities",
+      "B": "Units",
+      "C": "Measurements",
+      "D": "Vectors"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_009",
+    "course": "PHY 101",
+    "q_num": 124,
+    "topic": "Kinematics & Dynamics",
+    "question": "Which of the following is not a fundamental quantity?",
+    "options": {
+      "A": "Amount",
+      "B": "Temperature",
+      "C": "None of the above",
+      "D": "length"
+    },
+    "answer": "C",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_010",
+    "course": "PHY 101",
+    "q_num": 125,
+    "topic": "Kinematics & Dynamics",
+    "question": "________ was the scientist and philosopher that was the first to conceive that space is curved rather than flat.",
+    "options": {
+      "A": "Bernhard Riemann",
+      "B": "Albert Einstein",
+      "C": "Gottfried Leibniz",
+      "D": "Charles Darwin ANSWERS 1 2 3 4 5 D A A D A 6 7 8 9 10 B D A C A"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_011",
+    "course": "PHY 101",
+    "q_num": 126,
+    "topic": "Kinematics & Dynamics",
+    "question": "If you are expected to calculate \"how far” a car travels from point A to point B. The unit of your answer will be in _________.",
+    "options": {
+      "A": "m",
+      "B": "s",
+      "C": "kg",
+      "D": "m²"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_012",
+    "course": "PHY 101",
+    "q_num": 127,
+    "topic": "Kinematics & Dynamics",
+    "question": "Which of the following is the dimension of volume?",
+    "options": {
+      "A": "m²",
+      "B": "v²",
+      "C": "m³",
+      "D": "v³"
+    },
+    "answer": "C",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_013",
+    "course": "PHY 101",
+    "q_num": 128,
+    "topic": "Kinematics & Dynamics",
+    "question": "The base unit of power is _________",
+    "options": {
+      "A": "Watt",
+      "B": "Kilowatt",
+      "C": "Newton per seconds",
+      "D": "Dyne"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_014",
+    "course": "PHY 101",
+    "q_num": 129,
+    "topic": "Kinematics & Dynamics",
+    "question": "Identify the unit of the following physical quantities respectively: Length, Breath, Height",
+    "options": {
+      "A": "m, m, m",
+      "B": "L, b, h",
+      "C": "m, L, t",
+      "D": "m, kg, s"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_015",
+    "course": "PHY 101",
+    "q_num": 130,
+    "topic": "Kinematics & Dynamics",
+    "question": "A ball of mass 100 g travelling with a velocity of 100 m/s collides with another ball of mass 400 g moving at 50 m/s in the same direction. If they stick together, what will be their common velocity?",
+    "options": {
+      "A": "65 m/s",
+      "B": "60 m/s",
+      "C": "68 m/s",
+      "D": "71 m/s"
+    },
+    "answer": "B",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_016",
+    "course": "PHY 101",
+    "q_num": 131,
+    "topic": "Kinematics & Dynamics",
+    "question": "Which of the following is required to make a measurement complete (I) physical quantity (ii) Unit (iii) Tape",
+    "options": {
+      "A": "I & ii",
+      "B": "íi & iii",
+      "C": "I & iii",
+      "D": "I"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_017",
+    "course": "PHY 101",
+    "q_num": 132,
+    "topic": "Kinematics & Dynamics",
+    "question": "An aircraft is flying Northwest at 300km/hr when a steady wind is blowing Westwards at 80km/hr. What is the actual velocity with which the aircraft travels over the group?",
+    "options": {
+      "A": "380.0 km/hr",
+      "B": "220.0 km/hr",
+      "C": "310.48 km/hr",
+      "D": "350.0 km/hr"
+    },
+    "answer": "C",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_018",
+    "course": "PHY 101",
+    "q_num": 133,
+    "topic": "Kinematics & Dynamics",
+    "question": "A car travels 3.0 km due South and then 4.0 km due west. What is its displacement from the starting point?",
+    "options": {
+      "A": "5 km Northwest",
+      "B": "7 km Southwest",
+      "C": "7 km Northwest",
+      "D": "5 km Southwest"
+    },
+    "answer": "D",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_019",
+    "course": "PHY 101",
+    "q_num": 134,
+    "topic": "Kinematics & Dynamics",
+    "question": "A body of mass 2 kg undergoes a constant horizontal acceleration of 5 m/s². Calculate the resultant horizontal force acting on the body.",
+    "options": {
+      "A": "10 N",
+      "B": "2.5 N",
+      "C": "0.4 N",
+      "D": "8 N"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_020",
+    "course": "PHY 101",
+    "q_num": 135,
+    "topic": "Kinematics & Dynamics",
+    "question": "A force of 100 N acts for 20s. What is the change in momentum of the body?",
+    "options": {
+      "A": "200 Ns",
+      "B": "2500 Ns",
+      "C": "2000 Ns",
+      "D": "1200 Ns ANSWERS 11 12 13 14 15 A C A A B 16 17 18 19 20 A C D A C"
+    },
+    "answer": "C",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_021",
+    "course": "PHY 101",
+    "q_num": 136,
+    "topic": "Kinematics & Dynamics",
+    "question": "What will be the resultant force on a body of mass 50 kg when it moves with a uniform velocity of 10 m/s",
+    "options": {
+      "A": "500 N",
+      "B": "0 N",
+      "C": "5 N",
+      "D": "25 N"
+    },
+    "answer": "B",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_022",
+    "course": "PHY 101",
+    "q_num": 137,
+    "topic": "Kinematics & Dynamics",
+    "question": "A body of mass 2 kg moving with velocity of 6 m/s collides with a stationary object of mass 0.5 kg. If the two bodies moves together after the impact, calculate their common velocity.",
+    "options": {
+      "A": "24.0 m/s",
+      "B": "2.6 m/s",
+      "C": "4.8 m/s",
+      "D": "8.4 m/s"
+    },
+    "answer": "C",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_023",
+    "course": "PHY 101",
+    "q_num": 138,
+    "topic": "Kinematics & Dynamics",
+    "question": "A car starts from rest and accelerate uniformly until it reaches a velocity of 30 m/s after 5 s. It travels with uniform velocity of 30 m/s for 15 s and it's then brought to rest in 10 s with a uniform retardation. Determine the total the total distance covered.",
+    "options": {
+      "A": "566 m",
+      "B": "675 m",
+      "C": "560 m",
+      "D": "660 m"
+    },
+    "answer": "B",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_024",
+    "course": "PHY 101",
+    "q_num": 139,
+    "topic": "Kinematics & Dynamics",
+    "question": "A ball is released from a height of 20 m. calculate the time it take to hit the ground.",
+    "options": {
+      "A": "1.5 s",
+      "B": "2.0 s",
+      "C": "2.5 s",
+      "D": "2.8 s"
+    },
+    "answer": "B",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_025",
+    "course": "PHY 101",
+    "q_num": 140,
+    "topic": "Kinematics & Dynamics",
+    "question": "A ball is released from a height of 20 m. calculate the velocity with which it hits the ground.",
+    "options": {
+      "A": "12m/s",
+      "B": "22.6 m/s",
+      "C": "20.0 m/s",
+      "D": "35.6 m/s"
+    },
+    "answer": "C",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_026",
+    "course": "PHY 101",
+    "q_num": 141,
+    "topic": "Kinematics & Dynamics",
+    "question": "A ball is thrown up vertically with a velocity 40 m/s. calculate the maximum height reached.",
+    "options": {
+      "A": "45.2 m",
+      "B": "78.0 m",
+      "C": "76.5 m",
+      "D": "80 m"
+    },
+    "answer": "D",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_027",
+    "course": "PHY 101",
+    "q_num": 142,
+    "topic": "Kinematics & Dynamics",
+    "question": "What is S.I unit?",
+    "options": {
+      "A": "International System of Unit",
+      "B": "System Unit",
+      "C": "Système International",
+      "D": "Units of Systems"
+    },
+    "answer": "C",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_028",
+    "course": "PHY 101",
+    "q_num": 143,
+    "topic": "Kinematics & Dynamics",
+    "question": "A ball is thrown up vertically with a velocity 40 m/s. calculate the time to reach the maximum height.",
+    "options": {
+      "A": "4.0 s",
+      "B": "3.5 s",
+      "C": "3.3 s",
+      "D": "2.0 s"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_029",
+    "course": "PHY 101",
+    "q_num": 144,
+    "topic": "Kinematics & Dynamics",
+    "question": "A ball is thrown up vertically with a velocity of 40 m/s. calculate the time to return to the ground.",
+    "options": {
+      "A": "15.0 s",
+      "B": "12.2 s",
+      "C": "7.8 s",
+      "D": "8.0 s"
+    },
+    "answer": "D",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_030",
+    "course": "PHY 101",
+    "q_num": 145,
+    "topic": "Kinematics & Dynamics",
+    "question": "A comparison of any physical quantity with its standard unit is called ____________",
+    "options": {
+      "A": "Unit",
+      "B": "S.I Unit",
+      "C": "Dimension",
+      "D": "Measurement ANSWERS 21 22 23 24 25 B C B B C 26 27 28 29 30 D C A D D"
+    },
+    "answer": "D",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_031",
+    "course": "PHY 101",
+    "q_num": 146,
+    "topic": "Kinematics & Dynamics",
+    "question": "Calculate the force required to impart an acceleration of 5 m/s² to a mass 10 kg.",
+    "options": {
+      "A": "2.0 N",
+      "B": "50.0 N",
+      "C": "0.2 N",
+      "D": "5.0 N"
+    },
+    "answer": "B",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_032",
+    "course": "PHY 101",
+    "q_num": 147,
+    "topic": "Kinematics & Dynamics",
+    "question": "A car is driven Northeast for 40 km, then Northwest for 50 km and then South for 30 km. Determine the resultant displacement of the car.",
+    "options": {
+      "A": "38.34 km",
+      "B": "34.38 km",
+      "C": "58.2 km",
+      "D": "43.25 km"
+    },
+    "answer": "B",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_033",
+    "course": "PHY 101",
+    "q_num": 148,
+    "topic": "Kinematics & Dynamics",
+    "question": "A car of mass 600 kg moving with a forward acceleration of 5 m/s² is acted upon by a constant resistive force of 1000 N. Calculate the force exerted from the engine to maintain this forward acceleration.",
+    "options": {
+      "A": "2 kN",
+      "B": "4 kN",
+      "C": "3 kN",
+      "D": "5 Kn"
+    },
+    "answer": "B",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_034",
+    "course": "PHY 101",
+    "q_num": 149,
+    "topic": "Kinematics & Dynamics",
+    "question": "A car moves from rest with an acceleration of 0.2 m/s². Find it's velocity when it has moved a distance of 50 m.",
+    "options": {
+      "A": "4.47 m/s",
+      "B": "10.0 m/s",
+      "C": "250.0 m/s",
+      "D": "5.45 m/s"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_035",
+    "course": "PHY 101",
+    "q_num": 150,
+    "topic": "Kinematics & Dynamics",
+    "question": "A car has a uniform velocity of 108 km/hr. How far does it travel in ½ minute?",
+    "options": {
+      "A": "15 km",
+      "B": "0.9 km",
+      "C": "3240 km",
+      "D": "900 km"
+    },
+    "answer": "B",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_036",
+    "course": "PHY 101",
+    "q_num": 151,
+    "topic": "Kinematics & Dynamics",
+    "question": "A train slows from 108 km/hr with a uniform retardation of 5 m/s². How long will it take to reach 18 km/hr?",
+    "options": {
+      "A": "18 s",
+      "B": "25.2 s",
+      "C": "5 s",
+      "D": "7 s"
+    },
+    "answer": "C",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_037",
+    "course": "PHY 101",
+    "q_num": 152,
+    "topic": "Kinematics & Dynamics",
+    "question": "Determine the dimension of pressure.",
+    "options": {
+      "A": "ML-1T-2",
+      "B": "ML2T-3",
+      "C": "ML2T-2",
+      "D": "MLT-2"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_038",
+    "course": "PHY 101",
+    "q_num": 153,
+    "topic": "Kinematics & Dynamics",
+    "question": "A train slows from 108 km/hr. with a uniform retardation of 5 m/s². What is the distance covered when the velocity is 18 km/hr?",
+    "options": {
+      "A": "450.0 m",
+      "B": "630.0 m",
+      "C": "95.6 m",
+      "D": "87.5 m"
+    },
+    "answer": "D",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_039",
+    "course": "PHY 101",
+    "q_num": 154,
+    "topic": "Kinematics & Dynamics",
+    "question": "A car travels 20.0 km due North and then 35.0 km in a direction of 60° west of North. Find the magnitude of the resultant displacement of the car.",
+    "options": {
+      "A": "48.2 km",
+      "B": "30.0 km",
+      "C": "82.5 km",
+      "D": "15.0 km"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_040",
+    "course": "PHY 101",
+    "q_num": 155,
+    "topic": "Kinematics & Dynamics",
+    "question": "Units for momentum, force, work are",
+    "options": {
+      "A": "Kgms-1,N, Nm",
+      "B": "Nm, N, Kgms-1",
+      "C": "Nm, Kgms-1, N",
+      "D": "kgms-1, Nm, N ANSWERS 31 32 33 34 35 B B B A B 36 37 38 39 40 C A D A A"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_041",
+    "course": "PHY 101",
+    "q_num": 156,
+    "topic": "Kinematics & Dynamics",
+    "question": "A frame of reference fixed in the earth is an inertia reference form ______.",
+    "options": {
+      "A": "When it is rotating",
+      "B": "When it is fast-moving",
+      "C": "When the effect of the rotation of the earth is neglected",
+      "D": "When it is slowly moving"
+    },
+    "answer": "C",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_042",
+    "course": "PHY 101",
+    "q_num": 157,
+    "topic": "Kinematics & Dynamics",
+    "question": "A body is projected horizontally from the top of a vertical cliff 40 m high, with a velocity of 20 m/s. calculate the time taken for the body to fall to the ground.",
+    "options": {
+      "A": "2.83 s",
+      "B": "1.22 s",
+      "C": "5.52 s",
+      "D": "2.21 s"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_043",
+    "course": "PHY 101",
+    "q_num": 158,
+    "topic": "Kinematics & Dynamics",
+    "question": "A body is projected horizontally from the top of a vertical cliff 40 m high, with a velocity of 20 m/s. calculate the vertical component of the velocity when the body hit the ground.",
+    "options": {
+      "A": "18.55 m/s",
+      "B": "35.52 m/s",
+      "C": "28.28 m/s",
+      "D": "45.0 m/s"
+    },
+    "answer": "C",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_044",
+    "course": "PHY 101",
+    "q_num": 159,
+    "topic": "Kinematics & Dynamics",
+    "question": "A body is projected horizontally from the top of a vertical cliff 40 m high, with a velocity of 20 m/s. calculate the distance from the cliff when it strikes the ground.",
+    "options": {
+      "A": "56.57 m",
+      "B": "57.56 m",
+      "C": "65.75 m",
+      "D": "75.65 m"
+    },
+    "answer": "B",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_045",
+    "course": "PHY 101",
+    "q_num": 160,
+    "topic": "Kinematics & Dynamics",
+    "question": "A body moving with a constant velocity along a straight line PQR takes 30 s to go from P to Q and 10 s to go from Q to R. if PR = 4 m, find PQ.",
+    "options": {
+      "A": "3 m",
+      "B": "1 m",
+      "C": "2 m",
+      "D": "4 m"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_046",
+    "course": "PHY 101",
+    "q_num": 161,
+    "topic": "Kinematics & Dynamics",
+    "question": "An object moves in a straight line, starting from rest. There are two stages in the journey: (A. it gains speed uniformly for 2.0 s and attains a speed of 8.0 m/s. (B. it continues at the speed for a further 1.5 s. find the acceleration in stage (A.",
+    "options": {
+      "A": "1 m/s2",
+      "B": "2 m/s2",
+      "C": "3 m/s2",
+      "D": "4 m/s2"
+    },
+    "answer": "D",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_047",
+    "course": "PHY 101",
+    "q_num": 162,
+    "topic": "Kinematics & Dynamics",
+    "question": "Determine the dimension of density",
+    "options": {
+      "A": "ML-3",
+      "B": "ML2T-2",
+      "C": "ML2",
+      "D": "M2L-3"
+    },
+    "answer": "A",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_048",
+    "course": "PHY 101",
+    "q_num": 163,
+    "topic": "Kinematics & Dynamics",
+    "question": "What is the dimension of energy?",
+    "options": {
+      "A": "ML2T-3",
+      "B": "ML2T-2",
+      "C": "MLT-2",
+      "D": "ML-3"
+    },
+    "answer": "B",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_049",
+    "course": "PHY 101",
+    "q_num": 164,
+    "topic": "Kinematics & Dynamics",
+    "question": "Find the dimension of power",
+    "options": {
+      "A": "ML2T-2",
+      "B": "ML-3",
+      "C": "ML2T-3",
+      "D": "MLT-2 ANSWERS 41 42 43 44 45 C A C B A 46 47 48 49 50 D A B C D"
+    },
+    "answer": "C",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_050",
+    "course": "PHY 101",
+    "q_num": 165,
+    "topic": "Kinematics & Dynamics",
+    "question": "The dimension of momentum is",
+    "options": {
+      "A": "ML-1T-2",
+      "B": "ML2T-2",
+      "C": "ML2T-3",
+      "D": "MLT-1"
+    },
+    "answer": "D",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_051",
+    "course": "PHY 101",
+    "q_num": 166,
+    "topic": "Kinematics & Dynamics",
+    "question": "A vector of magnitude 5 units in the North direction is combined with another vector to give a zero resultant. What is the other vector?",
+    "options": {
+      "A": "0 units South",
+      "B": "5 units South",
+      "C": "5 units North",
+      "D": "0 units North"
+    },
+    "answer": "B",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_052",
+    "course": "PHY 101",
+    "q_num": 167,
+    "topic": "Kinematics & Dynamics",
+    "question": "Which of the following is not a possible unit for velocity?",
+    "options": {
+      "A": "centimeters/microseconds",
+      "B": "millimeters/kilowatt",
+      "C": "decimeters/kilo second",
+      "D": "kilometers/millisecond"
+    },
+    "answer": "B",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_053",
+    "course": "PHY 101",
+    "q_num": 168,
+    "topic": "Kinematics & Dynamics",
+    "question": "What is the average velocity of a bird that files 6 m (south) in 2 s?",
+    "options": {
+      "A": "0.33 m/s (south)",
+      "B": "6 m/s (south)",
+      "C": "3 m/s (south)",
+      "D": "12 m/s (south)"
+    },
+    "answer": "C",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_054",
+    "course": "PHY 101",
+    "q_num": 169,
+    "topic": "Kinematics & Dynamics",
+    "question": "A BALL IS thrown straight up in the air What happens as the ball travels upward?",
+    "options": {
+      "A": "Acceleration is negative and velocity is negative",
+      "B": "Acceleration is zero and velocity is positive",
+      "C": "Acceleration is negative and velocity is positive",
+      "D": "Acceleration is zero and velocity is negative"
+    },
+    "answer": "C",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP1_055",
+    "course": "PHY 101",
+    "q_num": 170,
+    "topic": "Kinematics & Dynamics",
+    "question": "___________ provide a better model for the shape of spectrum the test of general relatively.",
+    "options": {
+      "A": "Euclidean geometric",
+      "B": "flat geometric",
+      "C": "Non-Euclidean geometric",
+      "D": "Analytic Geometric ANSWERS 51 52 53 54 55 B B C C C"
+    },
+    "answer": "C",
+    "explanation": "Based on classical Newtonian mechanics, the correct choice is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101 e-test question."
+  },
+  {
+    "id": "PHY101_CP2_001",
+    "course": "PHY 101",
+    "q_num": 171,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "How does Special Relativity explain the constancy of the speed of light?",
+    "options": {
+      "A": "The speed of light changes based on the observer's motion",
+      "B": "The speed of light depends on the observer's location",
+      "C": "The speed of light is determined by the medium it travels through",
+      "D": "The speed of light is the same for all observers, regardless of their motion"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_002",
+    "course": "PHY 101",
+    "q_num": 172,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Golfried libniz's concept of space is a contradiction of which of the following concepts",
+    "options": {
+      "A": "Immanuel Kant",
+      "B": "Albert Einstein",
+      "C": "Isaac Newton",
+      "D": "Gorge Berkeley"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_003",
+    "course": "PHY 101",
+    "q_num": 173,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A definte amount of physical quantity is called",
+    "options": {
+      "A": "dimensions",
+      "B": "units",
+      "C": "S.I",
+      "D": "mass"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_004",
+    "course": "PHY 101",
+    "q_num": 174,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Dimension of momentum",
+    "options": {
+      "A": "ML-2T-2",
+      "B": "ML-1T-2",
+      "C": "MLT⁻¹",
+      "D": "ML-2T2"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_005",
+    "course": "PHY 101",
+    "q_num": 175,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Who discovered space time was curved?",
+    "options": {
+      "A": "Michael Faraday",
+      "B": "Isaac Newton",
+      "C": "Albert Einstein",
+      "D": "Harman Minskowski"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_006",
+    "course": "PHY 101",
+    "q_num": 176,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Physical space has how many dimensions?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_007",
+    "course": "PHY 101",
+    "q_num": 177,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Tendency for a body to stay at rest",
+    "options": {
+      "A": "moment",
+      "B": "Inertia",
+      "C": "force",
+      "D": "momentum"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_008",
+    "course": "PHY 101",
+    "q_num": 178,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "When is inertia reference of frame not possible",
+    "options": {
+      "A": "when the rotation of earth is ignored",
+      "B": "when the rotation of the earth is considered",
+      "C": "When movement is ignored in the reverse",
+      "D": "When water is moving"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_009",
+    "course": "PHY 101",
+    "q_num": 179,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The Dimension nature of an event is",
+    "options": {
+      "A": "Mass",
+      "B": "Time",
+      "C": "Length",
+      "D": "Interval"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_010",
+    "course": "PHY 101",
+    "q_num": 180,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Which of the following are derived i.Area ii. Thrust iii. Pressure",
+    "options": {
+      "A": "none of the above",
+      "B": "I only",
+      "C": "ii only",
+      "D": "i, ii and iii"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_011",
+    "course": "PHY 101",
+    "q_num": 181,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "According to sir Isaac Newton space is",
+    "options": {
+      "A": "not empirical",
+      "B": "non-eucliden",
+      "C": "absolute",
+      "D": "Flat"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_012",
+    "course": "PHY 101",
+    "q_num": 182,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "What is the name for a region in space- time where gravity is so strong that nothing, not even light, can escape its pull?",
+    "options": {
+      "A": "Solar System",
+      "B": "Nebula",
+      "C": "Black Hole",
+      "D": "White Dwarf"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_013",
+    "course": "PHY 101",
+    "q_num": 183,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A definite amount of a physical quantity is called",
+    "options": {
+      "A": "Measured",
+      "B": "Dimension",
+      "C": "Basic",
+      "D": "Unit"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_014",
+    "course": "PHY 101",
+    "q_num": 184,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "15x103 J can be written as",
+    "options": {
+      "A": "15KJ",
+      "B": "2KJ",
+      "C": "-1.5KJ",
+      "D": "150J"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_015",
+    "course": "PHY 101",
+    "q_num": 185,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "What is the unit of Pressure?",
+    "options": {
+      "A": "ML-1T-2",
+      "B": "ML-2T2",
+      "C": "ML2T-2",
+      "D": "ML-2T-1"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_016",
+    "course": "PHY 101",
+    "q_num": 186,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "What is the unit of Density?",
+    "options": {
+      "A": "ML-2T-2",
+      "B": "ML-3T-2",
+      "C": "ML-3",
+      "D": "ML- 4T-2"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_017",
+    "course": "PHY 101",
+    "q_num": 187,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "What is newton's first law of motion?",
+    "options": {
+      "A": "A body stays in a state of rest until it is acted upon by an external force",
+      "B": "for every action there is an opposite reaction.",
+      "C": "The force of an object is equal to the rate of change of the momentum",
+      "D": "A body stays in a state of rest until it is not acted upon by an external force"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_018",
+    "course": "PHY 101",
+    "q_num": 188,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "What is the dimension of energy?",
+    "options": {
+      "A": "ML-1T-2",
+      "B": "ML2T-2",
+      "C": "ML-2T-2",
+      "D": "ML⁻²T-1"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_019",
+    "course": "PHY 101",
+    "q_num": 189,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "What is newton's second law of motion?",
+    "options": {
+      "A": "force of an object is equal to the rate of change of the momentum",
+      "B": "A body stays in a state of rest until it is acted upon by an external force",
+      "C": "for every action there is an opposite reaction",
+      "D": "A body stays in a state of rest until it is not acted upon by an external force"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_020",
+    "course": "PHY 101",
+    "q_num": 190,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Einstein's first postulate is? ANSWERS 1 2 3 4 5 B C B C C 6 7 8 9 10 C B B B D",
+    "options": {
+      "A": "force is equal to the rate of change of momentum",
+      "B": "The laws of nature are the same in all coordinate systems moving rectilinearly and uniformly relative to each other",
+      "C": "speed of light is constant",
+      "D": "speed of light is constant and non-dependent of the speed of the observer"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_021",
+    "course": "PHY 101",
+    "q_num": 191,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "What is S.I unit?",
+    "options": {
+      "A": "International System of Unit",
+      "B": "System Unit",
+      "C": "Systeme Internationale",
+      "D": "Units of Systems"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_022",
+    "course": "PHY 101",
+    "q_num": 192,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "What is the unit of watts?",
+    "options": {
+      "A": "ML1T-2",
+      "B": "ML1T-2",
+      "C": "ML2T-1",
+      "D": "ML2T-2"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_023",
+    "course": "PHY 101",
+    "q_num": 193,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "What is dimension of Inertia?",
+    "options": {
+      "A": "ML",
+      "B": "ML2T-2",
+      "C": "M",
+      "D": "ML2T⁻3"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_024",
+    "course": "PHY 101",
+    "q_num": 194,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A unitless quantity",
+    "options": {
+      "A": "has non-zero dimension",
+      "B": "may have non-zero dimensions",
+      "C": "always have a non-zero dimension",
+      "D": "never has a non-zero dimension"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_025",
+    "course": "PHY 101",
+    "q_num": 195,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Which of the following quantities has the same dimensions",
+    "options": {
+      "A": "Impulse and Momentum",
+      "B": "Moment of inertia and torque",
+      "C": "specific heat and latent heat",
+      "D": "force and surface tension"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_026",
+    "course": "PHY 101",
+    "q_num": 196,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Checking the correctness of a physical quantity using dimension analysis is based on",
+    "options": {
+      "A": "Types of systems of units",
+      "B": "method of measurements",
+      "C": "principle of homogeneity of dimension",
+      "D": "Equality of frame reference"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_027",
+    "course": "PHY 101",
+    "q_num": 197,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The joule is the unit of which physical quantity",
+    "options": {
+      "A": "force",
+      "B": "weight",
+      "C": "power",
+      "D": "energy"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_028",
+    "course": "PHY 101",
+    "q_num": 198,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Impulse can be defined as?",
+    "options": {
+      "A": "rate of change of momentum",
+      "B": "change in momentum",
+      "C": "none",
+      "D": "product of force and velocity"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_029",
+    "course": "PHY 101",
+    "q_num": 199,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Which of the following is not a vector?",
+    "options": {
+      "A": "Displacement",
+      "B": "direction",
+      "C": "momentum",
+      "D": "force"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_030",
+    "course": "PHY 101",
+    "q_num": 200,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Which of the following cannot be used to measure speed",
+    "options": {
+      "A": "ms-1",
+      "B": "kms-1",
+      "C": "mh-1",
+      "D": "kgs-1"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_031",
+    "course": "PHY 101",
+    "q_num": 201,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "If a particle moves 2m due east and 2m due west in a straight line. What is his displacement?",
+    "options": {
+      "A": "0",
+      "B": "2.59",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_032",
+    "course": "PHY 101",
+    "q_num": 202,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Which of the following is an example of an object moving in uniform motion?",
+    "options": {
+      "A": "Gas particles",
+      "B": "A toy car crossing the room at constant speed",
+      "C": "motor being crashed",
+      "D": "unbalanced pencil"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_033",
+    "course": "PHY 101",
+    "q_num": 203,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A vector is describe by",
+    "options": {
+      "A": "magnitude and direction only",
+      "B": "direction only",
+      "C": "unit, magnitude and direction",
+      "D": "unit and direction"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_034",
+    "course": "PHY 101",
+    "q_num": 204,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The idea of inertia is postulated by",
+    "options": {
+      "A": "Newton's first law",
+      "B": "Newton's second law",
+      "C": "Newton's third law",
+      "D": "Newton's fourth law"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_035",
+    "course": "PHY 101",
+    "q_num": 205,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Which of the following is not a vector?",
+    "options": {
+      "A": "force",
+      "B": "direction.",
+      "C": "momentum",
+      "D": "displacement"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_036",
+    "course": "PHY 101",
+    "q_num": 206,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Which of the following is not a vector?",
+    "options": {
+      "A": "Displacement",
+      "B": "acceleration due to gravity.",
+      "C": "force of gravity",
+      "D": "work, energy and power"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_037",
+    "course": "PHY 101",
+    "q_num": 207,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Which of the following are scalar quantities?",
+    "options": {
+      "A": "force and gravity",
+      "B": "work and energy",
+      "C": "displacement and length",
+      "D": "frequency and tension"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_038",
+    "course": "PHY 101",
+    "q_num": 208,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "In a space-time diagram, what do straight lines represent?**",
+    "options": {
+      "A": "Paths of light",
+      "B": "Paths of objects at rest",
+      "C": "Paths of objects in uniform motion",
+      "D": "Paths of objects under gravity"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_039",
+    "course": "PHY 101",
+    "q_num": 209,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "What does the theory of General Relativity explain about gravity?**",
+    "options": {
+      "A": "It's a magnetic force",
+      "B": "It's a force between masses",
+      "C": "It's the curvature of space-time caused by mass",
+      "D": "It's a repulsive force"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_040",
+    "course": "PHY 101",
+    "q_num": 210,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The QUESTION REMOVED What is the dimension of volume?",
+    "options": {
+      "A": "L2",
+      "B": "L-3",
+      "C": "L3",
+      "D": "L2 + L1"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_041",
+    "course": "PHY 101",
+    "q_num": 211,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A car of mass 600kg moving with a forward acceleration of 5 m/s² is acted upon by a constant resistive force of 1000N. Calculate the force exerted from the engine to maintain this forward acceleration",
+    "options": {
+      "A": "2KN",
+      "B": "4KN",
+      "C": "8KN",
+      "D": "3KN"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_042",
+    "course": "PHY 101",
+    "q_num": 212,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A car travels 20.0 km due North and then 35.0 km in a direction of 60° West of North. Find the magnitude of the resultant displacement of the car",
+    "options": {
+      "A": "58.2km",
+      "B": "48.2 km",
+      "C": "30.0 km",
+      "D": "82.5 km"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_043",
+    "course": "PHY 101",
+    "q_num": 213,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A body of mass 2 kg undergoes a constant horizontal acceleration of 5 m/s². Calculate the resultant horizontal force acting on the body.",
+    "options": {
+      "A": "10 N",
+      "B": "2.5 N",
+      "C": "8N",
+      "D": "16N,"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_044",
+    "course": "PHY 101",
+    "q_num": 214,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The major cause of motion is?",
+    "options": {
+      "A": "Gravitational",
+      "B": "Pull",
+      "C": "Force",
+      "D": "Work"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_045",
+    "course": "PHY 101",
+    "q_num": 215,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Which of the following is not a factor that affects motion?",
+    "options": {
+      "A": "Air resistance",
+      "B": "Viscosity",
+      "C": "Solid friction",
+      "D": "Surface tension"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_046",
+    "course": "PHY 101",
+    "q_num": 216,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Which of the following is not an example of circular motion?",
+    "options": {
+      "A": "Car cornering",
+      "B": "aircraft banking",
+      "C": "Planetary orbit",
+      "D": "man walking on a bridge"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_047",
+    "course": "PHY 101",
+    "q_num": 217,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A force acting at 60⁰ to the horizontal has an x-component of 45N.What is the value of the force?",
+    "options": {
+      "A": "110N",
+      "B": "90N",
+      "C": "7ON",
+      "D": "ON"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_048",
+    "course": "PHY 101",
+    "q_num": 218,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A car has an acceleration of 12m/s² if its initial velocity is 10ms-¹ the distance the car covers in 5s is?",
+    "options": {
+      "A": "15m",
+      "B": "25m",
+      "C": "53m",
+      "D": "20Om E."
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_049",
+    "course": "PHY 101",
+    "q_num": 219,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A car travels at 20km/h for 1.5h and at 3km/h for 2.0h and at 40kmh⁻¹ for 0.75h. The car average velocity is approximately",
+    "options": {
+      "A": "19kmh⁻¹",
+      "B": "21mh⁻¹",
+      "C": "20mh⁻¹",
+      "D": "15mh⁻¹"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_050",
+    "course": "PHY 101",
+    "q_num": 220,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A car with its brakes applied has an acceleration of 12m/s² if its initial velocity is 10ms⁻¹ the distance the car covers in 3secs after the acceleration begin is",
+    "options": {
+      "A": "15km",
+      "B": "84m",
+      "C": "47m",
+      "D": "40m"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_051",
+    "course": "PHY 101",
+    "q_num": 221,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A man walks 10km due East and then 20km due South. The displacement of the man from the initial position is",
+    "options": {
+      "A": "30km South",
+      "B": "27.6km 30°N of East",
+      "C": "22.36km 63.4° south of East",
+      "D": "22.36km 26.57° south of East"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_052",
+    "course": "PHY 101",
+    "q_num": 222,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Calculate the force required to impact an acceleration of 5m/s² to mass of 10kg",
+    "options": {
+      "A": "50",
+      "B": "25,",
+      "C": "10",
+      "D": "30"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_053",
+    "course": "PHY 101",
+    "q_num": 223,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A gun fires a shell of mass 5kg in horizontal direction. The gun recoils at 0.4m/s and its mass is 3kg. Calculate the velocity of the shell",
+    "options": {
+      "A": "240",
+      "B": "420",
+      "C": "42",
+      "D": "0.24"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_054",
+    "course": "PHY 101",
+    "q_num": 224,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Quantities that have both magnitude and direction are called",
+    "options": {
+      "A": "fundamental quantity",
+      "B": "vector quantity",
+      "C": "scalar quantity",
+      "D": "derived quantiy"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_055",
+    "course": "PHY 101",
+    "q_num": 225,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A car weighing 9800N is moving with a speed of 40Km/h. On the application of the brakes, it comes to rest after travelling a distance of 50m. Calculate the average retarding force",
+    "options": {
+      "A": "1240N",
+      "B": "1230N",
+      "C": "1209.3N",
+      "D": "-1240N"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_056",
+    "course": "PHY 101",
+    "q_num": 226,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A 10kg bullet is fired into a 100kg gun with a speed of 1000 m/s. What is the speed of recoil of the gun?",
+    "options": {
+      "A": "10 m/s",
+      "B": "10 m/s",
+      "C": "10000 m/s",
+      "D": "100 m/s"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_057",
+    "course": "PHY 101",
+    "q_num": 227,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The change in the position of a body is called?",
+    "options": {
+      "A": "Speed",
+      "B": "Motion",
+      "C": "Displacement",
+      "D": "Position"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_058",
+    "course": "PHY 101",
+    "q_num": 228,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The dimension of gravitational constant 'G' is",
+    "options": {
+      "A": "M⁻¹L³T⁻²",
+      "B": "ML³T⁻²",
+      "C": "M⁻¹L²T⁻¹",
+      "D": "ML⁻¹T²"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_059",
+    "course": "PHY 101",
+    "q_num": 229,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The force that acts on a mass of 1g and gives it an acceleration of 1cms⁻² is defined as",
+    "options": {
+      "A": "Newton",
+      "B": "Dyne",
+      "C": "Pound-force",
+      "D": "Pascal"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_060",
+    "course": "PHY 101",
+    "q_num": 230,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The resultant of two forces X and Y will be greatest when the angle between them is",
+    "options": {
+      "A": "0°",
+      "B": "90°",
+      "C": "45°",
+      "D": "80°"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_061",
+    "course": "PHY 101",
+    "q_num": 231,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A car accelerates uniformly from rest at 5 m/s². Determine its speed after 10s",
+    "options": {
+      "A": "0.5m/s",
+      "B": "2.0m/s",
+      "C": "25.0m/s",
+      "D": "50m/s"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_062",
+    "course": "PHY 101",
+    "q_num": 232,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "For a projectile the maximum range is obtained a when the angle of projection is",
+    "options": {
+      "A": "60",
+      "B": "30°",
+      "C": "45°",
+      "D": "50°"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_063",
+    "course": "PHY 101",
+    "q_num": 233,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Which of the following has the same unit as \"moment of a force\"?",
+    "options": {
+      "A": "Force",
+      "B": "Power",
+      "C": "Momentum",
+      "D": "Work done"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_064",
+    "course": "PHY 101",
+    "q_num": 234,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A stone is projected at an angle of 60° and an initial velocity of 20 m/s. Determine the time of flight.(Take g = 10 m/s²)",
+    "options": {
+      "A": "34.6s",
+      "B": "3.46s",
+      "C": "1.75s",
+      "D": "17.3s"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_065",
+    "course": "PHY 101",
+    "q_num": 235,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A ball is thrown vertically into the air with an initial velocity 'u'. What is the greatest height reached?",
+    "options": {
+      "A": "u²/g",
+      "B": "3u²/2g",
+      "C": "u²/g",
+      "D": "u²/2g"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_066",
+    "course": "PHY 101",
+    "q_num": 236,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Which of the following give the correct dimension for radiant flux?",
+    "options": {
+      "A": "ML²T⁻²K⁻¹",
+      "B": "ML³T⁻³K¹",
+      "C": "MLT⁻³K⁻¹",
+      "D": "ML²T⁻³"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_067",
+    "course": "PHY 101",
+    "q_num": 237,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The following are instrument for measuring the length of a substance except",
+    "options": {
+      "A": "fluid",
+      "B": "micrometer screw guage",
+      "C": "beaker",
+      "D": "vienier caliper"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_068",
+    "course": "PHY 101",
+    "q_num": 238,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The force which tend to oppose the flow of motion is called",
+    "options": {
+      "A": "center force",
+      "B": "frictional force",
+      "C": "opposing force",
+      "D": "centri-petal force"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_069",
+    "course": "PHY 101",
+    "q_num": 239,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "If a force of 40N acting in the direction due east and a force of 3ON, acting in the direction due north.Then the magnitude of the resultant of these two forces would be",
+    "options": {
+      "A": "40N",
+      "B": "10N",
+      "C": "60N",
+      "D": "5ON"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_070",
+    "course": "PHY 101",
+    "q_num": 240,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Dimensions of strain are",
+    "options": {
+      "A": "[L]",
+      "B": "[M] [L]⁻¹ [T]⁻²",
+      "C": "[L]",
+      "D": "It's a dimensionless quantity"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_071",
+    "course": "PHY 101",
+    "q_num": 241,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The following are fundamental quantity EXCEPT,",
+    "options": {
+      "A": "velocity",
+      "B": "time",
+      "C": "mass",
+      "D": "length"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_072",
+    "course": "PHY 101",
+    "q_num": 242,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "One of the differences between mass and weight is that__,",
+    "options": {
+      "A": "mass is vector while weight is scalar",
+      "B": "weight is vector while mass is scalar",
+      "C": "the unit of mass is Newton while weight is Kilogram",
+      "D": "both has magnitude and direction"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_073",
+    "course": "PHY 101",
+    "q_num": 243,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Unit that cannot be derived from any other unit are called",
+    "options": {
+      "A": "rare",
+      "B": "units",
+      "C": "basics unit",
+      "D": "fundamental unit"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_074",
+    "course": "PHY 101",
+    "q_num": 244,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The change in the position of a body is called",
+    "options": {
+      "A": "Speed",
+      "B": "Velocity",
+      "C": "Motion",
+      "D": "Acceleration"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_075",
+    "course": "PHY 101",
+    "q_num": 245,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The property of a body to remain at rest or to remain in motion with constant velocity is called",
+    "options": {
+      "A": "inertia",
+      "B": "momentum",
+      "C": "force",
+      "D": "force stop"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_076",
+    "course": "PHY 101",
+    "q_num": 246,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "A body of mass 5kg move with a velocity of 5m/s for 5s. What force has the body applied",
+    "options": {
+      "A": "5N",
+      "B": "B.10N",
+      "C": "15N",
+      "D": "20N"
+    },
+    "answer": "A",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is A.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_077",
+    "course": "PHY 101",
+    "q_num": 247,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "Quantities that have both magnitude and direction are called",
+    "options": {
+      "A": "fundamental quantity",
+      "B": "vector quantity",
+      "C": "scalar quantity",
+      "D": "basic quantity"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_078",
+    "course": "PHY 101",
+    "q_num": 248,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "The branch of mechanics that deals with particles at rest or in equilibrium is called",
+    "options": {
+      "A": "Kinematics",
+      "B": "Dynamics",
+      "C": "Statics",
+      "D": "Gravitation"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_079",
+    "course": "PHY 101",
+    "q_num": 249,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "What is the primary concept introduced by Einstein's theory of General Relativity?",
+    "options": {
+      "A": "Quantum Mechanics",
+      "B": "Dark Matter",
+      "C": "Space-Time Curvature",
+      "D": "Atomic Structure"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_080",
+    "course": "PHY 101",
+    "q_num": 250,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "According to Special Relativity, how does time behave for an object moving at a high speed?",
+    "options": {
+      "A": "Time speeds up",
+      "B": "Time slows down",
+      "C": "Time remains constant",
+      "D": "Time becomes unpredictable"
+    },
+    "answer": "B",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is B.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_081",
+    "course": "PHY 101",
+    "q_num": 251,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "What is the dimension of volume?",
+    "options": {
+      "A": "L²",
+      "B": "L⁻³",
+      "C": "L³",
+      "D": "L² + L¹"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_082",
+    "course": "PHY 101",
+    "q_num": 252,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "What does the theory of General Relativity explain about gravity?",
+    "options": {
+      "A": "It is a magnetic force",
+      "B": "It is a force between masses",
+      "C": "It is the curvature of space-time caused by mass-energy",
+      "D": "It is a repulsive force"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_083",
+    "course": "PHY 101",
+    "q_num": 253,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "In a space-time diagram, what do straight worldlines represent?",
+    "options": {
+      "A": "Paths of light only",
+      "B": "Paths of objects at rest only",
+      "C": "Paths of objects in uniform rectilinear motion",
+      "D": "Paths of objects under gravity"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_084",
+    "course": "PHY 101",
+    "q_num": 254,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "What is the name for a region in space-time where gravity is so strong that nothing, not even light, can escape its pull?",
+    "options": {
+      "A": "Solar System",
+      "B": "Nebula",
+      "C": "Black Hole",
+      "D": "White Dwarf"
+    },
+    "answer": "C",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  },
+  {
+    "id": "PHY101_CP2_085",
+    "course": "PHY 101",
+    "q_num": 255,
+    "topic": "Space-Time, Relativity & Modern Physics",
+    "question": "How does Special Relativity explain the constancy of the speed of light?",
+    "options": {
+      "A": "The speed of light changes based on the observer's motion",
+      "B": "The speed of light depends on the observer's location",
+      "C": "The speed of light is determined by the medium it travels through",
+      "D": "The speed of light is the same for all inertial observers, regardless of the relative motion of the source or observer"
+    },
+    "answer": "D",
+    "explanation": "According to Einstein's relativity and kinematics, the answer is D.",
+    "speed_hack": "⚡ CBT Speed Hack: Standard FUTMINNA PHY101/113 likely question."
+  }
+];
+
+// === CHM 111 QUESTIONS ===
+window.CHM111_QUESTIONS = [
+  {
+    "id": "CHM111_Q001",
+    "course": "CHM 111",
+    "q_num": 1,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "A chemical reaction is said to be at equilibrium at.",
+    "options": {
+      "A": "Minimal degree of freedom and maximum entropy",
+      "B": "Minimal degree of freedom and minimal entropy",
+      "C": "Maximum degree of freedom and maximum entropy"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q002",
+    "course": "CHM 111",
+    "q_num": 2,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Predict the spontaneity of a chemical process if ΔG^o = 141.7 and K = 1.4 x 10^-25 at 298K.",
+    "options": {
+      "A": "Spontaneous process",
+      "B": "Non spontaneous",
+      "C": "An equilibrium process"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q003",
+    "course": "CHM 111",
+    "q_num": 3,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Estimate the boiling point of water given ΔH^o = 44.01KJmol^-1 and ΔS^o = 118.3 J/Kmol^-1.",
+    "options": {
+      "A": "100^o C",
+      "B": "93.7^o C",
+      "C": "97.3^o C"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q004",
+    "course": "CHM 111",
+    "q_num": 4,
+    "topic": "Chemical Kinetics & Reaction Rates",
+    "question": "Which of the following statements is true for the effect of catalyst on equilibrium.",
+    "options": {
+      "A": "affects the rates of the reactions",
+      "B": "alter the equilibrium position",
+      "C": "no effect on rates and equilibrium position"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+  },
+  {
+    "id": "CHM111_Q005",
+    "course": "CHM 111",
+    "q_num": 5,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the following principles is used in predicting changes in equilibrium concentrations?",
+    "options": {
+      "A": "Le Chateliers",
+      "B": "Zeroth",
+      "C": "Boyles"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q006",
+    "course": "CHM 111",
+    "q_num": 6,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The following reaction is at equilibrium. C_l2 (g) + 3F_2 (g) <=> 2ClF_3 (g) How will the system respond if the volume is increased at constant temperature?",
+    "options": {
+      "A": "The reaction will shift to the right.",
+      "B": "There will be no change to the equilibrium position",
+      "C": "The reaction will shift to the left"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q007",
+    "course": "CHM 111",
+    "q_num": 7,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The following reaction is at equilibrium. CF_2 Br_2 (g) <=> CF_2 (g) + 2Br(g) ΔH= 424 kJ mol^–1 How will the system respond if the temperature is decreased?",
+    "options": {
+      "A": "The reaction will shift to the left.",
+      "B": "The reaction will shift to the right.",
+      "C": "reaction stops"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q008",
+    "course": "CHM 111",
+    "q_num": 8,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Consider this equation: 2CO(g) + O_2 (g) <=> 2CO_2 (g) Suppose the equation is rewritten as CO(g) + ½O_2 (g) <=> CO_2 (g) with an equilibrium constant Kc'. What is the relationship between Kc and Kc'?",
+    "options": {
+      "A": "Kc^, = Kc",
+      "B": "Kc^, = (Kc) ½",
+      "C": "Kc^, = ½(Kc)"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q009",
+    "course": "CHM 111",
+    "q_num": 9,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Identify the INCORRECT statement below regarding chemical equilibrium.",
+    "options": {
+      "A": "All chemical reactions are, in principle, reversible.",
+      "B": "Equilibrium is achieved when the concentrations of species become constant.",
+      "C": "Equilibrium is achieved when reactant and product concentrations are equal."
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q010",
+    "course": "CHM 111",
+    "q_num": 10,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "In which of the following reactions will the point of equilibrium shift to the left when the pressure on the system is increased?",
+    "options": {
+      "A": "C(s) + O_2 (g) <=> CO_2 (g)",
+      "B": "CaCO_3 (s) <=> CaO(s) + CO_2 (g)",
+      "C": "2Mg(s) + O_2 (g) <=> 2MgO(s)"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q011",
+    "course": "CHM 111",
+    "q_num": 11,
+    "topic": "Chemical Kinetics & Reaction Rates",
+    "question": "What happens when a catalyst is added to a system at equilibrium?",
+    "options": {
+      "A": "The reaction follows an alternative pathway of lower activation energy.",
+      "B": "The heat of reaction decreases.",
+      "C": "The potential energy of the reactants decreases."
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+  },
+  {
+    "id": "CHM111_Q012",
+    "course": "CHM 111",
+    "q_num": 12,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The reaction A <=> B has an equilibrium constant of K = 10^–4 . Which of the following statements is always correct?",
+    "options": {
+      "A": "The reaction will have 50% product B and 50% reactant A at equilibrium.",
+      "B": "The reaction is very favourable and will have mostly product B at equilibrium.",
+      "C": "The reaction is unfavourable and will not have very much product B at equilibrium."
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q013",
+    "course": "CHM 111",
+    "q_num": 13,
+    "topic": "Chemical Kinetics & Reaction Rates",
+    "question": "Which of the following statements most accurately relates the properties of a liquid at room temperature with its vapour pressure?",
+    "options": {
+      "A": "liquid low vapour pressure will probably have a high surface tension and a high boiling point.",
+      "B": "liquid low vapour pressure will probably have a low surface tension and a high boiling point.",
+      "C": "liquid high vapour pressure will probably have a low surface tension and a high boiling point."
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+  },
+  {
+    "id": "CHM111_Q014",
+    "course": "CHM 111",
+    "q_num": 14,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "For a reversible reaction, the equilibrium lies to the.",
+    "options": {
+      "A": "Left",
+      "B": "Right",
+      "C": "middle"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q015",
+    "course": "CHM 111",
+    "q_num": 15,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the following is true for the composition of equilibrium mixture. If ΔG = 0 and K = 1 the mixture is.",
+    "options": {
+      "A": "Mostly products",
+      "B": "Mostly reactants",
+      "C": "Neither reactants nor products are favoured"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q016",
+    "course": "CHM 111",
+    "q_num": 16,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Calculate the value of K at 298K for the following reaction N_2 (g) + 3H_2 (g) <=> 2NH_3 (g) Given ΔG = -32.96KJmol-1.",
+    "options": {
+      "A": "5.97 x 10^5",
+      "B": "13.3",
+      "C": "-13.3"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q017",
+    "course": "CHM 111",
+    "q_num": 17,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Of the following reactions, which of the reaction process is only spontaneous at high temperatures?",
+    "options": {
+      "A": "ΔH +, Δ S -",
+      "B": "ΔH +, Δ S +",
+      "C": "ΔH –, Δ S –"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q018",
+    "course": "CHM 111",
+    "q_num": 18,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "The incomplete combustion of carbon is described by the following equation 2C(s) + O_2 (g) &rarr;2CO(g) How does the spontaneity of this process depend upon temperature?",
+    "options": {
+      "A": "spontaneous (ΔG < 0) at all temperatures.",
+      "B": "Spontaneous process at high temperature",
+      "C": "Non spontaneous process"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q019",
+    "course": "CHM 111",
+    "q_num": 19,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "A condition of a predation process describes an endothermic process with an increase in system entropy, ?G will be negative if.",
+    "options": {
+      "A": "TΔS is greater than ΔH",
+      "B": "TΔS is less than ΔH",
+      "C": "TΔS = 0"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q020",
+    "course": "CHM 111",
+    "q_num": 20,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "At 25^?C, a reaction has a Gibb's free energy change of +45kJ. If the enthalpy change of the reaction is +35kJ, what is the entropy change of the reaction?",
+    "options": {
+      "A": "-400JK",
+      "B": "-33.6JK",
+      "C": "33.6JK"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q021",
+    "course": "CHM 111",
+    "q_num": 21,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Energy can neither be created nor destroyed but can be converted from one form to other is inferred from.",
+    "options": {
+      "A": "zeroth low of thermodynamic",
+      "B": "first law of thermodynamics",
+      "C": "second law to thermodynamics"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q022",
+    "course": "CHM 111",
+    "q_num": 22,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "From the eqution 2NO_2 (g) <=> N_2 O_4 (g) When the value of the reaction quotient before any reaction occurs is zero (0 ) at 25 °C, the concentration changes so that at equilibrium, [NO_2 ] = 0.016 M and [N_2 O_4 ] = 0.042 M. What is the value of the equilibrium constant for the reaction?",
+    "options": {
+      "A": "1.6 x 10^2",
+      "B": "-1.6 x 10^5",
+      "C": "0.016"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q023",
+    "course": "CHM 111",
+    "q_num": 23,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "For the reaction, 2SO_2 (g) + O_2 (g) <=> 2SO_3 (g) the concentrations at equilibrium are [SO_2 ] = 0.90 M, [O_2 ] = 0.35 M, and [SO_3 ] = 1.1 M. What is the value of the equilibrium constant, K_c ?",
+    "options": {
+      "A": "K_c = 3.4",
+      "B": "K_c = 6.9",
+      "C": "K_c = 4.3"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q024",
+    "course": "CHM 111",
+    "q_num": 24,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "A 1.00-L flask containing 0.0500 mol of NO(g), 0.0155 mol of Cl2(g), and 0.500 mol of NOCl <br /> 2NO(g) + Cl_2 (g) <=> 2NOCl(g) K_c = 4.6 × 104 Calculate the reaction quotient and determine the direction of the equilibrium shift.",
+    "options": {
+      "A": "Q_c =1.9 x 10^-7 , shift left",
+      "B": "Q_c = 6.45 x 10^3 , shift right",
+      "C": "Q_c =4.6 x 10^4 , none is favoured"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q025",
+    "course": "CHM 111",
+    "q_num": 25,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the statements defines the<b> activity</b> of a substance.",
+    "options": {
+      "A": "degree of randomness of a system",
+      "B": "a measure of its effective concentration under specified conditions.",
+      "C": "a measure of heat content of a substance"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q026",
+    "course": "CHM 111",
+    "q_num": 26,
+    "topic": "Acids, Bases & Ionic Equilibria",
+    "question": "A system in which reactants and products are found in two or more phases is a.",
+    "options": {
+      "A": "Phase equilibrium",
+      "B": "chemical equilibrium",
+      "C": "Heterogeneous equilibrium"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Acids, Bases & Ionic Equilibria, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Acids, Bases & Ionic Equilibria."
+  },
+  {
+    "id": "CHM111_Q027",
+    "course": "CHM 111",
+    "q_num": 27,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "One of the following is an example of heterogeneous equilibria.",
+    "options": {
+      "A": "C_2 H_6 (g) <=> C_2 H_4 (g) + H_2 (g)",
+      "B": "CO(g) + H_2 O(g) <=> CO_2 (g) + H_2 (g)",
+      "C": "PbCl_2 (s) &rarr;Pb^2+ (aq) + 2Cl^- (aq)"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q028",
+    "course": "CHM 111",
+    "q_num": 28,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "A chemical reaction is said to be at equilibrium at.",
+    "options": {
+      "A": "Minimal degree of freedom and maximum entropy",
+      "B": "Minimal degree of freedom and minimal entropy",
+      "C": "Minimal entropy and minimal degree of freedom"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q029",
+    "course": "CHM 111",
+    "q_num": 29,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Predict the spontaneity of a chemical process if ΔG^o = 141.7 and K = 1.4 x 10^-25 at 298K.",
+    "options": {
+      "A": "Spontaneous process",
+      "B": "Non spontaneous",
+      "C": "An equilibrium process"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q030",
+    "course": "CHM 111",
+    "q_num": 30,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Estimate the boiling point of water given ΔH^o = 44.01KJmol^-1 and ΔS^o = 118.3 J/Kmol^-1.",
+    "options": {
+      "A": "93.7^o C",
+      "B": "97.3^o C",
+      "C": "97.3kj/mol"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q031",
+    "course": "CHM 111",
+    "q_num": 31,
+    "topic": "Chemical Kinetics & Reaction Rates",
+    "question": "Which of the following statements is true for the effect of catalyst on equilibrium.",
+    "options": {
+      "A": "affects the rates of the reactions",
+      "B": "alter the equilibrium position",
+      "C": "catalyst remains in the reactants"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+  },
+  {
+    "id": "CHM111_Q032",
+    "course": "CHM 111",
+    "q_num": 32,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the following principles is used in predicting changes in equilibrium concentrations?",
+    "options": {
+      "A": "Fritz Haber",
+      "B": "Le Chateliers",
+      "C": "Zeroth"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q033",
+    "course": "CHM 111",
+    "q_num": 33,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The following reaction is at equilibrium. C_l2 (g) + 3F_2 (g) <=> 2ClF_3 (g) How will the system respond if the volume is increased at constant temperature?",
+    "options": {
+      "A": "The reaction will shift to the right.",
+      "B": "There will be no change to the equilibrium position",
+      "C": "The reaction will shift to the left"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q034",
+    "course": "CHM 111",
+    "q_num": 34,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The following reaction is at equilibrium. CF_2 Br_2 (g) <=> CF_2 (g) + 2Br(g) ΔH= 424 kJ mol^–1 How will the system respond if the temperature is decreased?",
+    "options": {
+      "A": "The reaction will shift to the left.",
+      "B": "The reaction will shift to the right.",
+      "C": "reaction stops"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q035",
+    "course": "CHM 111",
+    "q_num": 35,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Consider this equation: 2CO(g) + O_2 (g) <=> 2CO_2 (g) Suppose the equation is rewritten as CO(g) + ½O_2 (g) <=> CO_2 (g) with an equilibrium constant Kc'. What is the relationship between Kc and Kc'?",
+    "options": {
+      "A": "Kc^, = Kc",
+      "B": "Kc^, = (Kc) ½",
+      "C": "Kc^, = ½(Kc)"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q036",
+    "course": "CHM 111",
+    "q_num": 36,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Identify the INCORRECT statement below regarding chemical equilibrium.",
+    "options": {
+      "A": "All chemical reactions are, in principle, reversible.",
+      "B": "Equilibrium is achieved when the concentrations of species become constant.",
+      "C": "Equilibrium is achieved when reactant and product concentrations are equal."
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q037",
+    "course": "CHM 111",
+    "q_num": 37,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "In which of the following reactions will the point of equilibrium shift to the left when the pressure on the system is increased?",
+    "options": {
+      "A": "C(s) + O_2 (g) <=> CO_2 (g)",
+      "B": "CaCO_3 (s) <=> CaO(s) + CO_2 (g)",
+      "C": "2Mg(s) + O_2 (g) <=> 2MgO(s)"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q038",
+    "course": "CHM 111",
+    "q_num": 38,
+    "topic": "Chemical Kinetics & Reaction Rates",
+    "question": "What happens when a catalyst is added to a system at equilibrium?",
+    "options": {
+      "A": "The reaction follows an alternative pathway of lower activation energy.",
+      "B": "The heat of reaction decreases.",
+      "C": "The potential energy of the reactants decreases."
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+  },
+  {
+    "id": "CHM111_Q039",
+    "course": "CHM 111",
+    "q_num": 39,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The reaction A <=> B has an equilibrium constant of K = 10^–4 . Which of the following statements is always correct?",
+    "options": {
+      "A": "The reaction will have 50% product B and 50% reactant A at equilibrium.",
+      "B": "The reaction is very favourable and will have mostly product B at equilibrium.",
+      "C": "The reaction is unfavourable and will not have very much product B at equilibrium."
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q040",
+    "course": "CHM 111",
+    "q_num": 40,
+    "topic": "Chemical Kinetics & Reaction Rates",
+    "question": "Which of the following statements most accurately relates the properties of a liquid at room temperature with its vapour pressure?",
+    "options": {
+      "A": "liquid low vapour pressure will probably have a high surface tension and a high boiling point.",
+      "B": "liquid low vapour pressure will probably have a low surface tension and a high boiling point.",
+      "C": "liquid high vapour pressure will probably have a low surface tension and a high boiling point."
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Kinetics & Reaction Rates, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Kinetics & Reaction Rates."
+  },
+  {
+    "id": "CHM111_Q041",
+    "course": "CHM 111",
+    "q_num": 41,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "For a reversible reaction, the equilibrium lies to the.",
+    "options": {
+      "A": "Left",
+      "B": "Right",
+      "C": "middle"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q042",
+    "course": "CHM 111",
+    "q_num": 42,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the following is true for the composition of equilibrium mixture. If ΔG = 0 and K = 1 the mixture is.",
+    "options": {
+      "A": "Mostly products",
+      "B": "Mostly reactants",
+      "C": "Neither reactants nor products are favoured"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q043",
+    "course": "CHM 111",
+    "q_num": 43,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Calculate the value of K at 298K for the following reaction N_2 (g) + 3H_2 (g) <=> 2NH_3 (g) Given ΔG = -32.96KJmol-1.",
+    "options": {
+      "A": "5.97 x 10^5",
+      "B": "13.3",
+      "C": "-13.3"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q044",
+    "course": "CHM 111",
+    "q_num": 44,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Of the following reactions, which of the reaction process is only spontaneous at high temperatures?",
+    "options": {
+      "A": "ΔH +, Δ S -",
+      "B": "ΔH +, Δ S +",
+      "C": "ΔH –, Δ S –"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q045",
+    "course": "CHM 111",
+    "q_num": 45,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "The incomplete combustion of carbon is described by the following equation 2C(s) + O_2 (g) &rarr;2CO(g) How does the spontaneity of this process depend upon temperature?",
+    "options": {
+      "A": "spontaneous (ΔG < 0) at all temperatures.",
+      "B": "Spontaneous process at high temperature",
+      "C": "Non spontaneous process"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q046",
+    "course": "CHM 111",
+    "q_num": 46,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "If ΔH is negative and ΔS is positive, this condition describes.",
+    "options": {
+      "A": "Spontaneous process at low temperature",
+      "B": "Non spontaneous process",
+      "C": "Spontaneous process at all temperatures"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q047",
+    "course": "CHM 111",
+    "q_num": 47,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "A condition of a predation process describes an endothermic process with an increase in system entropy, ?G will be negative if.",
+    "options": {
+      "A": "TΔS is greater than ΔH",
+      "B": "TΔS is less than ΔH",
+      "C": "TΔS = 0"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q048",
+    "course": "CHM 111",
+    "q_num": 48,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "At 25^?C, a reaction has a Gibb's free energy change of +45kJ. If the enthalpy change of the reaction is +35kJ, what is the entropy change of the reaction?",
+    "options": {
+      "A": "-400JK",
+      "B": "-33.6JK",
+      "C": "33.6JK"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q049",
+    "course": "CHM 111",
+    "q_num": 49,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Energy can neither be created nor destroyed but can be converted from one form to other is inferred from.",
+    "options": {
+      "A": "zeroth low of thermodynamic",
+      "B": "first law of thermodynamics",
+      "C": "second law to thermodynamics"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q050",
+    "course": "CHM 111",
+    "q_num": 50,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "From the equation 2NO_2 (g) <=> N_2 O_4 (g) When the value of the reaction quotient before any reaction occurs is zero (0 ) at 25 °C, the concentration changes so that at equilibrium, [NO_2 ] = 0.016 M and [N_2 O_4 ] = 0.042 M. What is the value of the equilibrium constant for the reaction?",
+    "options": {
+      "A": "1.6 x 10^2",
+      "B": "-1.6 x 10^5",
+      "C": "0.016"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q051",
+    "course": "CHM 111",
+    "q_num": 51,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "For the reaction, 2SO_2 (g) + O_2 (g) <=> 2SO_3 (g) the concentrations at equilibrium are [SO_2 ] = 0.90 M, [O_2 ] = 0.35 M, and [SO_3 ] = 1.1 M. What is the value of the equilibrium constant, K_c ?",
+    "options": {
+      "A": "K_c = 3.4",
+      "B": "K_c = 6.9",
+      "C": "K_c = 4.3"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q052",
+    "course": "CHM 111",
+    "q_num": 52,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "A 1.00-L flask containing 0.0500 mol of NO(g), 0.0155 mol of Cl2(g), and 0.500 mol of NOCl <br /> 2NO(g) + Cl_2 (g) <=> 2NOCl(g) K_c = 4.6 × 104 Calculate the reaction quotient and determine the direction of the equilibrium shift.",
+    "options": {
+      "A": "Q_c =0,shifts right",
+      "B": "Q_c =1.9 x 10^-7 , shift left",
+      "C": "Q_c = 6.45 x 10^3 , shift right"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q053",
+    "course": "CHM 111",
+    "q_num": 53,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the statements defines the<b> activity</b> of a substance.",
+    "options": {
+      "A": "degree of randomness of a system",
+      "B": "a measure of its effective concentration under specified conditions.",
+      "C": "a measure of heat content of a substance"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q054",
+    "course": "CHM 111",
+    "q_num": 54,
+    "topic": "Acids, Bases & Ionic Equilibria",
+    "question": "A system in which reactants and products are found in two or more phases is a.",
+    "options": {
+      "A": "Phase equilibrium",
+      "B": "chemical equilibrium",
+      "C": "Heterogeneous equilibrium"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Acids, Bases & Ionic Equilibria, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Acids, Bases & Ionic Equilibria."
+  },
+  {
+    "id": "CHM111_Q055",
+    "course": "CHM 111",
+    "q_num": 55,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The following factors affects the position of an equilibrium EXCEPT.",
+    "options": {
+      "A": "Temperature",
+      "B": "Pressure",
+      "C": "Catalyst"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q056",
+    "course": "CHM 111",
+    "q_num": 56,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which one of the following statements regarding energy is false?",
+    "options": {
+      "A": "The total energy in a chemical universe (a system and its surroundings) is constant",
+      "B": "Energy can be converted from one form to another",
+      "C": "The energy stored in chemical bonds is referred to as kinetic energy"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q057",
+    "course": "CHM 111",
+    "q_num": 57,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "First law of thermodynamics furnishes the relationship between.",
+    "options": {
+      "A": "heat and work",
+      "B": "heat, work and properties of the system",
+      "C": "various properties of the system"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q058",
+    "course": "CHM 111",
+    "q_num": 58,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "In which direction does the transfer of energy as heat happen spontaneously?",
+    "options": {
+      "A": "From cold to hot",
+      "B": "From hot to cold",
+      "C": "No changes occurs"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q059",
+    "course": "CHM 111",
+    "q_num": 59,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Which one of the following statements best describes the enthalpy change of a reaction?",
+    "options": {
+      "A": "The energy released when chemical bonds are formed during a chemical reaction",
+      "B": "The energy consumed when chemical bonds are broken during a chemical reaction",
+      "C": "The difference between the energy released by bond formation and the energy consumed by bond cleavage during a chemical reaction"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q060",
+    "course": "CHM 111",
+    "q_num": 60,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Enthalpy is represented by which of the following symbols?",
+    "options": {
+      "A": "H",
+      "B": "K",
+      "C": "S"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q061",
+    "course": "CHM 111",
+    "q_num": 61,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the following terms describes a reaction in which there is a net transfer of energy from a system to its surroundings?",
+    "options": {
+      "A": "Exothermic",
+      "B": "Endothermic",
+      "C": "Spontaneous"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q062",
+    "course": "CHM 111",
+    "q_num": 62,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Which of the following statements regarding the Gibbs free energy change for a reaction is false?",
+    "options": {
+      "A": "The Gibbs free energy change is the proportion of the enthalpy change of a reaction that is used to increase the entropy.",
+      "B": "If the Gibbs free energy change for a reaction is negative, the reaction happens spontaneously.",
+      "C": "The Gibbs free energy is represented by the symbol G"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q063",
+    "course": "CHM 111",
+    "q_num": 63,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Energy is measured in which of the following units?",
+    "options": {
+      "A": "Kelvin",
+      "B": "Joule",
+      "C": "Pascal"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q064",
+    "course": "CHM 111",
+    "q_num": 64,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The formation of a chemical bond releases energy. True or false?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "All of the above"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q065",
+    "course": "CHM 111",
+    "q_num": 65,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "In case of spontaneous reaction, the reaction process favoured is.",
+    "options": {
+      "A": "Forward",
+      "B": "Both direction",
+      "C": "Reverse"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q066",
+    "course": "CHM 111",
+    "q_num": 66,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the following is true for a closed system?",
+    "options": {
+      "A": "mass entering = mass leaving",
+      "B": "mass does not enter or leave the system",
+      "C": "no reaction occur"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q067",
+    "course": "CHM 111",
+    "q_num": 67,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "When the value of K is greater than the I, then the reaction is.",
+    "options": {
+      "A": "Forward reaction",
+      "B": "Backward reaction",
+      "C": "Spontaneous"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q068",
+    "course": "CHM 111",
+    "q_num": 68,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "ΔG for spontaneous reaction is.",
+    "options": {
+      "A": "Negative",
+      "B": "Positive",
+      "C": "zero"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q069",
+    "course": "CHM 111",
+    "q_num": 69,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Describe how matter and/or energy is redistributed when you empty a canister of compressed air into a room.",
+    "options": {
+      "A": "greater and more uniform dispersal of matter",
+      "B": "much lesser dispersal of matter",
+      "C": "a reversible process"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q070",
+    "course": "CHM 111",
+    "q_num": 70,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Describe how matter and/or energy is redistributed when you empty a canister of compressed air into a room.",
+    "options": {
+      "A": "greater and more uniform dispersal of matter",
+      "B": "much lesser dispersal of matter",
+      "C": "a reversible process"
+    },
+    "answer": "A",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option A.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q071",
+    "course": "CHM 111",
+    "q_num": 71,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Why do plastic materials tend to persist in the environment?",
+    "options": {
+      "A": "Oxidation of plastics is fast and spontaneous",
+      "B": "Plastics are kinetically unstable",
+      "C": "Oxidation of plastics is slow and spontaneous"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q072",
+    "course": "CHM 111",
+    "q_num": 72,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Predict the sign of the entropy change for the following processes. C_6 H_6 (l) +15/2 O_2 (g)&rarr;6CO_2 (g) + 3H_2 O(l).",
+    "options": {
+      "A": "ΔS = positive",
+      "B": "ΔS = negative",
+      "C": "ΔS = 0"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q073",
+    "course": "CHM 111",
+    "q_num": 73,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "NaNO_3 (s)&rarr;Na^+ (aq) + NO ^?3 (aq).",
+    "options": {
+      "A": "ΔS = positive",
+      "B": "ΔS = negative",
+      "C": "ΔS = +/-"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q074",
+    "course": "CHM 111",
+    "q_num": 74,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The freezing of liquid water.",
+    "options": {
+      "A": "ΔS = positive",
+      "B": "ΔS = negative",
+      "C": "ΔS is = 0"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q075",
+    "course": "CHM 111",
+    "q_num": 75,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Will Ice Spontaneously Melt? The entropy change for the process H_2 O(s) &rarr;H_2 O(l) Given the ΔS of the system and the surrounding as 22.1J/k and requires that the surrounding transfer 6.00kj of heat to the system. Is the process spontaneous at -10.00 ^o C? Is it a spontaneous at +10.00^o C?",
+    "options": {
+      "A": "Melting is spontaneous at 10^o",
+      "B": "Melting is non spontaneous at 10^o",
+      "C": "Entropy is equal to 0"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q076",
+    "course": "CHM 111",
+    "q_num": 76,
+    "topic": "Chemical Thermodynamics & Spontaneity",
+    "question": "Determine if liquid water will spontaneously freeze at the same temperatures. H_2 O(s) &rarr;H_2 O(l) Given the ΔS of the system and the surrounding as 22.1J/k and requires that the surrounding transfer 6.00kj of heat to the system. Is the process spontaneous at -10.00 ^o C? Is it a spontaneous at +10.00^o C?",
+    "options": {
+      "A": "Freeing is spontaneous at –10^o",
+      "B": "Freeing is spontaneous at 10^o",
+      "C": "Entropy is equal to 0"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Thermodynamics & Spontaneity, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Thermodynamics & Spontaneity."
+  },
+  {
+    "id": "CHM111_Q077",
+    "course": "CHM 111",
+    "q_num": 77,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "S = k lnΔ W = k ln(1) = 0 The above equation represents.",
+    "options": {
+      "A": "First law of thermodynamics",
+      "B": "Second law of thermodynamics",
+      "C": "Third law of thermodynamics"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q078",
+    "course": "CHM 111",
+    "q_num": 78,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "What is the difference between S°, and ?So298 for a chemical change?",
+    "options": {
+      "A": "S° standard enthalpy at 1 bar pressure",
+      "B": "ΔS^o 298 Standard change in entropy at room temperature",
+      "C": "S° Entropy of a perfect crystal at absolute zero"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q079",
+    "course": "CHM 111",
+    "q_num": 79,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "Which of the following options indicates that a chemical reaction is unfavorable?",
+    "options": {
+      "A": "ΔH is negative",
+      "B": "ΔG is negative",
+      "C": "ΔS is negative"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q080",
+    "course": "CHM 111",
+    "q_num": 80,
+    "topic": "Electrochemistry & Redox Processes",
+    "question": "Consider the following reaction in a galvanic cell Zn+Cu^2+ &rarr;Zn^2+ +Cu Which if the following statements about the reaction is false?",
+    "options": {
+      "A": "The cell potential is positive",
+      "B": "The equilibrium constant is greater than one",
+      "C": "Gibb's free energy is positive"
+    },
+    "answer": "B",
+    "explanation": "According to physical chemistry principles for Electrochemistry & Redox Processes, the correct response is option B.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Electrochemistry & Redox Processes."
+  },
+  {
+    "id": "CHM111_Q081",
+    "course": "CHM 111",
+    "q_num": 81,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "The two ways in which a closed system can share energy with it's surroundings are ------ and ---- --",
+    "options": {
+      "A": "heat and work",
+      "B": "exothermic and endothermic",
+      "C": "hot and cold"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  },
+  {
+    "id": "CHM111_Q082",
+    "course": "CHM 111",
+    "q_num": 82,
+    "topic": "Chemical Equilibrium & Le Chatelier",
+    "question": "If a system is at equilibrium, what is the relationship between ΔH and ΔS.",
+    "options": {
+      "A": "S = TH",
+      "B": "ΔS=TΔH",
+      "C": "ΔS= ΔH/T"
+    },
+    "answer": "C",
+    "explanation": "According to physical chemistry principles for Chemical Equilibrium & Le Chatelier, the correct response is option C.",
+    "speed_hack": "⚡ CBT Speed Hack: High-yield FUTMINNA CHM 111 Clever-B pattern for Chemical Equilibrium & Le Chatelier."
+  }
+];
+
+// === CHM 191 QUESTIONS ===
+window.CHM191_QUESTIONS = [
+  {
+    "id": "CHM191_MNS_001",
+    "course": "CHM 191",
+    "q_num": 1,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "In titrimetric analysis, substance of known concentration is called",
+    "options": {
+      "A": "Titrant",
+      "B": "Titrand",
+      "C": "Analyte",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, In titrimetric analysis, substance of known concentration is called corresponds to Titrant.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_002",
+    "course": "CHM 191",
+    "q_num": 2,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "The point at which equal amount of titrant and analyte have reacted is called",
+    "options": {
+      "A": "Equivalence point",
+      "B": "Indicator endpoint",
+      "C": "Endpoint",
+      "D": "Index point"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, The point at which equal amount of titrant and analyte have reacted is called corresponds to Equivalence point.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_003",
+    "course": "CHM 191",
+    "q_num": 3,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "All the following are classes of titrimetic analysis EXCEPT",
+    "options": {
+      "A": "Acid-base reaction",
+      "B": "Redox reaction",
+      "C": "Complexometric reaction",
+      "D": "gravimetric reaction"
+    },
+    "answer": "D",
+    "explanation": "In practical volumetric analysis, All the following are classes of titrimetic analysis EXCEPT corresponds to gravimetric reaction.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_004",
+    "course": "CHM 191",
+    "q_num": 4,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "What volume must be taken from 500cm³ of 2M HCl(aq) in order to prepare 50cm³ of 0.04M HCI(aq)",
+    "options": {
+      "A": "20cm³",
+      "B": "5.5cm³",
+      "C": "5cm³",
+      "D": "1cm³"
+    },
+    "answer": "B",
+    "explanation": "In practical volumetric analysis, What volume must be taken from 500cm³ of 2M HCl(aq) in order to prepare 50cm³ of 0.04M HCI(aq) corresponds to 5.5cm³.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_006",
+    "course": "CHM 191",
+    "q_num": 6,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "What volume will be taken from stock solution of 0.45M HCl(aq) in order to prepare 100ml of 0.15M HCl(aq)?",
+    "options": {
+      "A": "65.55ml",
+      "B": "60.22ml",
+      "C": "20.00ml",
+      "D": "33.33ml"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, What volume will be taken from stock solution of 0.45M HCl(aq) in order to prepare 100ml of 0.15M HCl(aq) corresponds to 65.55ml.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_007",
+    "course": "CHM 191",
+    "q_num": 7,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "Bronsted-Lowry define an acid as",
+    "options": {
+      "A": "a proton acceptor",
+      "B": "a proton donor",
+      "C": "an electron pair donor",
+      "D": "hydrogen ion acceptor"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, Bronsted-Lowry define an acid as corresponds to an electron pair donor.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_008",
+    "course": "CHM 191",
+    "q_num": 8,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "Organic acids are",
+    "options": {
+      "A": "Dissociation constant",
+      "B": "Stepwise formation constant",
+      "C": "Autoprotolysis constant",
+      "D": "None of the above"
+    },
+    "answer": "D",
+    "explanation": "In practical volumetric analysis, Organic acids are corresponds to None of the above.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_011",
+    "course": "CHM 191",
+    "q_num": 11,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "If the pH of H2SO4(aq) is 3.1, calculate its hydrogen ion concentration",
+    "options": {
+      "A": "1.5x10 M",
+      "B": "2.04x10³M",
+      "C": "7.94x10 M",
+      "D": "7.94x10 M"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, If the pH of H2SO4(aq) is 3.1, calculate its hydrogen ion concentration corresponds to 7.94x10 M.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_012",
+    "course": "CHM 191",
+    "q_num": 12,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "If the pH of NaOH solution is 11, What is its hydroxide ion concentration?",
+    "options": {
+      "A": "5.4 x10 M",
+      "B": "3.16x10 M",
+      "C": "1.0 x10 M",
+      "D": "8.1x10 M"
+    },
+    "answer": "D",
+    "explanation": "In practical volumetric analysis, If the pH of NaOH solution is 11, What is its hydroxide ion concentration corresponds to 8.1x10 M.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_013",
+    "course": "CHM 191",
+    "q_num": 13,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "The pH of 0.05M tetraoxosulphate (VI) acid is",
+    "options": {
+      "A": "1.0",
+      "B": "1.3",
+      "C": "4.1",
+      "D": "8.5"
+    },
+    "answer": "B",
+    "explanation": "In practical volumetric analysis, The pH of 0.05M tetraoxosulphate (VI) acid is corresponds to 1.3.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_014",
+    "course": "CHM 191",
+    "q_num": 14,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "The pK, of 0.05M acetic acid at 25°C is 4.76. Find its pH?",
+    "options": {
+      "A": "3.03",
+      "B": "4.83",
+      "C": "3.68",
+      "D": "2.67"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, The pK, of 0.05M acetic acid at 25°C is 4.76. Find its pH corresponds to 3.03.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_015",
+    "course": "CHM 191",
+    "q_num": 15,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "What is the pH of 0.01M benzoic acid [Ka 6.5x10]?",
+    "options": {
+      "A": "7.46",
+      "B": "7.89",
+      "C": "2.57",
+      "D": "3.09"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, What is the pH of 0.01M benzoic acid [Ka 6.5x10] corresponds to 2.57.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_016",
+    "course": "CHM 191",
+    "q_num": 16,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "What is the pH interval of the colour change of phenolphthalein indicator?",
+    "options": {
+      "A": "8.2-10.0",
+      "B": "6.7-7.9",
+      "C": "5.5-6.9",
+      "D": "7.1-7.9"
+    },
+    "answer": "D",
+    "explanation": "In practical volumetric analysis, What is the pH interval of the colour change of phenolphthalein indicator corresponds to 7.1-7.9.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_017",
+    "course": "CHM 191",
+    "q_num": 17,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "Which of the following has the lowest pH value?",
+    "options": {
+      "A": "0.1M CH3COONa",
+      "B": "0.1M NaCl",
+      "C": "0.1M NaOH",
+      "D": "0.1M HCI"
+    },
+    "answer": "B",
+    "explanation": "In practical volumetric analysis, Which of the following has the lowest pH value corresponds to 0.1M NaCl.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_018",
+    "course": "CHM 191",
+    "q_num": 18,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "120ml of 0.30M HCI is mixed with 100ml of 0.34M NaOH. What is the nature of the mixture?",
+    "options": {
+      "A": "Acidic",
+      "B": "Basic",
+      "C": "Neutral",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, 120ml of 0.30M HCI is mixed with 100ml of 0.34M NaOH. What is the nature of the mixture corresponds to Acidic.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_019",
+    "course": "CHM 191",
+    "q_num": 19,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "the best procedure to use when filtering an aqueous solution to collect a precipitate is to",
+    "options": {
+      "A": "not wash the precipitate at all",
+      "B": "wash the precipitate with a minimal amount of water",
+      "C": "use large amount of water to ensure all soluble matter is separated from the precipitate",
+      "D": "warm the solution before filtering"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, the best procedure to use when filtering an aqueous solution to collect a precipitate is to corresponds to use large amount of water to ensure all soluble matter is separated from the precipitate.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_020",
+    "course": "CHM 191",
+    "q_num": 20,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following is not a property required of the substance chosen for use as a precipitate in a gravimetric analysis",
+    "options": {
+      "A": "low solubility",
+      "B": "has known formula",
+      "C": "stable when heated to 100°C",
+      "D": "able to be stored for an extended time without deterioration"
+    },
+    "answer": "B",
+    "explanation": "In practical volumetric analysis, which of the following is not a property required of the substance chosen for use as a precipitate in a gravimetric analysis corresponds to has known formula.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_021",
+    "course": "CHM 191",
+    "q_num": 21,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following pH values is an acceptable equivalence point for a strong base being titrated by a strong acid",
+    "options": {
+      "A": "acidity",
+      "B": "basicity",
+      "C": "acidimetry",
+      "D": "alkalimetry"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, which of the following pH values is an acceptable equivalence point for a strong base being titrated by a strong acid corresponds to acidity.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_027",
+    "course": "CHM 191",
+    "q_num": 27,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following indicator is red in acidic medium and yellow in the basic medium",
+    "options": {
+      "A": "temperature change",
+      "B": "presence of colloidal substances",
+      "C": "Background noise",
+      "D": "potassium hydrogen phthalate 35: endpoint detection is affected by some of the following factors except"
+    },
+    "answer": "D",
+    "explanation": "In practical volumetric analysis, which of the following indicator is red in acidic medium and yellow in the basic medium corresponds to potassium hydrogen phthalate 35: endpoint detection is affected by some of the following factors except.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_036",
+    "course": "CHM 191",
+    "q_num": 36,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "Which of the following factors cannot cause an indicator's pH range to change?",
+    "options": {
+      "A": "Presence of colloidal particle",
+      "B": "Presence of the organic solvents",
+      "C": "Temperature of the solution",
+      "D": "lonic strength of the medium Mass of the substance"
+    },
+    "answer": "D",
+    "explanation": "In practical volumetric analysis, Which of the following factors cannot cause an indicator's pH range to change corresponds to lonic strength of the medium Mass of the substance.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_037",
+    "course": "CHM 191",
+    "q_num": 37,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following indicator is colourless in acidic medium and pink in the basic medium",
+    "options": {
+      "A": "methyl orange",
+      "B": "bromothymol blue",
+      "C": "phenolphthalein",
+      "D": "methyl red"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, which of the following indicator is colourless in acidic medium and pink in the basic medium corresponds to phenolphthalein.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_038",
+    "course": "CHM 191",
+    "q_num": 38,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following indicator is red in acidic medium and blue in the basic medium",
+    "options": {
+      "A": "methyl orange",
+      "B": "litmus paper",
+      "C": "phenolphthalein",
+      "D": "methyl red"
+    },
+    "answer": "B",
+    "explanation": "In practical volumetric analysis, which of the following indicator is red in acidic medium and blue in the basic medium corresponds to litmus paper.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_039",
+    "course": "CHM 191",
+    "q_num": 39,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following indicator is pink in acidic medium and yellow in the basic medium",
+    "options": {
+      "A": "methyl orange",
+      "B": "bromothymol blue",
+      "C": "litmus paper",
+      "D": "methyl red"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, which of the following indicator is pink in acidic medium and yellow in the basic medium corresponds to methyl orange.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_041",
+    "course": "CHM 191",
+    "q_num": 41,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which Among the following is used to measure heat of reaction.",
+    "options": {
+      "A": "Retort stand",
+      "B": "Reagent bottle",
+      "C": "calorimeter",
+      "D": "volumetric flask"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, which Among the following is used to measure heat of reaction. corresponds to calorimeter.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_042",
+    "course": "CHM 191",
+    "q_num": 42,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which Among the following is used for heating of solids particularly metals to very high temperatures.",
+    "options": {
+      "A": "crucible",
+      "B": "conical flask",
+      "C": "calorimeter",
+      "D": "volumetric flask"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, which Among the following is used for heating of solids particularly metals to very high temperatures. corresponds to crucible.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_043",
+    "course": "CHM 191",
+    "q_num": 43,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "......….? Is used to measure the volume of liquids",
+    "options": {
+      "A": "conical flask",
+      "B": "pipette",
+      "C": "burette",
+      "D": "Beaker"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, ......…. corresponds to burette.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_044",
+    "course": "CHM 191",
+    "q_num": 44,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "......….? Is used to mix and heat chemicals.",
+    "options": {
+      "A": "conical flask",
+      "B": "Test tube",
+      "C": "burette",
+      "D": "Beaker"
+    },
+    "answer": "B",
+    "explanation": "In practical volumetric analysis, ......…. corresponds to Test tube.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_045",
+    "course": "CHM 191",
+    "q_num": 45,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which among the following Is used to hold large amount of liquids",
+    "options": {
+      "A": "conical flask",
+      "B": "pipette",
+      "C": "burette",
+      "D": "Beaker"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, which among the following Is used to hold large amount of liquids corresponds to conical flask.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_046",
+    "course": "CHM 191",
+    "q_num": 46,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which among the following Is used to prepare standard solutions.",
+    "options": {
+      "A": "conical flask",
+      "B": "pipette",
+      "C": "beaker",
+      "D": "volumetric flask"
+    },
+    "answer": "D",
+    "explanation": "In practical volumetric analysis, which among the following Is used to prepare standard solutions. corresponds to volumetric flask.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_047",
+    "course": "CHM 191",
+    "q_num": 47,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following indicator is used in the titration of a weak base against strong acid.",
+    "options": {
+      "A": "methyl orange",
+      "B": "litmus paper",
+      "C": "phenolphthalein",
+      "D": "methyl red"
+    },
+    "answer": "A",
+    "explanation": "In practical volumetric analysis, which of the following indicator is used in the titration of a weak base against strong acid. corresponds to methyl orange.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_MNS_048",
+    "course": "CHM 191",
+    "q_num": 48,
+    "topic": "Volumetric & Titrimetric Analysis",
+    "question": "which of the following indicator is used in the titration of a strong acid and strong base",
+    "options": {
+      "A": "methyl orange",
+      "B": "bromothymol blue",
+      "C": "phenolphthalein",
+      "D": "methyl red"
+    },
+    "answer": "C",
+    "explanation": "In practical volumetric analysis, which of the following indicator is used in the titration of a strong acid and strong base corresponds to phenolphthalein.",
+    "speed_hack": "⚡ CBT Speed Hack: Titrant is known in burette, Analyte/Titrand is in conical flask!"
+  },
+  {
+    "id": "CHM191_FAQ_001",
+    "course": "CHM 191",
+    "q_num": 51,
+    "topic": "Physical Constants & States of Matter",
+    "question": "Whatistheboilingpointofwateratsealevel?",
+    "options": {
+      "A": "100°C",
+      "B": "0°C",
+      "C": "50°C",
+      "D": "200°C"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, Whatistheboilingpointofwateratsealevel is 100°C.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_002",
+    "course": "CHM 191",
+    "q_num": 52,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whichpieceoflaboratoryequipmentisusedtomeasure precisevolumesofliquid?",
+    "options": {
+      "A": "Bunsenburner",
+      "B": "Beaker",
+      "C": "Graduatedcylinder",
+      "D": "Testtube"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whichpieceoflaboratoryequipmentisusedtomeasure precisevolumesofliquid is Graduatedcylinder.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_003",
+    "course": "CHM 191",
+    "q_num": 53,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whatisthechemicalsymbolforgold?",
+    "options": {
+      "A": "Ag",
+      "B": "Au",
+      "C": "Hg",
+      "D": "Pt"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whatisthechemicalsymbolforgold is Au.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_004",
+    "course": "CHM 191",
+    "q_num": 54,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": "Whichtypeofreactioninvolvesthetransferofelectronsfrom onesubstancetoanother?",
+    "options": {
+      "A": "Acid-basereaction",
+      "B": "Redoxreaction",
+      "C": "Precipitationreaction",
+      "D": "Combustionreaction"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whichtypeofreactioninvolvesthetransferofelectronsfrom onesubstancetoanother is Redoxreaction.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_005",
+    "course": "CHM 191",
+    "q_num": 55,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": "WhatisthepHofaneutralsolution?",
+    "options": {
+      "A": "7",
+      "B": "14",
+      "C": "0",
+      "D": "10"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, WhatisthepHofaneutralsolution is 7.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_006",
+    "course": "CHM 191",
+    "q_num": 56,
+    "topic": "Physical Constants & States of Matter",
+    "question": "Whichgasisproducedduringtheelectrolysisofwater?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Hydrogen",
+      "C": "Carbondioxide",
+      "D": "Nitrogen"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whichgasisproducedduringtheelectrolysisofwater is Hydrogen.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_007",
+    "course": "CHM 191",
+    "q_num": 57,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whatisthechemicalformulafortablesalt?",
+    "options": {
+      "A": "NaCl",
+      "B": "HCl",
+      "C": "KCl",
+      "D": "CaCl2"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, Whatisthechemicalformulafortablesalt is NaCl.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_008",
+    "course": "CHM 191",
+    "q_num": 58,
+    "topic": "Physical Constants & States of Matter",
+    "question": "Whatistheprocessofseparatingamixturebasedon differencesinboilingpointscalled?",
+    "options": {
+      "A": "Filtration",
+      "B": "Distillation",
+      "C": "Chromatography",
+      "D": "Evaporation"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whatistheprocessofseparatingamixturebasedon differencesinboilingpointscalled is Distillation.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_009",
+    "course": "CHM 191",
+    "q_num": 59,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": "WhichelementisthemostabundantinEarth' satmosphere?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Nitrogen",
+      "C": "Carbon",
+      "D": "Hydrogen"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, WhichelementisthemostabundantinEarth' satmosphere is Nitrogen.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_010",
+    "course": "CHM 191",
+    "q_num": 60,
+    "topic": "Physical Constants & States of Matter",
+    "question": "WhatistheSIunitformeasuringtemperature?",
+    "options": {
+      "A": "Kelvin(K)",
+      "B": "Celsius(°",
+      "C": "Fahrenheit(°F)",
+      "D": "Rankine(°R)"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, WhatistheSIunitformeasuringtemperature is Kelvin(K).",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_011",
+    "course": "CHM 191",
+    "q_num": 61,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whichtypeofglasswareisusedtoholdandheatsmall amountsofliquid?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Testtube",
+      "D": "Graduatedcylinder"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whichtypeofglasswareisusedtoholdandheatsmall amountsofliquid is Testtube.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_012",
+    "course": "CHM 191",
+    "q_num": 62,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": "Whatistheprocessofasolidchangingdirectlyintoagas called?",
+    "options": {
+      "A": "Sublimation",
+      "B": "Vaporization",
+      "C": "Condensation",
+      "D": "Deposition"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, Whatistheprocessofasolidchangingdirectlyintoagas called is Sublimation.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_013",
+    "course": "CHM 191",
+    "q_num": 63,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": "Whichtypeofbondinvolvesthesharingofelectronsbetween atoms?",
+    "options": {
+      "A": "Ionicbond",
+      "B": "Covalentbond",
+      "C": "Metallicbond",
+      "D": "Hydrogenbond"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whichtypeofbondinvolvesthesharingofelectronsbetween atoms is Covalentbond.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_014",
+    "course": "CHM 191",
+    "q_num": 64,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whatisthechemicalsymbolforiron?",
+    "options": {
+      "A": "Fe",
+      "B": "Ir",
+      "C": "In",
+      "D": "Ie"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, Whatisthechemicalsymbolforiron is Fe.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_015",
+    "course": "CHM 191",
+    "q_num": 65,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": "Whichgasisresponsibleforthe\"pop\"soundwhenaburning splintisplacedintoatesttubeofgas?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Hydrogen",
+      "C": "Nitrogen",
+      "D": "Carbondioxide"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whichgasisresponsibleforthe\"pop\"soundwhenaburning splintisplacedintoatesttubeofgas is Hydrogen.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_016",
+    "course": "CHM 191",
+    "q_num": 66,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": "Whatistheprocessofagaschangingintoaliquidcalled?",
+    "options": {
+      "A": "Sublimation",
+      "B": "Vaporization",
+      "C": "Condensation",
+      "D": "Deposition"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whatistheprocessofagaschangingintoaliquidcalled is Condensation.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_017",
+    "course": "CHM 191",
+    "q_num": 67,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whichtypeofreactioninvolvesthecombinationoftwoor moresubstancestoformasingleproduct?",
+    "options": {
+      "A": "Decompositionreaction",
+      "B": "Synthesisreaction",
+      "C": "Singlereplacementreaction",
+      "D": "Doublereplacementreaction"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whichtypeofreactioninvolvesthecombinationoftwoor moresubstancestoformasingleproduct is Synthesisreaction.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_018",
+    "course": "CHM 191",
+    "q_num": 68,
+    "topic": "Physical Constants & States of Matter",
+    "question": "Whatisthechemicalformulaforwater?",
+    "options": {
+      "A": "H2O2",
+      "B": "HOH",
+      "C": "H2O",
+      "D": "OH2"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whatisthechemicalformulaforwater is H2O.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_019",
+    "course": "CHM 191",
+    "q_num": 69,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whichpieceoflaboratoryequipmentisusedtomeasure masswithhighprecision?",
+    "options": {
+      "A": "Bunsenburner",
+      "B": "Beaker",
+      "C": "Balancescale",
+      "D": "Testtube"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whichpieceoflaboratoryequipmentisusedtomeasure masswithhighprecision is Balancescale.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_020",
+    "course": "CHM 191",
+    "q_num": 70,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": "Whatistheprocessofseparatingamixturebasedon differencesinsolubilitycalled?",
+    "options": {
+      "A": "Filtration",
+      "B": "Distillation",
+      "C": "Chromatography",
+      "D": "Evaporation"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whatistheprocessofseparatingamixturebasedon differencesinsolubilitycalled is Chromatography.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_021",
+    "course": "CHM 191",
+    "q_num": 71,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whatisthechemicalformulaforcarbondioxide?",
+    "options": {
+      "A": "CO2",
+      "B": "CO3",
+      "C": "C2O4",
+      "D": "C2O3"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, Whatisthechemicalformulaforcarbondioxide is CO2.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_022",
+    "course": "CHM 191",
+    "q_num": 72,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whichtypeofglasswareisusedtomeasureandtransfer smallvolumesofliquid?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Pipette",
+      "D": "Graduatedcylinder"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whichtypeofglasswareisusedtomeasureandtransfer smallvolumesofliquid is Pipette.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_023",
+    "course": "CHM 191",
+    "q_num": 73,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": "Whatistheprocessofaliquidchangingintoagasatthe surfacecalled?",
+    "options": {
+      "A": "Sublimation",
+      "B": "Vaporization",
+      "C": "Condensation",
+      "D": "Deposition"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whatistheprocessofaliquidchangingintoagasatthe surfacecalled is Vaporization.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_024",
+    "course": "CHM 191",
+    "q_num": 74,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": "Whichtypeofbondinvolvesthetransferofelectronsfrom oneatomtoanother?",
+    "options": {
+      "A": "Ionicbond",
+      "B": "Covalentbond",
+      "C": "Metallicbond",
+      "D": "Hydrogenbond"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, Whichtypeofbondinvolvesthetransferofelectronsfrom oneatomtoanother is Ionicbond.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_025",
+    "course": "CHM 191",
+    "q_num": 75,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whatisthechemicalsymbolforsodium?",
+    "options": {
+      "A": "So",
+      "B": "Sn",
+      "C": "Na",
+      "D": "No"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, Whatisthechemicalsymbolforsodium is Na.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_026",
+    "course": "CHM 191",
+    "q_num": 76,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".WhatisthepurposeofaBunsenburnerinachemistrylab?",
+    "options": {
+      "A": "Toheatsubstances",
+      "B": "Tomixchemicals",
+      "C": "Tomeasurevolume",
+      "D": "TotestpHlevels"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, .WhatisthepurposeofaBunsenburnerinachemistrylab is Toheatsubstances.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_027",
+    "course": "CHM 191",
+    "q_num": 77,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Graduatedcylinder",
+      "D": "Testtube"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab is Graduatedcylinder.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_028",
+    "course": "CHM 191",
+    "q_num": 78,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthefunctionofamortarandpestleinachemistrylab?",
+    "options": {
+      "A": "Tomeasuretemperature",
+      "B": "Togrindsubstancesintopowders",
+      "C": "TomeasurepHlevels",
+      "D": "Tomixchemicals"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .Whatisthefunctionofamortarandpestleinachemistrylab is Togrindsubstancesintopowders.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_029",
+    "course": "CHM 191",
+    "q_num": 79,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthepurposeofafumehoodinachemistrylab?",
+    "options": {
+      "A": "Tostorechemicals",
+      "B": "Todisposeofwaste",
+      "C": "Toprovideventilationforharmfulfumes",
+      "D": "Toconductexperiments"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whatisthepurposeofafumehoodinachemistrylab is Toprovideventilationforharmfulfumes.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_030",
+    "course": "CHM 191",
+    "q_num": 80,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichsafetyequipmentshouldbewornwhenworkingwith chemicalsinachemistrylab?",
+    "options": {
+      "A": "Glovesandgoggles",
+      "B": "Labcoatandsandals",
+      "C": "Apronandhat",
+      "D": "Facemaskandboots"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, .Whichsafetyequipmentshouldbewornwhenworkingwith chemicalsinachemistrylab is Glovesandgoggles.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_031",
+    "course": "CHM 191",
+    "q_num": 81,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthepurposeofawashbottleinachemistrylab?",
+    "options": {
+      "A": "Tostorewater",
+      "B": "Todispensedistilledwater",
+      "C": "Tocleanglassware",
+      "D": "Tomeasurevolume"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whatisthepurposeofawashbottleinachemistrylab is Tocleanglassware.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_032",
+    "course": "CHM 191",
+    "q_num": 82,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichtypeofbalanceisusedtomeasuresmallmassesina chemistrylab?",
+    "options": {
+      "A": "Triplebeambalance",
+      "B": "Digitalbalance",
+      "C": "Analyticalbalance",
+      "D": "Springbalance"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichtypeofbalanceisusedtomeasuresmallmassesina chemistrylab is Analyticalbalance.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_033",
+    "course": "CHM 191",
+    "q_num": 83,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthefunctionofahotplateinachemistrylab?",
+    "options": {
+      "A": "Toheatsubstances",
+      "B": "Tomeasuretemperature",
+      "C": "Tomixchemicals",
+      "D": "Tostoresamples"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, .Whatisthefunctionofahotplateinachemistrylab is Toheatsubstances.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_034",
+    "course": "CHM 191",
+    "q_num": 84,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichpieceofglasswareisusedtotransfersmallamounts ofliquidinachemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Dropperpipette",
+      "D": "Testtube"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichpieceofglasswareisusedtotransfersmallamounts ofliquidinachemistrylab is Dropperpipette.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_035",
+    "course": "CHM 191",
+    "q_num": 85,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthepurposeofadesiccatorinachemistrylab?",
+    "options": {
+      "A": "Tostorechemicals",
+      "B": "Tomeasurevolume",
+      "C": "Todrysubstances",
+      "D": "Tomixchemicals"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whatisthepurposeofadesiccatorinachemistrylab is Todrysubstances.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_036",
+    "course": "CHM 191",
+    "q_num": 86,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichtypeofglasswareisusedtocontainandheatsmall amountsofliquidinachemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Testtube",
+      "D": "Graduatedcylinder"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichtypeofglasswareisusedtocontainandheatsmall amountsofliquidinachemistrylab is Testtube.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_037",
+    "course": "CHM 191",
+    "q_num": 87,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthefunctionofamagneticstirrerinachemistrylab?",
+    "options": {
+      "A": "Toheatsubstances",
+      "B": "Tomixchemicals",
+      "C": "Tomeasurevolume",
+      "D": "TotestpHlevels"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .Whatisthefunctionofamagneticstirrerinachemistrylab is Tomixchemicals.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_038",
+    "course": "CHM 191",
+    "q_num": 88,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichtypeofglasswareisusedtoholdandmixliquidsina chemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Testtube",
+      "D": "Graduatedcylinder"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, .Whichtypeofglasswareisusedtoholdandmixliquidsina chemistrylab is Beaker.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_039",
+    "course": "CHM 191",
+    "q_num": 89,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthepurposeofapipetteinachemistrylab?",
+    "options": {
+      "A": "Tomeasuretemperature",
+      "B": "Totransfersmallamountsofliquid",
+      "C": "Tocleanglassware",
+      "D": "Tostorechemicals"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .Whatisthepurposeofapipetteinachemistrylab is Totransfersmallamountsofliquid.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_040",
+    "course": "CHM 191",
+    "q_num": 90,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichpieceofglasswareiscommonlyusedtostoreand heatsolutionsinachemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Testtube",
+      "D": "Graduatedcylinder"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtostoreand heatsolutionsinachemistrylab is Erlenmeyerflask.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_041",
+    "course": "CHM 191",
+    "q_num": 91,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".WhatisthefunctionofaBuchnerfunnelinachemistrylab?",
+    "options": {
+      "A": "Tofiltersolidsfromliquids",
+      "B": "Tomeasuretemperature",
+      "C": "Tostorechemicals",
+      "D": "Tomixchemicals"
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, .WhatisthefunctionofaBuchnerfunnelinachemistrylab is Tofiltersolidsfromliquids.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_042",
+    "course": "CHM 191",
+    "q_num": 92,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": ".Whichtypeofglasswareisusedtomeasurethevolumeof gasesinachemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Gassyringe",
+      "D": "Graduatedcylinder"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichtypeofglasswareisusedtomeasurethevolumeof gasesinachemistrylab is Gassyringe.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_043",
+    "course": "CHM 191",
+    "q_num": 93,
+    "topic": "Physical Constants & States of Matter",
+    "question": ".Whatisthepurposeofanevaporatingdishinachemistrylab?",
+    "options": {
+      "A": "Tomeasuretemperature",
+      "B": "Tostorechemicals",
+      "C": "Toheatandevaporateliquids",
+      "D": "Tomixchemicals"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whatisthepurposeofanevaporatingdishinachemistrylab is Toheatandevaporateliquids.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_044",
+    "course": "CHM 191",
+    "q_num": 94,
+    "topic": "Physical Constants & States of Matter",
+    "question": ".Whichpieceofglasswareiscommonlyusedtoconduct reactionsatspecifictemperaturesinachemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Testtuberack",
+      "D": "Heatingmantle"
+    },
+    "answer": "D",
+    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtoconduct reactionsatspecifictemperaturesinachemistrylab is Heatingmantle.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_045",
+    "course": "CHM 191",
+    "q_num": 95,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whatisthefunctionofaseparatoryfunnelinachemistrylab?",
+    "options": {
+      "A": "Tomeasurevolume",
+      "B": "Tomixchemicals",
+      "C": "Toseparateimmiscibleliquidsorsolidsfromliquids",
+      "D": "TotestpHlevels"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whatisthefunctionofaseparatoryfunnelinachemistrylab is Toseparateimmiscibleliquidsorsolidsfromliquids.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_046",
+    "course": "CHM 191",
+    "q_num": 96,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab?",
+    "options": {
+      "A": "Beaker",
+      "B": "Erlenmeyerflask",
+      "C": "Graduatedcylinder",
+      "D": "Testtube"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichpieceofglasswareiscommonlyusedtomeasure precisevolumesofliquidinachemistrylab is Graduatedcylinder.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_047",
+    "course": "CHM 191",
+    "q_num": 97,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Whichofthefollowingisacharacteristicofmetals?",
+    "options": {
+      "A": "Solubleinwater.",
+      "B": "Goodconductorsofheatandelectricity.",
+      "C": "Malleable.",
+      "D": "Insolubleinwater."
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Whichofthefollowingisacharacteristicofmetals is Goodconductorsofheatandelectricity..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_048",
+    "course": "CHM 191",
+    "q_num": 98,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": "Astudentaddsmagnesiumturningstoacrucible,andthen heatsitusingaBunsenburner.Whichofthefollowingsubstances isproduced?",
+    "options": {
+      "A": "Hydrogen.",
+      "B": "Magnesiumoxide.",
+      "C": "Magnesiumchloride.",
+      "D": "Magnesiumnitride."
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, Astudentaddsmagnesiumturningstoacrucible,andthen heatsitusingaBunsenburner.Whichofthefollowingsubstances isproduced is Magnesiumoxide..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_049",
+    "course": "CHM 191",
+    "q_num": 99,
+    "topic": "Electrolysis & Qualitative Inorganic Tests",
+    "question": ".WhichofthefollowingisNOTaproductoftheelectrolysisof moltenleadbromide?",
+    "options": {
+      "A": "Lea",
+      "D": "Oxygen.",
+      "B": "Bromine.",
+      "C": "Hydrogen."
+    },
+    "answer": "D",
+    "explanation": "In practical chemistry, .WhichofthefollowingisNOTaproductoftheelectrolysisof moltenleadbromide is Oxygen..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_050",
+    "course": "CHM 191",
+    "q_num": 100,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": ".Inaqueoussolution,whichofthefollowingsubstancesis amphoteric?",
+    "options": {
+      "A": "Sulfuricaci",
+      "D": "Aluminumhydroxide.",
+      "B": "Sodiumhydroxide.",
+      "C": "Hydrogenchloride."
+    },
+    "answer": "D",
+    "explanation": "In practical chemistry, .Inaqueoussolution,whichofthefollowingsubstancesis amphoteric is Aluminumhydroxide..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_051",
+    "course": "CHM 191",
+    "q_num": 101,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichofthefollowingisanendothermicprocess?",
+    "options": {
+      "A": "Sublimationofdryice.",
+      "B": "Burningofnaturalgas.",
+      "C": "Vaporizationofwater.",
+      "D": "Meltingofice."
+    },
+    "answer": "A",
+    "explanation": "In practical chemistry, .Whichofthefollowingisanendothermicprocess is Sublimationofdryice..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_052",
+    "course": "CHM 191",
+    "q_num": 102,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichofthefollowingisametal?",
+    "options": {
+      "A": "Argon.",
+      "B": "Zin",
+      "C": "Chlorine.",
+      "D": "Silicon."
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .Whichofthefollowingisametal is Zin.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_053",
+    "course": "CHM 191",
+    "q_num": 103,
+    "topic": "Physical Constants & States of Matter",
+    "question": ".Whichofthefollowingprocessesrequiresadecreasein temperature?",
+    "options": {
+      "A": "Meltingofice.",
+      "B": "Sublimationofdryice.",
+      "C": "Freezingofwater.",
+      "D": "Vaporizationofwater."
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichofthefollowingprocessesrequiresadecreasein temperature is Freezingofwater..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_054",
+    "course": "CHM 191",
+    "q_num": 104,
+    "topic": "Physical Constants & States of Matter",
+    "question": ".Whichofthefollowingsubstancesisinsolubleinwater?",
+    "options": {
+      "A": "Sodiumchloride.",
+      "B": "Coppersulfate.",
+      "C": "Ammoniumchloride.",
+      "D": "Calciumcarbonate."
+    },
+    "answer": "D",
+    "explanation": "In practical chemistry, .Whichofthefollowingsubstancesisinsolubleinwater is Calciumcarbonate..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_055",
+    "course": "CHM 191",
+    "q_num": 105,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": ".WhichofthefollowinghasapHof7?",
+    "options": {
+      "A": "Hydrochloricaci",
+      "D": "Sodiumhydroxide.",
+      "B": "Water.",
+      "C": "Sulfuricaci"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .WhichofthefollowinghasapHof7 is Water..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_056",
+    "course": "CHM 191",
+    "q_num": 106,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": ".Whichofthefollowingsubstancesisaweakacid?",
+    "options": {
+      "A": "Hydrochloricaci",
+      "D": "",
+      "B": "Citricaci",
+      "C": "Sulfuricaci"
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .Whichofthefollowingsubstancesisaweakacid is Citricaci.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_057",
+    "course": "CHM 191",
+    "q_num": 107,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": ".Whichofthefollowingsubstancesisastrongbase?",
+    "options": {
+      "A": "",
+      "B": "Sodiumhydroxide.",
+      "C": "Ammoni",
+      "D": "Calciumhydroxide."
+    },
+    "answer": "B",
+    "explanation": "In practical chemistry, .Whichofthefollowingsubstancesisastrongbase is Sodiumhydroxide..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_058",
+    "course": "CHM 191",
+    "q_num": 108,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichofthefollowingisanexampleofacovalentbond?",
+    "options": {
+      "A": "Sodiumchloride.",
+      "B": "Sodiumbicarbonate.",
+      "C": "Hydrogengas.",
+      "D": "Magnesiumoxide."
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichofthefollowingisanexampleofacovalentbond is Hydrogengas..",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_059",
+    "course": "CHM 191",
+    "q_num": 109,
+    "topic": "Acids, Bases & pH in the Lab",
+    "question": ".Whatisthepurposeofaspectrophotometerinachemistry lab?",
+    "options": {
+      "A": "Tomeasuretemperature",
+      "B": "Tomixchemicals",
+      "C": "Toanalyzetheconcentrationofsubstancesinasolution",
+      "D": "Tostorechemicals"
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whatisthepurposeofaspectrophotometerinachemistry lab is Toanalyzetheconcentrationofsubstancesinasolution.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  },
+  {
+    "id": "CHM191_FAQ_060",
+    "course": "CHM 191",
+    "q_num": 110,
+    "topic": "Laboratory Apparatus & Safety",
+    "question": ".Whichofthefollowingpropertiesischaracteristicofmetals?",
+    "options": {
+      "A": "Lowmeltingpoints.",
+      "B": "Lowelectricalconductivity."
+    },
+    "answer": "C",
+    "explanation": "In practical chemistry, .Whichofthefollowingpropertiesischaracteristicofmetals is C.",
+    "speed_hack": "⚡ CBT Speed Hack: Essential FUTMINNA CHM 191 lab question."
+  }
+];
