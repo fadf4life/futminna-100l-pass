@@ -1997,18 +1997,28 @@
 
     // App Initialization
     document.addEventListener('DOMContentLoaded', () => {
-      initNavigation();
-      initGamification();
-      initCourses();
-      initDashboard();
-      updateDashboardMetrics();
-      initDailyBlitz();
-      initCBT();
-      initPractice();
-      initFlashcards();
-      initMistakeVault();
-      initFormulaBible();
-      initRoadmap();
+      const steps = [
+        ['Navigation', initNavigation],
+        ['Gamification', initGamification],
+        ['Courses', initCourses],
+        ['Dashboard', initDashboard],
+        ['Metrics', updateDashboardMetrics],
+        ['DailyBlitz', initDailyBlitz],
+        ['CBT', initCBT],
+        ['Practice', initPractice],
+        ['Flashcards', initFlashcards],
+        ['MistakeVault', initMistakeVault],
+        ['FormulaBible', initFormulaBible],
+        ['Roadmap', initRoadmap]
+      ];
+
+      steps.forEach(([name, fn]) => {
+        try {
+          if (typeof fn === 'function') fn();
+        } catch(err) {
+          console.error(`[App Init Error in ${name}]:`, err);
+        }
+      });
       
       // Initial math pass
       setTimeout(() => renderMath(), 200);
@@ -2028,18 +2038,26 @@
 
     function updateVaultCount() {
       const count = state.mistakes.length;
-      document.getElementById('statVaultCount').textContent = count;
+      const el1 = document.getElementById('statVaultCount');
+      const el2 = document.getElementById('dashStatVaultCount');
+      if (el1) el1.textContent = count;
+      if (el2) el2.textContent = count;
       localStorage.setItem('futminna_mistakes', JSON.stringify(state.mistakes));
-      updateDashboardMetrics();
+      if (typeof updateDashboardMetrics === 'function') updateDashboardMetrics();
     }
 
-    // Navigation
+    // Navigation with URL Hash Support (#drills, #practice, #cbt, etc.)
     function initNavigation() {
       const topBtns = document.querySelectorAll('.nav-btn');
       const mobBtns = document.querySelectorAll('.mob-nav-item');
 
       function activate(tabId) {
-        AudioFX.click();
+        if (!tabId) return;
+        // Normalize alias
+        if (tabId === 'drills') tabId = 'practice';
+        if (tabId === 'home') tabId = 'dashboard';
+
+        try { AudioFX.click(); } catch(e){}
         topBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-tab') === tabId));
         mobBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-tab') === tabId));
         document.querySelectorAll('.tab-pane').forEach(p => p.classList.toggle('active', p.id === `tab-${tabId}`));
@@ -2049,6 +2067,19 @@
 
       topBtns.forEach(b => b.addEventListener('click', () => activate(b.getAttribute('data-tab'))));
       mobBtns.forEach(b => b.addEventListener('click', () => activate(b.getAttribute('data-tab'))));
+
+      // Handle initial hash and hash changes (e.g. #drills or #practice)
+      function handleHash() {
+        const hash = window.location.hash.replace('#', '').toLowerCase();
+        if (hash) {
+          activate(hash);
+        }
+      }
+
+      window.addEventListener('hashchange', handleHash);
+      if (window.location.hash) {
+        setTimeout(handleHash, 100);
+      }
     }
 
     // Course Selector
@@ -2851,27 +2882,33 @@
       renderMath(backText);
     }
 
-    // Mistake Vault
+    // Mistake Vault (Weakness Killer)
     function initMistakeVault() {
-      const container = document.getElementById('mistakesList');
-      const emptyMsg = document.getElementById('vaultEmpty');
-      const clearBtn = document.getElementById('btnClearVault');
+      const container = document.getElementById('vaultQuestionsList');
+      const clearBtn = document.getElementById('btnClearAllVault');
+      if (!container) return;
 
       function renderVault() {
         if (state.mistakes.length === 0) {
-          emptyMsg.style.display = 'block';
-          container.innerHTML = '';
+          container.innerHTML = `
+            <div class="glass-card" style="text-align: center; padding: 2.5rem 1rem; color: var(--text-muted); margin-top: 1rem;">
+              <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🛡️</div>
+              <h3 style="color: #FFF; font-family: var(--font-heading); margin-bottom: 0.25rem;">Mistake Vault is Clear!</h3>
+              <p style="font-size: 0.88rem; max-width: 480px; margin: 0 auto;">
+                Any question you miss in CBT or Drills is saved here automatically. Drill topics to test your mastery!
+              </p>
+            </div>
+          `;
           return;
         }
-        emptyMsg.style.display = 'none';
 
-        container.innerHTML = state.mistakes.map((q, idx) => `
-          <div class="vault-item" id="vault_card_${q.id}">
+        container.innerHTML = state.mistakes.map((q) => `
+          <div class="vault-item" id="vault_card_${q.id}" style="margin-top: 1rem;">
             <div class="vault-header">
               <span class="q-topic-badge">${q.topic}</span>
               <button class="btn-clear-mistake" data-id="${q.id}">✓ Mastered</button>
             </div>
-            <div style="color: #FFF; font-size: 1rem; margin-bottom: 0.75rem;">${q.question}</div>
+            <div style="color: #FFF; font-size: 1.05rem; margin-bottom: 0.75rem;">${q.question}</div>
             <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem;">
               Verified Official Key: <strong style="color: var(--success);">${q.answer}</strong>
             </div>
@@ -2893,18 +2930,19 @@
         renderMath(container);
       }
 
-      clearBtn.addEventListener('click', () => {
-        if (confirm('Clear all mistakes in the vault?')) {
-          state.mistakes = [];
-          updateVaultCount();
-          renderVault();
-        }
-      });
+      if (clearBtn) {
+        clearBtn.addEventListener('click', () => {
+          if (confirm('Clear all mistakes in the vault?')) {
+            state.mistakes = [];
+            updateVaultCount();
+            renderVault();
+          }
+        });
+      }
 
       renderVault();
     }
 
-    // Formula Bible
     function initFormulaBible() {
       const grid = document.getElementById('sheetGrid');
       let formulas = [];
