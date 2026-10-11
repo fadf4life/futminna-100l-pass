@@ -1294,15 +1294,202 @@
       font-size: 1.05em !important;
     }
 
-    /* Confetti Canvas */
-    #confettiCanvas {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      pointer-events: none;
-      z-index: 99999;
+    /* Formula Bible Cards - Standard Mathematical Typesetting */
+    .formula-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 1.25rem;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    }
+    .formula-card:hover {
+      border-color: var(--border-glow);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+    }
+    .formula-topic-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .formula-topic-title {
+      font-family: var(--font-heading);
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--secondary);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .formula-item {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 10px;
+      padding: 0.85rem 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+    }
+    .formula-item-name {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #94A3B8;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .formula-math-display {
+      font-size: 1.15rem;
+      color: #FFF;
+      text-align: center;
+      padding: 0.4rem 0.25rem;
+      overflow-x: auto;
+    }
+    .formula-cbt-tip {
+      font-size: 0.8rem;
+      color: #A5F3FC;
+      background: rgba(6, 182, 212, 0.08);
+      border-left: 3px solid var(--secondary);
+      padding: 0.35rem 0.6rem;
+      border-radius: 0 6px 6px 0;
+      line-height: 1.45;
+    }
+
+    /* Core Theory Learning Module */
+    .theory-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+    }
+    .theory-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.85rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .theory-title-group h3 {
+      font-family: var(--font-heading);
+      font-size: 1.25rem;
+      color: #FFF;
+      font-weight: 800;
+    }
+    .theory-title-group p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 0.2rem;
+    }
+    .theory-read-badge {
+      background: rgba(99, 102, 241, 0.15);
+      border: 1px solid rgba(99, 102, 241, 0.35);
+      color: #A5B4FC;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+    }
+    .theory-concept-item {
+      background: rgba(255, 255, 255, 0.02);
+      border-left: 3px solid var(--primary);
+      border-radius: 0 10px 10px 0;
+      padding: 0.85rem 1rem;
+      margin-bottom: 0.75rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.04);
+      border-right: 1px solid rgba(255, 255, 255, 0.04);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    }
+    .theory-concept-title {
+      font-family: var(--font-heading);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #FFF;
+      margin-bottom: 0.35rem;
+    }
+    .theory-concept-body {
+      font-size: 0.9rem;
+      color: #CBD5E1;
+      line-height: 1.6;
+    }
+    .theory-trap-box {
+      background: rgba(244, 63, 94, 0.08);
+      border: 1px solid rgba(244, 63, 94, 0.3);
+      border-radius: 10px;
+      padding: 0.85rem 1rem;
+      margin-top: 0.85rem;
+    }
+    .theory-trap-title {
+      color: #FDA4AF;
+      font-weight: 700;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-bottom: 0.4rem;
+    }
+    .theory-trap-list {
+      list-style-type: disc;
+      padding-left: 1.25rem;
+      font-size: 0.88rem;
+      color: #FECDD3;
+      line-height: 1.5;
+    }
+    .theory-pills-bar {
+      display: flex;
+      gap: 0.5rem;
+      overflow-x: auto;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .theory-pill-btn {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 0.35rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .theory-pill-btn:hover, .theory-pill-btn.active {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #FFF;
+    }
+
+    /* Drill Quick Concept Briefing Accordion */
+    .drill-concept-briefing {
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.12), rgba(6, 182, 212, 0.08));
+      border: 1px solid rgba(99, 102, 241, 0.35);
+      border-radius: 12px;
+      padding: 0.85rem 1.15rem;
+      margin-bottom: 1rem;
+    }
+    .drill-briefing-toggle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+    .drill-briefing-content {
+      margin-top: 0.85rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 0.9rem;
+      color: #CBD5E1;
+      line-height: 1.6;
     }
 
   </style>
@@ -1344,9 +1531,10 @@
         <button class="nav-btn active" data-tab="dashboard">📊 Dashboard</button>
         <button class="nav-btn" data-tab="cbt">🎯 CBT Exam</button>
         <button class="nav-btn" data-tab="practice">📚 Drills</button>
-        <button class="nav-btn" data-tab="flashcards">⚡ Flashcards</button>
+        <button class="nav-btn" data-tab="theory">📖 Core Theory</button>
+        <button class="nav-btn" data-tab="formulas">⚡ Formula Bible</button>
+        <button class="nav-btn" data-tab="flashcards">🗂️ Flashcards</button>
         <button class="nav-btn" data-tab="vault">🛡️ Mistake Vault</button>
-        <button class="nav-btn" data-tab="formulas">📖 Formula Bible</button>
         <button class="nav-btn" data-tab="roadmap">📅 30-Day Plan</button>
       </nav>
     </div>
@@ -1533,7 +1721,38 @@
           <span style="font-size: 0.75rem; color: var(--secondary); font-weight: 600;" id="cramCountBadge">All High-Yield Qs</span>
         </div>
 
+      <!-- Topic Concept Briefing Accordion in Drills -->
+      <div id="topicConceptBriefing" class="drill-concept-briefing" style="display: none;">
+        <div class="drill-briefing-toggle" id="btnToggleBriefing">
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <span style="font-size: 1.15rem;">💡</span>
+            <strong style="color: #FFF; font-family: var(--font-heading); font-size: 0.95rem;" id="briefingTopicTitle">Topic Foundation Briefing</strong>
+          </div>
+          <span style="font-size: 0.8rem; color: var(--secondary); font-weight: 700;" id="briefingToggleText">📖 View Key Rules & Traps ▼</span>
+        </div>
+        <div class="drill-briefing-content" id="briefingContent" style="display: none;"></div>
+      </div>
+
       <div id="practiceQuestionsList" style="display: flex; flex-direction: column; gap: 1rem;"></div>
+    </section>
+
+    <!-- TAB: CORE THEORY & MICRO-NOTES -->
+    <section class="tab-pane" id="tab-theory">
+      <div class="glass-card" style="margin-bottom: 1.25rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
+          <div>
+            <h2 style="font-family: var(--font-heading); color: #FFF; font-size: 1.4rem;" id="theoryModuleTitle">MAT 101 Core Theory & Foundations</h2>
+            <p style="color: var(--text-muted); font-size: 0.85rem;">Focused, high-yield fundamental knowledge, mathematical laws, and exam traps before you drill.</p>
+          </div>
+          <input type="text" id="theorySearchInput" placeholder="🔍 Search definitions, laws..." style="background: rgba(0,0,0,0.3); border: 1px solid var(--border-color); border-radius: 8px; padding: 0.5rem 0.85rem; color: #FFF; font-size: 0.85rem; outline: none; width: 220px;">
+        </div>
+      </div>
+
+      <!-- Topic Filter Pills -->
+      <div class="theory-pills-bar" id="theoryTopicPills"></div>
+
+      <!-- Theory Notes Container -->
+      <div id="theoryNotesContainer"></div>
     </section>
 
     <!-- TAB 4: 3D FLASHCARDS -->
@@ -1589,9 +1808,14 @@
 
     <!-- TAB 6: FORMULA BIBLE -->
     <section class="tab-pane" id="tab-formulas">
-      <div style="text-align: center; margin-bottom: 1.25rem;">
-        <h2 style="font-family: var(--font-heading); font-size: 1.6rem; color: #FFF; margin-bottom: 0.35rem;" id="formulaBibleTitle">MAT 101 Formula & Shortcuts Bible</h2>
-        <p style="color: var(--text-muted); font-size: 0.85rem;">Pocket reference for essential formulas, determinant shortcuts, and quadrant rules.</p>
+      <div class="glass-card" style="margin-bottom: 1.25rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
+          <div>
+            <h2 style="font-family: var(--font-heading); font-size: 1.4rem; color: #FFF; margin-bottom: 0.25rem;" id="formulaBibleTitle">MAT 101 Formula & Shortcuts Bible</h2>
+            <p style="color: var(--text-muted); font-size: 0.85rem;">Standard mathematical typesetting, determinant shortcuts, quadrant rules, and campus exam hacks.</p>
+          </div>
+          <input type="text" id="formulaSearchInput" placeholder="🔍 Search formulas..." style="background: rgba(0,0,0,0.3); border: 1px solid var(--border-color); border-radius: 8px; padding: 0.5rem 0.85rem; color: #FFF; font-size: 0.85rem; outline: none; width: 220px;">
+        </div>
       </div>
       <div class="grid-topics" id="sheetGrid"></div>
     </section>
@@ -1621,9 +1845,13 @@
       <span class="icon">📚</span>
       <span>Drills</span>
     </button>
-    <button class="mob-nav-item" data-tab="flashcards">
+    <button class="mob-nav-item" data-tab="theory">
+      <span class="icon">📖</span>
+      <span>Theory</span>
+    </button>
+    <button class="mob-nav-item" data-tab="formulas">
       <span class="icon">⚡</span>
-      <span>Cards</span>
+      <span>Formulas</span>
     </button>
     <button class="mob-nav-item" data-tab="vault">
       <span class="icon">🛡️</span>
@@ -1700,8 +1928,9 @@
   </div>
 
   <!-- Data Scripts -->
-  <script src="data/questions_data.js?v=3"></script>
-  <script src="data/flashcards_data.js?v=3"></script>
+  <script src="data/questions_data.js?v=6"></script>
+  <script src="data/flashcards_data.js?v=4"></script>
+  <script src="data/theory_notes_data.js?v=2"></script>
 
   <!-- Application Logic -->
   <script>
@@ -1826,12 +2055,25 @@
       let corePrinciple = '';
       let breakdown = '';
       
+      // Split on the 🔍 step-by-step marker
+      const stepMarkerRegex = /\n🔍 (?:Detailed Step-by-Step:|Option Breakdown:|Detailed Analysis &amp; Step-by-Step:|Detailed Analysis &amp; Step-by-Step|Step-by-Step:|Detailed Analysis:)/;
+      
       if (exp.includes('📖 Core Principle')) {
-        const parts = exp.split(/🔍 (?:Option Breakdown|Detailed Analysis|Detailed Step-by-Step):/);
-        corePrinciple = parts[0].replace('📖 Core Principle', '').replace(/^[\s:\(]+[^\)]*\)?[\s:]*/, '').trim();
-        if (parts[1]) {
-          const subParts = parts[1].split(/• (?:Correct Choice|Verified Key):/);
-          breakdown = subParts[0].trim();
+        const stepIdx = exp.search(/\n🔍 /);
+        if (stepIdx !== -1) {
+          // Core principle = everything from start to the 🔍 marker
+          corePrinciple = exp.substring(0, stepIdx).trim();
+          // Remove the '📖 Core Principle (Topic):' label but keep the content
+          corePrinciple = corePrinciple
+            .replace(/^📖 Core Principle[^:]*:\n?/, '')
+            .trim();
+          
+          // Step-by-step = everything after 🔍 marker
+          const afterStep = exp.substring(stepIdx).replace(/^\n🔍 [^\n]*\n?/, '').trim();
+          // Remove "Verified Key" line from breakdown (it's shown in header)
+          breakdown = afterStep.replace(/\n?• Verified Key:[^\n]*$/m, '').trim();
+        } else {
+          corePrinciple = exp.replace(/^📖 Core Principle[^:]*:\n?/, '').trim();
         }
       } else {
         corePrinciple = exp;
@@ -1861,7 +2103,7 @@
           ${breakdown ? `
             <div class="solution-section breakdown-section">
               <div class="section-title">
-                <span class="sec-icon">🔍</span> Detailed Analysis & Step-by-Step
+                <span class="sec-icon">🔍</span> Step-by-Step Mathematical Working
               </div>
               <div class="section-body">${formatMathText(breakdown)}</div>
             </div>
@@ -1878,6 +2120,9 @@
         </div>
       `;
     }
+
+
+
 
     // 100% Offline Canvas Confetti Particle System
     function launchConfetti() {
@@ -1970,7 +2215,7 @@
         if ('caches' in window) {
           caches.keys().then((keys) => {
             keys.forEach((key) => {
-              if (key !== 'futminna-100l-v8') {
+              if (key !== 'futminna-100l-v10') {
                 console.log('[Cache Cleanup] Removing obsolete cache:', key);
                 caches.delete(key);
               }
@@ -2018,6 +2263,7 @@
         ['DailyBlitz', initDailyBlitz],
         ['CBT', initCBT],
         ['Practice', initPractice],
+        ['Theory', initTheory],
         ['Flashcards', initFlashcards],
         ['MistakeVault', initMistakeVault],
         ['FormulaBible', initFormulaBible],
@@ -2068,6 +2314,7 @@
         // Normalize alias
         if (tabId === 'drills') tabId = 'practice';
         if (tabId === 'home') tabId = 'dashboard';
+        if (tabId === 'notes') tabId = 'theory';
 
         try { AudioFX.click(); } catch(e){}
         topBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-tab') === tabId));
@@ -2167,6 +2414,10 @@
       const sylTitle = document.getElementById('syllabusSectionTitle');
       if (sylTitle) sylTitle.textContent = `${courseCode} Syllabus Topics`;
 
+      // Update Theory title
+      const thTitle = document.getElementById('theoryModuleTitle');
+      if (thTitle) thTitle.textContent = `${courseCode} Core Theory & Foundations`;
+
       // Update Formula Bible Title
       const fbTitle = document.getElementById('formulaBibleTitle');
       if (fbTitle) fbTitle.textContent = `${courseCode} Formula & Shortcuts Bible`;
@@ -2175,6 +2426,7 @@
       initDashboard();
       updateDashboardMetrics();
       initPractice();
+      initTheory();
       initFlashcards();
       initFormulaBible();
       initCourses();
@@ -2747,6 +2999,56 @@
       const cramBox = document.getElementById('cramModeCheckbox');
       const isCram = cramBox && cramBox.checked;
 
+      // Update contextual topic concept briefing
+      const briefingCard = document.getElementById('topicConceptBriefing');
+      const briefingContent = document.getElementById('briefingContent');
+      const briefingTitle = document.getElementById('briefingTopicTitle');
+      const briefingToggleBtn = document.getElementById('btnToggleBriefing');
+      const briefingToggleText = document.getElementById('briefingToggleText');
+
+      if (briefingCard && topic !== 'ALL') {
+        const courseNotes = (window.THEORY_NOTES && window.THEORY_NOTES[state.activeCourse]) || [];
+        const note = courseNotes.find(n => n.topic.toLowerCase() === topic.toLowerCase() || topic.toLowerCase().includes(n.topic.toLowerCase()));
+        if (note) {
+          briefingCard.style.display = 'block';
+          briefingTitle.textContent = `${note.topic} Foundation Briefing (${note.readTime} read)`;
+          briefingContent.innerHTML = `
+            <div style="margin-bottom: 0.65rem; color: #FFF; font-weight: 500; font-size: 0.92rem;">${note.summary}</div>
+            <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 0.65rem;">
+              ${note.concepts.slice(0, 2).map(c => `
+                <div style="background: rgba(0,0,0,0.3); padding: 0.55rem 0.8rem; border-radius: 8px; border-left: 3px solid var(--primary);">
+                  <strong style="color: #A5B4FC; font-size: 0.85rem; display: block; margin-bottom: 0.2rem;">${c.title}</strong>
+                  <div style="font-size: 0.85rem; color: #CBD5E1; line-height: 1.5;">${c.body}</div>
+                </div>
+              `).join('')}
+            </div>
+            ${note.formulas && note.formulas.length ? `
+              <div style="background: rgba(0,0,0,0.35); border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; padding: 0.5rem 0.8rem; margin-bottom: 0.65rem;">
+                <div style="font-size: 0.78rem; font-weight: 700; color: var(--secondary); text-transform: uppercase;">Key Core Formula: ${note.formulas[0].name}</div>
+                <div style="font-size: 1.1rem; color: #FFF; text-align: center; padding: 0.35rem 0;">$$${note.formulas[0].math}$$</div>
+                ${note.formulas[0].tip ? `<div style="font-size: 0.78rem; color: #A5F3FC;">⚡ ${note.formulas[0].tip}</div>` : ''}
+              </div>
+            ` : ''}
+            ${note.traps && note.traps.length ? `
+              <div class="theory-trap-box" style="margin-top: 0.5rem; padding: 0.6rem 0.85rem;">
+                <div class="theory-trap-title">🚨 Key FUTMINNA Exam Trap</div>
+                <div style="font-size: 0.82rem; color: #FECDD3;">${note.traps[0]}</div>
+              </div>
+            ` : ''}
+          `;
+          renderMath(briefingContent);
+          briefingToggleBtn.onclick = () => {
+            const isHidden = briefingContent.style.display === 'none';
+            briefingContent.style.display = isHidden ? 'block' : 'none';
+            briefingToggleText.textContent = isHidden ? '▲ Hide Briefing' : '📖 View Key Rules & Traps ▼';
+          };
+        } else {
+          briefingCard.style.display = 'none';
+        }
+      } else if (briefingCard) {
+        briefingCard.style.display = 'none';
+      }
+
       let qs = topic === 'ALL' ? state.questions : state.questions.filter(q => q.topic === topic);
 
       if (isCram) {
@@ -2955,57 +3257,436 @@
       renderVault();
     }
 
+    // Core Theory & Foundational Micro-Notes
+    function initTheory() {
+      const container = document.getElementById('theoryNotesContainer');
+      const pillsContainer = document.getElementById('theoryTopicPills');
+      const searchInput = document.getElementById('theorySearchInput');
+      if (!container) return;
+
+      const courseNotes = (window.THEORY_NOTES && window.THEORY_NOTES[state.activeCourse]) || [];
+
+      // Render filter pills
+      if (pillsContainer) {
+        let activePill = 'ALL';
+        function renderPills() {
+          pillsContainer.innerHTML = `
+            <button class="theory-pill-btn ${activePill === 'ALL' ? 'active' : ''}" data-topic="ALL">All Topics (${courseNotes.length})</button>
+            ${courseNotes.map(n => `
+              <button class="theory-pill-btn ${activePill === n.topic ? 'active' : ''}" data-topic="${n.topic}">${n.topic}</button>
+            `).join('')}
+          `;
+          pillsContainer.querySelectorAll('.theory-pill-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+              AudioFX.click();
+              activePill = btn.getAttribute('data-topic');
+              renderPills();
+              renderNotes();
+            });
+          });
+        }
+        renderPills();
+
+        function renderNotes() {
+          const query = (searchInput ? searchInput.value : '').toLowerCase().trim();
+          let filtered = courseNotes;
+
+          if (activePill !== 'ALL') {
+            filtered = filtered.filter(n => n.topic === activePill);
+          }
+
+          if (query) {
+            filtered = filtered.filter(n => {
+              return n.topic.toLowerCase().includes(query) ||
+                n.summary.toLowerCase().includes(query) ||
+                n.concepts.some(c => c.title.toLowerCase().includes(query) || c.body.toLowerCase().includes(query)) ||
+                (n.traps && n.traps.some(t => t.toLowerCase().includes(query))) ||
+                (n.formulas && n.formulas.some(f => f.name.toLowerCase().includes(query) || f.math.toLowerCase().includes(query)));
+            });
+          }
+
+          if (filtered.length === 0) {
+            container.innerHTML = `
+              <div class="glass-card" style="text-align: center; padding: 2.5rem 1rem; color: var(--text-muted);">
+                <div style="font-size: 2.2rem; margin-bottom: 0.5rem;">🔍</div>
+                <h3 style="color: #FFF; font-family: var(--font-heading); margin-bottom: 0.25rem;">No matching concepts found</h3>
+                <p style="font-size: 0.88rem;">Try searching for a different formula, law, or keyword.</p>
+              </div>
+            `;
+            return;
+          }
+
+          container.innerHTML = filtered.map(note => {
+            // Count matching questions for this topic
+            const topicQsCount = state.questions.filter(q => q.topic.toLowerCase() === note.topic.toLowerCase() || q.topic.toLowerCase().includes(note.topic.toLowerCase())).length;
+
+            return `
+              <div class="theory-card">
+                <div class="theory-card-header">
+                  <div class="theory-title-group">
+                    <div style="display: flex; align-items: center; gap: 0.5rem;">
+                      <span style="font-size: 1.3rem;">📖</span>
+                      <h3>${note.topic}</h3>
+                      <span class="theory-read-badge">${note.readTime} read</span>
+                    </div>
+                    <p>${note.summary}</p>
+                  </div>
+                  <button class="btn btn-secondary btn-jump-drill" data-topic="${note.topic}" style="padding: 0.4rem 0.85rem; font-size: 0.8rem; border-color: rgba(99,102,241,0.4); color: #A5B4FC;">
+                    ⚡ Practice Drill (${topicQsCount} Qs) →
+                  </button>
+                </div>
+
+                <!-- Core Academic Concepts -->
+                <div style="margin-bottom: 1rem;">
+                  <h4 style="font-family: var(--font-heading); font-size: 0.88rem; color: #94A3B8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.6rem;">
+                    🎯 Fundamental Concepts
+                  </h4>
+                  <div style="display: flex; flex-direction: column; gap: 0.6rem;">
+                    ${note.concepts.map(c => `
+                      <div class="theory-concept-item">
+                        <div class="theory-concept-title">${c.title}</div>
+                        <div class="theory-concept-body">${c.body}</div>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+
+                <!-- Mathematical Formulas & Rules -->
+                ${note.formulas && note.formulas.length ? `
+                  <div style="margin-bottom: 1rem;">
+                    <h4 style="font-family: var(--font-heading); font-size: 0.88rem; color: #94A3B8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.6rem;">
+                      📐 Key Formulas & Theorems
+                    </h4>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.75rem;">
+                      ${note.formulas.map(f => `
+                        <div class="formula-item">
+                          <div class="formula-item-name">${f.name}</div>
+                          <div class="formula-math-display">$$${f.math}$$</div>
+                          ${f.tip ? `<div class="formula-cbt-tip">⚡ ${f.tip}</div>` : ''}
+                        </div>
+                      `).join('')}
+                    </div>
+                  </div>
+                ` : ''}
+
+                <!-- Common FUTMINNA Exam Traps -->
+                ${note.traps && note.traps.length ? `
+                  <div class="theory-trap-box">
+                    <div class="theory-trap-title">
+                      <span>🚨</span> FUTMINNA Exam Pitfalls & Traps
+                    </div>
+                    <ul class="theory-trap-list">
+                      ${note.traps.map(trap => `<li>${trap}</li>`).join('')}
+                    </ul>
+                  </div>
+                ` : ''}
+              </div>
+            `;
+          }).join('');
+
+          // Wire up jump to practice buttons
+          container.querySelectorAll('.btn-jump-drill').forEach(btn => {
+            btn.addEventListener('click', () => {
+              AudioFX.click();
+              const topicName = btn.getAttribute('data-topic');
+              jumpToTopicDrill(topicName);
+            });
+          });
+
+          renderMath(container);
+        }
+
+        if (searchInput) {
+          searchInput.addEventListener('input', () => {
+            renderNotes();
+          });
+        }
+
+        renderNotes();
+      }
+    }
+
+    function jumpToTopicDrill(topicName) {
+      const select = document.getElementById('practiceTopicSelect');
+      if (select) {
+        let matched = '';
+        for (let i = 0; i < select.options.length; i++) {
+          const val = select.options[i].value;
+          if (val.toLowerCase() === topicName.toLowerCase() || val.toLowerCase().includes(topicName.toLowerCase()) || topicName.toLowerCase().includes(val.toLowerCase())) {
+            matched = val;
+            break;
+          }
+        }
+        if (matched) select.value = matched;
+        renderPractice(select.value);
+      }
+      const practiceTabBtn = document.querySelector('.nav-btn[data-tab="practice"]');
+      if (practiceTabBtn) practiceTabBtn.click();
+    }
+
     function initFormulaBible() {
       const grid = document.getElementById('sheetGrid');
+      const searchInput = document.getElementById('formulaSearchInput');
+      if (!grid) return;
+
       let formulas = [];
 
       if (state.activeCourse === 'MAT 101') {
         formulas = [
-          { topic: "SET THEORY", items: ["$n(A \cup B) = n(A) + n(B) - n(A \cap B)$", "Total Subsets: $2^n$ | Proper: $2^n - 1$", "$(A \cup B)' = A' \cap B'$", "$(A \cap B)' = A' \cup B'$"] },
-          { topic: "MAPPING & FUNCTIONS", items: ["$f(x) = \frac{ax+b}{cx+d} \Rightarrow f^{-1}(x) = \frac{-dx+b}{cx-a}$", "Bijective $\Rightarrow$ Invertible (One-to-one & Onto)", "$(f \circ g)(x) = f(g(x))$"] },
-          { topic: "COMPLEX NUMBERS", items: ["$|z| = \sqrt{x^2 + y^2}$", "$z \cdot \bar{z} = x^2 + y^2 = |z|^2$", "$i^{4k} = 1,\; i^{4k+1} = i,\; i^{4k+2} = -1,\; i^{4k+3} = -i$"] },
-          { topic: "INEQUALITIES", items: ["$-ax < b \Rightarrow x > -b/a$ (Sign Flips when divided by negative)", "$|x| \leq a \Rightarrow -a \leq x \leq a$", "$|x| \geq a \Rightarrow x \leq -a \;\text{OR}\; x \geq a$"] },
-          { topic: "SURDS & RADICALS", items: ["$(\sqrt{a} + \sqrt{b})(\sqrt{a} - \sqrt{b}) = a - b$", "Conjugate of $(a + \sqrt{b})$ is $(a - \sqrt{b})$", "Square root trick: square options directly"] },
-          { topic: "INDICES & LOGS", items: ["$\log_b(xy) = \log_b x + \log_b y$", "$\log_b(a) = \frac{\log_c a}{\log_c b}$ (Change of Base)", "$a^0 = 1,\; a^{-n} = \frac{1}{a^n}$"] },
-          { topic: "MATHEMATICAL INDUCTION", items: ["$\sum r = \frac{n(n+1)}{2}$", "$\sum r^2 = \frac{n(n+1)(2n+1)}{6}$", "Test $n = 1$ and $n = 2$ directly into options"] },
-          { topic: "BINOMIAL EXPANSION", items: ["$T_{r+1} = \binom{n}{r} a^{n-r} b^r$", "Sum of coefficients: substitute all variables $= 1$"] },
-          { topic: "MATRICES & DETERMINANTS", items: ["$\det \begin{pmatrix}a & b \\ c & d\end{pmatrix} = ad - bc$", "$A^{-1} = \frac{1}{\det A} \begin{pmatrix}d & -b \\ -c & a\end{pmatrix}$", "Singular matrix $\Rightarrow \det A = 0$"] },
-          { topic: "QUADRATIC EQUATIONS", items: ["$\alpha + \beta = -b/a,\quad \alpha\beta = c/a$", "$\alpha^2 + \beta^2 = (\alpha+\beta)^2 - 2\alpha\beta$", "$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$"] }
+          {
+            topic: "SET THEORY",
+            items: [
+              { name: "Union Cardinality (2 Sets)", math: "n(A \\cup B) = n(A) + n(B) - n(A \\cap B)", tip: "Both = n(A) + n(B) - Total in 100% surveys" },
+              { name: "Three-Set Union Cardinality", math: "n(A \\cup B \\cup C) = \\sum n(A) - \\sum n(A \\cap B) + n(A \\cap B \\cap C)", tip: "Subtract pairwise overlaps, add back the triple overlap" },
+              { name: "Subset & Proper Subset Counting", math: "\\text{Total Subsets} = 2^n, \\quad \\text{Proper Subsets} = 2^n - 1", tip: "Null set \\emptyset is a subset of every set" },
+              { name: "De Morgan's Laws", math: "(A \\cup B)' = A' \\cap B', \\quad (A \\cap B)' = A' \\cup B'", tip: "Complement of union equals intersection of complements" }
+            ]
+          },
+          {
+            topic: "MAPPING & FUNCTIONS",
+            items: [
+              { name: "Linear Fractional Inverse Shortcut", math: "f(x) = \\frac{ax + b}{cx + d} \\implies f^{-1}(x) = \\frac{-dx + b}{cx - a}", tip: "Swap diagonal a & d, negate both signs" },
+              { name: "Invertibility Condition", math: "f^{-1} \\text{ exists} \\iff f \\text{ is Bijective (1-to-1 and Onto)}", tip: "Non-injective functions have no inverse" },
+              { name: "Composite Function & Inversion", math: "(f \\circ g)(x) = f(g(x)), \\quad (f \\circ g)^{-1} = g^{-1} \\circ f^{-1}", tip: "Notice reversed order in composite inverse" },
+              { name: "Direct Value Evaluation Hack", math: "f^{-1}(k) = x \\iff f(x) = k", tip: "Never derive formula when evaluating at a number" }
+            ]
+          },
+          {
+            topic: "COMPLEX NUMBERS",
+            items: [
+              { name: "Modulus & Conjugate Product", math: "|z| = \\sqrt{x^2 + y^2}, \\quad z \\cdot \\bar{z} = x^2 + y^2 = |z|^2", tip: "Product of complex number and conjugate is always real and positive" },
+              { name: "Cyclic Powers of i", math: "i^{4k} = 1, \\quad i^{4k+1} = i, \\quad i^{4k+2} = -1, \\quad i^{4k+3} = -i", tip: "Divide exponent by 4; remainder gives equivalent power" },
+              { name: "De Moivre's Power Theorem", math: "[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)", tip: "Angle is multiplied by n; modulus is raised to power n" },
+              { name: "Complex Division via Conjugate", math: "\\frac{z_1}{z_2} = \\frac{z_1 \\bar{z}_2}{|z_2|^2} = \\frac{(x_1 + iy_1)(x_2 - iy_2)}{x_2^2 + y_2^2}", tip: "Multiply numerator and denominator by denominator's conjugate" }
+            ]
+          },
+          {
+            topic: "INEQUALITIES",
+            items: [
+              { name: "Negative Multiplication Rule", math: "-ax < b \\iff x > -\\frac{b}{a}", tip: "Inequality flips whenever multiplied/divided by negative" },
+              { name: "Sandwich Modulus Inequality", math: "|x| \\le a \\iff -a \\le x \\le a", tip: "Closed interval between negative and positive bound" },
+              { name: "Disjoint Wings Inequality", math: "|x| \\ge a \\iff x \\le -a \\;\\text{or}\\; x \\ge a", tip: "Outer disjoint intervals" },
+              { name: "Rational Inequality Golden Rule", math: "\\frac{P(x)}{Q(x)} \\ge 0 \\implies Q(x) \\neq 0 \\text{ (Never cross-multiply!)}", tip: "Find critical numbers and test intervals on number line" }
+            ]
+          },
+          {
+            topic: "SURDS & RADICALS",
+            items: [
+              { name: "Conjugate Rationalization", math: "(\\sqrt{a} + \\sqrt{b})(\\sqrt{a} - \\sqrt{b}) = a - b", tip: "Conjugate eliminates radicals from denominators" },
+              { name: "Square Root of Binomial Surd", math: "\\sqrt{A \\pm \\sqrt{B}} = \\sqrt{x} \\pm \\sqrt{y} \\quad (x+y=A, \\; xy=B/4)", tip: "Find two numbers whose sum is A and product is B/4" },
+              { name: "Option Squaring Shortcut", math: "(\\text{Option})^2 = A \\pm \\sqrt{B}", tip: "Square each option to find the matching radicand" }
+            ]
+          },
+          {
+            topic: "INDICES & LOGARITHMS",
+            items: [
+              { name: "Logarithm Product & Quotient Laws", math: "\\log_b(xy) = \\log_b x + \\log_b y, \\quad \\log_b(x/y) = \\log_b x - \\log_b y", tip: "Logarithm transforms multiplication into addition" },
+              { name: "Change of Base Theorem", math: "\\log_b(a) = \\frac{\\log_c a}{\\log_c b} = \\frac{1}{\\log_a b}", tip: "Essential for evaluating non-standard bases" },
+              { name: "Exponential Power Laws", math: "a^m \\cdot a^n = a^{m+n}, \\quad (a^m)^n = a^{mn}, \\quad a^{-n} = \\frac{1}{a^n}", tip: "Remember a^0 = 1 for any non-zero base a" }
+            ]
+          },
+          {
+            topic: "MATHEMATICAL INDUCTION",
+            items: [
+              { name: "Sum of First n Natural Numbers", math: "\\sum_{r=1}^n r = 1 + 2 + \\dots + n = \\frac{n(n+1)}{2}", tip: "Test n = 1: 1(2)/2 = 1" },
+              { name: "Sum of First n Squares", math: "\\sum_{r=1}^n r^2 = \\frac{n(n+1)(2n+1)}{6}", tip: "Test n = 1 (1) and n = 2 (1+4=5)" },
+              { name: "Sum of First n Cubes", math: "\\sum_{r=1}^n r^3 = \\left[\\frac{n(n+1)}{2}\\right]^2", tip: "Sum of cubes equals square of sum of integers" }
+            ]
+          },
+          {
+            topic: "BINOMIAL EXPANSION",
+            items: [
+              { name: "General (r+1)-th Term", math: "T_{r+1} = \\binom{n}{r} a^{n-r} b^r = \\frac{n!}{r!(n-r)!} a^{n-r} b^r", tip: "For the 4th term, set r = 3" },
+              { name: "Term Independent of x", math: "x^{\\text{net power}} = x^0 \\implies \\text{Equate net power to 0}", tip: "Solve for integer value of r" },
+              { name: "Sum of All Coefficients", math: "\\sum \\text{Coefficients} = (a+b)^n \\Big|_{a=1, b=1} = 2^n", tip: "Substitute all variable letters equal to 1" }
+            ]
+          },
+          {
+            topic: "MATRICES & DETERMINANTS",
+            items: [
+              { name: "2x2 Determinant Formula", math: "\\det \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = ad - bc", tip: "Matrix is singular if and only if ad - bc = 0" },
+              { name: "2x2 Matrix Inverse", math: "A^{-1} = \\frac{1}{ad - bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}", tip: "Swap main diagonal; negate off-diagonal" },
+              { name: "Scalar Multiplication Property", math: "\\det(kA) = k^n \\det(A) \\quad (\\text{for } n \\times n \\text{ matrix})", tip: "For 3x3 matrix, factor is k^3, not k!" }
+            ]
+          },
+          {
+            topic: "QUADRATIC EQUATIONS",
+            items: [
+              { name: "Sum & Product of Roots (Vieta)", math: "\\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha\\beta = \\frac{c}{a}", tip: "Equation: x^2 - (\\alpha+\\beta)x + (\\alpha\\beta) = 0" },
+              { name: "Symmetric Sum of Squares", math: "\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta", tip: "Sum of cubes: \\alpha^3 + \\beta^3 = (\\alpha+\\beta)^3 - 3\\alpha\\beta(\\alpha+\\beta)" },
+              { name: "Discriminant & Nature of Roots", math: "\\Delta = b^2 - 4ac \\quad (\\Delta > 0: 2\\text{ Real}; \\; \\Delta = 0: \\text{Equal}; \\; \\Delta < 0: \\text{Complex})", tip: "Perfect square discriminant gives rational roots" }
+            ]
+          }
         ];
       } else if (state.activeCourse === 'PHY 101') {
         formulas = [
-          { topic: "UNITS & DIMENSIONS", items: ["Pressure / Stress / Modulus: $[ML^{-1}T^{-2}]$", "Work / Energy / Torque: $[ML^2 T^{-2}]$", "Power: $[ML^2 T^{-3}]$", "Surface Tension: $[MT^{-2}]$", "Viscosity: $[ML^{-1}T^{-1}]$"] },
-          { topic: "VECTORS & COORDINATES", items: ["Resultant: $R = \sqrt{A^2 + B^2 + 2AB\cos\theta}$", "Max: $\theta = 0^\circ \Rightarrow A + B$ | Min: $\theta = 180^\circ \Rightarrow |A - B|$", "Perpendicular: $R = \sqrt{A^2 + B^2}$", "Scalar product: $\mathbf{A} \cdot \mathbf{B} = AB\cos\theta$"] },
-          { topic: "KINEMATICS & MOTION", items: ["$v = u + at,\quad s = ut + \frac{1}{2}at^2$", "$v^2 = u^2 + 2as,\quad s = \frac{u+v}{2}t$", "Max Range: $R_{\max} = \frac{u^2}{g}$ (at $\theta = 45^\circ$)", "Time of Flight: $T = \frac{2u\sin\theta}{g}$"] },
-          { topic: "DYNAMICS & MOMENTUM", items: ["Newton II: $\mathbf{F} = \frac{d\mathbf{p}}{dt} = m\mathbf{a}$", "Impulse: $J = F\Delta t = \Delta p = m(v - u)$", "Conservation: $m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2$", "Inertia $\propto$ Mass"] },
-          { topic: "SPACE-TIME & RELATIVITY", items: ["Principle of Relativity: Physics laws identical in all inertial frames", "Constancy of light speed $c = 3 \times 10^8\text{ m/s}$", "Time dilation: $t = \gamma t_0$ | Length contraction: $L = L_0/\gamma$", "Relativistic factor: $\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$"] }
+          {
+            topic: "UNITS & DIMENSIONS",
+            items: [
+              { name: "Mechanical Dynamics Dimensions", math: "\\text{Force}: [MLT^{-2}], \\quad \\text{Work/Energy/Torque}: [ML^2T^{-2}], \\quad \\text{Power}: [ML^2T^{-3}]", tip: "Work, Energy, and Torque share identical dimensions" },
+              { name: "Fluids & Material Dimensions", math: "\\text{Pressure/Stress}: [ML^{-1}T^{-2}], \\quad \\text{Surface Tension}: [MT^{-2}], \\quad \\text{Viscosity } (\\eta): [ML^{-1}T^{-1}]", tip: "Young's modulus has the same dimensions as pressure" },
+              { name: "Dimensional Homogeneity", math: "A = B + C \\implies [A] = [B] = [C]", tip: "All added or equated physical terms must match dimensions" }
+            ]
+          },
+          {
+            topic: "VECTORS & COORDINATES",
+            items: [
+              { name: "Resultant Magnitude Formula", math: "R = \\sqrt{A^2 + B^2 + 2AB\\cos\\theta}", tip: "Max: \\theta = 0^\\circ (A+B); Min: \\theta = 180^\\circ (|A-B|); Perp: \\theta = 90^\\circ (\\sqrt{A^2+B^2})" },
+              { name: "Scalar (Dot) Product", math: "\\mathbf{A} \\cdot \\mathbf{B} = AB\\cos\\theta = A_x B_x + A_y B_y + A_z B_z", tip: "Vectors are perpendicular if \\mathbf{A} \\cdot \\mathbf{B} = 0" },
+              { name: "Vector (Cross) Product", math: "|\\mathbf{A} \\times \\mathbf{B}| = AB\\sin\\theta", tip: "Vectors are parallel if \\mathbf{A} \\times \\mathbf{B} = \\mathbf{0}" }
+            ]
+          },
+          {
+            topic: "KINEMATICS & MOTION",
+            items: [
+              { name: "Linear Motion Equations (Constant a)", math: "v = u + at, \\quad s = ut + \\frac{1}{2}at^2, \\quad v^2 = u^2 + 2as, \\quad s = \\frac{u+v}{2}t", tip: "Use when acceleration is strictly constant" },
+              { name: "Projectile Time of Flight", math: "T = \\frac{2u\\sin\\theta}{g}", tip: "Time to reach maximum height is T/2" },
+              { name: "Projectile Maximum Height", math: "H = \\frac{u^2\\sin^2\\theta}{2g}", tip: "At apex, vertical velocity v_y = 0" },
+              { name: "Horizontal Range & Maximum", math: "R = \\frac{u^2\\sin 2\\theta}{g}, \\quad R_{\\max} = \\frac{u^2}{g} \\;(\\text{at } \\theta = 45^\\circ)", tip: "Complementary angles (\\theta and 90-\\theta) have equal range" }
+            ]
+          },
+          {
+            topic: "DYNAMICS & MOMENTUM",
+            items: [
+              { name: "Newton's Second Law & Rate of Momentum", math: "\\mathbf{F}_{net} = \\frac{d\\mathbf{p}}{dt} = m\\mathbf{a}", tip: "Force is rate of change of momentum" },
+              { name: "Impulse-Momentum Theorem", math: "J = F\\Delta t = \\Delta p = m(v - u)", tip: "Impulse equals area under Force-Time curve" },
+              { name: "Linear Momentum Conservation", math: "m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2", tip: "Conserved in all collisions without net external force" }
+            ]
+          },
+          {
+            topic: "SPACE-TIME & RELATIVITY",
+            items: [
+              { name: "Lorentz Factor", math: "\\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}}", tip: "Since \\gamma > 1 for v > 0, relativistic effects grow near c" },
+              { name: "Time Dilation (Moving Clocks)", math: "t = \\gamma t_0 = \\frac{t_0}{\\sqrt{1 - v^2/c^2}}", tip: "Moving clocks tick slower as observed from lab frame" },
+              { name: "Length Contraction", math: "L = \\frac{L_0}{\\gamma} = L_0\\sqrt{1 - v^2/c^2}", tip: "Contraction occurs solely along direction of motion" },
+              { name: "Mass-Energy Equivalence", math: "E = mc^2 = \\gamma m_0 c^2", tip: "Rest energy is E_0 = m_0 c^2" }
+            ]
+          }
         ];
       } else if (state.activeCourse === 'CHM 111') {
         formulas = [
-          { topic: "THERMODYNAMICS", items: ["$\Delta G = \Delta H - T\Delta S$ (Gibbs Free Energy)", "$\Delta G < 0$: Spontaneous | $\Delta G = 0$: Equilibrium | $\Delta G > 0$: Non-spontaneous", "At equilibrium: $T_{\text{eq}} = \frac{\Delta H}{\Delta S}$", "First Law: $\Delta U = q + w,\; w = -P\Delta V$"] },
-          { topic: "CHEMICAL EQUILIBRIUM", items: ["$\Delta G^\circ = -RT\ln K$", "$K_p = K_c(RT)^{\Delta n_{\text{gas}}}$", "Le Chatelier: Pressure shift favors side with fewer gas moles", "Catalyst: Accelerates rate; NEVER changes equilibrium constant $K$!"] },
-          { topic: "CHEMICAL KINETICS", items: ["Arrhenius Equation: $k = A e^{-E_a/RT}$", "$\ln\left(\frac{k_2}{k_1}\right) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$", "Rate Law: $\text{Rate} = k[A]^m [B]^n$", "Zero Order: $[A] = [A]_0 - kt$ | First Order: $t_{1/2} = \frac{0.693}{k}$"] },
-          { topic: "ACIDS, BASES & BUFFERS", items: ["$\text{pH} = -\log[H^+],\quad \text{pH} + \text{pOH} = 14$", "Henderson-Hasselbalch: $\text{pH} = \text{p}K_a + \log\frac{[A^-]}{[HA]}$", "Buffer capacity maximal when $[A^-] = [HA] \;(\text{pH} = \text{p}K_a)$", "$K_w = [H^+][OH^-] = 1.0 \times 10^{-14}$ at $25^\circ\text{C}$"] }
+          {
+            topic: "THERMODYNAMICS",
+            items: [
+              { name: "Gibbs Free Energy & Spontaneity", math: "\\Delta G = \\Delta H - T\\Delta S", tip: "\\Delta G < 0: Spontaneous; \\Delta G = 0: Equilibrium; \\Delta G > 0: Non-spontaneous" },
+              { name: "Equilibrium Transition Temperature", math: "T_{\\text{eq}} = \\frac{\\Delta H}{\\Delta S}", tip: "Ensure \\Delta H (J) and \\Delta S (J/K) use identical energy units" },
+              { name: "First Law of Thermodynamics", math: "\\Delta U = q + w, \\quad w = -P\\Delta V", tip: "Expansion work done BY system is negative" }
+            ]
+          },
+          {
+            topic: "CHEMICAL EQUILIBRIUM",
+            items: [
+              { name: "Standard Free Energy & Equilibrium Constant", math: "\\Delta G^\\circ = -RT\\ln K", tip: "K > 1 \\implies \\Delta G^\\circ < 0 (products favored at equilibrium)" },
+              { name: "Kp to Kc Gas Relationship", math: "K_p = K_c(RT)^{\\Delta n_g}", tip: "\\Delta n_g = moles of gas products - moles of gas reactants" },
+              { name: "Le Chatelier Pressure Rule", math: "\\text{Increase } P \\implies \\text{Shift toward fewer gas moles}", tip: "If \\Delta n_g = 0, pressure changes do not shift equilibrium" }
+            ]
+          },
+          {
+            topic: "CHEMICAL KINETICS",
+            items: [
+              { name: "Arrhenius Equation (Exponential & Linear)", math: "k = A e^{-E_a/RT} \\iff \\ln k = \\ln A - \\frac{E_a}{RT}", tip: "Slope of \\ln k vs 1/T plot equals -E_a / R" },
+              { name: "Two-Temperature Arrhenius Ratio", math: "\\ln\\left(\\frac{k_2}{k_1}\\right) = \\frac{E_a}{R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)", tip: "Ensure temperatures are in Kelvin (K = ^\\circ C + 273)" },
+              { name: "First Order Integrated Half-Life", math: "t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}", tip: "First order half-life is completely independent of initial concentration" }
+            ]
+          },
+          {
+            topic: "ACIDS, BASES & BUFFERS",
+            items: [
+              { name: "pH Scale & Auto-Ionization of Water", math: "\\text{pH} = -\\log[H^+], \\quad \\text{pH} + \\text{pOH} = 14 \\; (25^\\circ\\text{C})", tip: "K_w = [H^+][OH^-] = 1.0 \\times 10^{-14}" },
+              { name: "Henderson-Hasselbalch Buffer Equation", math: "\\text{pH} = \\text{p}K_a + \\log\\frac{[\\text{Conjugate Base}]}{[\\text{Weak Acid}]}", tip: "Max buffer capacity occurs when [Base] = [Acid], giving pH = pKa" }
+            ]
+          }
         ];
       } else if (state.activeCourse === 'CHM 191') {
         formulas = [
-          { topic: "VOLUMETRIC ANALYSIS", items: ["$\frac{C_a V_a}{n_a} = \frac{C_b V_b}{n_b}$", "$\text{Molarity } (M) = \frac{\text{moles}}{\text{Volume } (\text{dm}^3)}$", "$\text{Mass Conc } (\text{g/dm}^3) = M \times \text{Molar Mass } (\text{g/mol})$", "Dilution Law: $C_1 V_1 = C_2 V_2$"] },
-          { topic: "PRIMARY STANDARDS", items: ["High purity ($\geq 99.9\%$)", "High molar mass (minimizes weighing error)", "Non-hygroscopic & air-stable", "Examples: Anhydrous $\text{Na}_2\text{CO}_3$, Potassium hydrogen phthalate (KHP), Oxalic acid"] },
-          { topic: "INDICATOR RULES", items: ["Strong Acid + Strong Base: Methyl Orange or Phenolphthalein", "Strong Acid + Weak Base: Methyl Orange (acidic transition pH 3.1–4.4)", "Weak Acid + Strong Base: Phenolphthalein (alkaline transition pH 8.3–10.0)", "Weak Acid + Weak Base: NEVER titrate (indistinct endpoint)"] },
-          { topic: "LAB TECHNIQUES & MENISCUS", items: ["Clear solutions (water, acid): Read BOTTOM of concave meniscus at eye level", "Dark solutions ($\text{KMnO}_4$): Read TOP of meniscus", "Eliminate parallax: Eye level strictly perpendicular to graduation line", "Wash bottles: Use distilled water only for rinsing volumetric apparatus"] }
+          {
+            topic: "VOLUMETRIC ANALYSIS",
+            items: [
+              { name: "Fundamental Titration Equivalence", math: "\\frac{C_a V_a}{n_a} = \\frac{C_b V_b}{n_b}", tip: "n_a and n_b are stoichiometric mole coefficients from balanced equation" },
+              { name: "Mass Concentration & Molarity", math: "\\text{Mass Conc } (\\text{g/dm}^3) = \\text{Molarity } (\\text{mol/dm}^3) \\times \\text{Molar Mass } (\\text{g/mol})", tip: "1 dm^3 = 1000 cm^3" },
+              { name: "Dilution Law", math: "C_1 V_1 = C_2 V_2", tip: "Total moles of solute remain constant upon dilution" }
+            ]
+          },
+          {
+            topic: "PRIMARY STANDARDS",
+            items: [
+              { name: "Criteria for Primary Standard", math: "\\text{Purity } \\ge 99.9\\%, \\quad \\text{High Molar Mass}, \\quad \\text{Non-Hygroscopic}", tip: "High molar mass minimizes weighing percentage error" },
+              { name: "Common Standard Substances", math: "\\text{Primary: } \\text{Na}_2\\text{CO}_3, \\; \\text{KHP}, \\; \\text{Oxalic acid}; \\quad \\text{Secondary: } \\text{NaOH}, \\; \\text{HCl}", tip: "NaOH absorbs moisture and CO_2; must be standardized" }
+            ]
+          },
+          {
+            topic: "INDICATOR RULES",
+            items: [
+              { name: "Strong Acid + Strong Base", math: "\\text{Methyl Orange (pH 3.1–4.4) OR Phenolphthalein (pH 8.3–10.0)}", tip: "Steep vertical pH transition allows either indicator" },
+              { name: "Strong Acid + Weak Base", math: "\\text{Methyl Orange ONLY (Equivalence pH } \\approx 3.8, \\text{ Red } \\to \\text{ Orange/Yellow)}", tip: "Salt hydrolysis makes equivalence point acidic" },
+              { name: "Weak Acid + Strong Base", math: "\\text{Phenolphthalein ONLY (Equivalence pH } \\approx 8.7, \\text{ Colorless } \\to \\text{ Pink)}", tip: "Salt hydrolysis makes equivalence point basic" }
+            ]
+          },
+          {
+            topic: "LAB TECHNIQUES & MENISCUS",
+            items: [
+              { name: "Meniscus Observation Rules", math: "\\text{Clear/Colorless: Read BOTTOM of concave}; \\quad \\text{Dark/Opaque (}\\text{KMnO}_4\\text{): Read TOP}", tip: "Observer's eye must be strictly perpendicular to graduation line" },
+              { name: "Rinsing Protocols", math: "\\text{Burette/Pipette: Rinse with solution}; \\quad \\text{Conical Flask: Distilled Water ONLY}", tip: "Rinsing conical flask with solution changes pipetted mole count" }
+            ]
+          }
         ];
       }
 
-      grid.innerHTML = formulas.map(f => `
-        <div class="topic-card">
-          <div class="topic-title" style="color: var(--secondary); margin-bottom: 0.6rem;">⚡ ${f.topic}</div>
-          <div style="display: flex; flex-direction: column; gap: 0.4rem;">
-            ${f.items.map(i => `<div style="background: rgba(0,0,0,0.3); padding: 0.4rem 0.65rem; border-radius: 6px; font-family: var(--font-mono); font-size: 0.85rem; color: #E2E8F0;">${i}</div>`).join('')}
-          </div>
-        </div>
-      `).join('');
+      function renderBible() {
+        const query = (searchInput ? searchInput.value : '').toLowerCase().trim();
+        let filtered = formulas;
 
-      renderMath(grid);
+        if (query) {
+          filtered = filtered.map(group => {
+            const matchedItems = group.items.filter(i => {
+              return i.name.toLowerCase().includes(query) ||
+                i.math.toLowerCase().includes(query) ||
+                (i.tip && i.tip.toLowerCase().includes(query)) ||
+                group.topic.toLowerCase().includes(query);
+            });
+            return { topic: group.topic, items: matchedItems };
+          }).filter(group => group.items.length > 0);
+        }
+
+        if (filtered.length === 0) {
+          grid.innerHTML = `
+            <div class="glass-card" style="grid-column: 1 / -1; text-align: center; padding: 2.5rem 1rem; color: var(--text-muted);">
+              <div style="font-size: 2.2rem; margin-bottom: 0.5rem;">🔍</div>
+              <h3 style="color: #FFF; font-family: var(--font-heading); margin-bottom: 0.25rem;">No formulas matched "${query}"</h3>
+              <p style="font-size: 0.88rem;">Search for terms like "integral", "derivative", "le chatelier", "de moivre", or "meniscus".</p>
+            </div>
+          `;
+          return;
+        }
+
+        grid.innerHTML = filtered.map(f => `
+          <div class="formula-card">
+            <div class="formula-topic-header">
+              <span class="formula-topic-title">⚡ ${f.topic}</span>
+              <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 600;">${f.items.length} Rules</span>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+              ${f.items.map(i => `
+                <div class="formula-item">
+                  <div class="formula-item-name">${i.name}</div>
+                  <div class="formula-math-display">$$${i.math}$$</div>
+                  ${i.tip ? `<div class="formula-cbt-tip">⚡ ${i.tip}</div>` : ''}
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `).join('');
+
+        renderMath(grid);
+      }
+
+      if (searchInput) {
+        searchInput.addEventListener('input', () => {
+          renderBible();
+        });
+      }
+
+      renderBible();
     }
 
     // 30-Day Plan

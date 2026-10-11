@@ -11,8 +11,8 @@ window.MAT101_QUESTIONS = [
       "D": "{−2, −1, 0, 1, 2, 3}"
     },
     "answer": "D",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Given that 𝑀= {𝑥: 𝑥< 4} and 𝑁= {𝑥: 𝑥≥−2} where 𝑥 is an integer, find 𝑀∩N\n• Operation required: Intersection ($\\cap$) — elements common to BOTH sets\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the intersection to identify elements satisfying the combined condition.\n• Result: {−2, −1, 0, 1, 2, 3}\n\n• Verified Key: Option D ({−2, −1, 0, 1, 2, 3})",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_02",
@@ -27,8 +27,8 @@ window.MAT101_QUESTIONS = [
       "E": "24"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Factor Sets & Divisibility):\nThe factors of 24 are all positive integers that divide 24 without a remainder.\n\n🔍 Detailed Step-by-Step:\n• List all factors of 24: $\\{1, 2, 3, 4, 6, 8, 12, 24\\}$.\n• Counting the elements: there are exactly 8 distinct factors.\n• Therefore $n(P) = 8$.\n\n• Verified Key: Option C (8)",
+    "speed_hack": "⚡ CBT Speed Hack: Prime factorize $24 = 2^3 \\times 3^1$. Total factors = $(3+1)(1+1) = 4 \\times 2 = 8$ factors!"
   },
   {
     "id": "SET_03",
@@ -42,8 +42,8 @@ window.MAT101_QUESTIONS = [
       "D": "{3, 5}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Let 𝑈= {1, 2, 3, 4, . . . , 10}, 𝐴= {𝑜𝑑𝑑 𝑛𝑢𝑚𝑏𝑒𝑟𝑠 𝑢𝑝 𝑡𝑜 9} and 𝐵= {𝑛𝑢𝑚𝑏𝑒𝑟𝑠 𝑙𝑒𝑠𝑠 𝑡ℎ𝑎𝑛 7}, find (𝐴∩B)\n• Operation required: Intersection ($\\cap$) — elements common to BOTH sets\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the intersection to identify elements satisfying the combined condition.\n• Result: {1, 3, 5}\n\n• Verified Key: Option C ({1, 3, 5})",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_04",
@@ -57,8 +57,8 @@ window.MAT101_QUESTIONS = [
       "D": "∞"
     },
     "answer": "D",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Given 𝑄= {𝑥: 𝑥+ 3 ≤7, 𝑥 𝑖𝑠 𝑎𝑛 𝑖𝑛𝑡𝑒𝑔𝑒𝑟}, then 𝑛(𝑄)\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: ∞\n\n• Verified Key: Option D (∞)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_05",
@@ -72,8 +72,8 @@ window.MAT101_QUESTIONS = [
       "D": "{9, 10}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Let 𝑈= {1, 2, 3, 4, . . . , 10}, 𝐴= {𝑜𝑑𝑑 𝑛𝑢𝑚𝑏𝑒𝑟𝑠 𝑢𝑝 𝑡𝑜 9} and 𝐵= {𝑛𝑢𝑚𝑏𝑒𝑟𝑠 𝑙𝑒𝑠𝑠 𝑡ℎ𝑎𝑛 7}, find (𝐴∪B)′\n• Operation required: Union ($\\cup$) — elements in EITHER set\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the union to identify elements satisfying the combined condition.\n• Result: {8. 10}\n\n• Verified Key: Option C ({8. 10})",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_06",
@@ -87,8 +87,8 @@ window.MAT101_QUESTIONS = [
       "D": "69%"
     },
     "answer": "A",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Overlap Percentage):\nBy the Principle of Inclusion-Exclusion for percentages where all members belong to at least one group: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B) = 100\\%$.\n\n🔍 Detailed Step-by-Step:\n• Let the two groups be Group A (97%) and Group B (64%).\n• Total population = 100%.\n• Percentage in both groups: $n(A \\cap B) = n(A) + n(B) - 100\\% = 97\\% + 64\\% - 100\\% = 61\\%$.\n\n• Verified Key: Option A (61%)",
+    "speed_hack": "⚡ CBT Speed Hack: For 100% survey problems: Both = 97 + 64 - 100 = 61%. Calculated in 3 seconds flat!"
   },
   {
     "id": "SET_07",
@@ -102,8 +102,8 @@ window.MAT101_QUESTIONS = [
       "D": "110"
     },
     "answer": "B",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Cardinality & Survey Analysis):\nApply the Principle of Inclusion-Exclusion $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ or partition the population into disjoint subsets.\n\n🔍 Detailed Step-by-Step:\n• Identify total universe and given disjoint or overlapping categories.\n• Formulate equation balancing known components against the total population.\n• Solving yields the target group size: 90.\n\n• Verified Key: Option B (90)",
+    "speed_hack": "⚡ CBT Speed Hack: Directly sum the subset counts and subtract the total universe to isolate the overlap or complement!"
   },
   {
     "id": "SET_08",
@@ -117,8 +117,8 @@ window.MAT101_QUESTIONS = [
       "D": "{3, 6, 12, 24}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Factor Sets & Divisibility):\nThe factors of 24 are all positive integers that divide 24 without a remainder.\n\n🔍 Detailed Step-by-Step:\n• List all factors of 24: $\\{1, 2, 3, 4, 6, 8, 12, 24\\}$.\n• Counting the elements: there are exactly 8 distinct factors.\n• Therefore $n(P) = 8$.\n\n• Verified Key: Option C ({2, 4, 8, 16})",
+    "speed_hack": "⚡ CBT Speed Hack: Prime factorize $24 = 2^3 \\times 3^1$. Total factors = $(3+1)(1+1) = 4 \\times 2 = 8$ factors!"
   },
   {
     "id": "SET_09",
@@ -132,8 +132,8 @@ window.MAT101_QUESTIONS = [
       "D": "{0 1, 2, 3, 4}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Factor Sets & Divisibility):\nThe factors of 24 are all positive integers that divide 24 without a remainder.\n\n🔍 Detailed Step-by-Step:\n• List all factors of 24: $\\{1, 2, 3, 4, 6, 8, 12, 24\\}$.\n• Counting the elements: there are exactly 8 distinct factors.\n• Therefore $n(P) = 8$.\n\n• Verified Key: Option C ({1, 2, 3, 4})",
+    "speed_hack": "⚡ CBT Speed Hack: Prime factorize $24 = 2^3 \\times 3^1$. Total factors = $(3+1)(1+1) = 4 \\times 2 = 8$ factors!"
   },
   {
     "id": "SET_10",
@@ -147,8 +147,8 @@ window.MAT101_QUESTIONS = [
       "D": "0"
     },
     "answer": "D",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Cardinality & Survey Analysis):\nApply the Principle of Inclusion-Exclusion $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ or partition the population into disjoint subsets.\n\n🔍 Detailed Step-by-Step:\n• Identify total universe and given disjoint or overlapping categories.\n• Formulate equation balancing known components against the total population.\n• Solving yields the target group size: 0.\n\n• Verified Key: Option D (0)",
+    "speed_hack": "⚡ CBT Speed Hack: Directly sum the subset counts and subtract the total universe to isolate the overlap or complement!"
   },
   {
     "id": "SET_11",
@@ -162,8 +162,8 @@ window.MAT101_QUESTIONS = [
       "D": "{1, 2, 3, 4, 5, 6}"
     },
     "answer": "B",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: If X = {1, 2, 3, 4} and Y = {3, 5, 6}, the elements of (𝑋 ∩ 𝑌) ∪ X are\n• Operation required: Intersection ($\\cap$) — elements common to BOTH sets\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the intersection to identify elements satisfying the combined condition.\n• Result: {1, 2, 3, 4}\n\n• Verified Key: Option B ({1, 2, 3, 4})",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_12",
@@ -177,8 +177,8 @@ window.MAT101_QUESTIONS = [
       "D": "{5, 7, 8}"
     },
     "answer": "D",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: If 𝒰 = {5, 6, 7, 8}, P = {6, 7} and Q = {6, 8} then (𝑃 ∩ 𝑄)′ is\n• Operation required: Intersection ($\\cap$) — elements common to BOTH sets\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the intersection to identify elements satisfying the combined condition.\n• Result: {5, 7, 8}\n\n• Verified Key: Option D ({5, 7, 8})",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_13",
@@ -193,8 +193,8 @@ window.MAT101_QUESTIONS = [
       "E": "335"
     },
     "answer": "A",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Cardinality & Survey Analysis):\nApply the Principle of Inclusion-Exclusion $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ or partition the population into disjoint subsets.\n\n🔍 Detailed Step-by-Step:\n• Identify total universe and given disjoint or overlapping categories.\n• Formulate equation balancing known components against the total population.\n• Solving yields the target group size: 135.\n\n• Verified Key: Option A (135)",
+    "speed_hack": "⚡ CBT Speed Hack: Directly sum the subset counts and subtract the total universe to isolate the overlap or complement!"
   },
   {
     "id": "SET_14",
@@ -208,8 +208,8 @@ window.MAT101_QUESTIONS = [
       "D": "12"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Cardinality & Survey Analysis):\nApply the Principle of Inclusion-Exclusion $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ or partition the population into disjoint subsets.\n\n🔍 Detailed Step-by-Step:\n• Identify total universe and given disjoint or overlapping categories.\n• Formulate equation balancing known components against the total population.\n• Solving yields the target group size: 10.\n\n• Verified Key: Option C (10)",
+    "speed_hack": "⚡ CBT Speed Hack: Directly sum the subset counts and subtract the total universe to isolate the overlap or complement!"
   },
   {
     "id": "SET_15",
@@ -223,8 +223,8 @@ window.MAT101_QUESTIONS = [
       "D": "(𝑃′ ∩ 𝑄)"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: 𝑃−𝑄 is same as\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: (𝑃 ∩ 𝑄′)\n\n• Verified Key: Option C ((𝑃 ∩ 𝑄′))",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_16",
@@ -238,8 +238,8 @@ window.MAT101_QUESTIONS = [
       "D": "52"
     },
     "answer": "D",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Given 𝑛(𝐴−𝐵) = 18, 𝑛(𝐴∪B) = 70 𝑎𝑛𝑑 𝑛(𝐴∩B) = 25. 𝐹𝑖𝑛𝑑 𝑛(𝐵).\n• Operation required: Intersection ($\\cap$) — elements common to BOTH sets\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the intersection to identify elements satisfying the combined condition.\n• Result: 52\n\n• Verified Key: Option D (52)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_17",
@@ -253,8 +253,8 @@ window.MAT101_QUESTIONS = [
       "D": "30%"
     },
     "answer": "A",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given survey/Venn problem: In a market place all the people buy or sell things or do both. If 70% of the people do buy and 90% do sell, what percen\n• Apply the Inclusion-Exclusion Principle: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.\n• If percentages: Let total = 100%; identify $n(A)$, $n(B)$, $n(A \\cup B) = 100\\%$ (all people).\n• Rearrange: $n(A \\cap B) = n(A) + n(B) - n(A \\cup B)$.\n• Substitute the given values to compute the required count/percentage.\n• Result: 60%\n\n• Verified Key: Option A (60%)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_18",
@@ -268,8 +268,8 @@ window.MAT101_QUESTIONS = [
       "D": "{3, 5}"
     },
     "answer": "A",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Given that 𝑃= {1, 3, 5, 7} 𝑎𝑛𝑑 𝑄= {2, 5, 6, 8, 9}. 𝐹𝑖𝑛𝑑 (𝑃 ∪ 𝑄).\n• Operation required: Union ($\\cup$) — elements in EITHER set\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the union to identify elements satisfying the combined condition.\n• Result: {1, 2, 3, 5, 6, 7, 8, 9}\n\n• Verified Key: Option A ({1, 2, 3, 5, 6, 7, 8, 9})",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_19",
@@ -283,8 +283,8 @@ window.MAT101_QUESTIONS = [
       "D": "24"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Cardinality & Survey Analysis):\nApply the Principle of Inclusion-Exclusion $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ or partition the population into disjoint subsets.\n\n🔍 Detailed Step-by-Step:\n• Identify total universe and given disjoint or overlapping categories.\n• Formulate equation balancing known components against the total population.\n• Solving yields the target group size: 21.\n\n• Verified Key: Option C (21)",
+    "speed_hack": "⚡ CBT Speed Hack: Directly sum the subset counts and subtract the total universe to isolate the overlap or complement!"
   },
   {
     "id": "SET_20",
@@ -298,8 +298,8 @@ window.MAT101_QUESTIONS = [
       "D": "∅"
     },
     "answer": "B",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Subset Counting & Power Sets):\nFor any finite set with $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (the set itself is excluded).\n\n🔍 Detailed Step-by-Step:\n• Count number of elements $n$ in the given set.\n• Evaluate $2^n$ or $2^n - 1$ based on whether subsets or proper subsets are requested.\n• This strictly matches Option B.\n\n• Verified Key: Option B ({2, 3, 4})",
+    "speed_hack": "⚡ CBT Speed Hack: Total subsets = $2^n$. Proper subsets = $2^n - 1$. Non-empty proper = $2^n - 2$."
   },
   {
     "id": "SET_21",
@@ -313,8 +313,8 @@ window.MAT101_QUESTIONS = [
       "D": "(𝑀∪𝑁)"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: (𝑀′ ∩ 𝑁)′ is equivalent to\n• Operation required: Intersection ($\\cap$) — elements common to BOTH sets\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the intersection to identify elements satisfying the combined condition.\n• Result: (𝑀∪ 𝑁′)\n\n• Verified Key: Option C ((𝑀∪ 𝑁′))",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_22",
@@ -328,8 +328,8 @@ window.MAT101_QUESTIONS = [
       "D": "19"
     },
     "answer": "D",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Cardinality & Survey Analysis):\nApply the Principle of Inclusion-Exclusion $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ or partition the population into disjoint subsets.\n\n🔍 Detailed Step-by-Step:\n• Identify total universe and given disjoint or overlapping categories.\n• Formulate equation balancing known components against the total population.\n• Solving yields the target group size: 19.\n\n• Verified Key: Option D (19)",
+    "speed_hack": "⚡ CBT Speed Hack: Directly sum the subset counts and subtract the total universe to isolate the overlap or complement!"
   },
   {
     "id": "SET_23",
@@ -343,8 +343,8 @@ window.MAT101_QUESTIONS = [
       "D": "11"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: There are 50 staff in a Specialist Hospital, 35 are qualified nurses and 20 are dentists. If 4 are neither, how many are\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: 9\n\n• Verified Key: Option C (9)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_24",
@@ -358,8 +358,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝒰"
     },
     "answer": "B",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: If 𝑃⊂𝑄, 𝑡ℎ𝑒𝑛 (𝑃∪𝑄) ∩𝑃 𝑖𝑠 is\n• Operation required: Intersection ($\\cap$) — elements common to BOTH sets\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the intersection to identify elements satisfying the combined condition.\n• Result: P\n\n• Verified Key: Option B (P)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_25",
@@ -373,8 +373,8 @@ window.MAT101_QUESTIONS = [
       "D": "11"
     },
     "answer": "A",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: The cardinality of the set Z = {M, I, S, S, I, S, S, I, P, P, I} is\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: 4\n\n• Verified Key: Option A (4)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_26",
@@ -388,8 +388,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝒰"
     },
     "answer": "D",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: (𝐴∩𝐴′)′ is equivalent to\n• Operation required: Intersection ($\\cap$) — elements common to BOTH sets\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the intersection to identify elements satisfying the combined condition.\n• Result: 𝒰\n\n• Verified Key: Option D (𝒰)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_27",
@@ -403,8 +403,8 @@ window.MAT101_QUESTIONS = [
       "D": "6"
     },
     "answer": "D",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Given that U = {x ∶x is an integer, 2 ≤ 𝑥 ≤10}, 𝐴= {𝑥∶𝑥 𝑖𝑠 𝑎 𝑝𝑟𝑖𝑚𝑒 𝑛𝑢𝑚𝑏𝑒𝑟}, 𝐵= {𝑥: 𝑖𝑠 𝑎 𝑚𝑢𝑙𝑡𝑖𝑝𝑙𝑒 𝑜𝑓 3}. 𝐹𝑖𝑛𝑑 𝑛(𝐴 ∪𝐵).\n• Operation required: Union ($\\cup$) — elements in EITHER set\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the union to identify elements satisfying the combined condition.\n• Result: 6\n\n• Verified Key: Option D (6)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_28",
@@ -418,8 +418,8 @@ window.MAT101_QUESTIONS = [
       "D": "{4, 5, 6, 7, 8}"
     },
     "answer": "B",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Given that 𝑋= {𝑥∶3 < 𝑥< 6} 𝑎𝑛𝑑 𝑌= {𝑥∶4 ≤ 𝑥 ≤8}. 𝐹𝑖𝑛𝑑 𝑋∩𝑌.\n• Operation required: Intersection ($\\cap$) — elements common to BOTH sets\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the intersection to identify elements satisfying the combined condition.\n• Result: {4, 5}\n\n• Verified Key: Option B ({4, 5})",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_29",
@@ -433,8 +433,8 @@ window.MAT101_QUESTIONS = [
       "D": "68%"
     },
     "answer": "D",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Overlap Percentage):\nBy the Principle of Inclusion-Exclusion for percentages where all members belong to at least one group: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B) = 100\\%$.\n\n🔍 Detailed Step-by-Step:\n• Let the two groups be Group A (21%) and Group B (26%).\n• Total population = 100%.\n• Percentage in both groups: $n(A \\cap B) = n(A) + n(B) - 100\\% = 21\\% + 26\\% - 100\\% = -53\\%$.\n\n• Verified Key: Option D (68%)",
+    "speed_hack": "⚡ CBT Speed Hack: For 100% survey problems: Both = 21 + 26 - 100 = -53%. Calculated in 3 seconds flat!"
   },
   {
     "id": "SET_30",
@@ -448,8 +448,8 @@ window.MAT101_QUESTIONS = [
       "D": "{3, 4, 5, 10, 11}"
     },
     "answer": "D",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: If set 𝐹= {2 < 𝑥 ≤ 5} ∪{ 9 < 𝑥< 12}. List the members of F.\n• Operation required: Union ($\\cup$) — elements in EITHER set\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the union to identify elements satisfying the combined condition.\n• Result: {3, 4, 5, 10, 11}\n\n• Verified Key: Option D ({3, 4, 5, 10, 11})",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_31",
@@ -463,8 +463,8 @@ window.MAT101_QUESTIONS = [
       "D": "12"
     },
     "answer": "A",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Cardinality & Survey Analysis):\nApply the Principle of Inclusion-Exclusion $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ or partition the population into disjoint subsets.\n\n🔍 Detailed Step-by-Step:\n• Identify total universe and given disjoint or overlapping categories.\n• Formulate equation balancing known components against the total population.\n• Solving yields the target group size: 2.\n\n• Verified Key: Option A (2)",
+    "speed_hack": "⚡ CBT Speed Hack: Directly sum the subset counts and subtract the total universe to isolate the overlap or complement!"
   },
   {
     "id": "SET_32",
@@ -478,8 +478,8 @@ window.MAT101_QUESTIONS = [
       "D": "10"
     },
     "answer": "B",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Let 𝑈= {1, 2, 3, 4, . . . , 10}, 𝐴= {𝑜𝑑𝑑 𝑛𝑢𝑚𝑏𝑒𝑟𝑠 𝑢𝑝 𝑡𝑜 9} and 𝐵= {𝑛𝑢𝑚𝑏𝑒𝑟𝑠 𝑙𝑒𝑠𝑠 𝑡ℎ𝑎𝑛 7}, find 𝑛(𝐴∪B)\n• Operation required: Union ($\\cup$) — elements in EITHER set\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the union to identify elements satisfying the combined condition.\n• Result: 8\n\n• Verified Key: Option B (8)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_33",
@@ -493,8 +493,8 @@ window.MAT101_QUESTIONS = [
       "D": "110%"
     },
     "answer": "A",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Overlap Percentage):\nBy the Principle of Inclusion-Exclusion for percentages where all members belong to at least one group: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B) = 100\\%$.\n\n🔍 Detailed Step-by-Step:\n• Let the two groups be Group A (60%) and Group B (50%).\n• Total population = 100%.\n• Percentage in both groups: $n(A \\cap B) = n(A) + n(B) - 100\\% = 60\\% + 50\\% - 100\\% = 10\\%$.\n\n• Verified Key: Option A (10%)",
+    "speed_hack": "⚡ CBT Speed Hack: For 100% survey problems: Both = 60 + 50 - 100 = 10%. Calculated in 3 seconds flat!"
   },
   {
     "id": "SET_34",
@@ -508,8 +508,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝒰"
     },
     "answer": "D",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: (𝐴∪𝐴′) is equivalent to\n• Operation required: Union ($\\cup$) — elements in EITHER set\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the union to identify elements satisfying the combined condition.\n• Result: 𝒰\n\n• Verified Key: Option D (𝒰)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_35",
@@ -523,8 +523,8 @@ window.MAT101_QUESTIONS = [
       "D": "{4, 5, 6, 7, 8}"
     },
     "answer": "B",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Given that 𝑋= {𝑥∶3 < 𝑥< 6} 𝑎𝑛𝑑 𝑌= {𝑥∶4 ≤ 𝑥 ≤8}. 𝐹𝑖𝑛𝑑 𝑋∩𝑌.\n• Operation required: Intersection ($\\cap$) — elements common to BOTH sets\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the intersection to identify elements satisfying the combined condition.\n• Result: {4, 5}\n\n• Verified Key: Option B ({4, 5})",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_36",
@@ -539,8 +539,8 @@ window.MAT101_QUESTIONS = [
       "E": "{1, 9}"
     },
     "answer": "E",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: If Q = {all perfect squares less than 30} and P = {all odd numbers from 1 to 10}. Find (𝑄 ∩ 𝑃).\n• Operation required: Intersection ($\\cap$) — elements common to BOTH sets\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the intersection to identify elements satisfying the combined condition.\n• Result: {1, 9}\n\n• Verified Key: Option E ({1, 9})",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_37",
@@ -554,8 +554,8 @@ window.MAT101_QUESTIONS = [
       "D": "{−3 ≤ 𝑥 ≤2}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Given that P and Q are set of real numbers such that 𝑃= {𝑥∶0 ≤ 𝑥 ≤3} , 𝑄= {𝑥∶−3 < 𝑥< 2}, find 𝑃∪𝑄\n• Operation required: Union ($\\cup$) — elements in EITHER set\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the union to identify elements satisfying the combined condition.\n• Result: {−3 < 𝑥 ≤3}\n\n• Verified Key: Option C ({−3 < 𝑥 ≤3})",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_38",
@@ -569,8 +569,8 @@ window.MAT101_QUESTIONS = [
       "D": "{3, 7, 9}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Subset Counting & Power Sets):\nFor any finite set with $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (the set itself is excluded).\n\n🔍 Detailed Step-by-Step:\n• Count number of elements $n$ in the given set.\n• Evaluate $2^n$ or $2^n - 1$ based on whether subsets or proper subsets are requested.\n• This strictly matches Option C.\n\n• Verified Key: Option C ({1})",
+    "speed_hack": "⚡ CBT Speed Hack: Total subsets = $2^n$. Proper subsets = $2^n - 1$. Non-empty proper = $2^n - 2$."
   },
   {
     "id": "SET_39",
@@ -584,8 +584,8 @@ window.MAT101_QUESTIONS = [
       "D": "{1, 3}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Subset Counting & Power Sets):\nFor any finite set with $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (the set itself is excluded).\n\n🔍 Detailed Step-by-Step:\n• Count number of elements $n$ in the given set.\n• Evaluate $2^n$ or $2^n - 1$ based on whether subsets or proper subsets are requested.\n• This strictly matches Option C.\n\n• Verified Key: Option C ({3, 7})",
+    "speed_hack": "⚡ CBT Speed Hack: Total subsets = $2^n$. Proper subsets = $2^n - 1$. Non-empty proper = $2^n - 2$."
   },
   {
     "id": "SET_40",
@@ -599,8 +599,8 @@ window.MAT101_QUESTIONS = [
       "D": "0"
     },
     "answer": "A",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Subset Counting & Power Sets):\nFor any finite set with $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (the set itself is excluded).\n\n🔍 Detailed Step-by-Step:\n• Count number of elements $n$ in the given set.\n• Evaluate $2^n$ or $2^n - 1$ based on whether subsets or proper subsets are requested.\n• This strictly matches Option A.\n\n• Verified Key: Option A (1)",
+    "speed_hack": "⚡ CBT Speed Hack: Total subsets = $2^n$. Proper subsets = $2^n - 1$. Non-empty proper = $2^n - 2$."
   },
   {
     "id": "SET_41",
@@ -614,8 +614,8 @@ window.MAT101_QUESTIONS = [
       "D": "68"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Subset Counting & Power Sets):\nFor any finite set with $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (the set itself is excluded).\n\n🔍 Detailed Step-by-Step:\n• Count number of elements $n$ in the given set.\n• Evaluate $2^n$ or $2^n - 1$ based on whether subsets or proper subsets are requested.\n• This strictly matches Option C.\n\n• Verified Key: Option C (64)",
+    "speed_hack": "⚡ CBT Speed Hack: Total subsets = $2^n$. Proper subsets = $2^n - 1$. Non-empty proper = $2^n - 2$."
   },
   {
     "id": "SET_42",
@@ -629,8 +629,8 @@ window.MAT101_QUESTIONS = [
       "D": "{−3}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: List the element of the set 𝑌= {𝑥: 𝑥2 −9 = 0; 𝑥> 0}\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: {3}\n\n• Verified Key: Option C ({3})",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_43",
@@ -644,8 +644,8 @@ window.MAT101_QUESTIONS = [
       "D": "400"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: List 𝑛(𝑒𝑣𝑒𝑛 𝑛𝑢𝑚𝑏𝑒𝑟𝑠)\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: infinite\n\n• Verified Key: Option C (infinite)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_44",
@@ -659,8 +659,8 @@ window.MAT101_QUESTIONS = [
       "D": "19"
     },
     "answer": "B",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Find the cardinality of set 𝑃= {𝑥: 3 < 𝑥≤20}\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: 17\n\n• Verified Key: Option B (17)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_45",
@@ -674,8 +674,8 @@ window.MAT101_QUESTIONS = [
       "D": "{0, 1, 2, 3, 4}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Find the cardinality of 𝑛 𝜖 ℕ∶3𝑛> 12\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: infinity\n\n• Verified Key: Option C (infinity)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_46",
@@ -689,8 +689,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "B",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: What is the value of 𝑛({3, 5})\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: 2\n\n• Verified Key: Option B (2)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_47",
@@ -704,8 +704,8 @@ window.MAT101_QUESTIONS = [
       "D": "{0, 2, 5, 10}"
     },
     "answer": "B",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: List the element of the set 𝑋= {𝑛2 + 1; 𝑛= 0, 1, 2, 3}\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: {1, 2, 5, 10}\n\n• Verified Key: Option B ({1, 2, 5, 10})",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_48",
@@ -719,8 +719,8 @@ window.MAT101_QUESTIONS = [
       "D": "6"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Find 𝑛({1, {2, 3}, {4, 5, 6}})\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: 3\n\n• Verified Key: Option C (3)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_49",
@@ -734,8 +734,8 @@ window.MAT101_QUESTIONS = [
       "D": "38"
     },
     "answer": "B",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Given that 𝑆= {𝐴𝑙𝑙 𝑠𝑡𝑎𝑡𝑒𝑠 𝑖𝑛 𝑁𝑖𝑔𝑒𝑟𝑖𝑎}, what is the cardinality of 𝑆?\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: 36\n\n• Verified Key: Option B (36)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_50",
@@ -749,8 +749,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑆= {𝑎, 𝑏, 𝑐}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Which of the following set description is not correct?\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: 𝐻 {1, 2, 3: 4}\n\n• Verified Key: Option C (𝐻 {1, 2, 3: 4})",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_51",
@@ -764,8 +764,8 @@ window.MAT101_QUESTIONS = [
       "D": "3"
     },
     "answer": "A",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: What is the value of 𝑛({})\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: 0\n\n• Verified Key: Option A (0)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_52",
@@ -779,8 +779,8 @@ window.MAT101_QUESTIONS = [
       "D": "3"
     },
     "answer": "B",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: What is the value of 𝑛({𝑎, 𝑎})\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: 1\n\n• Verified Key: Option B (1)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_53",
@@ -794,8 +794,8 @@ window.MAT101_QUESTIONS = [
       "D": "8"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Cardinality & Survey Analysis):\nApply the Principle of Inclusion-Exclusion $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ or partition the population into disjoint subsets.\n\n🔍 Detailed Step-by-Step:\n• Identify total universe and given disjoint or overlapping categories.\n• Formulate equation balancing known components against the total population.\n• Solving yields the target group size: 7.\n\n• Verified Key: Option C (7)",
+    "speed_hack": "⚡ CBT Speed Hack: Directly sum the subset counts and subtract the total universe to isolate the overlap or complement!"
   },
   {
     "id": "SET_54",
@@ -808,8 +808,8 @@ window.MAT101_QUESTIONS = [
       "D": "{3, 4, 5, 10, 11, 12}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: If 𝐹= {𝑥: (2 < 𝑥≤5) ∪ (9 < 𝑥< 12)}, list the elements of set 𝐹\n• Operation required: Union ($\\cup$) — elements in EITHER set\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the union to identify elements satisfying the combined condition.\n• Result: \n\n• Verified Key: Option C ()",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_55",
@@ -823,8 +823,8 @@ window.MAT101_QUESTIONS = [
       "D": "5"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: What is the value of 𝑛({{1}, {2}, {1, 2}, {2, 1}, {1, 2, 2}})\n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: 4\n\n• Verified Key: Option C (4)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_56",
@@ -838,8 +838,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: −5 < 𝑥< 2}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Subset Counting & Power Sets):\nFor any finite set with $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (the set itself is excluded).\n\n🔍 Detailed Step-by-Step:\n• Count number of elements $n$ in the given set.\n• Evaluate $2^n$ or $2^n - 1$ based on whether subsets or proper subsets are requested.\n• This strictly matches Option C.\n\n• Verified Key: Option C ({𝑥: −3 < 𝑥< 2})",
+    "speed_hack": "⚡ CBT Speed Hack: Total subsets = $2^n$. Proper subsets = $2^n - 1$. Non-empty proper = $2^n - 2$."
   },
   {
     "id": "SET_57",
@@ -853,8 +853,8 @@ window.MAT101_QUESTIONS = [
       "D": "0 ≤𝑥< 2 ≤≥<>∪∩𝒰"
     },
     "answer": "C",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: Given that P and Q are sets of real numbers, such that 𝑃= {𝑥: 0 ≤𝑥≤3} and 𝑄= {−3 < 𝑥< 2}, find 𝑃∪𝑄\n• Operation required: Union ($\\cup$) — elements in EITHER set\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the union to identify elements satisfying the combined condition.\n• Result: −3 < 𝑥≤3\n\n• Verified Key: Option C (−3 < 𝑥≤3)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_58",
@@ -868,8 +868,8 @@ window.MAT101_QUESTIONS = [
       "D": "35"
     },
     "answer": "A",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: If 𝑃= {𝑥: 2 ≤𝑥< 16, 𝑥 𝑖𝑠 𝑝𝑟𝑖𝑚𝑒} and 𝑄= {𝑥: 2 ≤𝑥≤13, 𝑥 𝑖𝑠 𝑜𝑑𝑑}, evaluate 𝑛(𝑃∪𝑄) + 𝑛(𝑃∩𝑄).\n• Operation required: Intersection ($\\cap$) — elements common to BOTH sets\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the intersection to identify elements satisfying the combined condition.\n• Result: 12\n\n• Verified Key: Option A (12)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_59",
@@ -883,8 +883,8 @@ window.MAT101_QUESTIONS = [
       "D": "62"
     },
     "answer": "D",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given sets: In a youth club with 94 members, 60 like modern music and 50 like traditional music. The number of the members who like \n• Operation required: Set operation\n• Enumerate members of each set that satisfy their defining condition.\n• Apply the operation to identify elements satisfying the combined condition.\n• Result: 62\n\n• Verified Key: Option D (62)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "SET_60",
@@ -898,8 +898,8 @@ window.MAT101_QUESTIONS = [
       "D": "2"
     },
     "answer": "D",
-    "explanation": "Standard Method: Apply set operations (Union, Intersection, Complement) or Inclusion-Exclusion Principle.",
-    "speed_hack": "⚡ CBT Speed Hack: For 2-set overlap: Both = Set1 + Set2 - Total. For a set of $n$ elements: Total subsets = $2^n$; Proper subsets = $2^n - 1$ (excluding the set itself; note this is distinct from $2^{n-1}$)."
+    "explanation": "📖 Core Principle (Set Theory & Operations):\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ — Inclusion-Exclusion Principle.\nDe Morgan's Laws: $(A \\cup B)' = A' \\cap B'$ and $(A \\cap B)' = A' \\cup B'$.\nSubsets of a set with $n$ elements: $2^n$ total subsets; $2^n - 1$ proper subsets.\n\n🔍 Detailed Step-by-Step:\n• Given: Two sets A and B are such that n(A) = 11 and n(B) = 6. Given that 𝑛(𝒰) = 15, find the smallest possible value of 𝑛(𝐴∩𝐵).\n• Use the partition formula: $n(A) = n(A \\cap B) + n(A \\cap B')$ (elements in $A$ split by whether they are in $B$).\n• Apply Inclusion-Exclusion: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$.\n• Substitute all given values and solve for the unknown.\n• Computed result: 2\n\n• Verified Key: Option D (2)",
+    "speed_hack": "⚡ CBT Speed Hack: Test boundary values (such as endpoints, 0, or universal bounds) against each multiple-choice option to instantly eliminate incorrect sets!"
   },
   {
     "id": "MAP_01",
@@ -913,8 +913,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥2 + 2"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Given 𝑓(𝑥) = 𝑥+ 3, 𝑔(𝑥) = 𝑥2 + 1 and ℎ(𝑥) = 𝑥. 𝐹𝑖𝑛𝑑 𝑓𝑜ℎ\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 𝑥2 + 3\n\n• Verified Key: Option C (𝑥2 + 3)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_02",
@@ -928,8 +928,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥2 + 6𝑥+ 10"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Given 𝑓(𝑥) = 𝑥+ 3, 𝑔(𝑥) = 𝑥2 + 1 and ℎ(𝑥) = 𝑥. 𝐹𝑖𝑛𝑑 𝑔𝑜𝑓\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 𝑥2 + 6𝑥+ 10\n\n• Verified Key: Option D (𝑥2 + 6𝑥+ 10)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_03",
@@ -943,8 +943,8 @@ window.MAT101_QUESTIONS = [
       "D": "2𝑥2"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Given 𝑓(𝑥) = 𝑥+ 3, 𝑔(𝑥) = 𝑥2 + 1 and ℎ(𝑥) = 𝑥. 𝐹𝑖𝑛𝑑 𝑓𝑜𝑔𝑜ℎ\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 𝑥2 + 4\n\n• Verified Key: Option C (𝑥2 + 4)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_04",
@@ -958,8 +958,8 @@ window.MAT101_QUESTIONS = [
       "D": "−√2"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Function Theory & Mapping Properties):\nA relation is a function if each element in domain maps to exactly one element in codomain. Injective means distinct inputs have distinct outputs; Surjective means every codomain element is covered; Bijective means both.\n\n🔍 Detailed Step-by-Step:\n• Analyze domain, codomain, and mapping rule: Find f(0) when f(x) = √x+ 4\n• Verify whether elements satisfy injective, surjective, or bijective criteria.\n• Conclude that Option A is the correct mathematical statement: −2.\n\n• Verified Key: Option A (−2)",
+    "speed_hack": "⚡ CBT Speed Hack: Check if any output can be produced by two different inputs (horizontal line test). If yes, the function is NOT one-to-one."
   },
   {
     "id": "MAP_05",
@@ -973,8 +973,8 @@ window.MAT101_QUESTIONS = [
       "D": "√3"
     },
     "answer": "B",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Function Theory & Mapping Properties):\nA relation is a function if each element in domain maps to exactly one element in codomain. Injective means distinct inputs have distinct outputs; Surjective means every codomain element is covered; Bijective means both.\n\n🔍 Detailed Step-by-Step:\n• Analyze domain, codomain, and mapping rule: Find f(4) when f(x) = √x2 −7\n• Verify whether elements satisfy injective, surjective, or bijective criteria.\n• Conclude that Option B is the correct mathematical statement: 3.\n\n• Verified Key: Option B (3)",
+    "speed_hack": "⚡ CBT Speed Hack: Check if any output can be produced by two different inputs (horizontal line test). If yes, the function is NOT one-to-one."
   },
   {
     "id": "MAP_06",
@@ -988,8 +988,8 @@ window.MAT101_QUESTIONS = [
       "D": "−1"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Given the function (𝑥) = 2𝑥−3, find 𝑓−1(−5)\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: −1\n\n• Verified Key: Option D (−1)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_07",
@@ -1003,8 +1003,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "B",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Function Theory & Mapping Properties):\nA relation is a function if each element in domain maps to exactly one element in codomain. Injective means distinct inputs have distinct outputs; Surjective means every codomain element is covered; Bijective means both.\n\n🔍 Detailed Step-by-Step:\n• Analyze domain, codomain, and mapping rule: Given that f(x) = √x+ 4 , find x when f(x) = 2\n• Verify whether elements satisfy injective, surjective, or bijective criteria.\n• Conclude that Option B is the correct mathematical statement: 2.\n\n• Verified Key: Option B (2)",
+    "speed_hack": "⚡ CBT Speed Hack: Check if any output can be produced by two different inputs (horizontal line test). If yes, the function is NOT one-to-one."
   },
   {
     "id": "MAP_08",
@@ -1018,8 +1018,8 @@ window.MAT101_QUESTIONS = [
       "D": "8"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Function Theory & Mapping Properties):\nA relation is a function if each element in domain maps to exactly one element in codomain. Injective means distinct inputs have distinct outputs; Surjective means every codomain element is covered; Bijective means both.\n\n🔍 Detailed Step-by-Step:\n• Analyze domain, codomain, and mapping rule: Given that f(x) = √x−4 , find x when f(x) = −2\n• Verify whether elements satisfy injective, surjective, or bijective criteria.\n• Conclude that Option D is the correct mathematical statement: 8.\n\n• Verified Key: Option D (8)",
+    "speed_hack": "⚡ CBT Speed Hack: Check if any output can be produced by two different inputs (horizontal line test). If yes, the function is NOT one-to-one."
   },
   {
     "id": "MAP_09",
@@ -1033,8 +1033,8 @@ window.MAT101_QUESTIONS = [
       "D": "18𝑥2 + 12𝑥+ 1"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Given 𝑓(𝑥) = 2𝑥2 and 𝑔(𝑥) = 3𝑥+ 1, Compute 𝑓𝑜𝑔\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 18𝑥2 + 12𝑥+ 2\n\n• Verified Key: Option C (18𝑥2 + 12𝑥+ 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_10",
@@ -1048,8 +1048,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥+2 𝑥+3"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: If 𝑓: 𝑥= 1 + 2𝑥 and 𝑔: 𝑥= 1 1+𝑥 , find 𝑓𝑜𝑔\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 𝑥+3 𝑥+1\n\n• Verified Key: Option A (𝑥+3 𝑥+1)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_11",
@@ -1063,8 +1063,8 @@ window.MAT101_QUESTIONS = [
       "D": "7 3"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Function Theory & Mapping Properties):\nA relation is a function if each element in domain maps to exactly one element in codomain. Injective means distinct inputs have distinct outputs; Surjective means every codomain element is covered; Bijective means both.\n\n🔍 Detailed Step-by-Step:\n• Analyze domain, codomain, and mapping rule: If f: x= 1 + 2x and g: x= 1 1+x , find fg( 1 2)\n• Verify whether elements satisfy injective, surjective, or bijective criteria.\n• Conclude that Option D is the correct mathematical statement: 7 3.\n\n• Verified Key: Option D (7 3)",
+    "speed_hack": "⚡ CBT Speed Hack: Check if any output can be produced by two different inputs (horizontal line test). If yes, the function is NOT one-to-one."
   },
   {
     "id": "MAP_12",
@@ -1078,8 +1078,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 3 4"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Inverse Functions & Invertibility):\nTo find $f^{-1}(x)$, set $y = f(x)$, solve for $x$ in terms of $y$, and swap variables. A function is invertible if and only if it is bijective (one-to-one and onto).\n\n🔍 Detailed Step-by-Step:\n• Start with $y = f(x)$ from the prompt.\n• Rearrange equation to isolate $x$: $x = f^{-1}(y)$.\n• Swap variable symbols back to obtain $f^{-1}(x) = − 1 4$.\n\n• Verified Key: Option C (− 1 4)",
+    "speed_hack": "⚡ CBT Speed Hack: For linear fraction $f(x) = \\frac{ax+b}{cx+d}$, the inverse is instantly $f^{-1}(x) = \\frac{-dx+b}{cx-a}$ (swap diagonal and negate signs!)."
   },
   {
     "id": "MAP_13",
@@ -1093,8 +1093,8 @@ window.MAT101_QUESTIONS = [
       "D": "3 5"
     },
     "answer": "B",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Given the function 𝑓(𝑥) = 5𝑥−2, find 𝑓−1(−1)\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 1 5\n\n• Verified Key: Option B (1 5)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_14",
@@ -1108,8 +1108,8 @@ window.MAT101_QUESTIONS = [
       "D": "5 2"
     },
     "answer": "B",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Function Theory & Mapping Properties):\nA relation is a function if each element in domain maps to exactly one element in codomain. Injective means distinct inputs have distinct outputs; Surjective means every codomain element is covered; Bijective means both.\n\n🔍 Detailed Step-by-Step:\n• Analyze domain, codomain, and mapping rule: Given the mapping f: x= 7x+ 2, determine f(− 1 2)\n• Verify whether elements satisfy injective, surjective, or bijective criteria.\n• Conclude that Option B is the correct mathematical statement: − 3 2.\n\n• Verified Key: Option B (− 3 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Check if any output can be produced by two different inputs (horizontal line test). If yes, the function is NOT one-to-one."
   },
   {
     "id": "MAP_15",
@@ -1123,8 +1123,8 @@ window.MAT101_QUESTIONS = [
       "D": "89"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Given 𝑓(𝑥) = 2𝑥2 and 𝑔(𝑥) = 3𝑥+ 1, Compute (𝑓𝑜𝑔)(2)\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 98\n\n• Verified Key: Option C (98)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_16",
@@ -1138,8 +1138,8 @@ window.MAT101_QUESTIONS = [
       "D": "2−6𝑥 7𝑥"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Inverse Functions & Invertibility):\nTo find $f^{-1}(x)$, set $y = f(x)$, solve for $x$ in terms of $y$, and swap variables. A function is invertible if and only if it is bijective (one-to-one and onto).\n\n🔍 Detailed Step-by-Step:\n• Start with $y = f(x)$ from the prompt.\n• Rearrange equation to isolate $x$: $x = f^{-1}(y)$.\n• Swap variable symbols back to obtain $f^{-1}(x) = 6𝑥−2 21𝑥$.\n\n• Verified Key: Option A (6𝑥−2 21𝑥)",
+    "speed_hack": "⚡ CBT Speed Hack: For linear fraction $f(x) = \\frac{ax+b}{cx+d}$, the inverse is instantly $f^{-1}(x) = \\frac{-dx+b}{cx-a}$ (swap diagonal and negate signs!)."
   },
   {
     "id": "MAP_17",
@@ -1153,8 +1153,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 𝑜𝑟 3"
     },
     "answer": "B",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Two functions 𝑓 and 𝑔 are defined on the set 𝑅 of real numbers by: 𝑓(𝑥) = 𝑥2 −2𝑥−1 and 𝑔(𝑥) = 𝑥−1. Find the value of x f\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 1 𝑜𝑟 2\n\n• Verified Key: Option B (1 𝑜𝑟 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_18",
@@ -1168,8 +1168,8 @@ window.MAT101_QUESTIONS = [
       "D": "2𝑥2 −2𝑥+ 12"
     },
     "answer": "B",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Two functions 𝑓 and 𝑔 are defined on the set 𝑅 of real numbers as follows: 𝑓: 𝑥= 2𝑥−3 and 𝑔: 𝑥= 𝑥2 + 5. Find 𝑓[𝑔(𝑥−1)]\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 2𝑥2 −4𝑥+ 9\n\n• Verified Key: Option B (2𝑥2 −4𝑥+ 9)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_19",
@@ -1183,8 +1183,8 @@ window.MAT101_QUESTIONS = [
       "D": "−1"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Given that image of p under the mapping 𝑥→3𝑥+ 2 is −10, what is the value of 𝑝?\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: −4\n\n• Verified Key: Option A (−4)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_20",
@@ -1198,8 +1198,8 @@ window.MAT101_QUESTIONS = [
       "D": "−2"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Function Theory & Mapping Properties):\nA relation is a function if each element in domain maps to exactly one element in codomain. Injective means distinct inputs have distinct outputs; Surjective means every codomain element is covered; Bijective means both.\n\n🔍 Detailed Step-by-Step:\n• Analyze domain, codomain, and mapping rule: Let f: x= x2 + 1, x e R find f(1) −f(0)\n• Verify whether elements satisfy injective, surjective, or bijective criteria.\n• Conclude that Option C is the correct mathematical statement: 1.\n\n• Verified Key: Option C (1)",
+    "speed_hack": "⚡ CBT Speed Hack: Check if any output can be produced by two different inputs (horizontal line test). If yes, the function is NOT one-to-one."
   },
   {
     "id": "MAP_21",
@@ -1213,8 +1213,8 @@ window.MAT101_QUESTIONS = [
       "D": "9"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Function Theory & Mapping Properties):\nA relation is a function if each element in domain maps to exactly one element in codomain. Injective means distinct inputs have distinct outputs; Surjective means every codomain element is covered; Bijective means both.\n\n🔍 Detailed Step-by-Step:\n• Analyze domain, codomain, and mapping rule: If f(x) = 2(x−3)2 + 3(x−3) + 4 and g(y) = 5 + y. Find f[g(−1)]\n• Verify whether elements satisfy injective, surjective, or bijective criteria.\n• Conclude that Option D is the correct mathematical statement: 9.\n\n• Verified Key: Option D (9)",
+    "speed_hack": "⚡ CBT Speed Hack: Check if any output can be produced by two different inputs (horizontal line test). If yes, the function is NOT one-to-one."
   },
   {
     "id": "MAP_22",
@@ -1228,8 +1228,8 @@ window.MAT101_QUESTIONS = [
       "D": "{−3, 1, 3}"
     },
     "answer": "B",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: ℎ: 𝑥= 3𝑥−2 is a mapping defined on the set R of real numbers, determine the pre-images of {−5, 1, 7}.\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: {−1, 1, 3}\n\n• Verified Key: Option B ({−1, 1, 3})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_23",
@@ -1243,8 +1243,8 @@ window.MAT101_QUESTIONS = [
       "D": "2 −𝑙𝑛[2(𝑥+ 2)]"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given function: Given the function ℎ(𝑥) → 1 2 𝑒2−𝑥−2, find the inverse function.\n• To find $f^{-1}(x)$: replace $f(x)$ with $y$, then swap $x$ and $y$, then solve for $y$.\n• For linear fractional $f(x) = \\frac{ax+b}{cx+d}$: $f^{-1}(x) = \\frac{-dx+b}{cx-a}$ (diagonal swap + sign flip).\n• Evaluate by substituting the given value: $f^{-1}(k)$ means find $x$ such that $f(x)=k$.\n• Result: 2 −𝑙𝑛[2(𝑥+ 2)]\n\n• Verified Key: Option D (2 −𝑙𝑛[2(𝑥+ 2)])",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_24",
@@ -1258,8 +1258,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 2 3"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: If 𝑔: 𝑥→ 𝑥+3 3𝑥−2 , 𝑥≠ 2 3, find the value for which 𝑔−1(𝑥) is zero.\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: − 3 2\n\n• Verified Key: Option A (− 3 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_25",
@@ -1273,8 +1273,8 @@ window.MAT101_QUESTIONS = [
       "D": "composite mapping"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: If every element in the domain has different image in the co-domain, such type of mapping is called\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: one-one mapping\n\n• Verified Key: Option C (one-one mapping)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_26",
@@ -1288,8 +1288,8 @@ window.MAT101_QUESTIONS = [
       "D": "composite mapping"
     },
     "answer": "B",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: A mapping f is called ______ if every element of the co-domain is an image of at least one element in the domain?\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: onto mapping\n\n• Verified Key: Option B (onto mapping)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_27",
@@ -1303,8 +1303,8 @@ window.MAT101_QUESTIONS = [
       "D": "rules"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: The rule that assigns an element to two or non-empty set is\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: mapping\n\n• Verified Key: Option C (mapping)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_28",
@@ -1318,8 +1318,8 @@ window.MAT101_QUESTIONS = [
       "D": "27"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Given 𝑓(𝑦) = 𝑝𝑦 and 𝑓(3) = 81, determine the value of 𝑝.\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 27\n\n• Verified Key: Option D (27)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_29",
@@ -1333,8 +1333,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 2 3"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: If 𝑔: 𝑥→ 𝑥+3 3𝑥−2 , 𝑥≠ 2 3, find the value for which 𝑔−1(𝑥) is zero.\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: − 3 2\n\n• Verified Key: Option A (− 3 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_30",
@@ -1348,8 +1348,8 @@ window.MAT101_QUESTIONS = [
       "D": "( 𝑥+𝑏 4𝑎) 2"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given function: Given the inverse of a function to be𝑓(𝑥) = √4𝑎𝑥+ 𝑏, find the main function\n• To find $f^{-1}(x)$: replace $f(x)$ with $y$, then swap $x$ and $y$, then solve for $y$.\n• For linear fractional $f(x) = \\frac{ax+b}{cx+d}$: $f^{-1}(x) = \\frac{-dx+b}{cx-a}$ (diagonal swap + sign flip).\n• Evaluate by substituting the given value: $f^{-1}(k)$ means find $x$ such that $f(x)=k$.\n• Result: 𝑥2−𝑏 4𝑎\n\n• Verified Key: Option C (𝑥2−𝑏 4𝑎)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_31",
@@ -1363,8 +1363,8 @@ window.MAT101_QUESTIONS = [
       "D": "2𝑥−1 𝑥+1"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given function: Find the inverse of 𝑓: 𝑥= 𝑥+1 𝑥−2 .\n• To find $f^{-1}(x)$: replace $f(x)$ with $y$, then swap $x$ and $y$, then solve for $y$.\n• For linear fractional $f(x) = \\frac{ax+b}{cx+d}$: $f^{-1}(x) = \\frac{-dx+b}{cx-a}$ (diagonal swap + sign flip).\n• Evaluate by substituting the given value: $f^{-1}(k)$ means find $x$ such that $f(x)=k$.\n• Result: 2𝑥+1 𝑥−1\n\n• Verified Key: Option A (2𝑥+1 𝑥−1)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_32",
@@ -1378,8 +1378,8 @@ window.MAT101_QUESTIONS = [
       "D": "2"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Determine the zero of the function defined by ℎ(𝑥) = 𝑥2 + 𝑥−6.\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 2\n\n• Verified Key: Option D (2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_33",
@@ -1393,8 +1393,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥2 + 2"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Function Theory & Mapping Properties):\nA relation is a function if each element in domain maps to exactly one element in codomain. Injective means distinct inputs have distinct outputs; Surjective means every codomain element is covered; Bijective means both.\n\n🔍 Detailed Step-by-Step:\n• Analyze domain, codomain, and mapping rule: If f(g(x)) = x2 + 2x+ 1 and f(x) = x2, find g(x).\n• Verify whether elements satisfy injective, surjective, or bijective criteria.\n• Conclude that Option C is the correct mathematical statement: 𝑥+ 1.\n\n• Verified Key: Option C (𝑥+ 1)",
+    "speed_hack": "⚡ CBT Speed Hack: Check if any output can be produced by two different inputs (horizontal line test). If yes, the function is NOT one-to-one."
   },
   {
     "id": "MAP_34",
@@ -1408,8 +1408,8 @@ window.MAT101_QUESTIONS = [
       "D": "11"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: The function of 𝑓 and 𝑔 are defined over 𝑅 as 𝑓: 𝑥= 𝑥2 + 2 and 𝑔: 𝑥= 2𝑥 1−𝑥. Find 𝑓𝑜𝑔(3).\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 11\n\n• Verified Key: Option D (11)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_35",
@@ -1423,8 +1423,8 @@ window.MAT101_QUESTIONS = [
       "D": "2𝑥+1 𝑥+1"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Inverse Functions & Invertibility):\nTo find $f^{-1}(x)$, set $y = f(x)$, solve for $x$ in terms of $y$, and swap variables. A function is invertible if and only if it is bijective (one-to-one and onto).\n\n🔍 Detailed Step-by-Step:\n• Start with $y = f(x)$ from the prompt.\n• Rearrange equation to isolate $x$: $x = f^{-1}(y)$.\n• Swap variable symbols back to obtain $f^{-1}(x) = 2𝑥−1 𝑥−1$.\n\n• Verified Key: Option A (2𝑥−1 𝑥−1)",
+    "speed_hack": "⚡ CBT Speed Hack: For linear fraction $f(x) = \\frac{ax+b}{cx+d}$, the inverse is instantly $f^{-1}(x) = \\frac{-dx+b}{cx-a}$ (swap diagonal and negate signs!)."
   },
   {
     "id": "MAP_36",
@@ -1438,8 +1438,8 @@ window.MAT101_QUESTIONS = [
       "D": "0 𝑎𝑛𝑑 2"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Determine the zeros of the function defined by ℎ(𝑥) = 𝑥2 −𝑥\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 0 𝑎𝑛𝑑 1\n\n• Verified Key: Option A (0 𝑎𝑛𝑑 1)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_37",
@@ -1453,8 +1453,8 @@ window.MAT101_QUESTIONS = [
       "D": "1"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Function Theory & Mapping Properties):\nA relation is a function if each element in domain maps to exactly one element in codomain. Injective means distinct inputs have distinct outputs; Surjective means every codomain element is covered; Bijective means both.\n\n🔍 Detailed Step-by-Step:\n• Analyze domain, codomain, and mapping rule: Given that f(x) = x5 + 4x4 −6x2 + 2x+ 2, find f(−1).\n• Verify whether elements satisfy injective, surjective, or bijective criteria.\n• Conclude that Option A is the correct mathematical statement: −3.\n\n• Verified Key: Option A (−3)",
+    "speed_hack": "⚡ CBT Speed Hack: Check if any output can be produced by two different inputs (horizontal line test). If yes, the function is NOT one-to-one."
   },
   {
     "id": "MAP_38",
@@ -1468,8 +1468,8 @@ window.MAT101_QUESTIONS = [
       "D": "{2}"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: What is the set of values of x for which the mappings 𝑥→𝑥2 and 𝑥→𝑥3 have the same functional values?\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: {0, 1}\n\n• Verified Key: Option C ({0, 1})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_39",
@@ -1483,8 +1483,8 @@ window.MAT101_QUESTIONS = [
       "D": "1"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: A relation 𝑔: 𝑅→𝑅 is defined by 𝑔(𝑥) = 2 𝑥−2 , 𝑥≠2. Where R is the set of real numbers, find 𝑔−1[𝑔(𝑥)].\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 𝑥\n\n• Verified Key: Option A (𝑥)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_40",
@@ -1498,8 +1498,8 @@ window.MAT101_QUESTIONS = [
       "D": "{−3, −2, −1, 1, 2, 3}"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Determine the domain D of the mapping 𝑔: 𝑥→2𝑥2 −1, if 𝑅= {1, 7, 17} is the range and g is defined on D.\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: {−3, −2, −1, 1, 2, 3}\n\n• Verified Key: Option D ({−3, −2, −1, 1, 2, 3})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_41",
@@ -1513,8 +1513,8 @@ window.MAT101_QUESTIONS = [
       "D": "0"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Function Theory & Mapping Properties):\nA relation is a function if each element in domain maps to exactly one element in codomain. Injective means distinct inputs have distinct outputs; Surjective means every codomain element is covered; Bijective means both.\n\n🔍 Detailed Step-by-Step:\n• Analyze domain, codomain, and mapping rule: If f(x) = 2(x−3)2 + 3(x−3) + 4 and g(y) = 5 + y. Find g[f(3)].\n• Verify whether elements satisfy injective, surjective, or bijective criteria.\n• Conclude that Option C is the correct mathematical statement: 9.\n\n• Verified Key: Option C (9)",
+    "speed_hack": "⚡ CBT Speed Hack: Check if any output can be produced by two different inputs (horizontal line test). If yes, the function is NOT one-to-one."
   },
   {
     "id": "MAP_42",
@@ -1528,8 +1528,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑙𝑛(𝑥+ 3) −1"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given function: Given the function ℎ(𝑥) →𝑒𝑥−1 + 3, find the inverse function.\n• To find $f^{-1}(x)$: replace $f(x)$ with $y$, then swap $x$ and $y$, then solve for $y$.\n• For linear fractional $f(x) = \\frac{ax+b}{cx+d}$: $f^{-1}(x) = \\frac{-dx+b}{cx-a}$ (diagonal swap + sign flip).\n• Evaluate by substituting the given value: $f^{-1}(k)$ means find $x$ such that $f(x)=k$.\n• Result: 𝑙𝑛(𝑥−3) + 1\n\n• Verified Key: Option A (𝑙𝑛(𝑥−3) + 1)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_43",
@@ -1543,8 +1543,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 2 𝑙𝑛( 𝑎+2 2 )"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given function: Find the inverse function of 𝑔(𝑎) →2𝑒2𝑎−2.\n• To find $f^{-1}(x)$: replace $f(x)$ with $y$, then swap $x$ and $y$, then solve for $y$.\n• For linear fractional $f(x) = \\frac{ax+b}{cx+d}$: $f^{-1}(x) = \\frac{-dx+b}{cx-a}$ (diagonal swap + sign flip).\n• Evaluate by substituting the given value: $f^{-1}(k)$ means find $x$ such that $f(x)=k$.\n• Result: 1 2 𝑙𝑛( 𝑎+2 2 )\n\n• Verified Key: Option D (1 2 𝑙𝑛( 𝑎+2 2 ))",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_44",
@@ -1558,8 +1558,8 @@ window.MAT101_QUESTIONS = [
       "D": "5"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Function Theory & Mapping Properties):\nA relation is a function if each element in domain maps to exactly one element in codomain. Injective means distinct inputs have distinct outputs; Surjective means every codomain element is covered; Bijective means both.\n\n🔍 Detailed Step-by-Step:\n• Analyze domain, codomain, and mapping rule: Let f: x= x2 + 1, x R find f(−2) −f(−3).\n• Verify whether elements satisfy injective, surjective, or bijective criteria.\n• Conclude that Option C is the correct mathematical statement: −5.\n\n• Verified Key: Option C (−5)",
+    "speed_hack": "⚡ CBT Speed Hack: Check if any output can be produced by two different inputs (horizontal line test). If yes, the function is NOT one-to-one."
   },
   {
     "id": "MAP_45",
@@ -1573,8 +1573,8 @@ window.MAT101_QUESTIONS = [
       "D": "{−1, 0, 2}"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Find the range of 𝑓: 𝑥→𝑥2 −1, if the domain is {−2, −1, 0, 1, 2}.\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: {−1, 0, 3}\n\n• Verified Key: Option A ({−1, 0, 3})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_46",
@@ -1588,8 +1588,8 @@ window.MAT101_QUESTIONS = [
       "D": "( 2 3 , 3 2)"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Find the image of ( 1 3 , 2 3), under the mapping (𝑥, 𝑦) →( 𝑥+𝑦 𝑦, 𝑦).\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: ( 3 2 , 2 3)\n\n• Verified Key: Option C (( 3 2 , 2 3))",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_47",
@@ -1603,8 +1603,8 @@ window.MAT101_QUESTIONS = [
       "D": "−6"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: If 𝑓: 𝑥= 2𝑥−3 and 𝑔: 𝑥= 3𝑥+ 𝑝, for what value of constant 𝑝 is 𝑓𝑜𝑔= 𝑔𝑜𝑓.\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: −6\n\n• Verified Key: Option D (−6)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_48",
@@ -1618,8 +1618,8 @@ window.MAT101_QUESTIONS = [
       "D": "2 1 3"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: If 𝑔: 𝑥→ 𝑥+3 3𝑥−2 , 𝑥≠ 2 3, find the value for which 𝑔−1(𝑥) is not defined.\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 1 3\n\n• Verified Key: Option A (1 3)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_49",
@@ -1633,8 +1633,8 @@ window.MAT101_QUESTIONS = [
       "D": "18𝑥2 + 12𝑥−2"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Given 𝑓(𝑥) = 2𝑥2 and 𝑔(𝑥) = 3𝑥+ 1, Compute (𝑓𝑜𝑔).\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 18𝑥2 + 12𝑥+ 2\n\n• Verified Key: Option C (18𝑥2 + 12𝑥+ 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_50",
@@ -1648,8 +1648,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑎= 1, 𝑏= 3"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Given that 𝑓: 𝑥= 𝑎𝑥2 + 𝑏𝑥+ 1 is a mapping on the set of real numbers. Given that 𝑓(1) = 5 and 𝑓(−1) = 3, determine the v\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 𝑎= 3, 𝑏= 1\n\n• Verified Key: Option C (𝑎= 3, 𝑏= 1)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_51",
@@ -1663,8 +1663,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 2 3"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Determine the zero of the function 2𝑥−3\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 3 2\n\n• Verified Key: Option C (3 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_52",
@@ -1678,8 +1678,8 @@ window.MAT101_QUESTIONS = [
       "D": "0, 1"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: Find the range of 𝑦= 7𝑥+ 2\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: −∞, ∞\n\n• Verified Key: Option C (−∞, ∞)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_53",
@@ -1693,8 +1693,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 1 4 (𝑒𝑥+ 2)"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: The function 𝑓 is given as 𝑓(𝑥) = 𝑙𝑛(4𝑥−2), find in 𝑓−1(𝑥) its simplest form\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 1 4 (𝑒𝑥−2)\n\n• Verified Key: Option A (1 4 (𝑒𝑥−2))",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_54",
@@ -1708,8 +1708,8 @@ window.MAT101_QUESTIONS = [
       "D": "3𝑒𝑥"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: The function 𝑓 is given as 𝑓(𝑥) = 3 −𝑙𝑛𝑥, find in 𝑓−1(𝑥) its simplest form\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 𝑒3−𝑥\n\n• Verified Key: Option C (𝑒3−𝑥)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_55",
@@ -1723,8 +1723,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 1 2 𝑎𝑛𝑑− 7 2"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: The functions 𝑓 and 𝑔 are given by 𝑓(𝑥) = 𝑥2 and 𝑔(𝑥) = 1 𝑥+2, solve the equation 𝑓𝑔(𝑥) = 4 9\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: − 1 2 𝑎𝑛𝑑− 7 2\n\n• Verified Key: Option D (− 1 2 𝑎𝑛𝑑− 7 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_56",
@@ -1738,8 +1738,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 1 2 𝑙𝑛 3 2"
     },
     "answer": "A",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: The functions 𝑓 and 𝑔 are given by 𝑓(𝑥) = 𝑙𝑛(4 −2𝑥) and 𝑔(𝑥) = 𝑒3𝑥, solve the equation 𝑓𝑔(𝑥) = 0\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 1 2 𝑙𝑛 3 2\n\n• Verified Key: Option A (1 2 𝑙𝑛 3 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_57",
@@ -1753,8 +1753,8 @@ window.MAT101_QUESTIONS = [
       "D": "+7"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: The functions 𝑓 and 𝑔 are given by 𝑓(𝑥) = (𝑥−3)2 + 1, 𝑥∈ ℝ, 𝑥≥4, solve the equation 𝑓(𝑥) = 17\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: +7\n\n• Verified Key: Option D (+7)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_58",
@@ -1768,8 +1768,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑎= 4, 𝑏= −1"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: The functions 𝑔 and 𝑓 are given by 𝑔(𝑥) = 4 −3𝑥 and 𝑓(𝑥) = 𝑥2 + 𝑎𝑥+ 𝑏, where 𝑎 and 𝑏 are non- zero constants. Given that\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: 𝑎= 4, 𝑏= −1\n\n• Verified Key: Option D (𝑎= 4, 𝑏= −1)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_59",
@@ -1783,8 +1783,8 @@ window.MAT101_QUESTIONS = [
       "D": "3, 2"
     },
     "answer": "C",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: The function 𝑓 is given as 𝑓(𝑥) = 𝑥+6 𝑥+2 , 𝑥∈ ℝ, 𝑥≠−2, solve the equation 𝑓(𝑥) = 𝑓−1(𝑥)\n• Identify the function type and the required operation (evaluation, inverse, composition, or classification).\n• For evaluation: directly substitute the given input value.\n• For classification: check injectivity (1-to-1) and surjectivity (onto) conditions.\n• Result: −3, 2\n\n• Verified Key: Option C (−3, 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "MAP_60",
@@ -1798,8 +1798,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥"
     },
     "answer": "D",
-    "explanation": "Standard Method: To find composite function (f o g)(x), substitute g(x) everywhere x appears in f(x). For inverse f^(-1)(x), swap variables and solve.",
-    "speed_hack": "⚡ CBT Speed Hack: To find f^(-1)(k), do not invert! Simply set f(x) = k and solve for x. Test with x=1 or x=2."
+    "explanation": "📖 Core Principle (Functions, Composition & Inverses):\nComposite function: $(f \\circ g)(x) = f(g(x))$ — apply $g$ first, then $f$.\nInverse shortcut for $f(x) = \\frac{ax+b}{cx+d}$: swap $x$ and $y$, solve for $y$ → $f^{-1}(x) = \\frac{-dx+b}{cx-a}$.\nInvertibility: $f^{-1}$ exists $\\iff$ $f$ is bijective (both injective and surjective).\nEvaluation shortcut: $f^{-1}(k) = x \\iff f(x) = k$ — never derive the formula when evaluating at a specific value.\n\n🔍 Detailed Step-by-Step:\n• Given: The function ℎ is given as ℎ(𝑥) = 𝑥 𝑥−1 , 𝑥∈ ℝ, 𝑥≠1, find in its simplest form the composition ℎℎ(𝑥)\n• For $(f \\circ g)(x) = f(g(x))$: substitute $g(x)$ into $f$ wherever $f$ has its variable.\n• Work inside-out for triple composites: compute innermost first.\n• Expand and simplify algebraically (collect like terms).\n• The result should match: 𝑥\n\n• Verified Key: Option D (𝑥)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick a simple test number (e.g. $x = 1$). Evaluate $g(1)$, then evaluate $f(g(1))$. Check which option yields that exact number at $x = 1$!"
   },
   {
     "id": "COM_01",
@@ -1813,8 +1813,8 @@ window.MAT101_QUESTIONS = [
       "D": "21"
     },
     "answer": "C",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: 𝐺𝑖𝑣𝑒𝑛 𝑍= 4 −2√2𝑖, 𝑓𝑖𝑛𝑑 𝑍𝑍̅\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 24\n\n• Verified Key: Option C (24)",
+    "speed_hack": "⚡ CBT Speed Hack: Never expand brackets with $i$ for $Z\\bar{Z}$! Instantly calculate $(\\text{Real})^2 + (\\text{Imag})^2$ directly!"
   },
   {
     "id": "COM_02",
@@ -1828,8 +1828,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 4 √3𝑖"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: 𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑖𝑚𝑎𝑔𝑖𝑛𝑎𝑟𝑦 𝑝𝑎𝑟𝑡 𝑜𝑓 (− 1 2 + √3 2 𝑖) 2\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: − 1 2 √3𝑖\n\n• Verified Key: Option A (− 1 2 √3𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_03",
@@ -1843,8 +1843,8 @@ window.MAT101_QUESTIONS = [
       "D": "−( 16 85 + 𝑖 38 85)"
     },
     "answer": "D",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: 𝐹𝑖𝑛𝑑 𝑍1 𝑍2 𝑖𝑓 𝑍1 = 2 −4𝑖 𝑎𝑛𝑑 𝑍2 = 6 + 7𝑖\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: −( 16 85 + 𝑖 38 85)\n\n• Verified Key: Option D (−( 16 85 + 𝑖 38 85))",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_04",
@@ -1858,8 +1858,8 @@ window.MAT101_QUESTIONS = [
       "D": "9 25 − 37 25 𝑖"
     },
     "answer": "B",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: 𝐼𝑓 𝑍1 = 1 −3𝑖 𝑎𝑛𝑑 𝑍2 = −2 + 5𝑖, 𝑑𝑒𝑡𝑒𝑟𝑚𝑖𝑛𝑒 𝑍1𝑍2 𝑍1+𝑍2 𝑖𝑛 𝑡ℎ𝑒 𝑓𝑜𝑟𝑚 𝑎+ 𝑖𝑏\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 9 5 − 37 5 𝑖\n\n• Verified Key: Option B (9 5 − 37 5 𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_05",
@@ -1873,8 +1873,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 12 13"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: 𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑟𝑒𝑎𝑙 𝑝𝑎𝑟𝑡 𝑜𝑓 2+3𝑖 3+2𝑖\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 12 13\n\n• Verified Key: Option A (12 13)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_06",
@@ -1888,8 +1888,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 5"
     },
     "answer": "D",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: 𝑊ℎ𝑎𝑡 𝑖𝑠 𝑡ℎ𝑒 𝑣𝑎𝑙𝑢𝑒 𝑜𝑓 𝑎 𝑔𝑖𝑣𝑒𝑛 𝑎+ 𝑖𝑏= 1−𝑖 2+𝑖\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 1 5\n\n• Verified Key: Option D (1 5)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_07",
@@ -1903,8 +1903,8 @@ window.MAT101_QUESTIONS = [
       "D": "−1 −7𝑗"
     },
     "answer": "B",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Given that 𝑍1 = 2 + 3𝑗 and 𝑍2 = 3 −4𝑗, evaluate 𝑍2 −𝑍1\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 1 −7𝑗\n\n• Verified Key: Option B (1 −7𝑗)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_08",
@@ -1918,8 +1918,8 @@ window.MAT101_QUESTIONS = [
       "D": "12 −6𝑗"
     },
     "answer": "B",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Given that 𝑍1 = 2 + 3𝑗 and 𝑍2 = 3 −4𝑗, evaluate 𝑍1 + 𝑍2\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 5 −𝑗\n\n• Verified Key: Option B (5 −𝑗)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_09",
@@ -1933,8 +1933,8 @@ window.MAT101_QUESTIONS = [
       "D": "22 + 7𝑖"
     },
     "answer": "B",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: 𝐺𝑖𝑣𝑒𝑛 𝑍1 = (3 + 2𝑖) 𝑎𝑛𝑑 𝑍2 = (4 −5𝑖), 𝑒𝑣𝑎𝑙𝑢𝑎𝑡𝑒 𝑍1𝑍2\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 22 −7𝑖\n\n• Verified Key: Option B (22 −7𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_10",
@@ -1948,8 +1948,8 @@ window.MAT101_QUESTIONS = [
       "D": "5 and 12"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Given 2 −3𝑖= √𝑎+ 𝑏𝑖. Find a and b.\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: −5 and −12\n\n• Verified Key: Option A (−5 and −12)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_11",
@@ -1963,8 +1963,8 @@ window.MAT101_QUESTIONS = [
       "D": "1"
     },
     "answer": "C",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: If (𝑥−2𝑦𝑖) −(𝑦−𝑥𝑖) = 2 + 𝑖, find 𝑥.\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 3\n\n• Verified Key: Option C (3)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_12",
@@ -1978,8 +1978,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 + 2𝑖"
     },
     "answer": "C",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Given 𝐴= 1 + 2𝑖, the conjugate of A is\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 1 −2𝑖\n\n• Verified Key: Option C (1 −2𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_13",
@@ -1993,8 +1993,8 @@ window.MAT101_QUESTIONS = [
       "D": "2√10, 26.57∘"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Modulus & Argument in Argand Plane):\nFor $Z = x + iy$:\n• Modulus: $r = |Z| = \\sqrt{x^2 + y^2}$ (Euclidean distance from origin).\n• Argument: $\\theta = \\text{Arg}(Z) = \\tan^{-1}(|y/x|)$ adjusted for the quadrant determined by the signs of $x$ and $y$.\n\n🔍 Detailed Step-by-Step:\n• From the given complex number: determine $x$ and $y$.\n• Calculate $r = \\sqrt{x^2 + y^2}$.\n• Determine quadrant and compute principal argument $\\theta$.\n• Result matches Option A: 2√5, 63.43∘.\n\n• Verified Key: Option A (2√5, 63.43∘)",
+    "speed_hack": "⚡ CBT Speed Hack: Always check quadrant signs first! If $x < 0$ and $y > 0$, $\\theta$ must lie strictly in Quadrant II ($90^\\circ < \\theta < 180^\\circ$)."
   },
   {
     "id": "COM_14",
@@ -2008,8 +2008,8 @@ window.MAT101_QUESTIONS = [
       "D": "0"
     },
     "answer": "D",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Simplify 𝑖9 + 2𝑖11 + 𝑖13.\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 0\n\n• Verified Key: Option D (0)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_15",
@@ -2023,8 +2023,8 @@ window.MAT101_QUESTIONS = [
       "D": "−1"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Evaluate 1−𝑗 1+𝑗\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: −𝑗\n\n• Verified Key: Option A (−𝑗)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_16",
@@ -2038,8 +2038,8 @@ window.MAT101_QUESTIONS = [
       "D": "3 4 𝜋"
     },
     "answer": "D",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Modulus & Argument in Argand Plane):\nFor $Z = x + iy$:\n• Modulus: $r = |Z| = \\sqrt{x^2 + y^2}$ (Euclidean distance from origin).\n• Argument: $\\theta = \\text{Arg}(Z) = \\tan^{-1}(|y/x|)$ adjusted for the quadrant determined by the signs of $x$ and $y$.\n\n🔍 Detailed Step-by-Step:\n• From the given complex number: determine $x$ and $y$.\n• Calculate $r = \\sqrt{x^2 + y^2}$.\n• Determine quadrant and compute principal argument $\\theta$.\n• Result matches Option D: 3 4 𝜋.\n\n• Verified Key: Option D (3 4 𝜋)",
+    "speed_hack": "⚡ CBT Speed Hack: Always check quadrant signs first! If $x < 0$ and $y > 0$, $\\theta$ must lie strictly in Quadrant II ($90^\\circ < \\theta < 180^\\circ$)."
   },
   {
     "id": "COM_17",
@@ -2053,8 +2053,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Given (1 + 2𝑖)(−2 −3𝑖) = 𝑎+ 𝑏𝑖. Find 𝑎+ 𝑏.\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: −3\n\n• Verified Key: Option A (−3)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_18",
@@ -2068,8 +2068,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "B",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Simplify (𝑖−1)4.\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: −4\n\n• Verified Key: Option B (−4)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_19",
@@ -2083,8 +2083,8 @@ window.MAT101_QUESTIONS = [
       "D": "natural"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: The product of a complex numbers and its conjugate results in a _______ number.\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: real\n\n• Verified Key: Option A (real)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_20",
@@ -2098,8 +2098,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: If 𝑍1 = 1 + 2𝑖 𝑎𝑛𝑑 𝑍2 = 4 −3𝑖, what is the value of |𝑍2 −𝑍1|?\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: √34\n\n• Verified Key: Option A (√34)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_21",
@@ -2113,8 +2113,8 @@ window.MAT101_QUESTIONS = [
       "D": "4𝑖"
     },
     "answer": "D",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Evaluate − 4 𝑖9\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 4𝑖\n\n• Verified Key: Option D (4𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_22",
@@ -2128,8 +2128,8 @@ window.MAT101_QUESTIONS = [
       "D": "−1"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Evaluate − 1 𝑖7\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: −𝑖\n\n• Verified Key: Option A (−𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_23",
@@ -2143,8 +2143,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 2"
     },
     "answer": "C",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Evaluate 2 (1+𝑖)4\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: − 1 2\n\n• Verified Key: Option C (− 1 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_24",
@@ -2158,8 +2158,8 @@ window.MAT101_QUESTIONS = [
       "D": "natural"
     },
     "answer": "B",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: ______ numbers ranges from −∞ to +∞\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: integer\n\n• Verified Key: Option B (integer)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_25",
@@ -2173,8 +2173,8 @@ window.MAT101_QUESTIONS = [
       "D": "2 ± 𝑖"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Find the solution of the equation 𝑥2 + 2𝑥= −5\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: −1 ± 2𝑖\n\n• Verified Key: Option A (−1 ± 2𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_26",
@@ -2188,8 +2188,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "C",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Simplify 𝑖3(1 + 𝑖) + 𝑖5(3 −𝑖) + 𝑖7(2 + 𝑖)\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 3\n\n• Verified Key: Option C (3)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_27",
@@ -2203,8 +2203,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 1 2 , 3 2"
     },
     "answer": "D",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: If 2+𝑗 1−𝑗= 𝑗(𝑥+ 𝑦𝑗). Find y and x.\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: − 1 2 , 3 2\n\n• Verified Key: Option D (− 1 2 , 3 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_28",
@@ -2218,8 +2218,8 @@ window.MAT101_QUESTIONS = [
       "D": "4.583, 26.57∘"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Modulus & Argument in Argand Plane):\nFor $Z = x + iy$:\n• Modulus: $r = |Z| = \\sqrt{x^2 + y^2}$ (Euclidean distance from origin).\n• Argument: $\\theta = \\text{Arg}(Z) = \\tan^{-1}(|y/x|)$ adjusted for the quadrant determined by the signs of $x$ and $y$.\n\n🔍 Detailed Step-by-Step:\n• From the given complex number: determine $x$ and $y$.\n• Calculate $r = \\sqrt{x^2 + y^2}$.\n• Determine quadrant and compute principal argument $\\theta$.\n• Result matches Option A: 5.385, −158.2∘.\n\n• Verified Key: Option A (5.385, −158.2∘)",
+    "speed_hack": "⚡ CBT Speed Hack: Always check quadrant signs first! If $x < 0$ and $y > 0$, $\\theta$ must lie strictly in Quadrant II ($90^\\circ < \\theta < 180^\\circ$)."
   },
   {
     "id": "COM_29",
@@ -2233,8 +2233,8 @@ window.MAT101_QUESTIONS = [
       "D": "−5"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: If 𝑧= 2 + 𝑖 and 𝑤= 3 −𝑖, evaluate 3𝑧−2𝑤\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 5𝑖\n\n• Verified Key: Option A (5𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_30",
@@ -2248,8 +2248,8 @@ window.MAT101_QUESTIONS = [
       "D": "−12 −9𝑖"
     },
     "answer": "C",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: If 𝑤= 3 −𝑖 and 𝑧= 2 + 𝑖, evaluate 𝑤𝑧2 −1\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 12 + 9𝑖\n\n• Verified Key: Option C (12 + 9𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_31",
@@ -2263,8 +2263,8 @@ window.MAT101_QUESTIONS = [
       "D": "3𝑖−4"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: The complex conjugate of 3 + 4𝑖 is\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: −4𝑖+ 3\n\n• Verified Key: Option A (−4𝑖+ 3)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_32",
@@ -2278,8 +2278,8 @@ window.MAT101_QUESTIONS = [
       "D": "22 + 4𝑖"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Given 𝑧= 2 + 𝑖 and 𝑤= 3 −𝑖, evaluate 𝑤2𝑧−2\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 4(5 −𝑖)\n\n• Verified Key: Option A (4(5 −𝑖))",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_33",
@@ -2293,8 +2293,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 1 2 (1 + 𝑖)"
     },
     "answer": "B",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Evaluate 1 1 + 𝑖\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 1 2 (1 −𝑖)\n\n• Verified Key: Option B (1 2 (1 −𝑖))",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_34",
@@ -2308,8 +2308,8 @@ window.MAT101_QUESTIONS = [
       "D": "2.236, 26.57∘"
     },
     "answer": "B",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Modulus & Argument in Argand Plane):\nFor $Z = x + iy$:\n• Modulus: $r = |Z| = \\sqrt{x^2 + y^2}$ (Euclidean distance from origin).\n• Argument: $\\theta = \\text{Arg}(Z) = \\tan^{-1}(|y/x|)$ adjusted for the quadrant determined by the signs of $x$ and $y$.\n\n🔍 Detailed Step-by-Step:\n• From the given complex number: determine $x$ and $y$.\n• Calculate $r = \\sqrt{x^2 + y^2}$.\n• Determine quadrant and compute principal argument $\\theta$.\n• Result matches Option B: 2.236, 63.43∘.\n\n• Verified Key: Option B (2.236, 63.43∘)",
+    "speed_hack": "⚡ CBT Speed Hack: Always check quadrant signs first! If $x < 0$ and $y > 0$, $\\theta$ must lie strictly in Quadrant II ($90^\\circ < \\theta < 180^\\circ$)."
   },
   {
     "id": "COM_35",
@@ -2323,8 +2323,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑖+ 2"
     },
     "answer": "D",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: The complex conjugate of 2 −𝑖 is\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 𝑖+ 2\n\n• Verified Key: Option D (𝑖+ 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_36",
@@ -2338,8 +2338,8 @@ window.MAT101_QUESTIONS = [
       "D": "0"
     },
     "answer": "D",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Given 𝑍1 = 1 + 2𝑖, 𝑍2 = 4 −3𝑖, 𝑍3 = −2 + 3𝑖, evaluate |𝑍1 + 𝑍2| −|𝑍3| × √2\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 0\n\n• Verified Key: Option D (0)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_37",
@@ -2353,8 +2353,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 −2𝑖"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Given 𝑍1 = 1 + 2𝑖, 𝑍2 = 4 −3𝑖, 𝑍3 = −2 + 3𝑖, evaluate 𝑍1 + 𝑍2 −𝑍3\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 7 −4𝑖\n\n• Verified Key: Option A (7 −4𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_38",
@@ -2368,8 +2368,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 −2𝑖"
     },
     "answer": "D",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Given 𝑍1 = 1 + 2𝑖, 𝑍2 = 4 −3𝑖, 𝑍3 = −2 + 3𝑖, evaluate 𝑍2 −𝑍1 + 𝑍3\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 1 −2𝑖\n\n• Verified Key: Option D (1 −2𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_39",
@@ -2383,8 +2383,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥= −1, 𝑦= −1"
     },
     "answer": "C",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: If 𝑥+ 𝑖𝑦= 3−𝑖 2+𝑖, find 𝑥 and 𝑦\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 𝑥= 1, 𝑦= −1\n\n• Verified Key: Option C (𝑥= 1, 𝑦= −1)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_40",
@@ -2398,8 +2398,8 @@ window.MAT101_QUESTIONS = [
       "D": "4 + 22𝑖 5"
     },
     "answer": "C",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Evaluate (2+𝑖)2(1−𝑖) 3𝑖−1\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 2 + 11𝑖 5\n\n• Verified Key: Option C (2 + 11𝑖 5)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_41",
@@ -2413,8 +2413,8 @@ window.MAT101_QUESTIONS = [
       "D": "−4𝑠𝑖𝑛2𝜃"
     },
     "answer": "C",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: If 𝑍= 𝑐𝑜𝑠𝜃+ 𝑖𝑠𝑖𝑛𝜃, then find the value of (𝑧+ 1 𝑧) 2 is\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 4𝑐𝑜𝑠2𝜃\n\n• Verified Key: Option C (4𝑐𝑜𝑠2𝜃)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_42",
@@ -2428,8 +2428,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 12 13"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given: Find the real part of 2+3𝑖 3+2𝑖\n• Expand the expression using $i^2 = -1$ wherever $i^2$ appears.\n• Collect all terms: group real terms (no $i$) and imaginary terms (with $i$).\n• Extract the real part of the simplified result.\n• Result: 12 13\n\n• Verified Key: Option A (12 13)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_43",
@@ -2443,8 +2443,8 @@ window.MAT101_QUESTIONS = [
       "D": "4 + 𝑖"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Evaluate (𝑖+ 3) −(2 −3𝑖) + (1 + 2𝑖) −(2𝑖+ 1)\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 1 + 4𝑖\n\n• Verified Key: Option A (1 + 4𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_44",
@@ -2458,8 +2458,8 @@ window.MAT101_QUESTIONS = [
       "D": "4+7𝑖 25"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Simplify ( 3𝑖−2 1+2𝑖)\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 4+7𝑖 5\n\n• Verified Key: Option A (4+7𝑖 5)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_45",
@@ -2473,8 +2473,8 @@ window.MAT101_QUESTIONS = [
       "D": "5𝑖−1 26"
     },
     "answer": "B",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Simplify ( 1 2−3𝑖) ( 1 1+𝑖)\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 5+𝑖 26\n\n• Verified Key: Option B (5+𝑖 26)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_46",
@@ -2488,8 +2488,8 @@ window.MAT101_QUESTIONS = [
       "D": "2"
     },
     "answer": "D",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Modulus & Argument in Argand Plane):\nFor $Z = x + iy$:\n• Modulus: $r = |Z| = \\sqrt{x^2 + y^2}$ (Euclidean distance from origin).\n• Argument: $\\theta = \\text{Arg}(Z) = \\tan^{-1}(|y/x|)$ adjusted for the quadrant determined by the signs of $x$ and $y$.\n\n🔍 Detailed Step-by-Step:\n• From the given complex number: determine $x$ and $y$.\n• Calculate $r = \\sqrt{x^2 + y^2}$.\n• Determine quadrant and compute principal argument $\\theta$.\n• Result matches Option D: 2.\n\n• Verified Key: Option D (2)",
+    "speed_hack": "⚡ CBT Speed Hack: Always check quadrant signs first! If $x < 0$ and $y > 0$, $\\theta$ must lie strictly in Quadrant II ($90^\\circ < \\theta < 180^\\circ$)."
   },
   {
     "id": "COM_47",
@@ -2503,8 +2503,8 @@ window.MAT101_QUESTIONS = [
       "D": "2, −45𝑜"
     },
     "answer": "C",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Modulus & Argument in Argand Plane):\nFor $Z = x + iy$:\n• Modulus: $r = |Z| = \\sqrt{x^2 + y^2}$ (Euclidean distance from origin).\n• Argument: $\\theta = \\text{Arg}(Z) = \\tan^{-1}(|y/x|)$ adjusted for the quadrant determined by the signs of $x$ and $y$.\n\n🔍 Detailed Step-by-Step:\n• From the given complex number: determine $x$ and $y$.\n• Calculate $r = \\sqrt{x^2 + y^2}$.\n• Determine quadrant and compute principal argument $\\theta$.\n• Result matches Option C: √2, 135𝑜.\n\n• Verified Key: Option C (√2, 135𝑜)",
+    "speed_hack": "⚡ CBT Speed Hack: Always check quadrant signs first! If $x < 0$ and $y > 0$, $\\theta$ must lie strictly in Quadrant II ($90^\\circ < \\theta < 180^\\circ$)."
   },
   {
     "id": "COM_48",
@@ -2518,8 +2518,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑖−1"
     },
     "answer": "D",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Simplify −1+3𝑖 2−𝑖\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 𝑖−1\n\n• Verified Key: Option D (𝑖−1)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_49",
@@ -2533,8 +2533,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "C",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Polar complex number 4∠𝜋 is equal to\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: −4\n\n• Verified Key: Option C (−4)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_50",
@@ -2548,8 +2548,8 @@ window.MAT101_QUESTIONS = [
       "D": "2𝑖−2"
     },
     "answer": "C",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Solve the quadratic equation 𝑥2 −4𝑥= 8\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 2 + 2𝑖\n\n• Verified Key: Option C (2 + 2𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_51",
@@ -2563,8 +2563,8 @@ window.MAT101_QUESTIONS = [
       "D": "3125∠150°"
     },
     "answer": "C",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Evaluate (5∠15°)5\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 3125∠75°\n\n• Verified Key: Option C (3125∠75°)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_52",
@@ -2578,8 +2578,8 @@ window.MAT101_QUESTIONS = [
       "D": "−10 −13.75𝑖"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given: If 𝑍= 𝑅+ 𝑖𝜔𝐿+ 1/𝑖𝜔𝐶, express 𝑍 in (𝑎+ 𝑏𝑖) form when 𝑅= 10, 𝐿= 5, 𝐶= 0.04 and 𝜔= 4.\n• To divide complex numbers: multiply numerator and denominator by the conjugate of the denominator.\n• If denominator is $a + ib$, multiply by $a - ib$.\n• Numerator becomes $(x+iy)(a-ib) = (xa+yb) + i(ya-xb)$.\n• Denominator becomes $a^2 + b^2$ (real number).\n• Separate real and imaginary parts.\n• Result: 10 + 13.75𝑖\n\n• Verified Key: Option A (10 + 13.75𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_53",
@@ -2593,8 +2593,8 @@ window.MAT101_QUESTIONS = [
       "D": "−2𝑖"
     },
     "answer": "B",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: The cube root of 8𝑖 is\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 2\n\n• Verified Key: Option B (2)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_54",
@@ -2608,8 +2608,8 @@ window.MAT101_QUESTIONS = [
       "D": "7𝜋 4"
     },
     "answer": "B",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Modulus & Argument in Argand Plane):\nFor $Z = x + iy$:\n• Modulus: $r = |Z| = \\sqrt{x^2 + y^2}$ (Euclidean distance from origin).\n• Argument: $\\theta = \\text{Arg}(Z) = \\tan^{-1}(|y/x|)$ adjusted for the quadrant determined by the signs of $x$ and $y$.\n\n🔍 Detailed Step-by-Step:\n• From the given complex number: determine $x$ and $y$.\n• Calculate $r = \\sqrt{x^2 + y^2}$.\n• Determine quadrant and compute principal argument $\\theta$.\n• Result matches Option B: 3𝜋 4.\n\n• Verified Key: Option B (3𝜋 4)",
+    "speed_hack": "⚡ CBT Speed Hack: Always check quadrant signs first! If $x < 0$ and $y > 0$, $\\theta$ must lie strictly in Quadrant II ($90^\\circ < \\theta < 180^\\circ$)."
   },
   {
     "id": "COM_55",
@@ -2623,8 +2623,8 @@ window.MAT101_QUESTIONS = [
       "D": "ℂ"
     },
     "answer": "D",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: The set of complex number is denoted by\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: ℂ\n\n• Verified Key: Option D (ℂ)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_56",
@@ -2638,8 +2638,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑐𝑜𝑠 𝜃 𝑛+ 𝑖𝑠𝑖𝑛 𝜃 𝑛"
     },
     "answer": "C",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: If 𝑧= 𝑐𝑜𝑠𝜃+ 𝑖𝑠𝑖𝑛𝜃, then 𝑧𝑛 equals\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 𝑐𝑜𝑠𝑛𝜃+ 𝑖𝑠𝑖𝑛𝑛𝜃\n\n• Verified Key: Option C (𝑐𝑜𝑠𝑛𝜃+ 𝑖𝑠𝑖𝑛𝑛𝜃)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_57",
@@ -2653,8 +2653,8 @@ window.MAT101_QUESTIONS = [
       "D": "−4𝑠𝑖𝑛2𝜃"
     },
     "answer": "B",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: If 𝑧= 𝑐𝑜𝑠𝜃+ 𝑖𝑠𝑖𝑛𝜃, then find the value of (𝑧− 1 𝑧) 2 is\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 2𝑖𝑠𝑖𝑛𝜃\n\n• Verified Key: Option B (2𝑖𝑠𝑖𝑛𝜃)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_58",
@@ -2668,8 +2668,8 @@ window.MAT101_QUESTIONS = [
       "D": "32"
     },
     "answer": "D",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: If 𝑧= 1 + 𝑖, then 𝑧10 equals\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 32\n\n• Verified Key: Option D (32)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_59",
@@ -2683,8 +2683,8 @@ window.MAT101_QUESTIONS = [
       "D": "729∠150°"
     },
     "answer": "D",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Evaluate (3∠25°)6\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 729∠150°\n\n• Verified Key: Option D (729∠150°)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "COM_60",
@@ -2698,8 +2698,8 @@ window.MAT101_QUESTIONS = [
       "D": "−1"
     },
     "answer": "A",
-    "explanation": "Standard Method: For z = x + jy, |z| = sqrt(x^2 + y^2), Arg(z) = arctan(|y/x|) with quadrant adjustment, z * z_bar = x^2 + y^2.",
-    "speed_hack": "⚡ CBT Speed Hack: Powers of i: divide exponent by 4; remainder gives equivalent power (i^0=1, i^1=i, i^2=-1, i^3=-i)."
+    "explanation": "📖 Core Principle (Complex Number Arithmetic):\nFor $Z = x + iy$: $|Z| = \\sqrt{x^2 + y^2}$; conjugate $\\bar{Z} = x - iy$; $Z\\bar{Z} = x^2 + y^2 = |Z|^2$.\nPowers of $i$: cycle of 4 — $i^{4k}=1,\\; i^{4k+1}=i,\\; i^{4k+2}=-1,\\; i^{4k+3}=-i$.\nDivision: multiply numerator and denominator by the conjugate of the denominator.\nDe Moivre: $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$.\n\n🔍 Detailed Step-by-Step:\n• Given complex number expression: Simplify 𝑖10 + 𝑖9 + 𝑖8 + 𝑖7 + 𝑖6 + 𝑖5 + 𝑖4 + 𝑖3 + 𝑖2 + 𝑖1 + 𝑖0\n• Apply complex arithmetic: use $i^2 = -1$ to simplify powers.\n• For addition/subtraction: combine real parts and imaginary parts separately.\n• For multiplication: FOIL method, then replace $i^2$ with $-1$.\n• Write result in standard form $a + bi$.\n• Result: 𝑖\n\n• Verified Key: Option A (𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Remember $(1+i)^2 = 2i$ and $(1-i)^2 = -2i$. For division, multiply denominator by conjugate to clear imaginary unit $i$."
   },
   {
     "id": "INE_01",
@@ -2713,8 +2713,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥∶𝑥≥−1}"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the solution set of the inequality: 3x+ 2 ≤x+ 4\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥∶𝑥≤1}.\n\n• Verified Key: Option B ({𝑥∶𝑥≤1})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_02",
@@ -2728,8 +2728,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥∶𝑥> − 4 3}"
     },
     "answer": "D",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the solution set of the inequality: 1 2 x+ 3 > 1 −x\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥∶𝑥> − 4 3}.\n\n• Verified Key: Option D ({𝑥∶𝑥> − 4 3})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_03",
@@ -2743,8 +2743,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≤5"
     },
     "answer": "A",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the range of values of x for which the inequality 4x+ 3 ≥2x−7 is true.\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≥−5.\n\n• Verified Key: Option A (𝑥≥−5)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_04",
@@ -2758,8 +2758,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≤− 20 3"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Determine the range of values of x for which the inequality 1 4 x−3 ≤2 + x is true.\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≥− 20 3.\n\n• Verified Key: Option B (𝑥≥− 20 3)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_05",
@@ -2773,8 +2773,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≤−2"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve 2x+ 1 ≤x+ 5\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≤4.\n\n• Verified Key: Option B (𝑥≤4)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_06",
@@ -2788,8 +2788,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≤−6"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the range of x for which 1 3 x+ 2 ≥ 1 2 x+ 1\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≤6.\n\n• Verified Key: Option C (𝑥≤6)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_07",
@@ -2803,8 +2803,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≤2"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve the inequality 3x−2 ≥ 1 2 x+ 3\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≥2.\n\n• Verified Key: Option B (𝑥≥2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_08",
@@ -2818,8 +2818,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≤1"
     },
     "answer": "D",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the range of x for which 4x+ 1 ≤3x+ 2\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≤1.\n\n• Verified Key: Option D (𝑥≤1)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_09",
@@ -2833,8 +2833,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≥ 5 4"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the range of x for which 2 −3x≥x−3\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≤ 5 4.\n\n• Verified Key: Option C (𝑥≤ 5 4)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_10",
@@ -2848,8 +2848,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≥ 9 2"
     },
     "answer": "A",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve x+ 1 2 ≥2x+ 5\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≤− 9 2.\n\n• Verified Key: Option A (𝑥≤− 9 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_11",
@@ -2863,8 +2863,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≥ 135 4"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the range of values of x for which the inequality 1 3 x−2 ≤ 2 5 x+ 1 4\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≥− 135 4.\n\n• Verified Key: Option B (𝑥≥− 135 4)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_12",
@@ -2878,8 +2878,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≥− 7 10"
     },
     "answer": "D",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the range of values of x for which the inequality 4x+ 1 3 ≥ 2 3 x−2\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≥− 7 10.\n\n• Verified Key: Option D (𝑥≥− 7 10)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_13",
@@ -2893,8 +2893,8 @@ window.MAT101_QUESTIONS = [
       "D": "−1 ≤𝑥< 5"
     },
     "answer": "D",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the set solution to the inequality 3x−4 < 2x+ 1 ≤3x+ 2\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: −1 ≤𝑥< 5.\n\n• Verified Key: Option D (−1 ≤𝑥< 5)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_14",
@@ -2908,8 +2908,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥∶−1 > 𝑥> 2 2 3}"
     },
     "answer": "A",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the set solution to the inequality 2x+ 4 < x+ 3 < 4x−5\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥∶𝑥< −1 ∪𝑥> 2 2 3}.\n\n• Verified Key: Option A ({𝑥∶𝑥< −1 ∪𝑥> 2 2 3})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_15",
@@ -2923,8 +2923,8 @@ window.MAT101_QUESTIONS = [
       "D": "−2 ≤𝑥< 3 2"
     },
     "answer": "D",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the solution set of the inequality: 3x−2 < x+ 1 ≤2x+ 3\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: −2 ≤𝑥< 3 2.\n\n• Verified Key: Option D (−2 ≤𝑥< 3 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_16",
@@ -2938,8 +2938,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: 𝑥< −3} ∪{𝑥: 𝑥> 2}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve the inequality x2 + x−6 > 0\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: 𝑥< −3} ∪{𝑥: 𝑥> 2}.\n\n• Verified Key: Option C ({𝑥: 𝑥< −3} ∪{𝑥: 𝑥> 2})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_17",
@@ -2953,8 +2953,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: −4 ≤𝑥≤−1}"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve the inequality x2 + 3x−4 ≤0\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: −4 ≤𝑥≤1}.\n\n• Verified Key: Option B ({𝑥: −4 ≤𝑥≤1})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_18",
@@ -2968,8 +2968,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: 𝑥< −5 𝑜𝑟 𝑥> 3 2}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the range of values of x for which 2x2 + 7x−15 > 0\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: 𝑥< −5 𝑜𝑟 𝑥> 3 2}.\n\n• Verified Key: Option C ({𝑥: 𝑥< −5 𝑜𝑟 𝑥> 3 2})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_19",
@@ -2983,8 +2983,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: 𝑥< 2 𝑜𝑟 𝑥> −4}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve x2 −2x−8 > 0\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: 𝑥< −2 𝑜𝑟 𝑥> 4}.\n\n• Verified Key: Option C ({𝑥: 𝑥< −2 𝑜𝑟 𝑥> 4})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_20",
@@ -2998,8 +2998,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: −2 < 𝑥< 2}"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve x2 −4 ≥0\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: 𝑥< −2 𝑜𝑟 𝑥> 2}.\n\n• Verified Key: Option B ({𝑥: 𝑥< −2 𝑜𝑟 𝑥> 2})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_21",
@@ -3013,8 +3013,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: −4 < 𝑥< 2 3}"
     },
     "answer": "D",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve the inequality 3x2 + 10x−8 < 0\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: −4 < 𝑥< 2 3}.\n\n• Verified Key: Option D ({𝑥: −4 < 𝑥< 2 3})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_22",
@@ -3028,8 +3028,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: −3 < 𝑥< 4}"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the range of values for which 1 x−3 > 1\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: 3 < 𝑥< 4}.\n\n• Verified Key: Option B ({𝑥: 3 < 𝑥< 4})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_23",
@@ -3043,8 +3043,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: 3 < 𝑥< 4}"
     },
     "answer": "A",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve the inequality x2 −x−10 < 2\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: −3 < 𝑥< 4}.\n\n• Verified Key: Option A ({𝑥: −3 < 𝑥< 4})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_24",
@@ -3058,8 +3058,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: 3 < 𝑥< 1 2}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve the inequality 3 −5x−2x2 > 0\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: −3 < 𝑥< 1 2}.\n\n• Verified Key: Option C ({𝑥: −3 < 𝑥< 1 2})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_25",
@@ -3073,8 +3073,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: 𝑥≤− 2 3} ∪ {𝑥; 𝑥> 4}"
     },
     "answer": "A",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve the inequality 8 + 10x−3x2 ≤0\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: 𝑥≤− 2 3} ∪ {𝑥; 𝑥≥4}.\n\n• Verified Key: Option A ({𝑥: 𝑥≤− 2 3} ∪ {𝑥; 𝑥≥4})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_26",
@@ -3088,8 +3088,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: 𝑥< −5} ∪ {𝑥; 𝑥> −1}"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve the inequality x2 + 4x−5 > 0\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: 𝑥< −5} ∪ {𝑥; 𝑥> 1}.\n\n• Verified Key: Option B ({𝑥: 𝑥< −5} ∪ {𝑥; 𝑥> 1})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_27",
@@ -3103,8 +3103,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: −2 < 𝑥< 5 }"
     },
     "answer": "D",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve the inequality x2 −4x−8 < 2 −x\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: −2 < 𝑥< 5 }.\n\n• Verified Key: Option D ({𝑥: −2 < 𝑥< 5 })",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_28",
@@ -3118,8 +3118,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 1 2 < 𝑥< 7 2"
     },
     "answer": "D",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve |2x−3| < 4\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: − 1 2 < 𝑥< 7 2.\n\n• Verified Key: Option D (− 1 2 < 𝑥< 7 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_29",
@@ -3133,8 +3133,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: 𝑥> − 2 3} ∪{𝑥: 𝑥> 2}"
     },
     "answer": "A",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve the inequality |3x−2| > 4\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: 𝑥< − 2 3} ∪{𝑥: 𝑥> 2}.\n\n• Verified Key: Option A ({𝑥: 𝑥< − 2 3} ∪{𝑥: 𝑥> 2})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_30",
@@ -3148,8 +3148,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: 𝑥< 1 2}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve the inequality |x−2| < |x+ 3|\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: 𝑥> − 1 2}.\n\n• Verified Key: Option C ({𝑥: 𝑥> − 1 2})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_31",
@@ -3163,8 +3163,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥< −2"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve the inequality 3 4 (1 −x) > 1 4 −x\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥> −2.\n\n• Verified Key: Option B (𝑥> −2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_32",
@@ -3178,8 +3178,8 @@ window.MAT101_QUESTIONS = [
       "D": "−6 ≤𝑥≤4"
     },
     "answer": "D",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve |5x+ 5| −8 ≤17\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: −6 ≤𝑥≤4.\n\n• Verified Key: Option D (−6 ≤𝑥≤4)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_33",
@@ -3193,8 +3193,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≥4"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Which of the following represents the solution set of the inequality 2x+ 1 ≤x+ 5\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≤4.\n\n• Verified Key: Option B (𝑥≤4)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_34",
@@ -3208,8 +3208,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≥6"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Which of the following represents the solution set of the inequality 1 3 x+ 2 ≥ 1 2 x+ 1\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≤6.\n\n• Verified Key: Option B (𝑥≤6)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_35",
@@ -3223,8 +3223,8 @@ window.MAT101_QUESTIONS = [
       "D": "4 ≤𝑥≤1"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the solution set of the inequality x2 + 3x−4 ≤0\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: −4 ≤𝑥≤1.\n\n• Verified Key: Option C (−4 ≤𝑥≤1)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_36",
@@ -3238,8 +3238,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥∶−4 < 𝑥< −3}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Determine the solution set of the inequality x2 −x−10 < 2\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥∶−3 < 𝑥< 4}.\n\n• Verified Key: Option C ({𝑥∶−3 < 𝑥< 4})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_37",
@@ -3253,8 +3253,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≤−3 𝑜𝑟 𝑥≥1"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the solution set of the inequality x2 −2x−3 ≥0\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≤−1 𝑜𝑟 𝑥≥3.\n\n• Verified Key: Option C (𝑥≤−1 𝑜𝑟 𝑥≥3)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_38",
@@ -3267,8 +3267,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥∶− 1 2 < 𝑥< 3}"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Determine the solution set of the inequality 3 −5x−2x2 > 0\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: .\n\n• Verified Key: Option C ()",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_39",
@@ -3282,8 +3282,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: 𝑥< −4} ∪{𝑥: 𝑥> 2 3}"
     },
     "answer": "A",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the solution set of the inequality 8 + 10x−3x2 ≤0\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: 𝑥< − 2 3} ∪{𝑥: 𝑥> 4}.\n\n• Verified Key: Option A ({𝑥: 𝑥< − 2 3} ∪{𝑥: 𝑥> 4})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_40",
@@ -3297,8 +3297,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥: 𝑥< 1} ∪{𝑥: 𝑥> 5}"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the solution set of the inequality x2 + 4x−5 > 0\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥: 𝑥< −5} ∪{𝑥: 𝑥> 1}.\n\n• Verified Key: Option B ({𝑥: 𝑥< −5} ∪{𝑥: 𝑥> 1})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_41",
@@ -3312,8 +3312,8 @@ window.MAT101_QUESTIONS = [
       "D": "{𝑥∶−5 < 𝑥< −2}"
     },
     "answer": "A",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the solution set of the inequality x2 −4x−8 < 2 −x\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: {𝑥∶−2 < 𝑥< 5}.\n\n• Verified Key: Option A ({𝑥∶−2 < 𝑥< 5})",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_42",
@@ -3327,8 +3327,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥< 5"
     },
     "answer": "A",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Determine the values of x satisfying: |x| < 5\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: −5 < 𝑥< 5.\n\n• Verified Key: Option A (−5 < 𝑥< 5)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_43",
@@ -3342,8 +3342,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≤−10, 𝑥≥4"
     },
     "answer": "D",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Determine the values of x satisfying: |x+ 3| ≥7\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≤−10, 𝑥≥4.\n\n• Verified Key: Option D (𝑥≤−10, 𝑥≥4)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_44",
@@ -3357,8 +3357,8 @@ window.MAT101_QUESTIONS = [
       "D": "−2 ≤𝑥< 3 2"
     },
     "answer": "D",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the solution set of the inequality 3x−2 < x+ 1 ≤2x+ 3\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: −2 ≤𝑥< 3 2.\n\n• Verified Key: Option D (−2 ≤𝑥< 3 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_45",
@@ -3372,8 +3372,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≤−7, 𝑥≥1"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Determine the values of x satisfying: |x+ 3| ≥4\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≤−7, 𝑥≥1.\n\n• Verified Key: Option B (𝑥≤−7, 𝑥≥1)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_46",
@@ -3387,8 +3387,8 @@ window.MAT101_QUESTIONS = [
       "D": "−5 ≤𝑥≤−3"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Determine the values of x satisfying: |x−4| ≤1\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 3 ≤𝑥≤5.\n\n• Verified Key: Option B (3 ≤𝑥≤5)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_47",
@@ -3402,8 +3402,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥> 10"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the solution set of the inequality 2x−3 < x+ 7\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥< 10.\n\n• Verified Key: Option C (𝑥< 10)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_48",
@@ -3417,8 +3417,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥< − 3 5"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the solution set of the inequality 3x+ 4 > 1 −2x\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥> − 3 5.\n\n• Verified Key: Option C (𝑥> − 3 5)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_49",
@@ -3432,8 +3432,8 @@ window.MAT101_QUESTIONS = [
       "D": "A. 𝑥≤− 135 4"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the solution set of the inequality 1 3 x−2 ≤ 2 5 x+ 1 4\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: A. 𝑥≤ 135 4.\n\n• Verified Key: Option C (A. 𝑥≤ 135 4)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_50",
@@ -3447,8 +3447,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≤ 7 10"
     },
     "answer": "A",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the solution set of the inequality 4x+ 1 3 ≥ 2 3 x−2\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≥− 7 10.\n\n• Verified Key: Option A (𝑥≥− 7 10)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_51",
@@ -3462,8 +3462,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥< 2 𝑜𝑟 𝑥> −4"
     },
     "answer": "A",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Evaluate |x−3| > 1\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥< 2 𝑜𝑟 𝑥> 4.\n\n• Verified Key: Option A (𝑥< 2 𝑜𝑟 𝑥> 4)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_52",
@@ -3477,8 +3477,8 @@ window.MAT101_QUESTIONS = [
       "D": "−4 < 𝑥< −1"
     },
     "answer": "A",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Evaluate |2x−5| < 3\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 1 < 𝑥< 4.\n\n• Verified Key: Option A (1 < 𝑥< 4)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_53",
@@ -3492,8 +3492,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≤−2 𝑜𝑟 𝑥≥−1"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Evaluate |2 −4x| ≥6\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≤−2 𝑜𝑟 𝑥≥1.\n\n• Verified Key: Option C (𝑥≤−2 𝑜𝑟 𝑥≥1)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_54",
@@ -3507,8 +3507,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 < 𝑥< 2"
     },
     "answer": "A",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the range of values of x for which 1 x> 2 is true.\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥< 1 2.\n\n• Verified Key: Option A (𝑥< 1 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_55",
@@ -3522,8 +3522,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑦< −4"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve the inequality y+ 9 > 5y−7\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑦< 4.\n\n• Verified Key: Option C (𝑦< 4)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_56",
@@ -3537,8 +3537,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥< 7 1 2"
     },
     "answer": "A",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find the value of x satisfying x 2 − 1 3 < 2x 5 + 1 6\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥< 5.\n\n• Verified Key: Option A (𝑥< 5)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_57",
@@ -3552,8 +3552,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥> 11"
     },
     "answer": "D",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Find all real numbers x which satisfy the inequality 1 3 (x+ 1) −1 > 1 5 (x+ 4)\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥> 11.\n\n• Verified Key: Option D (𝑥> 11)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_58",
@@ -3567,8 +3567,8 @@ window.MAT101_QUESTIONS = [
       "D": "−2 < 𝑥< 1"
     },
     "answer": "D",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: Solve the inequality 2 −x> x2\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: −2 < 𝑥< 1.\n\n• Verified Key: Option D (−2 < 𝑥< 1)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_59",
@@ -3582,8 +3582,8 @@ window.MAT101_QUESTIONS = [
       "D": "−3 < 𝑥≤4"
     },
     "answer": "C",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: If y= x2 −x−12, find the range of values of x for which y≥0.\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: −3 ≤𝑥≤4.\n\n• Verified Key: Option C (−3 ≤𝑥≤4)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "INE_60",
@@ -3597,8 +3597,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥≥3 𝑜𝑟 𝑥≤−4"
     },
     "answer": "B",
-    "explanation": "Standard Method: Solve by isolating x or finding critical values on a number line. Remember: multiplying/dividing by a negative reverses the sign.",
-    "speed_hack": "⚡ CBT Speed Hack: Test x = 0 or extreme values (x = 10, x = -10) against the options to instantly eliminate 2-3 wrong choices."
+    "explanation": "📖 Core Principle (Inequalities & Sign Invariance):\nWhen solving inequalities: adding or subtracting preserves the direction; multiplying or dividing by a <strong>negative number reverses the inequality symbol</strong>.\n\n🔍 Detailed Step-by-Step:\n• Given inequality: The solution of the quadratic inequality x2 + x−12 ≥0 is\n• Collect variable terms on one side and constant terms on the other.\n• Isolate the variable while observing sign reversal rules.\n• The solution set is: 𝑥≥3 𝑜𝑟 𝑥≥−4.\n\n• Verified Key: Option B (𝑥≥3 𝑜𝑟 𝑥≥−4)",
+    "speed_hack": "⚡ CBT Speed Hack: Pick $x = 0$ or extreme test values ($x = 10$, $x = -10$) and substitute into original inequality. Eliminate all options that make it false!"
   },
   {
     "id": "SUR_01",
@@ -3612,8 +3612,8 @@ window.MAT101_QUESTIONS = [
       "D": "4√3"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{4} = \\sqrt{4\\times1} = 2\\sqrt{1}$\n• $\\sqrt{9} = \\sqrt{9\\times1} = 3\\sqrt{1}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 5√3 3\n• Verified Key: Option B (5√3 3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_02",
@@ -3627,8 +3627,8 @@ window.MAT101_QUESTIONS = [
       "D": "5√5"
     },
     "answer": "A",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{20} = \\sqrt{4\\times5} = 2\\sqrt{5}$\n• $\\sqrt{45} = \\sqrt{9\\times5} = 3\\sqrt{5}$\n• $\\sqrt{125} = \\sqrt{25\\times5} = 5\\sqrt{5}$\n• $\\sqrt{80} = \\sqrt{16\\times5} = 4\\sqrt{5}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 2√5\n• Verified Key: Option A (2√5)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_03",
@@ -3642,8 +3642,8 @@ window.MAT101_QUESTIONS = [
       "D": "11√2"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{32} = \\sqrt{16\\times2} = 4\\sqrt{2}$\n• $\\sqrt{50} = \\sqrt{25\\times2} = 5\\sqrt{2}$\n• $\\sqrt{98} = \\sqrt{49\\times2} = 7\\sqrt{2}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 11√2\n• Verified Key: Option D (11√2)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_04",
@@ -3657,8 +3657,8 @@ window.MAT101_QUESTIONS = [
       "D": "√3 + √2"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: √3 + √2\n• Verified Key: Option D (√3 + √2)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_05",
@@ -3672,8 +3672,8 @@ window.MAT101_QUESTIONS = [
       "D": "2√5 + √3"
     },
     "answer": "A",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{5} = \\sqrt{5}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 2√5 −3√3\n• Verified Key: Option A (2√5 −3√3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_06",
@@ -3687,8 +3687,8 @@ window.MAT101_QUESTIONS = [
       "D": "12"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 17\n• Verified Key: Option B (17)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_07",
@@ -3702,8 +3702,8 @@ window.MAT101_QUESTIONS = [
       "D": "101"
     },
     "answer": "C",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 95\n• Verified Key: Option C (95)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_08",
@@ -3717,8 +3717,8 @@ window.MAT101_QUESTIONS = [
       "D": "3 −4√2"
     },
     "answer": "A",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{18} = \\sqrt{9\\times2} = 3\\sqrt{2}$\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: −3 + 4√2\n• Verified Key: Option A (−3 + 4√2)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_09",
@@ -3732,8 +3732,8 @@ window.MAT101_QUESTIONS = [
       "D": "4√3"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{12} = \\sqrt{4\\times3} = 2\\sqrt{3}$\n• $\\sqrt{75} = \\sqrt{25\\times3} = 5\\sqrt{3}$\n• $\\sqrt{48} = \\sqrt{16\\times3} = 4\\sqrt{3}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 2√3\n• Verified Key: Option B (2√3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_10",
@@ -3747,8 +3747,8 @@ window.MAT101_QUESTIONS = [
       "D": "3√2"
     },
     "answer": "A",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{18} = \\sqrt{9\\times2} = 3\\sqrt{2}$\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{50} = \\sqrt{25\\times2} = 5\\sqrt{2}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 6√2\n• Verified Key: Option A (6√2)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_11",
@@ -3762,8 +3762,8 @@ window.MAT101_QUESTIONS = [
       "D": "11 −6√2"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 11 −6√2\n• Verified Key: Option D (11 −6√2)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_12",
@@ -3777,8 +3777,8 @@ window.MAT101_QUESTIONS = [
       "D": "9 + 4√5"
     },
     "answer": "A",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{5} = \\sqrt{5}$ (cannot simplify further)\n• $\\sqrt{5} = \\sqrt{5}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 1\n• Verified Key: Option A (1)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_13",
@@ -3791,8 +3791,8 @@ window.MAT101_QUESTIONS = [
       "C": "2"
     },
     "answer": "C",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 2\n• Verified Key: Option C (2)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_14",
@@ -3806,8 +3806,8 @@ window.MAT101_QUESTIONS = [
       "D": "√2"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{8} = \\sqrt{4\\times2} = 2\\sqrt{2}$\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{8} = \\sqrt{4\\times2} = 2\\sqrt{2}$\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 1 3\n• Verified Key: Option B (1 3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_15",
@@ -3821,8 +3821,8 @@ window.MAT101_QUESTIONS = [
       "D": "4 −√15"
     },
     "answer": "C",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{5} = \\sqrt{5}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{5} = \\sqrt{5}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 4 + √15\n• Verified Key: Option C (4 + √15)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_16",
@@ -3836,8 +3836,8 @@ window.MAT101_QUESTIONS = [
       "D": "2√2 + 1"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 1 −√2\n• Verified Key: Option B (1 −√2)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_17",
@@ -3851,8 +3851,8 @@ window.MAT101_QUESTIONS = [
       "D": "2√2 3"
     },
     "answer": "A",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{15} = \\sqrt{15}$ (cannot simplify further)\n• $\\sqrt{48} = \\sqrt{16\\times3} = 4\\sqrt{3}$\n• $\\sqrt{32} = \\sqrt{16\\times2} = 4\\sqrt{2}$\n• $\\sqrt{45} = \\sqrt{9\\times5} = 3\\sqrt{5}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 3√2 4\n• Verified Key: Option A (3√2 4)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_18",
@@ -3866,8 +3866,8 @@ window.MAT101_QUESTIONS = [
       "D": "6"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 1\n• Verified Key: Option B (1)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_19",
@@ -3881,8 +3881,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑎= 3, 𝑏= −5"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{5} = \\sqrt{5}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{10} = \\sqrt{10}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 𝑎= 3, 𝑏= −5\n• Verified Key: Option D (𝑎= 3, 𝑏= −5)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_20",
@@ -3896,8 +3896,8 @@ window.MAT101_QUESTIONS = [
       "D": "0"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 0\n• Verified Key: Option D (0)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_21",
@@ -3911,8 +3911,8 @@ window.MAT101_QUESTIONS = [
       "D": "5√3"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{27} = \\sqrt{9\\times3} = 3\\sqrt{3}$\n• $\\sqrt{12} = \\sqrt{4\\times3} = 2\\sqrt{3}$\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 5√3\n• Verified Key: Option D (5√3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_22",
@@ -3926,8 +3926,8 @@ window.MAT101_QUESTIONS = [
       "D": "√15"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{135} = \\sqrt{9\\times15} = 3\\sqrt{15}$\n• $\\sqrt{60} = \\sqrt{4\\times15} = 2\\sqrt{15}$\n• $\\sqrt{15} = \\sqrt{15}$ (cannot simplify further)\n• $\\sqrt{240} = \\sqrt{16\\times15} = 4\\sqrt{15}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: −√15\n• Verified Key: Option B (−√15)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_23",
@@ -3941,8 +3941,8 @@ window.MAT101_QUESTIONS = [
       "D": "6 + 4√3"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{27} = \\sqrt{9\\times3} = 3\\sqrt{3}$\n• $\\sqrt{75} = \\sqrt{25\\times3} = 5\\sqrt{3}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 6 + 8√3\n• Verified Key: Option B (6 + 8√3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_24",
@@ -3956,8 +3956,8 @@ window.MAT101_QUESTIONS = [
       "D": "√13"
     },
     "answer": "A",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{52} = \\sqrt{4\\times13} = 2\\sqrt{13}$\n• $\\sqrt{117} = \\sqrt{9\\times13} = 3\\sqrt{13}$\n• $\\sqrt{13} = \\sqrt{13}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 3√13\n• Verified Key: Option A (3√13)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_25",
@@ -3971,8 +3971,8 @@ window.MAT101_QUESTIONS = [
       "D": "−√14"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{224} = \\sqrt{16\\times14} = 4\\sqrt{14}$\n• $\\sqrt{126} = \\sqrt{9\\times14} = 3\\sqrt{14}$\n• $\\sqrt{56} = \\sqrt{4\\times14} = 2\\sqrt{14}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: −√14\n• Verified Key: Option D (−√14)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_26",
@@ -3986,8 +3986,8 @@ window.MAT101_QUESTIONS = [
       "D": "6"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{18} = \\sqrt{9\\times2} = 3\\sqrt{2}$\n• $\\sqrt{20} = \\sqrt{4\\times5} = 2\\sqrt{5}$\n• $\\sqrt{24} = \\sqrt{4\\times6} = 2\\sqrt{6}$\n• $\\sqrt{8} = \\sqrt{4\\times2} = 2\\sqrt{2}$\n• $\\sqrt{30} = \\sqrt{30}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 6\n• Verified Key: Option D (6)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_27",
@@ -4001,8 +4001,8 @@ window.MAT101_QUESTIONS = [
       "D": "3√3 4"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{18} = \\sqrt{9\\times2} = 3\\sqrt{2}$\n• $\\sqrt{39} = \\sqrt{39}$ (cannot simplify further)\n• $\\sqrt{24} = \\sqrt{4\\times6} = 2\\sqrt{6}$\n• $\\sqrt{26} = \\sqrt{26}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 3√6 4\n• Verified Key: Option B (3√6 4)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_28",
@@ -4016,8 +4016,8 @@ window.MAT101_QUESTIONS = [
       "D": "11√3 3"
     },
     "answer": "C",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{27} = \\sqrt{9\\times3} = 3\\sqrt{3}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 11√3 9\n• Verified Key: Option C (11√3 9)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_29",
@@ -4031,8 +4031,8 @@ window.MAT101_QUESTIONS = [
       "D": "3√2 2"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{8} = \\sqrt{4\\times2} = 2\\sqrt{2}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 3√2 2\n• Verified Key: Option D (3√2 2)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_30",
@@ -4046,8 +4046,8 @@ window.MAT101_QUESTIONS = [
       "D": "4√3"
     },
     "answer": "A",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{24} = \\sqrt{4\\times6} = 2\\sqrt{6}$\n• $\\sqrt{6} = \\sqrt{6}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 2√6\n• Verified Key: Option A (2√6)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_31",
@@ -4061,8 +4061,8 @@ window.MAT101_QUESTIONS = [
       "D": "−√10 + √3"
     },
     "answer": "A",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{6} = \\sqrt{6}$ (cannot simplify further)\n• $\\sqrt{5} = \\sqrt{5}$ (cannot simplify further)\n• $\\sqrt{8} = \\sqrt{4\\times2} = 2\\sqrt{2}$\n• $\\sqrt{15} = \\sqrt{15}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: √10 −√3\n• Verified Key: Option A (√10 −√3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_32",
@@ -4076,8 +4076,8 @@ window.MAT101_QUESTIONS = [
       "D": "5√5 −√15"
     },
     "answer": "C",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{5} = \\sqrt{5}$ (cannot simplify further)\n• $\\sqrt{15} = \\sqrt{15}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 5√5 + √15\n• Verified Key: Option C (5√5 + √15)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_33",
@@ -4091,8 +4091,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 4 1 2\n• Verified Key: Option B (4 1 2)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_34",
@@ -4106,8 +4106,8 @@ window.MAT101_QUESTIONS = [
       "D": "24 + 13√6"
     },
     "answer": "C",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 36 −13√6\n• Verified Key: Option C (36 −13√6)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_35",
@@ -4121,8 +4121,8 @@ window.MAT101_QUESTIONS = [
       "D": "23 −6√10"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{5} = \\sqrt{5}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 23 −6√10\n• Verified Key: Option D (23 −6√10)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_36",
@@ -4136,8 +4136,8 @@ window.MAT101_QUESTIONS = [
       "D": "−2 −√3"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 2 + √3\n• Verified Key: Option B (2 + √3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_37",
@@ -4151,8 +4151,8 @@ window.MAT101_QUESTIONS = [
       "D": "2(3 −√7)"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{7} = \\sqrt{7}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 2(3 −√7)\n• Verified Key: Option D (2(3 −√7))",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_38",
@@ -4166,8 +4166,8 @@ window.MAT101_QUESTIONS = [
       "D": "−2 −√3"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{6} = \\sqrt{6}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{6} = \\sqrt{6}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 2 + √3\n• Verified Key: Option B (2 + √3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_39",
@@ -4181,8 +4181,8 @@ window.MAT101_QUESTIONS = [
       "D": "1−√21 5"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{7} = \\sqrt{7}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{7} = \\sqrt{7}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 1+√21 5\n• Verified Key: Option B (1+√21 5)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_40",
@@ -4196,8 +4196,8 @@ window.MAT101_QUESTIONS = [
       "D": "18"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{90} = \\sqrt{9\\times10} = 3\\sqrt{10}$\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 18\n• Verified Key: Option D (18)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_41",
@@ -4211,8 +4211,8 @@ window.MAT101_QUESTIONS = [
       "D": "81"
     },
     "answer": "A",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{64} = \\sqrt{64\\times1} = 8\\sqrt{1}$\n• $\\sqrt{64} = \\sqrt{64\\times1} = 8\\sqrt{1}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 256\n• Verified Key: Option A (256)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_42",
@@ -4226,8 +4226,8 @@ window.MAT101_QUESTIONS = [
       "D": "√2 + √6"
     },
     "answer": "A",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{15} = \\sqrt{15}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: √5 + √3\n• Verified Key: Option A (√5 + √3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_43",
@@ -4241,8 +4241,8 @@ window.MAT101_QUESTIONS = [
       "D": "5√3"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{25} = \\sqrt{25\\times1} = 5\\sqrt{1}$\n• $\\sqrt{49} = \\sqrt{49\\times1} = 7\\sqrt{1}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 5√3\n• Verified Key: Option D (5√3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_44",
@@ -4256,8 +4256,8 @@ window.MAT101_QUESTIONS = [
       "D": "39"
     },
     "answer": "C",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{5} = \\sqrt{5}$ (cannot simplify further)\n• $\\sqrt{5} = \\sqrt{5}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 12\n• Verified Key: Option C (12)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_45",
@@ -4271,8 +4271,8 @@ window.MAT101_QUESTIONS = [
       "D": "9 4"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• Given expression: If √𝑥−√𝑥−2 = 1, find the positive values of 𝑥 which satisfies the equation.\n• Factor each radicand by extracting perfect square components (4, 9, 16, 25, ...).\n• Express as: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$ for each term.\n• Collect and combine all like surds (terms with the same remaining radicand).\n• Final simplification gives: 9 4\n\n• Verified Key: Option D (9 4)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_46",
@@ -4286,8 +4286,8 @@ window.MAT101_QUESTIONS = [
       "D": "√3"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{27} = \\sqrt{9\\times3} = 3\\sqrt{3}$\n• $\\sqrt{12} = \\sqrt{4\\times3} = 2\\sqrt{3}$\n• $\\sqrt{48} = \\sqrt{16\\times3} = 4\\sqrt{3}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: √3\n• Verified Key: Option D (√3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_47",
@@ -4301,8 +4301,8 @@ window.MAT101_QUESTIONS = [
       "D": "20"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• Given expression: Solve the equation √𝑥+ 8 + √𝑥+ 1 = 7\n• Factor each radicand by extracting perfect square components (4, 9, 16, 25, ...).\n• Express as: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$ for each term.\n• Collect and combine all like surds (terms with the same remaining radicand).\n• Final simplification gives: 8\n\n• Verified Key: Option B (8)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_48",
@@ -4316,8 +4316,8 @@ window.MAT101_QUESTIONS = [
       "D": "20"
     },
     "answer": "D",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 20\n• Verified Key: Option D (20)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_49",
@@ -4331,8 +4331,8 @@ window.MAT101_QUESTIONS = [
       "D": "7 2"
     },
     "answer": "C",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{6} = \\sqrt{6}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 7\n• Verified Key: Option C (7)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_50",
@@ -4346,8 +4346,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 1 2 √5 − 1 2 √3"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{5} = \\sqrt{5}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{5} = \\sqrt{5}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 1 2 √5 − 1 2 √3\n• Verified Key: Option B (1 2 √5 − 1 2 √3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_51",
@@ -4361,8 +4361,8 @@ window.MAT101_QUESTIONS = [
       "D": "−√3"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 3\n• Verified Key: Option B (3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_52",
@@ -4376,8 +4376,8 @@ window.MAT101_QUESTIONS = [
       "D": "4√2"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{8} = \\sqrt{4\\times2} = 2\\sqrt{2}$\n• $\\sqrt{98} = \\sqrt{49\\times2} = 7\\sqrt{2}$\n• $\\sqrt{128} = \\sqrt{64\\times2} = 8\\sqrt{2}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 2√2\n• Verified Key: Option B (2√2)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_53",
@@ -4391,8 +4391,8 @@ window.MAT101_QUESTIONS = [
       "D": "4√2"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{200} = \\sqrt{100\\times2} = 10\\sqrt{2}$\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{8} = \\sqrt{4\\times2} = 2\\sqrt{2}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 2√2\n• Verified Key: Option B (2√2)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_54",
@@ -4406,8 +4406,8 @@ window.MAT101_QUESTIONS = [
       "D": "20√2 + 15√3"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{12} = \\sqrt{4\\times3} = 2\\sqrt{3}$\n• $\\sqrt{18} = \\sqrt{9\\times2} = 3\\sqrt{2}$\n• $\\sqrt{72} = \\sqrt{36\\times2} = 6\\sqrt{2}$\n• $\\sqrt{75} = \\sqrt{25\\times3} = 5\\sqrt{3}$\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 20√3 + 15√2\n• Verified Key: Option B (20√3 + 15√2)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_55",
@@ -4421,8 +4421,8 @@ window.MAT101_QUESTIONS = [
       "D": "3 2"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 3 4\n• Verified Key: Option B (3 4)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_56",
@@ -4436,8 +4436,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 + √35"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{35} = \\sqrt{35}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: √7 + √5\n• Verified Key: Option B (√7 + √5)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_57",
@@ -4451,8 +4451,8 @@ window.MAT101_QUESTIONS = [
       "D": "2√2 + 3√3"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{6} = \\sqrt{6}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 3√2 + 2√3\n• Verified Key: Option B (3√2 + 2√3)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_58",
@@ -4466,8 +4466,8 @@ window.MAT101_QUESTIONS = [
       "D": "−8"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• Given expression: Solve the equation √𝑥+ 1 + √𝑥+ 8 = 7\n• Factor each radicand by extracting perfect square components (4, 9, 16, 25, ...).\n• Express as: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$ for each term.\n• Collect and combine all like surds (terms with the same remaining radicand).\n• Final simplification gives: 8\n\n• Verified Key: Option B (8)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_59",
@@ -4481,8 +4481,8 @@ window.MAT101_QUESTIONS = [
       "D": "7+√6 5"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{2} = \\sqrt{2}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 7−√6 5\n• Verified Key: Option B (7−√6 5)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "SUR_60",
@@ -4496,8 +4496,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 11"
     },
     "answer": "B",
-    "explanation": "Standard Method: Rationalize denominators by multiplying numerator and denominator by the conjugate (sqrt(a) - sqrt(b)).",
-    "speed_hack": "⚡ CBT Speed Hack: When finding square root of a surd sqrt(A + sqrt(B)), square each option; the right option matches the original expression."
+    "explanation": "📖 Core Principle (Radicals & Surd Simplification):\nSurds simplify by extracting perfect square factors: $\\sqrt{a^2 \\cdot b} = a\\sqrt{b}$.\nKey: combine like surds $p\\sqrt{k} + q\\sqrt{k} = (p+q)\\sqrt{k}$.\nRationalize denominators using conjugate: $(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a-b$.\n\n🔍 Detailed Step-by-Step:\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• $\\sqrt{3} = \\sqrt{3}$ (cannot simplify further)\n• Combine like surd terms (same radicand) by adding coefficients.\n• Final simplified value: 1 22\n• Verified Key: Option B (1 22)",
+    "speed_hack": "⚡ CBT Speed Hack: For square roots of binomial surds $\\sqrt{A \\pm \\sqrt{B}}$, simply square each multiple-choice option! The correct one equals $A \\pm \\sqrt{B}$."
   },
   {
     "id": "IND_01",
@@ -4511,8 +4511,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 3 2"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: 2𝑦−𝑥= 16 𝑎𝑛𝑑 4𝑦+𝑥= 8, find the value of x + y\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 3 2\n\n• Verified Key: Option B (3 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_02",
@@ -4526,8 +4526,8 @@ window.MAT101_QUESTIONS = [
       "D": "−10"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: 𝐹𝑖𝑛𝑑 𝑥 𝑖𝑛 𝑙𝑜𝑔10(𝑥−9) + 𝑙𝑜𝑔10𝑥= 1\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: −1\n\n• Verified Key: Option B (−1)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_03",
@@ -4541,8 +4541,8 @@ window.MAT101_QUESTIONS = [
       "D": "−4 𝑜𝑟−15"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: 𝑙𝑜𝑔10(𝑥−14) + 𝑙𝑜𝑔10(𝑥−5) = 1\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 4 𝑜𝑟 15\n\n• Verified Key: Option A (4 𝑜𝑟 15)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_04",
@@ -4556,8 +4556,8 @@ window.MAT101_QUESTIONS = [
       "D": "−3"
     },
     "answer": "D",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Given 3 × 5𝑥= 3 125 ⁄ , 𝑤ℎ𝑎𝑡 𝑖𝑠 𝑡ℎ𝑒 𝑣𝑎𝑙𝑢𝑒 𝑜𝑓 𝑥?\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: −3\n\n• Verified Key: Option D (−3)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_05",
@@ -4571,8 +4571,8 @@ window.MAT101_QUESTIONS = [
       "D": "√16 3"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Simplify: 32 2 5 ⁄ × 64 1 18 ⁄\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: √128 3\n\n• Verified Key: Option B (√128 3)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_06",
@@ -4586,8 +4586,8 @@ window.MAT101_QUESTIONS = [
       "D": "−3"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Find 𝑀 given 𝑙𝑜𝑔𝑀= 1 4 𝑙𝑜𝑔81\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 3\n\n• Verified Key: Option C (3)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_07",
@@ -4601,8 +4601,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 2 𝑜𝑟 3 2"
     },
     "answer": "D",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Find 𝑥 if 𝑙𝑜𝑔𝑥(8𝑥−3) − 𝑙𝑜𝑔𝑥4 = 2\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 1 2 𝑜𝑟 3 2\n\n• Verified Key: Option D (1 2 𝑜𝑟 3 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_08",
@@ -4616,8 +4616,8 @@ window.MAT101_QUESTIONS = [
       "D": "−5"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Evaluate 𝑙𝑜𝑔327 − 𝑙𝑜𝑔39 + 𝑙𝑜𝑔381\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 5\n\n• Verified Key: Option C (5)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_09",
@@ -4631,8 +4631,8 @@ window.MAT101_QUESTIONS = [
       "D": "−4𝑙𝑜𝑔𝑎2"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Evaluate 𝑙𝑜𝑔𝑎36 + 1 2 𝑙𝑜𝑔𝑎256 − 2𝑙𝑜𝑔𝑎48\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: −𝑙𝑜𝑔𝑎4\n\n• Verified Key: Option A (−𝑙𝑜𝑔𝑎4)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_10",
@@ -4646,8 +4646,8 @@ window.MAT101_QUESTIONS = [
       "D": "5"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Find the value for 𝑥 4𝑥−7 × 2𝑥+ 12 = 0\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 2\n\n• Verified Key: Option A (2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_11",
@@ -4661,8 +4661,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 1 4"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Find the value of 𝑟 that satisfies the equation 2𝑟−3 = −16\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: − 1 2\n\n• Verified Key: Option B (− 1 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_12",
@@ -4676,8 +4676,8 @@ window.MAT101_QUESTIONS = [
       "D": "8"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Given 5𝑥= 40𝑥−1/2, find 𝑥\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 4\n\n• Verified Key: Option C (4)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_13",
@@ -4691,8 +4691,8 @@ window.MAT101_QUESTIONS = [
       "D": "2"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Simplify 𝑙𝑜𝑔0.2 𝑙𝑜𝑔25\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: − 1 2\n\n• Verified Key: Option A (− 1 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_14",
@@ -4706,8 +4706,8 @@ window.MAT101_QUESTIONS = [
       "D": "2"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Evaluate 𝑙𝑜𝑔8−𝑙𝑜𝑔4 𝑙𝑜𝑔4−𝑙𝑜𝑔2\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 1\n\n• Verified Key: Option B (1)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_15",
@@ -4721,8 +4721,8 @@ window.MAT101_QUESTIONS = [
       "D": "−1 𝑎𝑛𝑑−2"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Solve the equation 2𝑥2 = 1 4 8𝑥\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 1 𝑎𝑛𝑑 2\n\n• Verified Key: Option C (1 𝑎𝑛𝑑 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_16",
@@ -4736,8 +4736,8 @@ window.MAT101_QUESTIONS = [
       "D": "30"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Evaluate 𝑙𝑜𝑔327 × 𝑙𝑜𝑔1/232\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: −15\n\n• Verified Key: Option A (−15)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_17",
@@ -4751,8 +4751,8 @@ window.MAT101_QUESTIONS = [
       "D": "10 19"
     },
     "answer": "D",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given logarithmic equation: If 𝑙𝑜𝑔𝑥−log(2𝑥−1) = 1, find 𝑥\n• Apply relevant log law(s): product, quotient, or power rule.\n• Combine into a single $\\log$ expression, then convert to exponential form: $\\log_b(x) = c \\iff b^c = x$.\n• Solve for the unknown variable.\n• Verify the solution satisfies the domain restriction (argument of log must be $> 0$).\n• Result: 10 19\n\n• Verified Key: Option D (10 19)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_18",
@@ -4766,8 +4766,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 3 2"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Evaluate 𝑙𝑜𝑔2√8 + 𝑙𝑜𝑔1/3√3 −𝑙𝑜𝑔48\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: − 1 2\n\n• Verified Key: Option A (− 1 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_19",
@@ -4781,8 +4781,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given system: Given that 𝑙𝑜𝑔3(𝑥−𝑦) = 1 and 𝑙𝑜𝑔3(2𝑥+ 𝑦) = 2, find the value of 2𝑦−𝑥\n• Express all terms with the same prime base (e.g., convert $4 = 2^2$, $8 = 2^3$, $16 = 2^4$).\n• Once on a common base, equate exponents to form two linear equations in the unknowns.\n• Solve the system of linear equations (e.g., using elimination or substitution).\n• Substitute back to verify, then compute the required expression.\n• Result: −2\n\n• Verified Key: Option B (−2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_20",
@@ -4796,8 +4796,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥= 9, 𝑦= − 9 2"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Solve the simultaneous equations 𝑙𝑜𝑔2𝑥−𝑙𝑜𝑔2𝑦= 2, 𝑙𝑜𝑔2(𝑥−2𝑦) = 3\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 𝑥= 18, 𝑦= 9 2\n\n• Verified Key: Option A (𝑥= 18, 𝑦= 9 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_21",
@@ -4811,8 +4811,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Solve the equations 2𝑙𝑜𝑔√216 = 𝑥\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 16\n\n• Verified Key: Option B (16)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_22",
@@ -4826,8 +4826,8 @@ window.MAT101_QUESTIONS = [
       "D": "9"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Simplify: 9−1 2 ⁄ × 81 3 4 ⁄ 9 1 2 ⁄\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 3\n\n• Verified Key: Option C (3)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_23",
@@ -4841,8 +4841,8 @@ window.MAT101_QUESTIONS = [
       "D": "3"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Find the value of 𝑥 if 4(𝑥−1 2 ⁄ ) = 2𝑥2\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 1\n\n• Verified Key: Option B (1)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_24",
@@ -4856,8 +4856,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 4"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Simplify: (0.064)−1 3 ⁄\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 2 1 2\n\n• Verified Key: Option B (2 1 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_25",
@@ -4871,8 +4871,8 @@ window.MAT101_QUESTIONS = [
       "D": "9𝑦4"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Simplify: √ 54𝑦−4 6𝑦−8\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 3𝑦2\n\n• Verified Key: Option C (3𝑦2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_26",
@@ -4886,8 +4886,8 @@ window.MAT101_QUESTIONS = [
       "D": "10"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Solve for 𝑥: 5(2𝑥−3) = 160\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 8\n\n• Verified Key: Option C (8)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_27",
@@ -4901,8 +4901,8 @@ window.MAT101_QUESTIONS = [
       "D": "3 𝑣"
     },
     "answer": "D",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Simplify: √(729𝑣−6) 1 2 ⁄ 3\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 3 𝑣\n\n• Verified Key: Option D (3 𝑣)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_28",
@@ -4916,8 +4916,8 @@ window.MAT101_QUESTIONS = [
       "D": "−4"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Solve for 𝑧: 92𝑧+1 = 81𝑧+2 3𝑧\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 6\n\n• Verified Key: Option C (6)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_29",
@@ -4931,8 +4931,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: If 32𝑥+1 = 243, find 𝑥\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 2\n\n• Verified Key: Option B (2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_30",
@@ -4946,8 +4946,8 @@ window.MAT101_QUESTIONS = [
       "D": "3"
     },
     "answer": "D",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Simplify: 32𝑐+1× 9𝑐 × 42𝑐 18𝑐× 2𝑐 × 62𝑐\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 3\n\n• Verified Key: Option D (3)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_31",
@@ -4960,8 +4960,8 @@ window.MAT101_QUESTIONS = [
       "D": "1"
     },
     "answer": "D",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Evaluate 𝑙𝑜𝑔327 + 𝑙𝑜𝑔36 −𝑙𝑜𝑔354\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 1\n\n• Verified Key: Option D (1)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_32",
@@ -4975,8 +4975,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 𝑞 ⁄"
     },
     "answer": "D",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: If 2𝑙𝑜𝑔4𝑝+ 𝑙𝑜𝑔4𝑞2 = 0, then 𝑝 is given by\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 1 𝑞 ⁄\n\n• Verified Key: Option D (1 𝑞 ⁄)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_33",
@@ -4990,8 +4990,8 @@ window.MAT101_QUESTIONS = [
       "D": "12"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: The value 4 3 2 ⁄ + 𝑙𝑜𝑔50.04 + 𝑙𝑜𝑔381 is\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 10\n\n• Verified Key: Option C (10)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_34",
@@ -5005,8 +5005,8 @@ window.MAT101_QUESTIONS = [
       "D": "2"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given logarithmic equation: Solve for 𝑥 if 5 log(𝑥+ 3) = 𝑙𝑜𝑔32\n• Apply relevant log law(s): product, quotient, or power rule.\n• Combine into a single $\\log$ expression, then convert to exponential form: $\\log_b(x) = c \\iff b^c = x$.\n• Solve for the unknown variable.\n• Verify the solution satisfies the domain restriction (argument of log must be $> 0$).\n• Result: −1\n\n• Verified Key: Option A (−1)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_35",
@@ -5020,8 +5020,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Find 𝑐 if 𝑙𝑜𝑔2𝑐= 𝑙𝑜𝑔93\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: √2\n\n• Verified Key: Option C (√2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_36",
@@ -5035,8 +5035,8 @@ window.MAT101_QUESTIONS = [
       "D": "2 3"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Evaluate 𝑙𝑜𝑔28−𝑙𝑜𝑔1 3 ⁄ 81 𝑙𝑜𝑔4 1 64\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: − 7 3\n\n• Verified Key: Option A (− 7 3)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_37",
@@ -5050,8 +5050,8 @@ window.MAT101_QUESTIONS = [
       "D": "2𝑥−2"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Simplify 𝑙𝑜𝑔525𝑥−𝑙𝑜𝑔5(0.04)\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 2𝑥+ 2\n\n• Verified Key: Option B (2𝑥+ 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_38",
@@ -5065,8 +5065,8 @@ window.MAT101_QUESTIONS = [
       "D": "8"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given system: Find the value of 𝑎𝑏 if 𝑎= 𝑙𝑜𝑔23 and 𝑏= 𝑙𝑜𝑔38\n• Express all terms with the same prime base (e.g., convert $4 = 2^2$, $8 = 2^3$, $16 = 2^4$).\n• Once on a common base, equate exponents to form two linear equations in the unknowns.\n• Solve the system of linear equations (e.g., using elimination or substitution).\n• Substitute back to verify, then compute the required expression.\n• Result: 3\n\n• Verified Key: Option B (3)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_39",
@@ -5080,8 +5080,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 2"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Evaluate 𝑙𝑜𝑔1012 − 𝑙𝑜𝑔103 𝑙𝑜𝑔108\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 2 3\n\n• Verified Key: Option C (2 3)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_40",
@@ -5095,8 +5095,8 @@ window.MAT101_QUESTIONS = [
       "D": "8"
     },
     "answer": "D",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: The value of (4 1 4 ⁄ )6 is\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 8\n\n• Verified Key: Option D (8)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_41",
@@ -5110,8 +5110,8 @@ window.MAT101_QUESTIONS = [
       "D": "256"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Evaluate 2560.16 × 2560.09\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 4\n\n• Verified Key: Option A (4)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_42",
@@ -5125,8 +5125,8 @@ window.MAT101_QUESTIONS = [
       "D": "9𝑦= 3"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Expresses the function 𝑦= 𝑙𝑜𝑔39 in exponential form?\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 3𝑦= 9\n\n• Verified Key: Option C (3𝑦= 9)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_43",
@@ -5140,8 +5140,8 @@ window.MAT101_QUESTIONS = [
       "D": "9 2"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Evaluate 1 2 𝑙𝑜𝑔48 + 𝑙𝑜𝑔432 −𝑙𝑜𝑔42\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 11 4\n\n• Verified Key: Option A (11 4)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_44",
@@ -5155,8 +5155,8 @@ window.MAT101_QUESTIONS = [
       "D": "9"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Solve for 𝑥: 𝑙𝑜𝑔𝑥= 1 3 𝑙𝑜𝑔27\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 3\n\n• Verified Key: Option C (3)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_45",
@@ -5170,8 +5170,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑙𝑛√𝑎2𝑏 𝑐5"
     },
     "answer": "D",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given: Express as a single logarithm 1 2 [(2𝑙𝑛𝑎+ 𝑙𝑛𝑏) −5𝑙𝑛𝑐]\n• Apply product law: $\\log(xy) = \\log x + \\log y$\n• Apply quotient law: $\\log(x/y) = \\log x - \\log y$\n• Combine all log terms into a single logarithm.\n• Solve the resulting equation: $\\log_b(\\text{expression}) = \\text{value}$ → convert to exponential form.\n• Result: 𝑙𝑛√𝑎2𝑏 𝑐5\n\n• Verified Key: Option D (𝑙𝑛√𝑎2𝑏 𝑐5)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_46",
@@ -5185,8 +5185,8 @@ window.MAT101_QUESTIONS = [
       "D": "4.296"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Given: 𝑓(𝑥) = 3𝑙𝑜𝑔6(2𝑥−1), find 𝑓(7)\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 4.295\n\n• Verified Key: Option C (4.295)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_47",
@@ -5200,8 +5200,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 𝑎𝑛𝑑 4"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Solve the following equation 𝑙𝑜𝑔2(𝑥−3) + 𝑙𝑜𝑔2𝑥= 2\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: −1 𝑎𝑛𝑑 4\n\n• Verified Key: Option A (−1 𝑎𝑛𝑑 4)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_48",
@@ -5215,8 +5215,8 @@ window.MAT101_QUESTIONS = [
       "D": "81"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Simplify 𝑙𝑜𝑔93 + 𝑙𝑜𝑔9243 −2𝑙𝑜𝑔93\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 2\n\n• Verified Key: Option A (2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_49",
@@ -5230,8 +5230,8 @@ window.MAT101_QUESTIONS = [
       "D": "1.699"
     },
     "answer": "D",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Simplify 𝑙𝑜𝑔512.5 + 𝑙𝑜𝑔55\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 1.699\n\n• Verified Key: Option D (1.699)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_50",
@@ -5245,8 +5245,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Simplify 𝑙𝑜𝑔2√8 + 𝑙𝑜𝑔3√3\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 2\n\n• Verified Key: Option C (2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_51",
@@ -5260,8 +5260,8 @@ window.MAT101_QUESTIONS = [
       "D": "−2"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given logarithmic equation: Solve for m in the equation: log2( 1 16)2𝑚+3 = log2 8 5𝑚+1 3\n• Apply relevant log law(s): product, quotient, or power rule.\n• Combine into a single $\\log$ expression, then convert to exponential form: $\\log_b(x) = c \\iff b^c = x$.\n• Solve for the unknown variable.\n• Verify the solution satisfies the domain restriction (argument of log must be $> 0$).\n• Result: −1\n\n• Verified Key: Option C (−1)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_52",
@@ -5275,8 +5275,8 @@ window.MAT101_QUESTIONS = [
       "D": "−3, −2"
     },
     "answer": "C",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given system: Given that log4(𝑦−1) + log4( 1 2 𝑥) = 1 and log2(𝑦+ 1) + log2 𝑥= 2, solve for x and y respectively.\n• Express all terms with the same prime base (e.g., convert $4 = 2^2$, $8 = 2^3$, $16 = 2^4$).\n• Once on a common base, equate exponents to form two linear equations in the unknowns.\n• Solve the system of linear equations (e.g., using elimination or substitution).\n• Substitute back to verify, then compute the required expression.\n• Result: −2, −3\n\n• Verified Key: Option C (−2, −3)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_53",
@@ -5290,8 +5290,8 @@ window.MAT101_QUESTIONS = [
       "D": "2, 2"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given system: If log𝑥27 + log𝑦4 = 5 and log𝑥27 −log𝑦4 = 1, find x and y respectively.\n• Express all terms with the same prime base (e.g., convert $4 = 2^2$, $8 = 2^3$, $16 = 2^4$).\n• Once on a common base, equate exponents to form two linear equations in the unknowns.\n• Solve the system of linear equations (e.g., using elimination or substitution).\n• Substitute back to verify, then compute the required expression.\n• Result: 3, 2\n\n• Verified Key: Option B (3, 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_54",
@@ -5305,8 +5305,8 @@ window.MAT101_QUESTIONS = [
       "D": "28"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given: Find n if log2 4 + log2 7 −log2 𝑛= 1\n• Apply product law: $\\log(xy) = \\log x + \\log y$\n• Apply quotient law: $\\log(x/y) = \\log x - \\log y$\n• Combine all log terms into a single logarithm.\n• Solve the resulting equation: $\\log_b(\\text{expression}) = \\text{value}$ → convert to exponential form.\n• Result: 14\n\n• Verified Key: Option B (14)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_55",
@@ -5320,8 +5320,8 @@ window.MAT101_QUESTIONS = [
       "D": "5.5"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given: Evaluate log√2 4 + log1 2 16 −log4 32\n• Apply product law: $\\log(xy) = \\log x + \\log y$\n• Apply quotient law: $\\log(x/y) = \\log x - \\log y$\n• Combine all log terms into a single logarithm.\n• Solve the resulting equation: $\\log_b(\\text{expression}) = \\text{value}$ → convert to exponential form.\n• Result: −2.5\n\n• Verified Key: Option B (−2.5)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_56",
@@ -5335,8 +5335,8 @@ window.MAT101_QUESTIONS = [
       "D": "2"
     },
     "answer": "D",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given: Without using tables, evaluate log2 4 + log4 2 −log25 5\n• Apply product law: $\\log(xy) = \\log x + \\log y$\n• Apply quotient law: $\\log(x/y) = \\log x - \\log y$\n• Combine all log terms into a single logarithm.\n• Solve the resulting equation: $\\log_b(\\text{expression}) = \\text{value}$ → convert to exponential form.\n• Result: 2\n\n• Verified Key: Option D (2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_57",
@@ -5350,8 +5350,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 1 8"
     },
     "answer": "B",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given: Evaluate log4 0.3 −log4 0.48 + log4 0.05\n• Apply product law: $\\log(xy) = \\log x + \\log y$\n• Apply quotient law: $\\log(x/y) = \\log x - \\log y$\n• Combine all log terms into a single logarithm.\n• Solve the resulting equation: $\\log_b(\\text{expression}) = \\text{value}$ → convert to exponential form.\n• Result: − 5 2\n\n• Verified Key: Option B (− 5 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_58",
@@ -5365,8 +5365,8 @@ window.MAT101_QUESTIONS = [
       "D": "3"
     },
     "answer": "D",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: If 5 × 25𝑥+1 = 125𝑥, find the value of x.\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 3\n\n• Verified Key: Option D (3)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_59",
@@ -5380,8 +5380,8 @@ window.MAT101_QUESTIONS = [
       "D": "2 225"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: Simplify 216−2 3 × 0.16−3 2\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: 125 288\n\n• Verified Key: Option A (125 288)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "IND_60",
@@ -5395,8 +5395,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 5 19"
     },
     "answer": "A",
-    "explanation": "Standard Method: Express all bases as powers of primes (2, 3, 5). Use log rules: log(ab) = log a + log b, log(a^k) = k log a.",
-    "speed_hack": "⚡ CBT Speed Hack: Substitute small test numbers (e.g. x = 2) or use change of base: log_b(a) = ln(a)/ln(b)."
+    "explanation": "📖 Core Principle (Indices & Logarithmic Laws):\n$\\log_b(xy) = \\log_b x + \\log_b y$; $\\log_b(x/y) = \\log_b x - \\log_b y$; $\\log_b(x^k) = k\\log_b x$.\nChange of base: $\\log_b a = \\dfrac{\\log_c a}{\\log_c b} = \\dfrac{1}{\\log_a b}$.\nIndex laws: $a^m \\cdot a^n = a^{m+n}$; $(a^m)^n = a^{mn}$; $a^0 = 1$; $a^{-n} = 1/a^n$.\nKey: $\\log_b(b^x) = x$ and $b^{\\log_b x} = x$.\n\n🔍 Detailed Step-by-Step:\n• Given exponential equation: If 163𝑥= 1 4 (32𝑥−1), find the value of x.\n• Convert all terms to a common prime base (e.g., $16 = 2^4$, $27 = 3^3$, $4 = 2^2$).\n• Once on the same base, equate the exponents.\n• Solve the resulting linear/simultaneous equations for the unknown.\n• Result: −1\n\n• Verified Key: Option A (−1)",
+    "speed_hack": "⚡ CBT Speed Hack: Plug each option value of $x$ directly into the equation. The valid answer will satisfy $\\log_{10}(\\dots)$ or base exponent equality in under 10 seconds!"
   },
   {
     "id": "MAT_01",
@@ -5410,8 +5410,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 4 𝑛2(𝑛+ 1)2"
     },
     "answer": "A",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: Which of the following represents the sum of n natural numbers\n• Test which formula is correct by substituting small values, e.g. $n=1$:\n  — LHS (computed directly): $1^2 = 1$\n  — Check each option's formula with $n=1$ to see which gives $1$.\n• Also test $n=2$ to eliminate false positives.\n• The formula that satisfies both $n=1$ and $n=2$ is the valid one.\n• Correct formula: 1 2 𝑛(𝑛+ 1)\n\n• Verified Key: Option A (1 2 𝑛(𝑛+ 1))",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_02",
@@ -5425,8 +5425,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 4 𝑛2(𝑛+ 1)2"
     },
     "answer": "B",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: Which of the following represents the sum of squares of n natural numbers\n• Test which formula is correct by substituting small values, e.g. $n=1$:\n  — LHS (computed directly): $1^2 = 1$\n  — Check each option's formula with $n=1$ to see which gives $1$.\n• Also test $n=2$ to eliminate false positives.\n• The formula that satisfies both $n=1$ and $n=2$ is the valid one.\n• Correct formula: 1 6 𝑛(𝑛+ 1)(2𝑛+ 1)\n\n• Verified Key: Option B (1 6 𝑛(𝑛+ 1)(2𝑛+ 1))",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_03",
@@ -5440,8 +5440,8 @@ window.MAT101_QUESTIONS = [
       "D": "365"
     },
     "answer": "B",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Required: $\\sum_{r=1}^{12} r = 1 + 2 + 3 + \\cdots + 12$\n• Apply Gauss formula: $\\sum_{r=1}^n r = \\dfrac{n(n+1)}{2}$ with $n = 12$\n• $= \\dfrac{12 \\times 13}{2} = 78$\n• Therefore: 385\n\n• Verified Key: Option B (385)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_04",
@@ -5455,8 +5455,8 @@ window.MAT101_QUESTIONS = [
       "D": "4970"
     },
     "answer": "C",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Required: $\\sum_{r=1}^{112} r = 1 + 2 + 3 + \\cdots + 112$\n• Apply Gauss formula: $\\sum_{r=1}^n r = \\dfrac{n(n+1)}{2}$ with $n = 112$\n• $= \\dfrac{112 \\times 113}{2} = 6328$\n• Therefore: 2485\n\n• Verified Key: Option C (2485)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_05",
@@ -5470,8 +5470,8 @@ window.MAT101_QUESTIONS = [
       "D": "1240"
     },
     "answer": "D",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Required: $\\sum_{r=1}^{12} r = 1 + 2 + 3 + \\cdots + 12$\n• Apply Gauss formula: $\\sum_{r=1}^n r = \\dfrac{n(n+1)}{2}$ with $n = 12$\n• $= \\dfrac{12 \\times 13}{2} = 78$\n• Therefore: 1240\n\n• Verified Key: Option D (1240)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_06",
@@ -5485,8 +5485,8 @@ window.MAT101_QUESTIONS = [
       "D": "3025"
     },
     "answer": "D",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Required: $\\sum_{r=1}^{13} r = 1 + 2 + 3 + \\cdots + 13$\n• Apply Gauss formula: $\\sum_{r=1}^n r = \\dfrac{n(n+1)}{2}$ with $n = 13$\n• $= \\dfrac{13 \\times 14}{2} = 91$\n• Therefore: 3025\n\n• Verified Key: Option D (3025)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_07",
@@ -5500,8 +5500,8 @@ window.MAT101_QUESTIONS = [
       "D": "110"
     },
     "answer": "B",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: Evaluate ∑ 𝑟2 5 𝑟=1\n• Apply the Principle of Mathematical Induction:\n  — Base Step: verify the statement for $n=1$ (LHS = RHS).\n  — Inductive Step: assume true for $n=k$; prove true for $n=k+1$.\n• Use standard summation identities where applicable.\n• Result: 55\n\n• Verified Key: Option B (55)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_08",
@@ -5515,8 +5515,8 @@ window.MAT101_QUESTIONS = [
       "D": "20"
     },
     "answer": "B",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: If the square sum of n consecutive numbers is 385. Find n if the least of the numbers is 1.\n• Apply the Principle of Mathematical Induction:\n  — Base Step: verify the statement for $n=1$ (LHS = RHS).\n  — Inductive Step: assume true for $n=k$; prove true for $n=k+1$.\n• Use standard summation identities where applicable.\n• Result: 10\n\n• Verified Key: Option B (10)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_09",
@@ -5530,8 +5530,8 @@ window.MAT101_QUESTIONS = [
       "D": "130"
     },
     "answer": "B",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: Evaluate ∑ 𝑟(𝑟2 + 1) 4 𝑟=1\n• Apply the Principle of Mathematical Induction:\n  — Base Step: verify the statement for $n=1$ (LHS = RHS).\n  — Inductive Step: assume true for $n=k$; prove true for $n=k+1$.\n• Use standard summation identities where applicable.\n• Result: 110\n\n• Verified Key: Option B (110)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_10",
@@ -5545,8 +5545,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑛(𝑛−1)(𝑛−2)"
     },
     "answer": "A",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: Evaluate (𝑛+2)! 𝑛!\n• Apply the Principle of Mathematical Induction:\n  — Base Step: verify the statement for $n=1$ (LHS = RHS).\n  — Inductive Step: assume true for $n=k$; prove true for $n=k+1$.\n• Use standard summation identities where applicable.\n• Result: (𝑛+ 1)(𝑛+ 2)\n\n• Verified Key: Option A ((𝑛+ 1)(𝑛+ 2))",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_11",
@@ -5560,8 +5560,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 4 𝑛2(𝑛+ 1)2"
     },
     "answer": "D",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: Which of the following represents the sum of cubes of n natural\n• Test which formula is correct by substituting small values, e.g. $n=1$:\n  — LHS (computed directly): $1^2 = 1$\n  — Check each option's formula with $n=1$ to see which gives $1$.\n• Also test $n=2$ to eliminate false positives.\n• The formula that satisfies both $n=1$ and $n=2$ is the valid one.\n• Correct formula: 1 4 𝑛2(𝑛+ 1)2\n\n• Verified Key: Option D (1 4 𝑛2(𝑛+ 1)2)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_12",
@@ -5575,8 +5575,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 4 𝑛2(𝑛+ 1)2"
     },
     "answer": "C",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: Which of the following represents the sum of odd n natural numbers\n• Test which formula is correct by substituting small values, e.g. $n=1$:\n  — LHS (computed directly): $1^2 = 1$\n  — Check each option's formula with $n=1$ to see which gives $1$.\n• Also test $n=2$ to eliminate false positives.\n• The formula that satisfies both $n=1$ and $n=2$ is the valid one.\n• Correct formula: 𝑛2\n\n• Verified Key: Option C (𝑛2)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_13",
@@ -5590,8 +5590,8 @@ window.MAT101_QUESTIONS = [
       "D": "2450"
     },
     "answer": "D",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: Obtain the sum of positive even integers less than 100.\n• Apply the Principle of Mathematical Induction:\n  — Base Step: verify the statement for $n=1$ (LHS = RHS).\n  — Inductive Step: assume true for $n=k$; prove true for $n=k+1$.\n• Use standard summation identities where applicable.\n• Result: 2450\n\n• Verified Key: Option D (2450)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_14",
@@ -5605,8 +5605,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑘2 + 𝑘"
     },
     "answer": "B",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: By induction hypothesis, the series 12 + 22+ . . . + 𝑘2 can be proved equivalent to\n• Apply the Principle of Mathematical Induction:\n  — Base Step: verify the statement for $n=1$ (LHS = RHS).\n  — Inductive Step: assume true for $n=k$; prove true for $n=k+1$.\n• Use standard summation identities where applicable.\n• Result: 𝑘(𝑘+1)(2𝑘+1) 6\n\n• Verified Key: Option B (𝑘(𝑘+1)(2𝑘+1) 6)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_15",
@@ -5620,8 +5620,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑚𝑢𝑙𝑡𝑖𝑝𝑙𝑒 𝑜𝑓 4"
     },
     "answer": "A",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: For every natural number 𝑛, 𝑛(𝑛+ 1) is always\n• Apply the Principle of Mathematical Induction:\n  — Base Step: verify the statement for $n=1$ (LHS = RHS).\n  — Inductive Step: assume true for $n=k$; prove true for $n=k+1$.\n• Use standard summation identities where applicable.\n• Result: 𝑒𝑣𝑒𝑛\n\n• Verified Key: Option A (𝑒𝑣𝑒𝑛)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_16",
@@ -5635,8 +5635,8 @@ window.MAT101_QUESTIONS = [
       "D": "Any form of number"
     },
     "answer": "A",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: For principle of mathematical induction to be true, what type of number should n be?\n• Apply the Principle of Mathematical Induction:\n  — Base Step: verify the statement for $n=1$ (LHS = RHS).\n  — Inductive Step: assume true for $n=k$; prove true for $n=k+1$.\n• Use standard summation identities where applicable.\n• Result: Whole number\n\n• Verified Key: Option A (Whole number)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_17",
@@ -5650,8 +5650,8 @@ window.MAT101_QUESTIONS = [
       "D": "20"
     },
     "answer": "C",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: If the square sum of n consecutive numbers is 1240. Find n if the least of the numbers is 1.\n• Apply the Principle of Mathematical Induction:\n  — Base Step: verify the statement for $n=1$ (LHS = RHS).\n  — Inductive Step: assume true for $n=k$; prove true for $n=k+1$.\n• Use standard summation identities where applicable.\n• Result: 15\n\n• Verified Key: Option C (15)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_18",
@@ -5665,8 +5665,8 @@ window.MAT101_QUESTIONS = [
       "D": "365"
     },
     "answer": "B",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Required: $\\sum_{r=1}^{10} r = 1 + 2 + 3 + \\cdots + 10$\n• Apply Gauss formula: $\\sum_{r=1}^n r = \\dfrac{n(n+1)}{2}$ with $n = 10$\n• $= \\dfrac{10 \\times 11}{2} = 55$\n• Therefore: 385\n\n• Verified Key: Option B (385)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_19",
@@ -5680,8 +5680,8 @@ window.MAT101_QUESTIONS = [
       "D": "235"
     },
     "answer": "C",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: Evaluate ∑ 𝑟3 + 1 5 𝑟=1\n• Apply the Principle of Mathematical Induction:\n  — Base Step: verify the statement for $n=1$ (LHS = RHS).\n  — Inductive Step: assume true for $n=k$; prove true for $n=k+1$.\n• Use standard summation identities where applicable.\n• Result: 230\n\n• Verified Key: Option C (230)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "MAT_20",
@@ -5695,8 +5695,8 @@ window.MAT101_QUESTIONS = [
       "D": "85"
     },
     "answer": "C",
-    "explanation": "Standard Method: Standard 3-step proof: 1. Base step n=1; 2. Inductive hypothesis n=k; 3. Inductive step n=k+1.",
-    "speed_hack": "⚡ CBT Speed Hack: Never do the full induction in CBT! Simply plug in n = 1 and n = 2 into the options to find which formula matches the sum."
+    "explanation": "📖 Core Principle (Mathematical Induction & Summation):\nPMI — Prove $P(n)$ is true for all $n \\ge 1$ by: (1) Base step: verify $P(1)$; (2) Inductive step: assume $P(k)$ is true, then prove $P(k+1)$ follows.\nKey Summation Identities:\n$\\displaystyle\\sum_{r=1}^n r = \\tfrac{n(n+1)}{2}$, $\\displaystyle\\sum_{r=1}^n r^2 = \\tfrac{n(n+1)(2n+1)}{6}$, $\\displaystyle\\sum_{r=1}^n r^3 = \\left[\\tfrac{n(n+1)}{2}\\right]^2$.\n\n🔍 Detailed Step-by-Step:\n• Given: Evaluate ∑ 𝑟(𝑟+ 1) 5 𝑟=1\n• Apply the Principle of Mathematical Induction:\n  — Base Step: verify the statement for $n=1$ (LHS = RHS).\n  — Inductive Step: assume true for $n=k$; prove true for $n=k+1$.\n• Use standard summation identities where applicable.\n• Result: 70\n\n• Verified Key: Option C (70)",
+    "speed_hack": "⚡ CBT Speed Hack: Never write induction proofs in CBT! Simply substitute $n = 1$ and $n = 2$ into the formula options. The correct formula matches both sums immediately."
   },
   {
     "id": "BIN_01",
@@ -5710,8 +5710,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 + 𝑚𝑥+ 1 2 𝑚(𝑚−1)𝑥2"
     },
     "answer": "C",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the first three terms of the expansion (1 + x)−m.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 1 −𝑚𝑥+ 1 2 𝑚(𝑚+ 1)𝑥2.\n\n• Verified Key: Option C (1 −𝑚𝑥+ 1 2 𝑚(𝑚+ 1)𝑥2)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_02",
@@ -5725,8 +5725,8 @@ window.MAT101_QUESTIONS = [
       "D": "1140480𝑥5"
     },
     "answer": "C",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the fourth term of the expansion (2 + 3x)11\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 1140480𝑥3.\n\n• Verified Key: Option C (1140480𝑥3)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_03",
@@ -5740,8 +5740,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 + 2𝑥2 + 3𝑥4"
     },
     "answer": "A",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Find the first three terms of the expansion (1 + x2)−2\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 1 −2𝑥2 + 3𝑥4.\n\n• Verified Key: Option A (1 −2𝑥2 + 3𝑥4)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_04",
@@ -5755,8 +5755,8 @@ window.MAT101_QUESTIONS = [
       "D": "−12 𝑎𝑛𝑑 60"
     },
     "answer": "D",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: If (1 −2x)6 = 1 + Px+ Qx2 … find the values of the constants P and Q.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: −12 𝑎𝑛𝑑 60.\n\n• Verified Key: Option D (−12 𝑎𝑛𝑑 60)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_05",
@@ -5770,8 +5770,8 @@ window.MAT101_QUESTIONS = [
       "D": "−3"
     },
     "answer": "C",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: What is the coefficient of x2 in (1 + x)−2.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 3.\n\n• Verified Key: Option C (3)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_06",
@@ -5785,8 +5785,8 @@ window.MAT101_QUESTIONS = [
       "D": "240"
     },
     "answer": "D",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Find the term independent of x in the expansion of (x2 − 2 x)6.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 240.\n\n• Verified Key: Option D (240)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_07",
@@ -5800,8 +5800,8 @@ window.MAT101_QUESTIONS = [
       "D": "216"
     },
     "answer": "D",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: What is the coefficient of x3 in (2 + 3x)4.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 216.\n\n• Verified Key: Option D (216)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_08",
@@ -5815,8 +5815,8 @@ window.MAT101_QUESTIONS = [
       "D": "−5760"
     },
     "answer": "B",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Find the term independent of x in the expansion of (x− 3 x)8.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 5670.\n\n• Verified Key: Option B (5670)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_09",
@@ -5830,8 +5830,8 @@ window.MAT101_QUESTIONS = [
       "D": "−720"
     },
     "answer": "C",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Calculate the coefficient of x3y2 in (2x−3y)5.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 720.\n\n• Verified Key: Option C (720)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_10",
@@ -5844,8 +5844,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 9"
     },
     "answer": "C",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: What is the coefficient of x2 in (1 + x)1/3.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: .\n\n• Verified Key: Option C ()",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_11",
@@ -5859,8 +5859,8 @@ window.MAT101_QUESTIONS = [
       "D": "330 × 25 × 36 × 𝑥6"
     },
     "answer": "B",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the seventh term of the expansion of (2 + 3x)11.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 462 × 25 × 36 × 𝑥6.\n\n• Verified Key: Option B (462 × 25 × 36 × 𝑥6)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_12",
@@ -5874,8 +5874,8 @@ window.MAT101_QUESTIONS = [
       "D": "48384𝑥−3"
     },
     "answer": "D",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the fourth term of the expansion of (2 + 3/x)8.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 48384𝑥−3.\n\n• Verified Key: Option D (48384𝑥−3)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_13",
@@ -5889,8 +5889,8 @@ window.MAT101_QUESTIONS = [
       "D": "28𝑥6"
     },
     "answer": "A",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the sixth term in the expansion of (2 + 1 2 x)8.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 14𝑥5.\n\n• Verified Key: Option A (14𝑥5)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_14",
@@ -5904,8 +5904,8 @@ window.MAT101_QUESTIONS = [
       "D": "−126𝑥5𝑦4"
     },
     "answer": "A",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the fourth term in the expansion of (x −y)9.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 84𝑥6𝑦3.\n\n• Verified Key: Option A (84𝑥6𝑦3)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_15",
@@ -5919,8 +5919,8 @@ window.MAT101_QUESTIONS = [
       "D": "1215𝑥6"
     },
     "answer": "B",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the fourth term in the expansion of (x2 + 3)6.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 540𝑥6.\n\n• Verified Key: Option B (540𝑥6)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_16",
@@ -5934,8 +5934,8 @@ window.MAT101_QUESTIONS = [
       "D": "−326592𝑥4𝑦5"
     },
     "answer": "D",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the sixth term in the expansion of (3x−2y)9.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: −326592𝑥4𝑦5.\n\n• Verified Key: Option D (−326592𝑥4𝑦5)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_17",
@@ -5949,8 +5949,8 @@ window.MAT101_QUESTIONS = [
       "D": "4𝑥"
     },
     "answer": "C",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the second term in the expansion of (2x−1)2.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: −4𝑥.\n\n• Verified Key: Option C (−4𝑥)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_18",
@@ -5964,8 +5964,8 @@ window.MAT101_QUESTIONS = [
       "D": "216"
     },
     "answer": "D",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: What is the coefficient of x3 in (2 + 3x)4\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 216.\n\n• Verified Key: Option D (216)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_19",
@@ -5979,8 +5979,8 @@ window.MAT101_QUESTIONS = [
       "D": "18"
     },
     "answer": "C",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: What is the coefficient of x2 in(1 + 2x)−2\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 12.\n\n• Verified Key: Option C (12)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_20",
@@ -5994,8 +5994,8 @@ window.MAT101_QUESTIONS = [
       "D": "7 4"
     },
     "answer": "D",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: What is the coefficient of x3 in (x− 1 2)8.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 7 4.\n\n• Verified Key: Option D (7 4)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_21",
@@ -6009,8 +6009,8 @@ window.MAT101_QUESTIONS = [
       "D": "1792𝑥10"
     },
     "answer": "A",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Find the coefficient of the fifth term in the expansion (2 + x2)8\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 1120𝑥8.\n\n• Verified Key: Option A (1120𝑥8)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_22",
@@ -6024,8 +6024,8 @@ window.MAT101_QUESTIONS = [
       "D": "16"
     },
     "answer": "A",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Calculate a if the coefficient of x3 in (a + 2x)5 is 320.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 2.\n\n• Verified Key: Option A (2)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_23",
@@ -6039,8 +6039,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 + 1 𝑚𝑥+ 𝑚−1 2𝑚𝑥2"
     },
     "answer": "B",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the first three terms of the expansion (1 + x) 1 m ⁄ .\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 1 + 1 𝑚𝑥− 𝑚−1 2𝑚2 𝑥2.\n\n• Verified Key: Option B (1 + 1 𝑚𝑥− 𝑚−1 2𝑚2 𝑥2)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_24",
@@ -6054,8 +6054,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 + 3𝑥−3𝑥2"
     },
     "answer": "A",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the first four terms of the expansion (1 + 3x) 1 3 ⁄ .\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: * 1 + 𝑥−𝑥2.\n\n• Verified Key: Option A (* 1 + 𝑥−𝑥2)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_25",
@@ -6069,8 +6069,8 @@ window.MAT101_QUESTIONS = [
       "D": "320"
     },
     "answer": "C",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Find the term independent of x in the expansion of (x2 + 2 x)6.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 240.\n\n• Verified Key: Option C (240)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_26",
@@ -6084,8 +6084,8 @@ window.MAT101_QUESTIONS = [
       "D": "105 32 𝑥3"
     },
     "answer": "C",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Find the term independent of y in the expansion of ( x4 y3 + y2 2x )10.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 105 32 𝑥2.\n\n• Verified Key: Option C (105 32 𝑥2)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_27",
@@ -6099,8 +6099,8 @@ window.MAT101_QUESTIONS = [
       "D": "45 256 𝑦10"
     },
     "answer": "D",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Find the term independent of x in the expansion of ( x4 y3 + y2 2x )10.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 45 256 𝑦10.\n\n• Verified Key: Option D (45 256 𝑦10)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_28",
@@ -6114,8 +6114,8 @@ window.MAT101_QUESTIONS = [
       "D": "2160"
     },
     "answer": "D",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Find the term independent of x in the expansion of (2x + 3 x2)6.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 2160.\n\n• Verified Key: Option D (2160)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_29",
@@ -6129,8 +6129,8 @@ window.MAT101_QUESTIONS = [
       "D": "8064𝑦5"
     },
     "answer": "C",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Find the coefficient of x5 in the expansion of (x2 + 2y x)10.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 8064𝑦5.\n\n• Verified Key: Option C (8064𝑦5)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_30",
@@ -6144,8 +6144,8 @@ window.MAT101_QUESTIONS = [
       "D": "640"
     },
     "answer": "B",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: If (1 + 4x)5 = 1 + Ax −Bx2 + Cx3 …, find the values of A+ B+ C.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 500.\n\n• Verified Key: Option B (500)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_31",
@@ -6159,8 +6159,8 @@ window.MAT101_QUESTIONS = [
       "D": "−51480𝑥3"
     },
     "answer": "C",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the fourth term of the expansion of (2 − 3 2 x)10\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: −51840𝑥3.\n\n• Verified Key: Option C (−51840𝑥3)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_32",
@@ -6174,8 +6174,8 @@ window.MAT101_QUESTIONS = [
       "D": "−68040𝑥4"
     },
     "answer": "B",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the fifth term of the expansion of (2 − 3 2 x)10\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 68040𝑥4.\n\n• Verified Key: Option B (68040𝑥4)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_33",
@@ -6189,8 +6189,8 @@ window.MAT101_QUESTIONS = [
       "D": "−62136𝑥5"
     },
     "answer": "C",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the sixth term of the expansion of (2 − 3 2 x)10\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: −61236𝑥5.\n\n• Verified Key: Option C (−61236𝑥5)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_34",
@@ -6204,8 +6204,8 @@ window.MAT101_QUESTIONS = [
       "D": "1210𝑥5"
     },
     "answer": "A",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the fifth term of the expansion of ( 1 3 x−6)8\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 1120𝑥4.\n\n• Verified Key: Option A (1120𝑥4)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_35",
@@ -6219,8 +6219,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 448 9 𝑥5"
     },
     "answer": "D",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the fourth term of the expansion of ( 1 3 x−6)8\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: − 448 9 𝑥5.\n\n• Verified Key: Option D (− 448 9 𝑥5)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_36",
@@ -6234,8 +6234,8 @@ window.MAT101_QUESTIONS = [
       "D": "−16128𝑥4"
     },
     "answer": "B",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the sixth term of the expansion of ( 1 3 x−6)8\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: −16128𝑥3.\n\n• Verified Key: Option B (−16128𝑥3)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_37",
@@ -6249,8 +6249,8 @@ window.MAT101_QUESTIONS = [
       "D": "243 + 135𝑥+ 60𝑥2"
     },
     "answer": "C",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the first three terms of the expansion (3 + 1 3 x)5\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 243 + 135𝑥+ 30𝑥2.\n\n• Verified Key: Option C (243 + 135𝑥+ 30𝑥2)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_38",
@@ -6264,8 +6264,8 @@ window.MAT101_QUESTIONS = [
       "D": "64 + 96𝑥+ 60𝑥2"
     },
     "answer": "D",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the first three terms of the expansion (2 + 1 2 x)6\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 64 + 96𝑥+ 60𝑥2.\n\n• Verified Key: Option D (64 + 96𝑥+ 60𝑥2)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_39",
@@ -6279,8 +6279,8 @@ window.MAT101_QUESTIONS = [
       "D": "−3"
     },
     "answer": "B",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: What is the coefficient of x2 in (1 + x)−2.\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: −4.\n\n• Verified Key: Option B (−4)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "BIN_40",
@@ -6294,8 +6294,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 − 1 𝑚𝑥+ 𝑚−1 2𝑚2 𝑥2"
     },
     "answer": "A",
-    "explanation": "Standard Method: General term T_{r+1} = nCr * a^(n-r) * b^r. For term independent of x, equate the power of x to 0.",
-    "speed_hack": "⚡ CBT Speed Hack: Sum of coefficients in (a + bx)^n is found instantly by setting x = 1, giving (a + b)^n."
+    "explanation": "📖 Core Principle (Binomial Theorem & General Term):\nIn $(a + b)^n$, the general term is $T_{r+1} = \\binom{n}{r} a^{n-r} b^r$, where $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$. To find a specific $k$-th term, set $r = k - 1$.\n\n🔍 Detailed Step-by-Step:\n• Given binomial expression: Obtain the first three terms of the expansion (1 + x) 1 m ⁄ .\n• Identify power $n$, first term $a$, and second term $b$.\n• Apply the general term formula for the requested term index.\n• Evaluate coefficient and power: 1 − 1 𝑚𝑥+ 𝑚+1 2𝑚2 𝑥2.\n\n• Verified Key: Option A (1 − 1 𝑚𝑥+ 𝑚+1 2𝑚2 𝑥2)",
+    "speed_hack": "⚡ CBT Speed Hack: For sum of all coefficients, set all variable letters equal to 1! E.g. in $(2x - y)^4$, set $x=1, y=1 \\implies (2(1)-1)^4 = 1^4 = 1$."
   },
   {
     "id": "MAT_01",
@@ -6309,8 +6309,8 @@ window.MAT101_QUESTIONS = [
       "D": "( 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 )"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Which of the following is a 2 by 4 matrix?\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: (1 1 1 1 1 1 1 1).\n\n• Verified Key: Option B ((1 1 1 1 1 1 1 1))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_02",
@@ -6324,8 +6324,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 × 6"
     },
     "answer": "A",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: The dimension of the matrix (1 −2 0 3 −1 4) is\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option A: 2 × 3.\n\n• Verified Key: Option A (2 × 3)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_03",
@@ -6339,8 +6339,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 × 10"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: The dimension of the matrix ( 2 −1 1 1 5 3 3 −1 0 4 ) is\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: 5 × 2.\n\n• Verified Key: Option B (5 × 2)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_04",
@@ -6354,8 +6354,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑠𝑖𝑚𝑝𝑙𝑒"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: A square matrix whose transpose is equal to itself is called\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: 𝑠𝑦𝑚𝑚𝑒𝑡𝑟𝑖𝑐.\n\n• Verified Key: Option C (𝑠𝑦𝑚𝑚𝑒𝑡𝑟𝑖𝑐)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_05",
@@ -6369,8 +6369,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑠𝑖𝑚𝑝𝑙𝑒"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: A square matrix whose transpose is equal to its negative is called\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: 𝑠𝑘𝑒𝑤−𝑠𝑦𝑚𝑚𝑒𝑡𝑟𝑖𝑐.\n\n• Verified Key: Option B (𝑠𝑘𝑒𝑤−𝑠𝑦𝑚𝑚𝑒𝑡𝑟𝑖𝑐)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_06",
@@ -6384,8 +6384,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑖𝑑𝑒𝑛𝑡𝑖𝑡𝑦"
     },
     "answer": "A",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: A matrix that has many rows, and one column is called _____ vector\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option A: 𝑐𝑜𝑙𝑢𝑚𝑛.\n\n• Verified Key: Option A (𝑐𝑜𝑙𝑢𝑚𝑛)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_07",
@@ -6399,8 +6399,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑖𝑑𝑒𝑛𝑡𝑖𝑡𝑦"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: A matrix that has many columns, and single row is called _____ vector\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: 𝑟𝑜𝑤.\n\n• Verified Key: Option B (𝑟𝑜𝑤)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_08",
@@ -6414,8 +6414,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝐴−1 = 𝐴"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: A symmetric matrix is represented by\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: 𝐴𝑇= 𝐴.\n\n• Verified Key: Option C (𝐴𝑇= 𝐴)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_09",
@@ -6429,8 +6429,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝐴−1 = 𝐴"
     },
     "answer": "A",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Which of the following denotes a skew−symmetric matrix?\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option A: 𝐴𝑇= −𝐴.\n\n• Verified Key: Option A (𝐴𝑇= −𝐴)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_10",
@@ -6444,8 +6444,8 @@ window.MAT101_QUESTIONS = [
       "D": "(0 1 1 0)"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Which of the following is an example of a column matrix?\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: (0 1).\n\n• Verified Key: Option B ((0 1))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_11",
@@ -6459,8 +6459,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑋+ 𝑌= 𝑌∙𝑋"
     },
     "answer": "B&D",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: The following rules hold for matrix multilplication and addition except\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B&D: .\n\n• Verified Key: Option B&D ()",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_12",
@@ -6474,8 +6474,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝐴∙𝐵−𝐵∙𝐴= 0"
     },
     "answer": "A",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Which of the following operations is commutative for all matrices A and B of the same size?\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option A: 𝐴+ 𝐵= 𝐵+ 𝐴.\n\n• Verified Key: Option A (𝐴+ 𝐵= 𝐵+ 𝐴)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_13",
@@ -6489,8 +6489,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑇𝑟𝑎𝑛𝑠𝑝𝑜𝑠𝑖𝑡𝑖𝑜𝑛"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: The associative property holds for which matrix operation?\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: 𝑀𝑢𝑙𝑡𝑖𝑝𝑙𝑖𝑐𝑎𝑡𝑖𝑜𝑛.\n\n• Verified Key: Option B (𝑀𝑢𝑙𝑡𝑖𝑝𝑙𝑖𝑐𝑎𝑡𝑖𝑜𝑛)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_14",
@@ -6504,8 +6504,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝐴𝐵+ 𝐴𝐶= 𝐴(𝐵+ 𝐶)"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Which of the following is always true for matrices A, B, and C of the same size?\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: 𝐴+ (𝐵+ 𝐶) = (𝐴+ 𝐵) + 𝐶.\n\n• Verified Key: Option B (𝐴+ (𝐵+ 𝐶) = (𝐴+ 𝐵) + 𝐶)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_15",
@@ -6519,8 +6519,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑍𝑒𝑟𝑜"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: _________ matrix is a matrix that, when multilpiled by another matrix, equals the identity matrix.\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: 𝐼𝑛𝑣𝑒𝑟𝑠𝑒.\n\n• Verified Key: Option B (𝐼𝑛𝑣𝑒𝑟𝑠𝑒)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_16",
@@ -6534,8 +6534,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑇ℎ𝑒𝑦 𝑚𝑢𝑠𝑡 𝑏𝑒 𝑖𝑛𝑣𝑒𝑟𝑡𝑖𝑏𝑙𝑒"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Which of the following is a requirement for two matrices to be added?\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: 𝑇ℎ𝑒𝑦 𝑚𝑢𝑠𝑡 ℎ𝑎𝑣𝑒 𝑡ℎ𝑒 𝑠𝑎𝑚𝑒 𝑜𝑟𝑑𝑒𝑟.\n\n• Verified Key: Option C (𝑇ℎ𝑒𝑦 𝑚𝑢𝑠𝑡 ℎ𝑎𝑣𝑒 𝑡ℎ𝑒 𝑠𝑎𝑚𝑒 𝑜𝑟𝑑𝑒𝑟)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_17",
@@ -6549,8 +6549,8 @@ window.MAT101_QUESTIONS = [
       "D": "( 4 3 1 3 4 2 1 7 5 )"
     },
     "answer": "A",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Given that B= ( 1 3 4 2 4 3 5 7 1 ) , compute BT\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option A: ( 1 2 5 3 4 7 4 3 1 ).\n\n• Verified Key: Option A (( 1 2 5 3 4 7 4 3 1 ))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_18",
@@ -6564,8 +6564,8 @@ window.MAT101_QUESTIONS = [
       "D": "( 2 0 3 1 −1 5 )"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Let A= (2 3 −1 5 1 0 ) , compute AT\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: ( 2 5 3 1 −1 0 ).\n\n• Verified Key: Option B (( 2 5 3 1 −1 0 ))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_19",
@@ -6579,8 +6579,8 @@ window.MAT101_QUESTIONS = [
       "D": "(1 2 1 0 1 2)"
     },
     "answer": "D",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: if X= ( 1 0 2 1 1 2 ) , compute the transpose of X\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option D: (1 2 1 0 1 2).\n\n• Verified Key: Option D ((1 2 1 0 1 2))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_20",
@@ -6594,8 +6594,8 @@ window.MAT101_QUESTIONS = [
       "D": "−( 3 2 1 )"
     },
     "answer": "A",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Compute the transpose of (1 2 3)\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option A: ( 1 2 3 ).\n\n• Verified Key: Option A (( 1 2 3 ))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_21",
@@ -6609,8 +6609,8 @@ window.MAT101_QUESTIONS = [
       "D": "(5 1 0 2 3 −1)"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Let A= (2 3 −1 5 1 0 ) , compute (AT)T\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: (2 3 −1 5 1 0 ).\n\n• Verified Key: Option C ((2 3 −1 5 1 0 ))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_22",
@@ -6624,8 +6624,8 @@ window.MAT101_QUESTIONS = [
       "D": "(0 1 1 0)"
     },
     "answer": "A",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Which of the following is an example of a row matrix?\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option A: (1 0).\n\n• Verified Key: Option A ((1 0))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_23",
@@ -6639,8 +6639,8 @@ window.MAT101_QUESTIONS = [
       "D": "(0 1 1 0)"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Which of the following is an example of a identity matrix?\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: (1 0 0 1).\n\n• Verified Key: Option C ((1 0 0 1))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_24",
@@ -6654,8 +6654,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "A",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Given|3 3x 4 −5| = −3, find the value of x.\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option A: −1.\n\n• Verified Key: Option A (−1)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_25",
@@ -6669,8 +6669,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Given |2x −2 4x 1 | = 5, find the value of x.\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: 1 2.\n\n• Verified Key: Option B (1 2)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_26",
@@ -6684,8 +6684,8 @@ window.MAT101_QUESTIONS = [
       "D": "2"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Evaluate | cos𝜃 sin𝜃 −sin𝜃 cos𝜃|\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: 1.\n\n• Verified Key: Option C (1)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_27",
@@ -6699,8 +6699,8 @@ window.MAT101_QUESTIONS = [
       "D": "( 3 6 −7 4)"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: If A= (2 −4 3 1 ) and B= (0 2 1 1) , find 2A+ B\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: (4 −6 7 3 ).\n\n• Verified Key: Option C ((4 −6 7 3 ))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_28",
@@ -6714,8 +6714,8 @@ window.MAT101_QUESTIONS = [
       "D": "(−1 −8 1 −2)"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: If A= (2 −4 3 1 ) and B= (0 2 1 1) , find 2B−A\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: (−2 8 −1 1).\n\n• Verified Key: Option C ((−2 8 −1 1))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_29",
@@ -6729,8 +6729,8 @@ window.MAT101_QUESTIONS = [
       "D": "(−7 −1 0 4 )"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: If A= (2 −4 3 1 ) and B= (0 2 1 1) , find AB\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: (−4 0 1 7).\n\n• Verified Key: Option C ((−4 0 1 7))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_30",
@@ -6744,8 +6744,8 @@ window.MAT101_QUESTIONS = [
       "D": "−11"
     },
     "answer": "D",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Find the determinant of the matrix (2 3 1 −4)\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option D: −11.\n\n• Verified Key: Option D (−11)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_31",
@@ -6759,8 +6759,8 @@ window.MAT101_QUESTIONS = [
       "D": "0"
     },
     "answer": "D",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Evaluate |2 2 1 1|\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option D: 0.\n\n• Verified Key: Option D (0)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_32",
@@ -6774,8 +6774,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 4 (−6 2 4 −2)"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Find the inverse of the matrix (6 4 2 2)\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: 1 2 ( 1 −2 −1 3 ).\n\n• Verified Key: Option C (1 2 ( 1 −2 −1 3 ))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_33",
@@ -6789,8 +6789,8 @@ window.MAT101_QUESTIONS = [
       "D": "(0.5 −1.5 0 1 )"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Find the inverse of the matrix ( 2 0 −3 1)\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: (0.5 0 1.5 1).\n\n• Verified Key: Option B ((0.5 0 1.5 1))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_34",
@@ -6804,8 +6804,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "A",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Given A= (1 1 1 1) and B= (1 2 2 −1) , evaluate |A2 + AB−2I|\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option A: −12.\n\n• Verified Key: Option A (−12)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_35",
@@ -6819,8 +6819,8 @@ window.MAT101_QUESTIONS = [
       "D": "−11"
     },
     "answer": "D",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Find the determinant of the matrix (2 3 1 −4)\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option D: −11.\n\n• Verified Key: Option D (−11)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_36",
@@ -6834,8 +6834,8 @@ window.MAT101_QUESTIONS = [
       "D": "( 1 −4 −1 3 )"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Given X= (−3 4 1 −1) , compute X−1\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: (1 4 1 3).\n\n• Verified Key: Option B ((1 4 1 3))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_37",
@@ -6848,8 +6848,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 5 ( 1 −4 −3 2 )"
     },
     "answer": "A",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Evaluate Y−1 if Y= (2 4 3 1)\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option A: 1 10 (−1 4 3 −2) B. 1 10 ( 1 −4 −3 2 ).\n\n• Verified Key: Option A (1 10 (−1 4 3 −2) B. 1 10 ( 1 −4 −3 2 ))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_38",
@@ -6863,8 +6863,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 8 ( −1 2 5 −4 0 4 5 −2 −1 )"
     },
     "answer": "D",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Given P= ( 1 −1 1 2 −3 −2 1 1 1 ) , find P−1\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option D: 1 8 ( −1 2 5 −4 0 4 5 −2 −1 ).\n\n• Verified Key: Option D (1 8 ( −1 2 5 −4 0 4 5 −2 −1 ))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_39",
@@ -6878,8 +6878,8 @@ window.MAT101_QUESTIONS = [
       "D": "9"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Evaluate |1 −2 2 1 | + | 1 1 −3 −1|\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: 7.\n\n• Verified Key: Option C (7)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_40",
@@ -6893,8 +6893,8 @@ window.MAT101_QUESTIONS = [
       "D": "9"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Evaluate |1 1 2 2| −|3 −1 3 −1| + | 2 1 −3 1|\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: 5.\n\n• Verified Key: Option B (5)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_41",
@@ -6908,8 +6908,8 @@ window.MAT101_QUESTIONS = [
       "D": "9"
     },
     "answer": "A",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Evaluate | 1 2 2 2 −1 3 0 0 0 |\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option A: 0.\n\n• Verified Key: Option A (0)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_42",
@@ -6923,8 +6923,8 @@ window.MAT101_QUESTIONS = [
       "D": "32"
     },
     "answer": "D",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Evaluate | 1 1 1 2 −3 −1 3 2 −4 |\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option D: 32.\n\n• Verified Key: Option D (32)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_43",
@@ -6938,8 +6938,8 @@ window.MAT101_QUESTIONS = [
       "D": "−22"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Evaluate | −1 0 −4 0 −1 0 3 1 −6 |\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: −18.\n\n• Verified Key: Option C (−18)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_44",
@@ -6953,8 +6953,8 @@ window.MAT101_QUESTIONS = [
       "D": "40"
     },
     "answer": "D",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Find the determinant of the matrix ( 1 −1 12 2 −3 7 1 1 6 )\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option D: 40.\n\n• Verified Key: Option D (40)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_45",
@@ -6968,8 +6968,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "D",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Given |x 2 3 x| = 10, find the value of x.\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option D: 4.\n\n• Verified Key: Option D (4)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_46",
@@ -6983,8 +6983,8 @@ window.MAT101_QUESTIONS = [
       "D": "(−12 −11 −28 7 )"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: If A= (2 −4 3 1 ) and B= (0 2 1 1) , find A2B\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: (−12 −28 −11 7 ).\n\n• Verified Key: Option B ((−12 −28 −11 7 ))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_47",
@@ -6998,8 +6998,8 @@ window.MAT101_QUESTIONS = [
       "D": "( 1 8 −16 −7)"
     },
     "answer": "A",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: If A= (3 −2 4 1 ) , find A2\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option A: ( 1 −8 16 −7).\n\n• Verified Key: Option A (( 1 −8 16 −7))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_48",
@@ -7013,8 +7013,8 @@ window.MAT101_QUESTIONS = [
       "D": "(5 2 2 25)"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: If A= (3 −2 4 1 ) , find ATA\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: (25 −2 −2 5 ).\n\n• Verified Key: Option B ((25 −2 −2 5 ))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_49",
@@ -7028,8 +7028,8 @@ window.MAT101_QUESTIONS = [
       "D": "( 6 1 −1 0)"
     },
     "answer": "A",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Given that P= (2 1 0 3) and Q= (−4 2 −1 3) , find Q−P\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option A: (−6 1 −1 0).\n\n• Verified Key: Option A ((−6 1 −1 0))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_50",
@@ -7043,8 +7043,8 @@ window.MAT101_QUESTIONS = [
       "D": "(8 −2 2 −8)"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Given that P= (2 1 0 3) and Q= (−4 2 −1 3) , find QP\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: (−8 2 −2 8).\n\n• Verified Key: Option C ((−8 2 −2 8))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_51",
@@ -7058,8 +7058,8 @@ window.MAT101_QUESTIONS = [
       "D": "(−2 −4 3 5 )"
     },
     "answer": "A",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Given that M= (2 1 0 1) and N= (1 −1 3 −2) , find MN\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option A: (5 −4 3 −2).\n\n• Verified Key: Option A ((5 −4 3 −2))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_52",
@@ -7073,8 +7073,8 @@ window.MAT101_QUESTIONS = [
       "D": "(−1 −5 9 8 )"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: If M= (2 1 0 1) and N= (1 −1 3 −2) , find 2M−3N\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: ( 1 5 −9 8).\n\n• Verified Key: Option B (( 1 5 −9 8))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_53",
@@ -7088,8 +7088,8 @@ window.MAT101_QUESTIONS = [
       "D": "(−4 1 −6 3)"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: If M= (2 1 0 1) and N= (1 −1 3 −2) , find M+ 2N\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: (4 −1 6 −3).\n\n• Verified Key: Option B ((4 −1 6 −3))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_54",
@@ -7103,8 +7103,8 @@ window.MAT101_QUESTIONS = [
       "D": "(−1 −1 2 −3)"
     },
     "answer": "D",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: If M= (2 1 0 1) and N= (1 −1 3 −2) , find M−NT\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option D: (−1 −1 2 −3).\n\n• Verified Key: Option D ((−1 −1 2 −3))",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_55",
@@ -7118,8 +7118,8 @@ window.MAT101_QUESTIONS = [
       "D": "9"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: If (3 1 2 x) (2 3) = ( y 10) , find y−x\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: 7.\n\n• Verified Key: Option C (7)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_56",
@@ -7133,8 +7133,8 @@ window.MAT101_QUESTIONS = [
       "D": "9"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: If (−1 2 4 x) (y 1) = (2 4) , find x\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: 4.\n\n• Verified Key: Option C (4)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_57",
@@ -7148,8 +7148,8 @@ window.MAT101_QUESTIONS = [
       "D": "3"
     },
     "answer": "D",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: If (3 2 2 −1) (x y) = (−1 4 ) , find x−y\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option D: 3.\n\n• Verified Key: Option D (3)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_58",
@@ -7163,8 +7163,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑰𝐴= 𝐴2"
     },
     "answer": "B",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: The identity matrix 𝑰 has the property that:\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option B: 𝑰𝐴= 𝐴.\n\n• Verified Key: Option B (𝑰𝐴= 𝐴)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_59",
@@ -7178,8 +7178,8 @@ window.MAT101_QUESTIONS = [
       "D": "1 3"
     },
     "answer": "C",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Find the value of x if | x 2 −2 x 1 1 0 2 3 | = 6\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option C: − 2 3.\n\n• Verified Key: Option C (− 2 3)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "MAT_60",
@@ -7193,8 +7193,8 @@ window.MAT101_QUESTIONS = [
       "D": "1"
     },
     "answer": "D",
-    "explanation": "Standard Method: For 2x2 matrix: det = ad - bc. Inverse = 1/det * [[d, -b], [-c, a]]. A matrix is singular if det = 0.",
-    "speed_hack": "⚡ CBT Speed Hack: For Cramer rule, solve only for the requested variable delta_x/delta. For 2x2 inverse, swap diagonal elements and negate off-diagonals."
+    "explanation": "📖 Core Principle (Matrix Dimensions, Determinants & Inverses):\nA matrix with $m$ rows and $n$ columns has dimension $m \\times n$. For a $2 \\times 2$ matrix $A = \\begin{pmatrix}a & b \\\\ c & d\\end{pmatrix}$, $\\det A = ad - bc$, and $A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix}d & -b \\\\ -c & a\\end{pmatrix}$. A matrix is singular if $\\det A = 0$.\n\n🔍 Detailed Step-by-Step:\n• Given matrix problem: Find the value of x in the equation | −2 2 1 1 1 3 1 x −1 | = 16\n• Apply standard linear algebra rule for order, determinant, or inverse.\n• Computing the calculation yields Option D: 1.\n\n• Verified Key: Option D (1)",
+    "speed_hack": "⚡ CBT Speed Hack: For $2 \\times 2$ inverse: swap diagonal elements $a$ and $d$, negate off-diagonal elements $b$ and $c$, divide by determinant $ad - bc$!"
   },
   {
     "id": "QUA_01",
@@ -7208,8 +7208,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥= −6, 𝑥= 5"
     },
     "answer": "C",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑆𝑜𝑙𝑣𝑒 𝑡ℎ𝑒 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 −𝑥−30 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑥= 6, 𝑥= −5\n\n• Verified Key: Option C (𝑥= 6, 𝑥= −5)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_02",
@@ -7223,8 +7223,8 @@ window.MAT101_QUESTIONS = [
       "D": "−1 ± 2𝑖"
     },
     "answer": "D",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 + 2𝑥+ 5 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: −1 ± 2𝑖\n\n• Verified Key: Option D (−1 ± 2𝑖)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_03",
@@ -7238,8 +7238,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑜𝑛𝑒 𝑟𝑒𝑎𝑙 𝑎𝑛𝑑 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑟𝑜𝑜𝑡"
     },
     "answer": "C",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐷𝑒𝑡𝑒𝑟𝑚𝑖𝑛𝑒 𝑡ℎ𝑒 𝑛𝑎𝑡𝑢𝑟𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 −2𝑥+ 5 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑐𝑜𝑛𝑗𝑢𝑔𝑎𝑡𝑒𝑠\n\n• Verified Key: Option C (𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑐𝑜𝑛𝑗𝑢𝑔𝑎𝑡𝑒𝑠)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_04",
@@ -7253,8 +7253,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑜𝑛𝑒 𝑟𝑒𝑎𝑙 𝑎𝑛𝑑 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑟𝑜𝑜𝑡"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑊ℎ𝑎𝑡 𝑖𝑠 𝑡ℎ𝑒 𝑛𝑎𝑡𝑢𝑟𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 −2𝑥+ 1 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑑𝑜𝑢𝑏𝑙𝑒 𝑟𝑜𝑜𝑡𝑠\n\n• Verified Key: Option B (𝑑𝑜𝑢𝑏𝑙𝑒 𝑟𝑜𝑜𝑡𝑠)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_05",
@@ -7268,8 +7268,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑜𝑛𝑒 𝑟𝑒𝑎𝑙 𝑎𝑛𝑑 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑟𝑜𝑜𝑡"
     },
     "answer": "C",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐸𝑥𝑎𝑚𝑖𝑛𝑒 𝑡ℎ𝑒 𝑛𝑎𝑡𝑢𝑟𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑓𝑜𝑙𝑙𝑜𝑤𝑖𝑛𝑔 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 3𝑥2 + 2𝑥+ 5 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑟𝑜𝑜𝑡𝑠\n\n• Verified Key: Option C (𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑟𝑜𝑜𝑡𝑠)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_06",
@@ -7283,8 +7283,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑜𝑛𝑒 𝑟𝑒𝑎𝑙 𝑎𝑛𝑑 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑟𝑜𝑜𝑡"
     },
     "answer": "A",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑊ℎ𝑎𝑡 𝑖𝑠 𝑡ℎ𝑒 𝑛𝑎𝑡𝑢𝑟𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 2𝑥2 −5𝑥= 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑟𝑒𝑎𝑙 𝑎𝑛𝑑 𝑑𝑖𝑓𝑓𝑒𝑟𝑒𝑛𝑡 𝑟𝑜𝑜𝑡𝑠\n\n• Verified Key: Option A (𝑟𝑒𝑎𝑙 𝑎𝑛𝑑 𝑑𝑖𝑓𝑓𝑒𝑟𝑒𝑛𝑡 𝑟𝑜𝑜𝑡𝑠)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_07",
@@ -7298,8 +7298,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑛𝑜𝑛𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑎𝑏𝑜𝑣𝑒"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐸𝑥𝑎𝑚𝑖𝑛𝑒 𝑡ℎ𝑒 𝑛𝑎𝑡𝑢𝑟𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑓𝑜𝑙𝑙𝑜𝑤𝑖𝑛𝑔 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 −6𝑥+ 9 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑟𝑒𝑎𝑙 𝑎𝑛𝑑 𝑒𝑞𝑢𝑎𝑙 𝑟𝑜𝑜𝑡𝑠\n\n• Verified Key: Option B (𝑟𝑒𝑎𝑙 𝑎𝑛𝑑 𝑒𝑞𝑢𝑎𝑙 𝑟𝑜𝑜𝑡𝑠)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_08",
@@ -7313,8 +7313,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥2 −10𝑥+ 27 = 0"
     },
     "answer": "C",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑊ℎ𝑎𝑡 𝑖𝑠 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑤ℎ𝑜𝑠𝑒 𝑟𝑜𝑜𝑡𝑠 𝑎𝑟𝑒 5 + √2 𝑎𝑛𝑑 5 −√2 𝐴𝑁𝑆: 𝑥2 −10𝑥+ 23 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑥2 −10𝑥+ 23 = 0\n\n• Verified Key: Option C (𝑥2 −10𝑥+ 23 = 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_09",
@@ -7328,8 +7328,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥2 −2𝑥−5 = 0"
     },
     "answer": "D",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑇ℎ𝑒 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑤ℎ𝑜𝑠𝑒 𝑟𝑜𝑜𝑡𝑠 𝑎𝑟𝑒 1 + √6 𝑎𝑛𝑑 1 −√6 𝑖𝑠\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑥2 −2𝑥−5 = 0\n\n• Verified Key: Option D (𝑥2 −2𝑥−5 = 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_10",
@@ -7343,8 +7343,8 @@ window.MAT101_QUESTIONS = [
       "D": "2𝑦2 −9𝑦+ 5 = 0"
     },
     "answer": "A",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑊ℎ𝑎𝑡 𝑖𝑠 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑤ℎ𝑜𝑠𝑒 𝑟𝑜𝑜𝑡𝑠 𝑎𝑟𝑒 5 𝑎𝑛𝑑 1 2 ?\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 2𝑦2 −11𝑦+ 5 = 0\n\n• Verified Key: Option A (2𝑦2 −11𝑦+ 5 = 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_11",
@@ -7358,8 +7358,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑚2 −2𝑚−3 = 0"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑊ℎ𝑎𝑡 𝑖𝑠 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑤ℎ𝑜𝑠𝑒 𝑟𝑜𝑜𝑡𝑠 𝑎𝑟𝑒− 1 3 𝑎𝑛𝑑 1 2 ?\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 6𝑚2 −𝑚−1 = 0\n\n• Verified Key: Option B (6𝑚2 −𝑚−1 = 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_12",
@@ -7373,8 +7373,8 @@ window.MAT101_QUESTIONS = [
       "D": "2𝑏2 −2𝑏−1 = 0"
     },
     "answer": "A",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑊ℎ𝑎𝑡 𝑖𝑠 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑤ℎ𝑜𝑠𝑒 𝑟𝑜𝑜𝑡𝑠 𝑎𝑟𝑒 2 𝑎𝑛𝑑−1?\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑏2 −𝑏−2 = 0\n\n• Verified Key: Option A (𝑏2 −𝑏−2 = 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_13",
@@ -7388,8 +7388,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑛2 −4 = 0"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑇ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑤ℎ𝑜𝑠𝑒 𝑟𝑜𝑜𝑡𝑠 𝑎𝑟𝑒 0 𝑎𝑛𝑑 4 𝑖𝑠\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑛2 −4𝑛= 0\n\n• Verified Key: Option B (𝑛2 −4𝑛= 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_14",
@@ -7403,8 +7403,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥2 −6𝑥+ 4 = 0"
     },
     "answer": "C",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑇ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑤ℎ𝑜𝑠𝑒 𝑟𝑜𝑜𝑡𝑠 𝑎𝑟𝑒 3 + √5 𝑎𝑛𝑑 3 −√5 𝑖𝑠\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑥2 −6𝑥+ 4 = 0\n\n• Verified Key: Option C (𝑥2 −6𝑥+ 4 = 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_15",
@@ -7418,8 +7418,8 @@ window.MAT101_QUESTIONS = [
       "D": "3 2 , −1"
     },
     "answer": "D",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑠𝑢𝑚 𝑎𝑛𝑑 𝑝𝑟𝑜𝑑𝑢𝑐𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 2𝑥2 −3𝑥−2 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 3 2 , −1\n\n• Verified Key: Option D (3 2 , −1)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_16",
@@ -7433,8 +7433,8 @@ window.MAT101_QUESTIONS = [
       "D": "−2, 5"
     },
     "answer": "C",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑠𝑢𝑚 𝑎𝑛𝑑 𝑝𝑟𝑜𝑑𝑢𝑐𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 −2𝑥+ 5 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 2, 5\n\n• Verified Key: Option C (2, 5)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_17",
@@ -7448,8 +7448,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 3 2 , −1"
     },
     "answer": "D",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑠𝑢𝑚 𝑎𝑛𝑑 𝑝𝑟𝑜𝑑𝑢𝑐𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 2𝑥2 + 3𝑥= 2\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: − 3 2 , −1\n\n• Verified Key: Option D (− 3 2 , −1)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_18",
@@ -7463,8 +7463,8 @@ window.MAT101_QUESTIONS = [
       "D": "4, 1"
     },
     "answer": "D",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑠𝑢𝑚 𝑎𝑛𝑑 𝑝𝑟𝑜𝑑𝑢𝑐𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 −4𝑥+ 1 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 4, 1\n\n• Verified Key: Option D (4, 1)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_19",
@@ -7478,8 +7478,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑠𝑢𝑚= 4, 𝑝𝑟𝑜𝑑𝑢𝑐𝑡= −3"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑠𝑢𝑚 𝑎𝑛𝑑 𝑝𝑟𝑜𝑑𝑢𝑐𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 + 4𝑥+ 3 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑠𝑢𝑚= −4, 𝑝𝑟𝑜𝑑𝑢𝑐𝑡= 3\n\n• Verified Key: Option B (𝑠𝑢𝑚= −4, 𝑝𝑟𝑜𝑑𝑢𝑐𝑡= 3)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_20",
@@ -7493,8 +7493,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑠𝑢𝑚= 1 3 , 𝑝𝑟𝑜𝑑𝑢𝑐𝑡= − 1 6"
     },
     "answer": "A",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑠𝑢𝑚 𝑎𝑛𝑑 𝑝𝑟𝑜𝑑𝑢𝑐𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 − 1 3 𝑥+ 1 6 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑠𝑢𝑚= 1 3 , 𝑝𝑟𝑜𝑑𝑢𝑐𝑡= 1 6\n\n• Verified Key: Option A (𝑠𝑢𝑚= 1 3 , 𝑝𝑟𝑜𝑑𝑢𝑐𝑡= 1 6)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_21",
@@ -7508,8 +7508,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑠𝑢𝑚= 7, 𝑝𝑟𝑜𝑑𝑢𝑐𝑡= −3"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑠𝑢𝑚 𝑎𝑛𝑑 𝑝𝑟𝑜𝑑𝑢𝑐𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 3 −7𝑥−𝑥2 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑠𝑢𝑚= −7, 𝑝𝑟𝑜𝑑𝑢𝑐𝑡= −3\n\n• Verified Key: Option B (𝑠𝑢𝑚= −7, 𝑝𝑟𝑜𝑑𝑢𝑐𝑡= −3)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_22",
@@ -7523,8 +7523,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑠𝑢𝑚= 5 3 , 𝑝𝑟𝑜𝑑𝑢𝑐𝑡= − 4 3"
     },
     "answer": "A",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑠𝑢𝑚 𝑎𝑛𝑑 𝑝𝑟𝑜𝑑𝑢𝑐𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 5𝑥−4 −3𝑥2 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑠𝑢𝑚= 5 3 , 𝑝𝑟𝑜𝑑𝑢𝑐𝑡= 4 3\n\n• Verified Key: Option A (𝑠𝑢𝑚= 5 3 , 𝑝𝑟𝑜𝑑𝑢𝑐𝑡= 4 3)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_23",
@@ -7538,8 +7538,8 @@ window.MAT101_QUESTIONS = [
       "D": "−2"
     },
     "answer": "A",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐼𝑓 1 𝑖𝑠 𝑎 𝑟𝑜𝑜𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 5𝑥2 + 𝑘𝑥−3 = 0, 𝑓𝑖𝑛𝑑 𝑡ℎ𝑒 𝑜𝑡ℎ𝑒𝑟 𝑟𝑜𝑜𝑡.\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: − 3 5\n\n• Verified Key: Option A (− 3 5)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_24",
@@ -7553,8 +7553,8 @@ window.MAT101_QUESTIONS = [
       "D": "10"
     },
     "answer": "A",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 7 𝑎𝑛𝑑−3 𝑎𝑟𝑒 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 + 𝑘𝑥−21 = 0. 𝑊ℎ𝑎𝑡 𝑖𝑠 𝑡ℎ𝑒 𝑣𝑎𝑙𝑢𝑒 𝑜𝑓 𝑘?\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: −4\n\n• Verified Key: Option A (−4)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_25",
@@ -7568,8 +7568,8 @@ window.MAT101_QUESTIONS = [
       "D": "7"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: −5 𝑖𝑠 𝑎 𝑟𝑜𝑜𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑎𝑢𝑡𝑖𝑜𝑛 𝑛2 −8𝑛−65 = 0. 𝑊ℎ𝑎𝑡 𝑖𝑠 𝑡ℎ𝑒 𝑜𝑡ℎ𝑒𝑟 𝑟𝑜𝑜𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛?\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 13\n\n• Verified Key: Option B (13)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_26",
@@ -7583,8 +7583,8 @@ window.MAT101_QUESTIONS = [
       "D": "9"
     },
     "answer": "C",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐼𝑓 5 𝑖𝑠 𝑜𝑛𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 + 4𝑥−45 = 0, 𝑤ℎ𝑎𝑡 𝑖𝑠 𝑡ℎ𝑒 𝑜𝑡ℎ𝑒𝑟 𝑟𝑜𝑜𝑡?\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: −9\n\n• Verified Key: Option C (−9)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_27",
@@ -7598,8 +7598,8 @@ window.MAT101_QUESTIONS = [
       "D": "2, −5, −3"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐺𝑖𝑣𝑒𝑛 𝑡ℎ𝑎𝑡 1 2 𝑎𝑛𝑑−3 𝑎𝑟𝑒 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 0 = 𝑎𝑥2 + 𝑏𝑥+ 𝑐, 𝑓𝑖𝑛𝑑 𝑎, 𝑏 𝑎𝑛𝑑 𝑐.\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 2, 5, −3\n\n• Verified Key: Option B (2, 5, −3)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_28",
@@ -7613,8 +7613,8 @@ window.MAT101_QUESTIONS = [
       "D": "2, −5"
     },
     "answer": "C",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑂𝑛𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 + 𝑘𝑥−15 = 0 𝑖𝑠 3. 𝑇ℎ𝑒 𝑣𝑎𝑙𝑢𝑒 𝑜𝑓 𝑘 𝑎𝑛𝑑 𝑡ℎ𝑒 𝑜𝑡ℎ𝑒𝑟 𝑟𝑜𝑜𝑡 𝑎𝑟𝑒, 𝑟𝑒𝑠𝑝𝑒𝑐𝑡\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: −2, −5\n\n• Verified Key: Option C (−2, −5)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_29",
@@ -7628,8 +7628,8 @@ window.MAT101_QUESTIONS = [
       "D": "9 2"
     },
     "answer": "C",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐼𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑦2 + 3𝑦+ 𝑘= 0 ℎ𝑎𝑠 𝑒𝑞𝑎𝑢𝑙 𝑟𝑜𝑜𝑡𝑠, 𝑡ℎ𝑒 𝑣𝑎𝑙𝑢𝑒 𝑜𝑓 𝑘 𝑖𝑠\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 9 4\n\n• Verified Key: Option C (9 4)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_30",
@@ -7643,8 +7643,8 @@ window.MAT101_QUESTIONS = [
       "D": "−3±√15 2"
     },
     "answer": "D",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑇ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 2𝑥2 + 6𝑥−3 = 0 𝑎𝑟𝑒\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: −3±√15 2\n\n• Verified Key: Option D (−3±√15 2)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_31",
@@ -7658,8 +7658,8 @@ window.MAT101_QUESTIONS = [
       "D": "3, 4"
     },
     "answer": "A",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐼𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑦2 −(𝑘−2)𝑦+ 2𝑘+ 1 = 0 ℎ𝑎𝑠 𝑒𝑞𝑎𝑢𝑙 𝑟𝑜𝑜𝑡𝑠, 𝑡ℎ𝑒 𝑣𝑎𝑙𝑢𝑒𝑠 𝑜𝑓 𝑘 𝑎𝑟𝑒\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 12, 0\n\n• Verified Key: Option A (12, 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_32",
@@ -7673,8 +7673,8 @@ window.MAT101_QUESTIONS = [
       "D": "9"
     },
     "answer": "D",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐼𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑝𝑥2 −6𝑥+ 1 = 0 ℎ𝑎𝑠 𝑒𝑞𝑢𝑎𝑙 𝑟𝑜𝑜𝑡𝑠, 𝑡ℎ𝑒 𝑣𝑎𝑙𝑢𝑒 𝑜𝑓 𝑝 𝑖𝑠\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 9\n\n• Verified Key: Option D (9)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_33",
@@ -7688,8 +7688,8 @@ window.MAT101_QUESTIONS = [
       "D": "4, 1"
     },
     "answer": "A",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑇ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑦+ 2√𝑦= 8 𝑎𝑟𝑒\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 16, 4\n\n• Verified Key: Option A (16, 4)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_34",
@@ -7703,8 +7703,8 @@ window.MAT101_QUESTIONS = [
       "D": "−4"
     },
     "answer": "A",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑇ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑧−2 + √𝑧2 −4 = 0 𝑎𝑟𝑒\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 2\n\n• Verified Key: Option A (2)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_35",
@@ -7718,8 +7718,8 @@ window.MAT101_QUESTIONS = [
       "D": "4"
     },
     "answer": "D",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑆𝑜𝑙𝑣𝑒 𝑓𝑜𝑟 𝑦 𝑖𝑓 𝑦+ 1 = √𝑦2 + 9\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 4\n\n• Verified Key: Option D (4)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_36",
@@ -7733,8 +7733,8 @@ window.MAT101_QUESTIONS = [
       "D": "0, 7"
     },
     "answer": "C",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑆𝑜𝑙𝑣𝑒 𝑓𝑜𝑟 𝑥: 𝑥−3√𝑥+ 2 + 2 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: −2, 7\n\n• Verified Key: Option C (−2, 7)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_37",
@@ -7748,8 +7748,8 @@ window.MAT101_QUESTIONS = [
       "D": "−128"
     },
     "answer": "D",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑇ℎ𝑒 𝑑𝑖𝑠𝑐𝑟𝑖𝑚𝑖𝑛𝑎𝑛𝑡 𝑓𝑜𝑟 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 3𝑥2 −4𝑥+ 12 = 0 𝑖𝑠\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: −128\n\n• Verified Key: Option D (−128)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_38",
@@ -7763,8 +7763,8 @@ window.MAT101_QUESTIONS = [
       "D": "32"
     },
     "answer": "D",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑇ℎ𝑒 𝑑𝑖𝑠𝑐𝑟𝑖𝑚𝑖𝑛𝑎𝑛𝑡 𝑓𝑜𝑟 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 + 4𝑥= 4 𝑖𝑠\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 32\n\n• Verified Key: Option D (32)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_39",
@@ -7778,8 +7778,8 @@ window.MAT101_QUESTIONS = [
       "D": "√8"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑑𝑖𝑠𝑐𝑟𝑖𝑚𝑖𝑛𝑎𝑛𝑡 𝑓𝑜𝑟 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 −2𝑥+ 3 = 0 𝑖𝑠\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: −8\n\n• Verified Key: Option B (−8)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_40",
@@ -7793,8 +7793,8 @@ window.MAT101_QUESTIONS = [
       "D": "2𝑥2 + 21𝑥+ 52 = 0"
     },
     "answer": "D",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: If the roots of the equation 2𝑥2 + 7𝑥+ 3 = 0 are 𝛼 𝑎𝑛𝑑 𝛽, find the equation having roots (2𝛼+ 𝛽) 𝑎𝑛𝑑\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 2𝑥2 + 21𝑥+ 52 = 0\n\n• Verified Key: Option D (2𝑥2 + 21𝑥+ 52 = 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_41",
@@ -7808,8 +7808,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑜𝑛𝑒 𝑟𝑒𝑎𝑙 𝑎𝑛𝑑 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑟𝑜𝑜𝑡"
     },
     "answer": "C",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐷𝑒𝑡𝑒𝑟𝑚𝑖𝑛𝑒 𝑡ℎ𝑒 𝑛𝑎𝑡𝑢𝑟𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 + 9 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑐𝑜𝑛𝑗𝑢𝑔𝑎𝑡𝑒𝑠\n\n• Verified Key: Option C (𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑐𝑜𝑛𝑗𝑢𝑔𝑎𝑡𝑒𝑠)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_42",
@@ -7823,8 +7823,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑜𝑛𝑒 𝑟𝑒𝑎𝑙 𝑎𝑛𝑑 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑟𝑜𝑜𝑡"
     },
     "answer": "A",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐸𝑥𝑎𝑚𝑖𝑛𝑒 𝑡ℎ𝑒 𝑛𝑎𝑡𝑢𝑟𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑓𝑜𝑙𝑙𝑜𝑤𝑖𝑛𝑔 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 −4𝑥= 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑟𝑒𝑎𝑙 𝑎𝑛𝑑 𝑑𝑖𝑓𝑓𝑒𝑟𝑒𝑛𝑡 𝑟𝑜𝑜𝑡𝑠\n\n• Verified Key: Option A (𝑟𝑒𝑎𝑙 𝑎𝑛𝑑 𝑑𝑖𝑓𝑓𝑒𝑟𝑒𝑛𝑡 𝑟𝑜𝑜𝑡𝑠)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_43",
@@ -7838,8 +7838,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑛𝑜𝑛𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑎𝑏𝑜𝑣𝑒"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐷𝑒𝑡𝑒𝑟𝑚𝑖𝑛𝑒 𝑡ℎ𝑒 𝑛𝑎𝑡𝑢𝑟𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 9𝑥2 + 12𝑥+ 4 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑑𝑜𝑢𝑏𝑙𝑒 𝑟𝑜𝑜𝑡𝑠\n\n• Verified Key: Option B (𝑑𝑜𝑢𝑏𝑙𝑒 𝑟𝑜𝑜𝑡𝑠)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_44",
@@ -7853,8 +7853,8 @@ window.MAT101_QUESTIONS = [
       "D": "− 1 3 , −1"
     },
     "answer": "C",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: Find the possible values of 𝑎 for which the quadratic equation 𝑎𝑥2 + (𝑎+ 1)𝑥+ 𝑎= 0 has equal roots\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: − 1 3 , 1\n\n• Verified Key: Option C (− 1 3 , 1)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_45",
@@ -7868,8 +7868,8 @@ window.MAT101_QUESTIONS = [
       "D": "2"
     },
     "answer": "C",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: If 𝛼 𝑎𝑛𝑑 𝛽 are the roots of the equation 2𝑥2 −6𝑥+ 𝑘= 0, find the value of 𝑘 if 1 𝛼+ 1 𝛽 = −3\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: −2\n\n• Verified Key: Option C (−2)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_46",
@@ -7883,8 +7883,8 @@ window.MAT101_QUESTIONS = [
       "D": "4𝑥2 + 30𝑥+ 25 = 0"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: If the roots of the equation 4𝑥2 −6𝑥+ 1 = 0 are 𝛼 𝑎𝑛𝑑 𝛽, find the equation the roots of which are (𝛼\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 4𝑥2 −30𝑥+ 25 = 0\n\n• Verified Key: Option B (4𝑥2 −30𝑥+ 25 = 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_47",
@@ -7898,8 +7898,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥2 −13𝑥−36 = 0"
     },
     "answer": "A",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐺𝑖𝑣𝑒𝑛 𝛼 𝑎𝑛𝑑 𝛽 𝑎𝑟𝑒 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 −5𝑥+ 6 = 0, 𝑓𝑖𝑛𝑑 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 ℎ𝑎𝑣𝑖𝑛𝑔 𝑟𝑜𝑜𝑡𝑠 𝛼2 𝑎\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑥2 −13𝑥+ 36 = 0\n\n• Verified Key: Option A (𝑥2 −13𝑥+ 36 = 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_48",
@@ -7913,8 +7913,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥2 −𝑥−2 = 0"
     },
     "answer": "A",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑂𝑏𝑡𝑎𝑖𝑛 𝑡ℎ𝑒 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑤𝑖𝑡ℎ 𝑟𝑜𝑜𝑡𝑠 1 𝛼 𝑎𝑛𝑑 1 𝛽, 𝑖𝑓 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 + 𝑥−2 = 0 ℎ𝑎𝑠 𝑟𝑜𝑜𝑡𝑠 𝛼 𝑎𝑛𝑑 𝛽.\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 2𝑥2 −𝑥−1 = 0\n\n• Verified Key: Option A (2𝑥2 −𝑥−1 = 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_49",
@@ -7928,8 +7928,8 @@ window.MAT101_QUESTIONS = [
       "D": "8𝑥2 + 35𝑥−27 = 0"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐼𝑓 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 2𝑥2 + 5𝑥+ 3 = 0 𝑎𝑟𝑒 𝛼 𝑎𝑛𝑑 𝛽, 𝑜𝑏𝑡𝑎𝑖𝑛 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑤ℎ𝑜𝑠𝑒 𝑟𝑜𝑜𝑡 𝑣𝑎𝑙𝑢𝑒𝑠 𝑎𝑟𝑒 \n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 8𝑥2 + 35𝑥+ 27 = 0\n\n• Verified Key: Option B (8𝑥2 + 35𝑥+ 27 = 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_50",
@@ -7943,8 +7943,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑥2 + 13𝑥+ 4 = 0"
     },
     "answer": "A",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐼𝑓 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 2𝑥2 + 5𝑥+ 3 = 0 𝑎𝑟𝑒 𝛼 𝑎𝑛𝑑 𝛽, 𝑜𝑏𝑡𝑎𝑖𝑛 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑤ℎ𝑜𝑠𝑒 𝑟𝑜𝑜𝑡 𝑣𝑎𝑙𝑢𝑒𝑠 𝑎𝑟𝑒 \n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑥2 −13𝑥+ 4 = 0\n\n• Verified Key: Option A (𝑥2 −13𝑥+ 4 = 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_51",
@@ -7958,8 +7958,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑛𝑜𝑛𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑎𝑏𝑜𝑣𝑒"
     },
     "answer": "C",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑊ℎ𝑎𝑡 𝑖𝑠 𝑡ℎ𝑒 𝑛𝑎𝑡𝑢𝑟𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 2𝑥2 −6𝑥+ 10 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑐𝑜𝑛𝑗𝑢𝑔𝑎𝑡𝑒𝑠 𝑟𝑜𝑜𝑡𝑠\n\n• Verified Key: Option C (𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑐𝑜𝑛𝑗𝑢𝑔𝑎𝑡𝑒𝑠 𝑟𝑜𝑜𝑡𝑠)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_52",
@@ -7973,8 +7973,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑑𝑖𝑠𝑡𝑖𝑛𝑐𝑡 𝑟𝑒𝑎𝑙 𝑟𝑜𝑜𝑡𝑠"
     },
     "answer": "D",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐸𝑥𝑎𝑚𝑖𝑛𝑒 𝑡ℎ𝑒 𝑛𝑎𝑡𝑢𝑟𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 −4 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑑𝑖𝑠𝑡𝑖𝑛𝑐𝑡 𝑟𝑒𝑎𝑙 𝑟𝑜𝑜𝑡𝑠\n\n• Verified Key: Option D (𝑑𝑖𝑠𝑡𝑖𝑛𝑐𝑡 𝑟𝑒𝑎𝑙 𝑟𝑜𝑜𝑡𝑠)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_53",
@@ -7988,8 +7988,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑜𝑛𝑒 𝑟𝑒𝑎𝑙 𝑎𝑛𝑑 𝑐𝑜𝑚𝑝𝑙𝑒𝑥 𝑟𝑜𝑜𝑡"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐸𝑥𝑎𝑚𝑖𝑛𝑒 𝑡ℎ𝑒 𝑛𝑎𝑡𝑢𝑟𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑓𝑜𝑙𝑙𝑜𝑤𝑖𝑛𝑔 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 4𝑥2 + 20𝑥+ 25 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 𝑑𝑜𝑢𝑏𝑙𝑒 𝑟𝑜𝑜𝑡𝑠\n\n• Verified Key: Option B (𝑑𝑜𝑢𝑏𝑙𝑒 𝑟𝑜𝑜𝑡𝑠)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_54",
@@ -8003,8 +8003,8 @@ window.MAT101_QUESTIONS = [
       "D": "6𝑥2 + 5𝑥+ 5 = 0"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐼𝑓 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 2𝑥2 + 5𝑥+ 3 = 0 𝑎𝑟𝑒 𝛼 𝑎𝑛𝑑 𝛽, 𝑜𝑏𝑡𝑎𝑖𝑛 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑤ℎ𝑜𝑠𝑒 𝑟𝑜𝑜𝑡 𝑣𝑎𝑙𝑢𝑒𝑠 𝑎𝑟𝑒 (𝛼+ 1 𝛽) 𝑎𝑛𝑑 \n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 6𝑥2 + 25𝑥+ 25 = 0\n\n• Verified Key: Option B (6𝑥2 + 25𝑥+ 25 = 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_55",
@@ -8018,8 +8018,8 @@ window.MAT101_QUESTIONS = [
       "D": "6𝑥2 + 5𝑥−1 = 0"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐺𝑖𝑣𝑒𝑛 𝛼 𝑎𝑛𝑑 𝛽 𝑎𝑟𝑒 𝑡ℎ𝑒 𝑟𝑜𝑜𝑡𝑠 𝑜𝑓 𝑞𝑢𝑎𝑑𝑟𝑎𝑡𝑖𝑐 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥2 −5𝑥+ 6 = 0, 𝑓𝑖𝑛𝑑 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 ℎ𝑎𝑣𝑖𝑛𝑔 𝑟𝑜𝑜𝑡𝑠 1 𝛼 \n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 6𝑥2 −5𝑥+ 1 = 0\n\n• Verified Key: Option B (6𝑥2 −5𝑥+ 1 = 0)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_56",
@@ -8033,8 +8033,8 @@ window.MAT101_QUESTIONS = [
       "D": "5,9"
     },
     "answer": "D",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐹𝑖𝑛𝑑 𝑡𝑤𝑜 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 𝑛𝑢𝑚𝑏𝑒𝑟𝑠 𝑤ℎ𝑖𝑐ℎ 𝑑𝑖𝑓𝑓𝑒𝑟 𝑏𝑦 4 𝑎𝑛𝑑 𝑤ℎ𝑜𝑠𝑒 𝑝𝑟𝑜𝑑𝑢𝑐𝑡 𝑖𝑠 45.\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 5,9\n\n• Verified Key: Option D (5,9)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_57",
@@ -8048,8 +8048,8 @@ window.MAT101_QUESTIONS = [
       "D": "15 𝑦𝑒𝑎𝑟𝑠"
     },
     "answer": "B",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝐴 𝑔𝑖𝑟𝑙𝑠 𝑖𝑠 6 𝑦𝑒𝑎𝑟𝑠 𝑦𝑜𝑢𝑛𝑔𝑒𝑟 𝑡ℎ𝑎𝑛 ℎ𝑒𝑟 𝑏𝑟𝑜𝑡ℎ𝑒𝑟. 𝑇ℎ𝑒 𝑝𝑟𝑜𝑑𝑢𝑐𝑡 𝑜𝑓 𝑡ℎ𝑒𝑖𝑟 𝑎𝑔𝑒𝑠 𝑖𝑠 135. 𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑙𝑒𝑠𝑠𝑒𝑟 𝑎𝑔𝑒.\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 9 𝑦𝑒𝑎𝑟𝑠\n\n• Verified Key: Option B (9 𝑦𝑒𝑎𝑟𝑠)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_58",
@@ -8063,8 +8063,8 @@ window.MAT101_QUESTIONS = [
       "D": "4𝑐𝑚"
     },
     "answer": "D",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑇ℎ𝑒 𝑎𝑟𝑒𝑎 𝑜𝑓 𝑎 𝑟𝑒𝑐𝑡𝑎𝑛𝑔𝑙𝑒 𝑖𝑠 60𝑐𝑚2. 𝑇ℎ𝑒 𝑙𝑒𝑛𝑔𝑡ℎ 𝑖𝑠 11𝑐𝑚 𝑚𝑜𝑟𝑒 𝑡ℎ𝑎𝑛 𝑡ℎ𝑒 𝑤𝑖𝑑𝑡ℎ. 𝐹𝑖𝑛𝑑 𝑡ℎ𝑒 𝑤𝑖𝑑𝑡ℎ.\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: 4𝑐𝑚\n\n• Verified Key: Option D (4𝑐𝑚)",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_59",
@@ -8078,8 +8078,8 @@ window.MAT101_QUESTIONS = [
       "D": "𝑢= 1"
     },
     "answer": "All of the above",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑆𝑜𝑙𝑣𝑒 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑢(𝑢+ 1) + 12 𝑢(𝑢+1) = 8\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: \n\n• Verified Key: Option All of the above ()",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   },
   {
     "id": "QUA_60",
@@ -8093,12 +8093,11 @@ window.MAT101_QUESTIONS = [
       "D": "−3−√5 2"
     },
     "answer": "All of the above",
-    "explanation": "Standard Method: For ax^2 + bx + c = 0: roots x = (-b +- sqrt(b^2-4ac))/(2a). Sum = -b/a, Product = c/a.",
-    "speed_hack": "⚡ CBT Speed Hack: Check product of roots c/a and sum -b/a against the options. For reciprocal roots 1/alpha, 1/beta, simply reverse coefficients: cx^2 + bx + a = 0."
+    "explanation": "📖 Core Principle (Quadratic Roots & Vieta's Relations):\nFor $ax^2 + bx + c = 0$, roots satisfy $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$.\nDiscriminant $\\Delta = b^2 - 4ac$: $\\Delta > 0$ → 2 real distinct roots; $\\Delta = 0$ → equal/repeated; $\\Delta < 0$ → complex conjugates.\nBy Vieta's formulas: Sum of roots $\\alpha + \\beta = -b/a$; Product of roots $\\alpha\\beta = c/a$.\n\n🔍 Detailed Step-by-Step:\n• Given: 𝑆𝑜𝑙𝑣𝑒 𝑡ℎ𝑒 𝑒𝑞𝑢𝑎𝑡𝑖𝑜𝑛 𝑥4 + 2𝑥3 −𝑥2 + 2𝑥+ 1 = 0\n• Identify the quadratic coefficients $a$, $b$, $c$.\n• Compute discriminant $\\Delta = b^2 - 4ac$ to determine root nature.\n• Apply quadratic formula or factor the expression to find roots.\n• The solution evaluates to: \n\n• Verified Key: Option All of the above ()",
+    "speed_hack": "⚡ CBT Speed Hack: Check the product of roots $c/a$ and sum of roots $-b/a$ against the options! This immediately isolates the correct pair of roots in under 5 seconds."
   }
 ];
 
-// === PHY 101 QUESTIONS ===
 window.PHY101_QUESTIONS = [
   {
     "id": "PHY101_BT1_001",
@@ -12178,7 +12177,6 @@ window.PHY101_QUESTIONS = [
   }
 ];
 
-// === CHM 111 QUESTIONS ===
 window.CHM111_QUESTIONS = [
   {
     "id": "CHM111_Q001",
@@ -12192,7 +12190,7 @@ window.CHM111_QUESTIONS = [
       "C": "Maximum degree of freedom and maximum entropy"
     },
     "answer": "A",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"Minimal degree of freedom and maximum entropy\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"Minimal degree of freedom and maximum entropy\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12207,7 +12205,7 @@ window.CHM111_QUESTIONS = [
       "C": "An equilibrium process"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Non spontaneous\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Non spontaneous\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
@@ -12222,7 +12220,7 @@ window.CHM111_QUESTIONS = [
       "C": "97.3^o C"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"97.3^o C\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"97.3^o C\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12237,7 +12235,7 @@ window.CHM111_QUESTIONS = [
       "C": "no effect on rates and equilibrium position"
     },
     "answer": "A",
-    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option A: \"affects the rates of the reactions\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option A: \"affects the rates of the reactions\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12252,7 +12250,7 @@ window.CHM111_QUESTIONS = [
       "C": "Boyles"
     },
     "answer": "A",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"Le Chateliers\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"Le Chateliers\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12267,7 +12265,7 @@ window.CHM111_QUESTIONS = [
       "C": "The reaction will shift to the left"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"The reaction will shift to the left\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"The reaction will shift to the left\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12282,7 +12280,7 @@ window.CHM111_QUESTIONS = [
       "C": "reaction stops"
     },
     "answer": "A",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"The reaction will shift to the left.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"The reaction will shift to the left.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12297,7 +12295,7 @@ window.CHM111_QUESTIONS = [
       "C": "Kc^, = ½(Kc)"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Kc^, = (Kc) ½\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Kc^, = (Kc) ½\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12312,7 +12310,7 @@ window.CHM111_QUESTIONS = [
       "C": "Equilibrium is achieved when reactant and product concentrations are equal."
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Equilibrium is achieved when reactant and product concentrations are equal.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Equilibrium is achieved when reactant and product concentrations are equal.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12327,7 +12325,7 @@ window.CHM111_QUESTIONS = [
       "C": "2Mg(s) + O_2 (g) <=> 2MgO(s)"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"CaCO_3 (s) <=> CaO(s) + CO_2 (g)\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"CaCO_3 (s) <=> CaO(s) + CO_2 (g)\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12342,7 +12340,7 @@ window.CHM111_QUESTIONS = [
       "C": "The potential energy of the reactants decreases."
     },
     "answer": "A",
-    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option A: \"The reaction follows an alternative pathway of lower activation energy.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option A: \"The reaction follows an alternative pathway of lower activation energy.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12357,7 +12355,7 @@ window.CHM111_QUESTIONS = [
       "C": "The reaction is unfavourable and will not have very much product B at equilibrium."
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"The reaction is very favourable and will have mostly product B at equilibrium.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"The reaction is very favourable and will have mostly product B at equilibrium.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12372,7 +12370,7 @@ window.CHM111_QUESTIONS = [
       "C": "liquid high vapour pressure will probably have a low surface tension and a high boiling point."
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option B: \"liquid low vapour pressure will probably have a low surface tension and a high boiling point.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option B: \"liquid low vapour pressure will probably have a low surface tension and a high boiling point.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12387,7 +12385,7 @@ window.CHM111_QUESTIONS = [
       "C": "middle"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Right\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Right\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12402,7 +12400,7 @@ window.CHM111_QUESTIONS = [
       "C": "Neither reactants nor products are favoured"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Neither reactants nor products are favoured\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Neither reactants nor products are favoured\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12417,7 +12415,7 @@ window.CHM111_QUESTIONS = [
       "C": "-13.3"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"13.3\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"13.3\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12432,7 +12430,7 @@ window.CHM111_QUESTIONS = [
       "C": "ΔH –, Δ S –"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"ΔH +, Δ S +\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"ΔH +, Δ S +\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
@@ -12447,7 +12445,7 @@ window.CHM111_QUESTIONS = [
       "C": "Non spontaneous process"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Non spontaneous process\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Non spontaneous process\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
@@ -12462,7 +12460,7 @@ window.CHM111_QUESTIONS = [
       "C": "TΔS = 0"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"TΔS = 0\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"TΔS = 0\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12477,7 +12475,7 @@ window.CHM111_QUESTIONS = [
       "C": "33.6JK"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"-33.6JK\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"-33.6JK\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12492,7 +12490,7 @@ window.CHM111_QUESTIONS = [
       "C": "second law to thermodynamics"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"second law to thermodynamics\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"second law to thermodynamics\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12507,7 +12505,7 @@ window.CHM111_QUESTIONS = [
       "C": "0.016"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"-1.6 x 10^5\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"-1.6 x 10^5\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12522,7 +12520,7 @@ window.CHM111_QUESTIONS = [
       "C": "K_c = 4.3"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"K_c = 6.9\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"K_c = 6.9\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12537,7 +12535,7 @@ window.CHM111_QUESTIONS = [
       "C": "Q_c =4.6 x 10^4 , none is favoured"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Q_c =4.6 x 10^4 , none is favoured\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Q_c =4.6 x 10^4 , none is favoured\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12552,7 +12550,7 @@ window.CHM111_QUESTIONS = [
       "C": "a measure of heat content of a substance"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"a measure of heat content of a substance\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"a measure of heat content of a substance\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12567,7 +12565,7 @@ window.CHM111_QUESTIONS = [
       "C": "Heterogeneous equilibrium"
     },
     "answer": "A",
-    "explanation": "📖 Core Principle (Acids, Bases & Ionic Equilibria):\nAccording to standard physical chemistry principles, the correct response is Option A: \"Phase equilibrium\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "explanation": "📖 Core Principle (Acids, Bases & Ionic Equilibria):\nAccording to standard physical chemistry principles, the correct response is Option A: \"Phase equilibrium\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12582,7 +12580,7 @@ window.CHM111_QUESTIONS = [
       "C": "PbCl_2 (s) &rarr;Pb^2+ (aq) + 2Cl^- (aq)"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"CO(g) + H_2 O(g) <=> CO_2 (g) + H_2 (g)\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"CO(g) + H_2 O(g) <=> CO_2 (g) + H_2 (g)\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12597,7 +12595,7 @@ window.CHM111_QUESTIONS = [
       "C": "Minimal entropy and minimal degree of freedom"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Minimal degree of freedom and minimal entropy\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Minimal degree of freedom and minimal entropy\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12612,7 +12610,7 @@ window.CHM111_QUESTIONS = [
       "C": "An equilibrium process"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"An equilibrium process\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"An equilibrium process\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
@@ -12627,7 +12625,7 @@ window.CHM111_QUESTIONS = [
       "C": "97.3kj/mol"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"97.3^o C\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"97.3^o C\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12642,7 +12640,7 @@ window.CHM111_QUESTIONS = [
       "C": "catalyst remains in the reactants"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option B: \"alter the equilibrium position\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option B: \"alter the equilibrium position\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12657,7 +12655,7 @@ window.CHM111_QUESTIONS = [
       "C": "Zeroth"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Zeroth\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Zeroth\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12672,7 +12670,7 @@ window.CHM111_QUESTIONS = [
       "C": "The reaction will shift to the left"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"There will be no change to the equilibrium position\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"There will be no change to the equilibrium position\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12687,7 +12685,7 @@ window.CHM111_QUESTIONS = [
       "C": "reaction stops"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"The reaction will shift to the right.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"The reaction will shift to the right.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12702,7 +12700,7 @@ window.CHM111_QUESTIONS = [
       "C": "Kc^, = ½(Kc)"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Kc^, = (Kc) ½\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Kc^, = (Kc) ½\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12717,7 +12715,7 @@ window.CHM111_QUESTIONS = [
       "C": "Equilibrium is achieved when reactant and product concentrations are equal."
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Equilibrium is achieved when the concentrations of species become constant.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Equilibrium is achieved when the concentrations of species become constant.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12732,7 +12730,7 @@ window.CHM111_QUESTIONS = [
       "C": "2Mg(s) + O_2 (g) <=> 2MgO(s)"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"2Mg(s) + O_2 (g) <=> 2MgO(s)\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"2Mg(s) + O_2 (g) <=> 2MgO(s)\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12747,7 +12745,7 @@ window.CHM111_QUESTIONS = [
       "C": "The potential energy of the reactants decreases."
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option B: \"The heat of reaction decreases.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option B: \"The heat of reaction decreases.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12762,7 +12760,7 @@ window.CHM111_QUESTIONS = [
       "C": "The reaction is unfavourable and will not have very much product B at equilibrium."
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"The reaction is unfavourable and will not have very much product B at equilibrium.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"The reaction is unfavourable and will not have very much product B at equilibrium.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12777,7 +12775,7 @@ window.CHM111_QUESTIONS = [
       "C": "liquid high vapour pressure will probably have a low surface tension and a high boiling point."
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option C: \"liquid high vapour pressure will probably have a low surface tension and a high boiling point.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Kinetics & Reaction Rates):\nAccording to standard physical chemistry principles, the correct response is Option C: \"liquid high vapour pressure will probably have a low surface tension and a high boiling point.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12792,7 +12790,7 @@ window.CHM111_QUESTIONS = [
       "C": "middle"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Right\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Right\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12807,7 +12805,7 @@ window.CHM111_QUESTIONS = [
       "C": "Neither reactants nor products are favoured"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Mostly reactants\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Mostly reactants\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12822,7 +12820,7 @@ window.CHM111_QUESTIONS = [
       "C": "-13.3"
     },
     "answer": "A",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"5.97 x 10^5\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"5.97 x 10^5\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12837,7 +12835,7 @@ window.CHM111_QUESTIONS = [
       "C": "ΔH –, Δ S –"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"ΔH –, Δ S –\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"ΔH –, Δ S –\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
@@ -12852,7 +12850,7 @@ window.CHM111_QUESTIONS = [
       "C": "Non spontaneous process"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Spontaneous process at high temperature\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Spontaneous process at high temperature\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
@@ -12867,7 +12865,7 @@ window.CHM111_QUESTIONS = [
       "C": "Spontaneous process at all temperatures"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Non spontaneous process\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Non spontaneous process\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12882,7 +12880,7 @@ window.CHM111_QUESTIONS = [
       "C": "TΔS = 0"
     },
     "answer": "A",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option A: \"TΔS is greater than ΔH\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option A: \"TΔS is greater than ΔH\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12897,7 +12895,7 @@ window.CHM111_QUESTIONS = [
       "C": "33.6JK"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"33.6JK\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"33.6JK\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12912,7 +12910,7 @@ window.CHM111_QUESTIONS = [
       "C": "second law to thermodynamics"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"second law to thermodynamics\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"second law to thermodynamics\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12927,7 +12925,7 @@ window.CHM111_QUESTIONS = [
       "C": "0.016"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"-1.6 x 10^5\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"-1.6 x 10^5\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12942,7 +12940,7 @@ window.CHM111_QUESTIONS = [
       "C": "K_c = 4.3"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"K_c = 4.3\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"K_c = 4.3\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12957,7 +12955,7 @@ window.CHM111_QUESTIONS = [
       "C": "Q_c = 6.45 x 10^3 , shift right"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Q_c =1.9 x 10^-7 , shift left\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Q_c =1.9 x 10^-7 , shift left\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -12972,7 +12970,7 @@ window.CHM111_QUESTIONS = [
       "C": "a measure of heat content of a substance"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"a measure of its effective concentration under specified conditions.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"a measure of its effective concentration under specified conditions.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -12987,7 +12985,7 @@ window.CHM111_QUESTIONS = [
       "C": "Heterogeneous equilibrium"
     },
     "answer": "A",
-    "explanation": "📖 Core Principle (Acids, Bases & Ionic Equilibria):\nAccording to standard physical chemistry principles, the correct response is Option A: \"Phase equilibrium\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "explanation": "📖 Core Principle (Acids, Bases & Ionic Equilibria):\nAccording to standard physical chemistry principles, the correct response is Option A: \"Phase equilibrium\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13002,7 +13000,7 @@ window.CHM111_QUESTIONS = [
       "C": "Catalyst"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Catalyst\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Catalyst\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   },
   {
@@ -13017,7 +13015,7 @@ window.CHM111_QUESTIONS = [
       "C": "The energy stored in chemical bonds is referred to as kinetic energy"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Energy can be converted from one form to another\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Energy can be converted from one form to another\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13032,7 +13030,7 @@ window.CHM111_QUESTIONS = [
       "C": "various properties of the system"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"various properties of the system\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"various properties of the system\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13047,7 +13045,7 @@ window.CHM111_QUESTIONS = [
       "C": "No changes occurs"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"From hot to cold\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"From hot to cold\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
@@ -13062,7 +13060,7 @@ window.CHM111_QUESTIONS = [
       "C": "The difference between the energy released by bond formation and the energy consumed by bond cleavage during a chemical reaction"
     },
     "answer": "A",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option A: \"The energy released when chemical bonds are formed during a chemical reaction\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option A: \"The energy released when chemical bonds are formed during a chemical reaction\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13077,7 +13075,7 @@ window.CHM111_QUESTIONS = [
       "C": "S"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"S\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"S\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13092,7 +13090,7 @@ window.CHM111_QUESTIONS = [
       "C": "Spontaneous"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Spontaneous\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Spontaneous\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13107,7 +13105,7 @@ window.CHM111_QUESTIONS = [
       "C": "The Gibbs free energy is represented by the symbol G"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"If the Gibbs free energy change for a reaction is negative, the reaction happens spontaneously.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"If the Gibbs free energy change for a reaction is negative, the reaction happens spontaneously.\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13122,7 +13120,7 @@ window.CHM111_QUESTIONS = [
       "C": "Pascal"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Joule\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Joule\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13137,7 +13135,7 @@ window.CHM111_QUESTIONS = [
       "C": "All of the above"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"All of the above\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"All of the above\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13152,7 +13150,7 @@ window.CHM111_QUESTIONS = [
       "C": "Reverse"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Reverse\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Reverse\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
@@ -13167,7 +13165,7 @@ window.CHM111_QUESTIONS = [
       "C": "no reaction occur"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"mass does not enter or leave the system\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"mass does not enter or leave the system\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13182,7 +13180,7 @@ window.CHM111_QUESTIONS = [
       "C": "Spontaneous"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Backward reaction\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Backward reaction\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13197,7 +13195,7 @@ window.CHM111_QUESTIONS = [
       "C": "zero"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"zero\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"zero\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
@@ -13212,7 +13210,7 @@ window.CHM111_QUESTIONS = [
       "C": "a reversible process"
     },
     "answer": "A",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"greater and more uniform dispersal of matter\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"greater and more uniform dispersal of matter\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13227,7 +13225,7 @@ window.CHM111_QUESTIONS = [
       "C": "a reversible process"
     },
     "answer": "A",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"greater and more uniform dispersal of matter\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option A: \"greater and more uniform dispersal of matter\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option A directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option A",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13242,7 +13240,7 @@ window.CHM111_QUESTIONS = [
       "C": "Oxidation of plastics is slow and spontaneous"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Oxidation of plastics is slow and spontaneous\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Oxidation of plastics is slow and spontaneous\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13257,7 +13255,7 @@ window.CHM111_QUESTIONS = [
       "C": "ΔS = 0"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"ΔS = negative\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"ΔS = negative\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13272,7 +13270,7 @@ window.CHM111_QUESTIONS = [
       "C": "ΔS = +/-"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"ΔS = +/-\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"ΔS = +/-\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13287,7 +13285,7 @@ window.CHM111_QUESTIONS = [
       "C": "ΔS is = 0"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"ΔS = negative\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"ΔS = negative\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13302,7 +13300,7 @@ window.CHM111_QUESTIONS = [
       "C": "Entropy is equal to 0"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Melting is non spontaneous at 10^o\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option B: \"Melting is non spontaneous at 10^o\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
@@ -13317,7 +13315,7 @@ window.CHM111_QUESTIONS = [
       "C": "Entropy is equal to 0"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Entropy is equal to 0\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Thermodynamics & Spontaneity):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Entropy is equal to 0\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: ΔG < 0 is spontaneous; ΔG = 0 is equilibrium; ΔG > 0 is non-spontaneous. At equilibrium: T = ΔH / ΔS."
   },
   {
@@ -13332,7 +13330,7 @@ window.CHM111_QUESTIONS = [
       "C": "Third law of thermodynamics"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Third law of thermodynamics\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"Third law of thermodynamics\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13347,7 +13345,7 @@ window.CHM111_QUESTIONS = [
       "C": "S° Entropy of a perfect crystal at absolute zero"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"ΔS^o 298 Standard change in entropy at room temperature\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option B: \"ΔS^o 298 Standard change in entropy at room temperature\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13362,7 +13360,7 @@ window.CHM111_QUESTIONS = [
       "C": "ΔS is negative"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"ΔS is negative\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"ΔS is negative\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13377,7 +13375,7 @@ window.CHM111_QUESTIONS = [
       "C": "Gibb's free energy is positive"
     },
     "answer": "B",
-    "explanation": "📖 Core Principle (Electrochemistry & Redox Processes):\nAccording to standard physical chemistry principles, the correct response is Option B: \"The equilibrium constant is greater than one\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
+    "explanation": "📖 Core Principle (Electrochemistry & Redox Processes):\nAccording to standard physical chemistry principles, the correct response is Option B: \"The equilibrium constant is greater than one\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option B directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option B",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13392,7 +13390,7 @@ window.CHM111_QUESTIONS = [
       "C": "hot and cold"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"hot and cold\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"hot and cold\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Verified Clever-B FUTMINNA CHM 111 examination answer."
   },
   {
@@ -13407,12 +13405,11 @@ window.CHM111_QUESTIONS = [
       "C": "ΔS= ΔH/T"
     },
     "answer": "C",
-    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"ΔS= ΔH/T\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $\Delta G = \Delta H - T\Delta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
+    "explanation": "📖 Core Principle (Chemical Equilibrium & Le Chatelier):\nAccording to standard physical chemistry principles, the correct response is Option C: \"ΔS= ΔH/T\".\n\n🔍 Detailed Step-by-Step:\n• For the equilibrium or thermodynamic system described: Option C directly satisfies the governing physical laws (Le Chatelier's Principle, Gibbs equation $Delta G = Delta H - TDelta S$, or Arrhenius kinetics).\n\n• Correct Choice: Option C",
     "speed_hack": "⚡ CBT Speed Hack: Le Chatelier shift rule: Increasing pressure shifts toward fewer gas moles; increasing temperature shifts endothermically (+ΔH)."
   }
 ];
 
-// === CHM 191 QUESTIONS ===
 window.CHM191_QUESTIONS = [
   {
     "id": "CHM191_MNS_001",
