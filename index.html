@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>FUTMINNA 100L Pass: Grade-A Mastery System</title>
+  <meta name="description" content="Offline PWA CBT Simulator, Flashcards, Mistake Vault & Practice Pack for 100-Level FUTMINNA students.">
+  
+  <!-- PWA & Mobile Meta Tags -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0B0F19">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="FUTMINNA 100L">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Modern Stylesheet -->
+  <style>
+    :root {
+      --bg-main: #0B0F19;
+      --bg-surface: #111827;
+      --bg-card: rgba(17, 24, 39, 0.85);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-glow: rgba(99, 102, 241, 0.35);
+      
+      --primary: #6366F1;
+      --primary-hover: #4F46E5;
+      --secondary: #06B6D4;
+      --accent: #F43F5E;
+      --success: #10B981;
+      --warning: #F59E0B;
+      
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --text-dim: #64748B;
+      
+      --font-heading: 'Outfit', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+      
+      --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+      --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.5);
+      --shadow-glow: 0 0 24px rgba(99, 102, 241, 0.25);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      min-height: 100vh;
+      overflow-x: hidden;
+      line-height: 1.55;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(6, 182, 212, 0.12) 0px, transparent 50%);
+      background-attachment: fixed;
+      padding-bottom: 70px; /* Space for mobile nav */
+    }
+
+    @media (min-width: 769px) {
+      body {
+        padding-bottom: 0;
+      }
+    }
+
+    /* PWA Install Banner */
+    .pwa-banner {
+      display: none;
+      background: linear-gradient(90deg, #4338CA, #0891B2);
+      padding: 0.65rem 1rem;
+      text-align: center;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #FFF;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      z-index: 200;
+    }
+
+    .pwa-banner.show {
+      display: flex;
+    }
+
+    .pwa-btn {
+      background: #FFF;
+      color: #0F172A;
+      border: none;
+      padding: 0.35rem 0.85rem;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+
+    /* Header */
+    header {
+      background: rgba(11, 15, 25, 0.9);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0.85rem 1.25rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-badge {
+      background: linear-gradient(135deg, #6366F1, #06B6D4);
+      color: white;
+      font-family: var(--font-heading);
+      font-weight: 900;
+      font-size: 1.05rem;
+      padding: 0.3rem 0.65rem;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(99, 102, 241, 0.4);
+    }
+
+    .brand-title h1 {
+      font-family: var(--font-heading);
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: #FFF;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-title p {
+      font-size: 0.75rem;
+      color: var(--secondary);
+      font-weight: 600;
+    }
+
+    /* Top Course Switcher */
+    .course-selector-box {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .course-btn {
+      background: rgba(99, 102, 241, 0.15);
+      border: 1px solid rgba(99, 102, 241, 0.35);
+      color: #A5B4FC;
+      padding: 0.45rem 0.85rem;
+      border-radius: 10px;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 0.85rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: all 0.2s;
+    }
+
+    .course-btn:hover {
+      background: rgba(99, 102, 241, 0.25);
+      color: #FFF;
+    }
+
+    /* Gamification Header Badges */
+    .gamify-badges {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .streak-badge {
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      color: #FCD34D;
+      padding: 0.35rem 0.7rem;
+      border-radius: 20px;
+      font-family: var(--font-heading);
+      font-weight: 800;
+      font-size: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .xp-badge {
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      color: #6EE7B7;
+      padding: 0.35rem 0.7rem;
+      border-radius: 20px;
+      font-family: var(--font-heading);
+      font-weight: 800;
+      font-size: 0.8rem;
+    }
+
+    /* Desktop Navigation Tabs */
+    nav.nav-tabs {
+      display: none;
+      gap: 0.3rem;
+      background: rgba(255, 255, 255, 0.04);
+      padding: 0.3rem;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+    }
+
+    @media (min-width: 900px) {
+      nav.nav-tabs {
+        display: flex;
+      }
+    }
+
+    .nav-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.5rem 0.85rem;
+      border-radius: 8px;
+      font-family: var(--font-heading);
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      white-space: nowrap;
+    }
+
+    .nav-btn:hover {
+      color: #FFF;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .nav-btn.active {
+      background: var(--primary);
+      color: #FFF;
+      box-shadow: 0 2px 8px rgba(99, 102, 241, 0.4);
+    }
+
+    /* Mobile Bottom Navigation Bar */
+    .mobile-bottom-nav {
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(11, 15, 25, 0.95);
+      backdrop-filter: blur(16px);
+      border-top: 1px solid var(--border-color);
+      z-index: 150;
+      padding: 0.4rem 0.5rem calc(0.4rem + env(safe-area-inset-bottom, 0px));
+      justify-content: space-around;
+    }
+
+    @media (min-width: 900px) {
+      .mobile-bottom-nav {
+        display: none;
+      }
+    }
+
+    .mob-nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 0.7rem;
+      font-family: var(--font-heading);
+      font-weight: 600;
+      cursor: pointer;
+      padding: 0.25rem 0.5rem;
+      flex: 1;
+      transition: all 0.15s;
+    }
+
+    .mob-nav-item .icon {
+      font-size: 1.25rem;
+      margin-bottom: 0.15rem;
+    }
+
+    .mob-nav-item.active {
+      color: var(--primary);
+    }
+
+    .mob-nav-item.active .icon {
+      transform: scale(1.15);
+    }
+
+    /* Main Container */
+    main {
+      max-width: 1400px;
+      margin: 1.25rem auto;
+      padding: 0 1rem 2rem 1rem;
+    }
+
+    /* Tab Panes */
+    .tab-pane {
+      display: none;
+      animation: fadeIn 0.25s ease;
+    }
+
+    .tab-pane.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Cards */
+    .glass-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(14px);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: var(--shadow-md);
+      margin-bottom: 1.25rem;
+    }
+
+    /* Hero Banner */
+    .hero-banner {
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(6, 182, 212, 0.15) 100%);
+      border: 1px solid rgba(99, 102, 241, 0.35);
+      border-radius: 18px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      box-shadow: var(--shadow-glow);
+    }
+
+    .hero-text h2 {
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #FFF;
+      margin-bottom: 0.35rem;
+    }
+
+    .hero-text p {
+      color: #CBD5E1;
+      max-width: 600px;
+      font-size: 0.9rem;
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .stat-pill {
+      background: rgba(11, 15, 25, 0.75);
+      border: 1px solid var(--border-color);
+      padding: 0.6rem 1rem;
+      border-radius: 12px;
+      text-align: center;
+      min-width: 90px;
+    }
+
+    .stat-num {
+      font-family: var(--font-heading);
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: var(--secondary);
+      display: block;
+    }
+
+    .stat-label {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* Topic Grid */
+    .grid-topics {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .topic-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 1.25rem;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    .topic-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--border-glow);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+    }
+
+    .topic-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.65rem;
+    }
+
+    .topic-title {
+      font-family: var(--font-heading);
+      font-size: 1rem;
+      font-weight: 700;
+      color: #FFF;
+    }
+
+    .topic-count {
+      font-size: 0.75rem;
+      background: rgba(255, 255, 255, 0.07);
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+      color: var(--secondary);
+      font-weight: 600;
+    }
+
+    .topic-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 0.85rem;
+    }
+
+    /* CBT Layout */
+    .cbt-container {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 1.25rem;
+    }
+
+    @media (max-width: 960px) {
+      .cbt-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .cbt-top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.85rem 1.25rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .cbt-timer-box {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 0.4rem 0.85rem;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+    }
+
+    .timer-text {
+      font-family: var(--font-mono);
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--secondary);
+    }
+
+    .timer-text.danger {
+      color: var(--accent);
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    .question-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .question-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      padding-bottom: 0.65rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .q-number-tag {
+      font-family: var(--font-heading);
+      font-weight: 800;
+      color: var(--secondary);
+      font-size: 1.05rem;
+    }
+
+    .q-topic-badge {
+      background: rgba(99, 102, 241, 0.15);
+      color: #A5B4FC;
+      border: 1px solid rgba(99, 102, 241, 0.25);
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+
+    .question-prompt {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #FFF;
+      line-height: 1.55;
+      margin-bottom: 1.25rem;
+    }
+
+    .options-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .option-item {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 0.85rem 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .option-item:hover {
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .option-item.selected {
+      background: rgba(99, 102, 241, 0.2);
+      border-color: var(--primary);
+    }
+
+    .option-item.correct {
+      background: rgba(16, 185, 129, 0.2);
+      border-color: var(--success);
+    }
+
+    .option-item.wrong {
+      background: rgba(244, 63, 94, 0.2);
+      border-color: var(--accent);
+    }
+
+    .opt-letter {
+      width: 30px;
+      height: 30px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-family: var(--font-heading);
+      color: #FFF;
+      flex-shrink: 0;
+    }
+
+    .option-item.selected .opt-letter {
+      background: var(--primary);
+    }
+
+    .btn {
+      padding: 0.65rem 1.25rem;
+      border-radius: 10px;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 0.9rem;
+      cursor: pointer;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: all 0.15s ease;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-main);
+      border: 1px solid var(--border-color);
+    }
+
+    .btn-danger {
+      background: rgba(244, 63, 94, 0.2);
+      border: 1px solid rgba(244, 63, 94, 0.4);
+      color: #FDA4AF;
+    }
+
+    .btn-warning {
+      background: rgba(245, 158, 11, 0.2);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      color: #FCD34D;
+    }
+
+    /* Palette */
+    .cbt-side-panel {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 1.2rem;
+      height: fit-content;
+    }
+
+    .palette-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.45rem;
+      max-height: 350px;
+      overflow-y: auto;
+    }
+
+    .palette-btn {
+      aspect-ratio: 1;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text-muted);
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 0.8rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .palette-btn.current {
+      border: 2px solid var(--secondary);
+      color: #FFF;
+    }
+
+    .palette-btn.answered {
+      background: rgba(16, 185, 129, 0.3);
+      color: #A7F3D0;
+      border-color: var(--success);
+    }
+
+    .palette-btn.reviewed {
+      background: rgba(245, 158, 11, 0.3);
+      color: #FDE68A;
+      border-color: var(--warning);
+    }
+
+    /* Solution Box */
+    .solution-card {
+      background: rgba(99, 102, 241, 0.08);
+      border: 1px solid rgba(99, 102, 241, 0.25);
+      border-radius: 14px;
+      padding: 1.15rem;
+      margin-top: 1rem;
+    }
+
+    .speed-hack-box {
+      background: rgba(6, 182, 212, 0.12);
+      border-left: 3px solid var(--secondary);
+      padding: 0.65rem 0.85rem;
+      border-radius: 0 8px 8px 0;
+      margin-top: 0.65rem;
+      font-size: 0.88rem;
+      color: #BAE6FD;
+    }
+
+    /* 3D Flashcards */
+    .flashcards-container {
+      max-width: 650px;
+      margin: 1rem auto;
+      text-align: center;
+    }
+
+    .card-3d-wrapper {
+      perspective: 1200px;
+      margin: 1.25rem 0;
+      height: 360px;
+      cursor: pointer;
+    }
+
+    .card-3d {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      border-radius: 18px;
+    }
+
+    .card-3d.flipped {
+      transform: rotateY(180deg);
+    }
+
+    .card-face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 18px;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 1px solid var(--border-color);
+    }
+
+    .card-face-front {
+      background: linear-gradient(145deg, #161F37, #0F172A);
+      border-color: rgba(99, 102, 241, 0.35);
+    }
+
+    .card-face-back {
+      background: linear-gradient(145deg, #0F172A, #090E1A);
+      border-color: rgba(6, 182, 212, 0.35);
+      transform: rotateY(180deg);
+      text-align: left;
+    }
+
+    .card-topic-tag {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--secondary);
+      font-weight: 700;
+    }
+
+    .card-prompt {
+      font-family: var(--font-heading);
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: #FFF;
+      line-height: 1.45;
+      margin: auto 0;
+    }
+
+    .card-answer-text {
+      font-size: 0.98rem;
+      color: #E2E8F0;
+      white-space: pre-line;
+      line-height: 1.55;
+      margin: auto 0;
+    }
+
+    /* Mistake Vault */
+    .vault-item {
+      background: var(--bg-card);
+      border: 1px solid rgba(244, 63, 94, 0.3);
+      border-radius: 14px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .vault-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.6rem;
+    }
+
+    .btn-clear-mistake {
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid var(--success);
+      color: #6EE7B7;
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    /* Modal dialogs */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(8px);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    .modal-overlay.open {
+      display: flex;
+    }
+
+    .modal-card {
+      background: #111827;
+      border: 1px solid var(--border-color);
+      border-radius: 18px;
+      padding: 1.5rem;
+      max-width: 480px;
+      width: 100%;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PWA Install Banner -->
+  <div class="pwa-banner" id="pwaBanner">
+    <span>📲 Install <strong>FUTMINNA 100L Pass</strong> for 100% offline study!</span>
+    <button class="pwa-btn" id="btnInstallPwa">Install Now</button>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="brand">
+        <div class="brand-badge">100L</div>
+        <div class="brand-title">
+          <h1>FUTMINNA PASS</h1>
+          <p id="headerCourseSubtitle">MAT 101 • 540 Questions Solved</p>
+        </div>
+      </div>
+
+      <!-- Course Switcher & Gamification Badges -->
+      <div style="display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;">
+        <button class="course-btn" id="btnOpenCourseModal">
+          <span id="activeCourseBadgeText">MAT 101</span> ▼
+        </button>
+        <div class="streak-badge" title="Daily Study Streak">
+          <span style="font-size: 1rem;">🔥</span> <span id="streakDays">1 Day</span>
+        </div>
+        <div class="xp-badge" id="userXpBadge" title="Experience Points">
+          ⭐ <span id="userXp">150</span> XP
+        </div>
+      </div>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-tabs" id="navTabs">
+        <button class="nav-btn active" data-tab="dashboard">📊 Dashboard</button>
+        <button class="nav-btn" data-tab="cbt">🎯 CBT Exam</button>
+        <button class="nav-btn" data-tab="practice">📚 Drills</button>
+        <button class="nav-btn" data-tab="flashcards">⚡ Flashcards</button>
+        <button class="nav-btn" data-tab="vault">🛡️ Mistake Vault</button>
+        <button class="nav-btn" data-tab="formulas">📖 Formula Bible</button>
+        <button class="nav-btn" data-tab="roadmap">📅 30-Day Plan</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- TAB 1: DASHBOARD -->
+    <section class="tab-pane active" id="tab-dashboard">
+      <div class="hero-banner">
+        <div class="hero-text">
+          <h2>Secure Your Grade 'A' in 100-Level</h2>
+          <p>Complete curriculum pack for Federal University of Technology, Minna. 100% offline-first with CBT simulations, instant speed hacks, and active weakness tracking.</p>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-pill">
+            <span class="stat-num">540</span>
+            <span class="stat-label">Practice Qs</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num" id="statVaultCount">0</span>
+            <span class="stat-label">In Vault</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num" id="statMastery">0%</span>
+            <span class="stat-label">Exam Ready</span>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+        <h3 style="font-family: var(--font-heading); font-size: 1.25rem;">MAT 101 Syllabus Topics</h3>
+        <span style="font-size: 0.8rem; color: var(--secondary); font-weight: 600;">10 Topics Available</span>
+      </div>
+      
+      <div class="grid-topics" id="topicsGrid">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- TAB 2: CBT EXAM SIMULATOR -->
+    <section class="tab-pane" id="tab-cbt">
+      <!-- Setup Screen -->
+      <div id="cbtSetupScreen" class="glass-card" style="max-width: 600px; margin: 1.5rem auto; text-align: center;">
+        <h2 style="font-family: var(--font-heading); font-size: 1.7rem; color: #FFF; margin-bottom: 0.5rem;">FUTMINNA e-Exam Simulator</h2>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.25rem;">Experience real exam conditions. 50 questions strictly timed in 45 minutes.</p>
+        
+        <div style="background: rgba(0,0,0,0.3); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.25rem; margin-bottom: 1.5rem; text-align: left; font-size: 0.9rem;">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.6rem;">
+            <span style="color: var(--text-muted);">Exam Course:</span>
+            <strong style="color: #FFF;">MAT 101 (Elementary Maths I)</strong>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.6rem;">
+            <span style="color: var(--text-muted);">Questions:</span>
+            <strong style="color: #FFF;">50 Random Questions</strong>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.6rem;">
+            <span style="color: var(--text-muted);">Allocated Time:</span>
+            <strong style="color: var(--secondary);">45 Minutes (54 secs/Q)</strong>
+          </div>
+          <div style="display: flex; justify-content: space-between;">
+            <span style="color: var(--text-muted);">Grade A Target:</span>
+            <strong style="color: var(--success);">≥ 35 / 50 (70%)</strong>
+          </div>
+        </div>
+
+        <button class="btn btn-primary" id="btnStartCbt" style="font-size: 1rem; padding: 0.85rem 2rem;">
+          🚀 Start 50-Q CBT Exam
+        </button>
+      </div>
+
+      <!-- Active Exam Screen -->
+      <div id="cbtExamScreen" style="display: none;">
+        <div class="cbt-container">
+          <div>
+            <div class="cbt-top-bar">
+              <div>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">Course:</span>
+                <strong style="color: #FFF; margin-left: 0.3rem;">MAT 101</strong>
+              </div>
+              <div class="cbt-timer-box">
+                <span style="font-size: 0.75rem; color: var(--text-muted);">TIME:</span>
+                <span class="timer-text" id="cbtTimer">45:00</span>
+              </div>
+              <button class="btn btn-danger" id="btnSubmitExam" style="padding: 0.4rem 0.85rem; font-size: 0.8rem;">
+                Submit Exam
+              </button>
+            </div>
+
+            <div class="question-box">
+              <div class="question-meta">
+                <span class="q-number-tag" id="cbtQNum">Question 1 of 50</span>
+                <span class="q-topic-badge" id="cbtQTopic">TOPIC</span>
+              </div>
+              <div class="question-prompt" id="cbtQPrompt">Loading...</div>
+              <div class="options-list" id="cbtOptionsList"></div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; gap: 0.5rem; flex-wrap: wrap;">
+              <div style="display: flex; gap: 0.4rem;">
+                <button class="btn btn-secondary" id="btnPrevQ">← Prev</button>
+                <button class="btn btn-secondary" id="btnNextQ">Next →</button>
+              </div>
+              <div style="display: flex; gap: 0.4rem;">
+                <button class="btn btn-warning" id="btnReviewQ">🔖 Mark Review</button>
+                <button class="btn btn-secondary" id="btnClearQ">Clear</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Palette -->
+          <div class="cbt-side-panel">
+            <h4 style="font-family: var(--font-heading); margin-bottom: 0.6rem; color: #FFF; font-size: 0.95rem;">Question Palette</h4>
+            <div class="palette-grid" id="cbtPaletteGrid"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results Screen -->
+      <div id="cbtResultScreen" class="glass-card" style="display: none; max-width: 900px; margin: 1.5rem auto;">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- TAB 3: TOPIC DRILLS -->
+    <section class="tab-pane" id="tab-practice">
+      <div class="glass-card" style="margin-bottom: 1.25rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
+          <div>
+            <h2 style="font-family: var(--font-heading); color: #FFF; font-size: 1.4rem;">Topic Drills & 20s Speed Hacks</h2>
+            <p style="color: var(--text-muted); font-size: 0.85rem;">Instant answers with fast algebraic derivation and elimination tricks.</p>
+          </div>
+          <select id="practiceTopicSelect" style="background: var(--bg-surface); color: white; border: 1px solid var(--border-color); padding: 0.55rem 0.85rem; border-radius: 8px; font-family: var(--font-heading); outline: none;">
+          </select>
+        </div>
+      </div>
+      <div id="practiceQuestionsList" style="display: flex; flex-direction: column; gap: 1rem;"></div>
+    </section>
+
+    <!-- TAB 4: 3D FLASHCARDS -->
+    <section class="tab-pane" id="tab-flashcards">
+      <div class="flashcards-container">
+        <h2 style="font-family: var(--font-heading); font-size: 1.6rem; color: #FFF; margin-bottom: 0.35rem;">High-Yield Revision Flashcards</h2>
+        <p style="color: var(--text-muted); font-size: 0.85rem;">Tap the card to flip between formula recall and CBT shortcut.</p>
+        
+        <div style="margin: 1rem 0;">
+          <select id="fcTopicSelect" style="background: var(--bg-surface); color: white; border: 1px solid var(--border-color); padding: 0.5rem 1rem; border-radius: 8px; font-family: var(--font-heading);">
+            <option value="ALL">All Topics (23 Decks)</option>
+          </select>
+        </div>
+
+        <div class="card-3d-wrapper" id="fcWrapper">
+          <div class="card-3d" id="fcCard">
+            <div class="card-face card-face-front">
+              <span class="card-topic-tag" id="fcFrontTopic">TOPIC</span>
+              <div class="card-prompt" id="fcFrontText">Loading...</div>
+              <span style="font-size: 0.75rem; color: var(--text-dim);">👆 Tap card to flip</span>
+            </div>
+            <div class="card-face card-face-back">
+              <span class="card-topic-tag" id="fcBackTopic">SOLUTION</span>
+              <div class="card-answer-text" id="fcBackText">Loading...</div>
+              <span style="font-size: 0.75rem; color: var(--text-dim);">👆 Tap to flip back</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1.25rem;">
+          <button class="btn btn-secondary" id="fcPrev">← Prev</button>
+          <span style="font-family: var(--font-mono); color: var(--secondary);" id="fcCounter">1 / 23</span>
+          <button class="btn btn-secondary" id="fcNext">Next →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 5: MISTAKE VAULT -->
+    <section class="tab-pane" id="tab-vault">
+      <div class="glass-card">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+          <div>
+            <h2 style="font-family: var(--font-heading); color: #FFF; font-size: 1.4rem;">The Mistake Vault (Weakness Killer)</h2>
+            <p style="color: var(--text-muted); font-size: 0.85rem;">Any question you miss in CBT or Drills is saved here automatically. Clear all to guarantee an A!</p>
+          </div>
+          <button class="btn btn-secondary" id="btnClearAllVault" style="font-size: 0.8rem; padding: 0.4rem 0.8rem;">
+            Clear All Vault
+          </button>
+        </div>
+      </div>
+      <div id="vaultQuestionsList"></div>
+    </section>
+
+    <!-- TAB 6: FORMULA BIBLE -->
+    <section class="tab-pane" id="tab-formulas">
+      <div style="text-align: center; margin-bottom: 1.25rem;">
+        <h2 style="font-family: var(--font-heading); font-size: 1.6rem; color: #FFF; margin-bottom: 0.35rem;">MAT 101 Formula & Shortcuts Bible</h2>
+        <p style="color: var(--text-muted); font-size: 0.85rem;">Pocket reference for essential formulas, determinant shortcuts, and quadrant rules.</p>
+      </div>
+      <div class="grid-topics" id="sheetGrid"></div>
+    </section>
+
+    <!-- TAB 7: 30-DAY PLAN -->
+    <section class="tab-pane" id="tab-roadmap">
+      <div style="text-align: center; margin-bottom: 1.25rem;">
+        <h2 style="font-family: var(--font-heading); font-size: 1.6rem; color: #FFF; margin-bottom: 0.35rem;">30-Day "Roadmap to an A" Tracker</h2>
+        <p style="color: var(--text-muted); font-size: 0.85rem;">Check off each day as you progress. Saved automatically to your browser.</p>
+      </div>
+      <div id="roadmapContainer"></div>
+    </section>
+
+  </main>
+
+  <!-- Mobile Bottom Navigation Bar -->
+  <nav class="mobile-bottom-nav">
+    <button class="mob-nav-item active" data-tab="dashboard">
+      <span class="icon">📊</span>
+      <span>Home</span>
+    </button>
+    <button class="mob-nav-item" data-tab="cbt">
+      <span class="icon">🎯</span>
+      <span>CBT</span>
+    </button>
+    <button class="mob-nav-item" data-tab="practice">
+      <span class="icon">📚</span>
+      <span>Drills</span>
+    </button>
+    <button class="mob-nav-item" data-tab="flashcards">
+      <span class="icon">⚡</span>
+      <span>Cards</span>
+    </button>
+    <button class="mob-nav-item" data-tab="vault">
+      <span class="icon">🛡️</span>
+      <span>Vault</span>
+    </button>
+  </nav>
+
+  <!-- Course Switcher Modal -->
+  <div class="modal-overlay" id="courseModal">
+    <div class="modal-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+        <div>
+          <h3 style="font-family: var(--font-heading); color: #FFF; font-size: 1.2rem;">Select 100L Course</h3>
+          <p style="font-size: 0.75rem; color: var(--secondary);">Federal University of Technology, Minna</p>
+        </div>
+        <button id="btnCloseCourseModal" style="background: none; border: none; color: #9CA3AF; font-size: 1.2rem; cursor: pointer;">✕</button>
+      </div>
+
+      <div style="max-height: 380px; overflow-y: auto;" id="courseListContainer">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Data Scripts -->
+  <script src="data/questions_data.js"></script>
+  <script src="data/flashcards_data.js"></script>
+
+  <!-- Application Logic -->
+  <script>
+    // 100L Course Registry
+    const ALL_100L_COURSES = [
+      { code: 'MAT 101', name: 'Elementary Mathematics I', count: 540, semester: '1st Sem', active: true },
+      { code: 'PHY 101', name: 'General Physics I (Mechanics & Heat)', count: 0, semester: '1st Sem', active: false },
+      { code: 'CHM 101', name: 'General Chemistry I (Physical & Inorganic)', count: 0, semester: '1st Sem', active: false },
+      { code: 'GST 101', name: 'Use of English I', count: 0, semester: '1st Sem', active: false },
+      { code: 'GST 103', name: 'Nigerian Peoples & Culture', count: 0, semester: '1st Sem', active: false },
+      { code: 'CSC 101', name: 'Introduction to Computer Science', count: 0, semester: '1st Sem', active: false },
+      { code: 'BIO 101', name: 'General Biology I', count: 0, semester: '1st Sem', active: false },
+      { code: 'MAT 102', name: 'Elementary Mathematics II (Calculus)', count: 0, semester: '2nd Sem', active: false },
+      { code: 'PHY 102', name: 'General Physics II (Electricity & Optics)', count: 0, semester: '2nd Sem', active: false },
+      { code: 'CHM 102', name: 'General Chemistry II (Organic)', count: 0, semester: '2nd Sem', active: false }
+    ];
+
+    // Web Audio Synthesizer (Zero-data sound effects)
+    const AudioFX = {
+      ctx: null,
+      init() {
+        if (!this.ctx) this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+      },
+      correct() {
+        try {
+          this.init();
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(587.33, this.ctx.currentTime); // D5
+          osc.frequency.exponentialRampToValueAtTime(880, this.ctx.currentTime + 0.15); // A5
+          gain.gain.setValueAtTime(0.15, this.ctx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + 0.2);
+          osc.start();
+          osc.stop(this.ctx.currentTime + 0.2);
+        } catch(e){}
+      },
+      wrong() {
+        try {
+          this.init();
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.type = 'triangle';
+          osc.frequency.setValueAtTime(220, this.ctx.currentTime);
+          osc.frequency.exponentialRampToValueAtTime(146.83, this.ctx.currentTime + 0.2);
+          gain.gain.setValueAtTime(0.15, this.ctx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + 0.25);
+          osc.start();
+          osc.stop(this.ctx.currentTime + 0.25);
+        } catch(e){}
+      }
+    };
+
+    // State
+    const state = {
+      questions: window.MAT101_QUESTIONS || [],
+      flashcards: window.MAT101_FLASHCARDS || [],
+      activeCourse: 'MAT 101',
+      xp: parseInt(localStorage.getItem('futminna_xp') || '150'),
+      streak: parseInt(localStorage.getItem('futminna_streak') || '1'),
+      mistakes: JSON.parse(localStorage.getItem('futminna_mistakes') || '[]'),
+      
+      // CBT
+      cbt: {
+        active: false,
+        questions: [],
+        currentIndex: 0,
+        userAnswers: {},
+        reviewed: {},
+        timerSeconds: 45 * 60,
+        timerInterval: null
+      },
+      
+      // Flashcards
+      fc: {
+        currentIndex: 0,
+        filteredCards: [],
+        isFlipped: false
+      }
+    };
+
+    // PWA Service Worker Registration
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').then((reg) => {
+          console.log('[PWA] Service Worker registered:', reg.scope);
+        }).catch((err) => {
+          console.warn('[PWA] Service Worker registration failed:', err);
+        });
+      });
+    }
+
+    // PWA Install Prompt Listener
+    let deferredPrompt = null;
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      const banner = document.getElementById('pwaBanner');
+      if (banner) banner.classList.add('show');
+    });
+
+    document.getElementById('btnInstallPwa')?.addEventListener('click', async () => {
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        if (outcome === 'accepted') {
+          document.getElementById('pwaBanner').classList.remove('show');
+        }
+        deferredPrompt = null;
+      }
+    });
+
+    // App Initialization
+    document.addEventListener('DOMContentLoaded', () => {
+      initNavigation();
+      initGamification();
+      initCourses();
+      initDashboard();
+      initCBT();
+      initPractice();
+      initFlashcards();
+      initMistakeVault();
+      initFormulaBible();
+      initRoadmap();
+    });
+
+    function addXP(amount) {
+      state.xp += amount;
+      localStorage.setItem('futminna_xp', state.xp);
+      document.getElementById('userXp').textContent = state.xp;
+    }
+
+    function initGamification() {
+      document.getElementById('userXp').textContent = state.xp;
+      document.getElementById('streakDays').textContent = `${state.streak} Days`;
+      updateVaultCount();
+    }
+
+    function updateVaultCount() {
+      const count = state.mistakes.length;
+      document.getElementById('statVaultCount').textContent = count;
+      localStorage.setItem('futminna_mistakes', JSON.stringify(state.mistakes));
+    }
+
+    // Navigation
+    function initNavigation() {
+      const topBtns = document.querySelectorAll('.nav-btn');
+      const mobBtns = document.querySelectorAll('.mob-nav-item');
+
+      function activate(tabId) {
+        topBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-tab') === tabId));
+        mobBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-tab') === tabId));
+        document.querySelectorAll('.tab-pane').forEach(p => p.classList.toggle('active', p.id === `tab-${tabId}`));
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      topBtns.forEach(b => b.addEventListener('click', () => activate(b.getAttribute('data-tab'))));
+      mobBtns.forEach(b => b.addEventListener('click', () => activate(b.getAttribute('data-tab'))));
+    }
+
+    // Course Selector
+    function initCourses() {
+      const modal = document.getElementById('courseModal');
+      const btnOpen = document.getElementById('btnOpenCourseModal');
+      const btnClose = document.getElementById('btnCloseCourseModal');
+      const list = document.getElementById('courseListContainer');
+
+      btnOpen.addEventListener('click', () => modal.classList.add('open'));
+      btnClose.addEventListener('click', () => modal.classList.remove('open'));
+
+      list.innerHTML = ALL_100L_COURSES.map(c => `
+        <div style="background: rgba(255,255,255,0.03); border: 1px solid ${c.active ? 'var(--primary)' : 'var(--border-color)'}; border-radius: 12px; padding: 0.85rem 1rem; margin-bottom: 0.65rem; display: flex; justify-content: space-between; align-items: center; cursor: pointer;" class="course-row" data-code="${c.code}">
+          <div>
+            <div style="display: flex; gap: 0.5rem; align-items: center;">
+              <strong style="color: #FFF; font-family: var(--font-heading);">${c.code}</strong>
+              <span style="font-size: 0.7rem; color: var(--secondary); background: rgba(6,182,212,0.1); padding: 0.15rem 0.45rem; border-radius: 4px;">${c.semester}</span>
+            </div>
+            <div style="font-size: 0.82rem; color: var(--text-muted);">${c.name}</div>
+          </div>
+          <div>
+            ${c.active 
+              ? `<span style="background: rgba(16,185,129,0.2); color: var(--success); font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 6px; font-weight: 700;">✓ Active</span>`
+              : `<span style="background: rgba(255,255,255,0.06); color: var(--text-muted); font-size: 0.72rem; padding: 0.3rem 0.6rem; border-radius: 6px;">Available</span>`
+            }
+          </div>
+        </div>
+      `).join('');
+
+      list.querySelectorAll('.course-row').forEach(row => {
+        row.addEventListener('click', () => {
+          const code = row.getAttribute('data-code');
+          if (code === 'MAT 101') {
+            modal.classList.remove('open');
+          } else {
+            alert(`${code} curriculum is registered! This pack currently has all 540 active practice questions and answers for MAT 101. Additional courses will load as your question packs expand.`);
+          }
+        });
+      });
+    }
+
+    // Dashboard
+    function initDashboard() {
+      const grid = document.getElementById('topicsGrid');
+      const topics = [
+        'SET THEORY', 'MAPPING AND FUNCTION', 'COMPLEX NUMBER', 'INEQUALITY', 'SURD',
+        'INDICES AND LOGARITHMS', 'MATHEMATICAL INDUCTION', 'BINOMIAL EXPANSION',
+        'MATRICES AND DETERMINANT', 'QUADRATIC EQUATION'
+      ];
+
+      grid.innerHTML = topics.map(t => {
+        const count = state.questions.filter(q => q.topic === t).length;
+        return `
+          <div class="topic-card" data-topic="${t}">
+            <div class="topic-header">
+              <span class="topic-title">${t}</span>
+              <span class="topic-count">${count} Qs</span>
+            </div>
+            <p class="topic-desc">Full worked solutions and 20-second CBT shortcuts.</p>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="color: var(--primary); font-size: 0.8rem; font-weight: 700;">Start Drill →</span>
+              <span style="font-size: 0.72rem; color: var(--text-dim);">FUTMINNA</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      grid.querySelectorAll('.topic-card').forEach(card => {
+        card.addEventListener('click', () => {
+          const topic = card.getAttribute('data-topic');
+          document.getElementById('practiceTopicSelect').value = topic;
+          renderPractice(topic);
+          document.querySelectorAll('.nav-btn, .mob-nav-item').forEach(b => {
+            if (b.getAttribute('data-tab') === 'practice') b.click();
+          });
+        });
+      });
+    }
+
+    // CBT
+    function initCBT() {
+      document.getElementById('btnStartCbt').addEventListener('click', () => {
+        const shuffled = [...state.questions].sort(() => 0.5 - Math.random());
+        state.cbt.questions = shuffled.slice(0, 50);
+        state.cbt.currentIndex = 0;
+        state.cbt.userAnswers = {};
+        state.cbt.reviewed = {};
+        state.cbt.timerSeconds = 45 * 60;
+        state.cbt.active = true;
+
+        document.getElementById('cbtSetupScreen').style.display = 'none';
+        document.getElementById('cbtResultScreen').style.display = 'none';
+        document.getElementById('cbtExamScreen').style.display = 'block';
+
+        renderCBTPalette();
+        renderCBTQuestion();
+
+        if (state.cbt.timerInterval) clearInterval(state.cbt.timerInterval);
+        state.cbt.timerInterval = setInterval(() => {
+          state.cbt.timerSeconds--;
+          if (state.cbt.timerSeconds <= 0) {
+            clearInterval(state.cbt.timerInterval);
+            finishCBT();
+            return;
+          }
+          const m = Math.floor(state.cbt.timerSeconds / 60);
+          const s = state.cbt.timerSeconds % 60;
+          const timerEl = document.getElementById('cbtTimer');
+          timerEl.textContent = `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+          if (state.cbt.timerSeconds < 300) timerEl.classList.add('danger');
+          else timerEl.classList.remove('danger');
+        }, 1000);
+      });
+
+      document.getElementById('btnPrevQ').addEventListener('click', () => {
+        if (state.cbt.currentIndex > 0) {
+          state.cbt.currentIndex--;
+          renderCBTQuestion();
+        }
+      });
+
+      document.getElementById('btnNextQ').addEventListener('click', () => {
+        if (state.cbt.currentIndex < state.cbt.questions.length - 1) {
+          state.cbt.currentIndex++;
+          renderCBTQuestion();
+        }
+      });
+
+      document.getElementById('btnReviewQ').addEventListener('click', () => {
+        state.cbt.reviewed[state.cbt.currentIndex] = !state.cbt.reviewed[state.cbt.currentIndex];
+        renderCBTPalette();
+      });
+
+      document.getElementById('btnClearQ').addEventListener('click', () => {
+        delete state.cbt.userAnswers[state.cbt.currentIndex];
+        renderCBTQuestion();
+        renderCBTPalette();
+      });
+
+      document.getElementById('btnSubmitExam').addEventListener('click', () => {
+        if (confirm('Are you ready to submit your exam and view your grade?')) {
+          finishCBT();
+        }
+      });
+    }
+
+    function renderCBTQuestion() {
+      const q = state.cbt.questions[state.cbt.currentIndex];
+      if (!q) return;
+
+      document.getElementById('cbtQNum').textContent = `Question ${state.cbt.currentIndex + 1} of ${state.cbt.questions.length}`;
+      document.getElementById('cbtQTopic').textContent = q.topic;
+      document.getElementById('cbtQPrompt').textContent = q.question;
+
+      const optList = document.getElementById('cbtOptionsList');
+      const userChoice = state.cbt.userAnswers[state.cbt.currentIndex];
+
+      optList.innerHTML = Object.entries(q.options).map(([letter, text]) => `
+        <div class="option-item ${userChoice === letter ? 'selected' : ''}" data-letter="${letter}">
+          <div class="opt-letter">${letter}</div>
+          <div class="opt-text">${text}</div>
+        </div>
+      `).join('');
+
+      optList.querySelectorAll('.option-item').forEach(item => {
+        item.addEventListener('click', () => {
+          const l = item.getAttribute('data-letter');
+          state.cbt.userAnswers[state.cbt.currentIndex] = l;
+          renderCBTQuestion();
+          renderCBTPalette();
+        });
+      });
+
+      renderCBTPalette();
+    }
+
+    function renderCBTPalette() {
+      const grid = document.getElementById('cbtPaletteGrid');
+      grid.innerHTML = state.cbt.questions.map((_, idx) => {
+        let cls = 'palette-btn';
+        if (idx === state.cbt.currentIndex) cls += ' current';
+        if (state.cbt.userAnswers[idx]) cls += ' answered';
+        if (state.cbt.reviewed[idx]) cls += ' reviewed';
+        return `<button class="${cls}" data-idx="${idx}">${idx + 1}</button>`;
+      }).join('');
+
+      grid.querySelectorAll('.palette-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          state.cbt.currentIndex = parseInt(btn.getAttribute('data-idx'));
+          renderCBTQuestion();
+        });
+      });
+    }
+
+    function finishCBT() {
+      if (state.cbt.timerInterval) clearInterval(state.cbt.timerInterval);
+      state.cbt.active = false;
+
+      document.getElementById('cbtExamScreen').style.display = 'none';
+      const res = document.getElementById('cbtResultScreen');
+      res.style.display = 'block';
+
+      let score = 0;
+      const topicStats = {};
+
+      state.cbt.questions.forEach((q, idx) => {
+        const choice = state.cbt.userAnswers[idx];
+        const isCorrect = choice && (choice.toUpperCase() === q.answer.trim().toUpperCase());
+        if (isCorrect) {
+          score++;
+        } else {
+          // Add to Mistake Vault
+          if (!state.mistakes.some(m => m.id === q.id)) {
+            state.mistakes.push(q);
+          }
+        }
+
+        if (!topicStats[q.topic]) topicStats[q.topic] = { total: 0, correct: 0 };
+        topicStats[q.topic].total++;
+        if (isCorrect) topicStats[q.topic].correct++;
+      });
+
+      updateVaultCount();
+      addXP(score * 10 + 100);
+
+      const total = state.cbt.questions.length;
+      const pct = Math.round((score / total) * 100);
+      document.getElementById('statMastery').textContent = `${pct}%`;
+
+      res.innerHTML = `
+        <div style="text-align: center; margin-bottom: 1.5rem;">
+          <h2 style="font-family: var(--font-heading); font-size: 1.8rem; color: #FFF;">CBT Exam Completed! 🎓</h2>
+          <div style="font-size: 3.5rem; font-family: var(--font-heading); font-weight: 800; color: #FFF; margin: 0.5rem 0;">
+            ${score} <span style="font-size: 1.5rem; color: var(--text-muted);">/ ${total} (${pct}%)</span>
+          </div>
+          <div style="display: inline-block; padding: 0.4rem 1.25rem; border-radius: 20px; font-weight: 800; font-size: 1rem; margin-bottom: 0.75rem; ${pct >= 70 ? 'background: rgba(16,185,129,0.2); color: var(--success); border: 1px solid var(--success);' : 'background: rgba(245,158,11,0.2); color: var(--warning); border: 1px solid var(--warning);'}">
+            ${pct >= 70 ? 'GRADE A (DISTINCTION) 🏆' : 'NEEDS PRACTICE'}
+          </div>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">
+            ${pct >= 70 ? 'Magnificent work! You have reached Grade A readiness.' : 'Missed questions were saved to your Mistake Vault. Drill them below to guarantee mastery!'}
+          </p>
+        </div>
+
+        <h3 style="font-family: var(--font-heading); font-size: 1.1rem; margin-bottom: 0.75rem;">Question-by-Question Review</h3>
+        <div style="display: flex; flex-direction: column; gap: 1rem;">
+          ${state.cbt.questions.map((q, idx) => {
+            const choice = state.cbt.userAnswers[idx] || 'None';
+            const isCorrect = choice && (choice.toUpperCase() === q.answer.trim().toUpperCase());
+            return `
+              <div style="background: rgba(255,255,255,0.02); border: 1px solid ${isCorrect ? 'rgba(16,185,129,0.3)' : 'rgba(244,63,94,0.3)'}; border-radius: 12px; padding: 1rem;">
+                <div style="display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 0.5rem;">
+                  <strong style="color: ${isCorrect ? 'var(--success)' : 'var(--accent)'};">Q${idx+1}. ${isCorrect ? '✓ Correct' : '✗ Missed'}</strong>
+                  <span class="q-topic-badge">${q.topic}</span>
+                </div>
+                <div style="color: #FFF; font-size: 0.95rem; margin-bottom: 0.75rem;">${q.question}</div>
+                <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem;">
+                  Your Choice: <strong>${choice}</strong> | Official Key: <strong style="color: var(--success);">${q.answer}</strong>
+                </div>
+                <div class="solution-card">
+                  <div style="font-size: 0.85rem; color: #CBD5E1;">${q.explanation}</div>
+                  <div class="speed-hack-box">${q.speed_hack}</div>
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      `;
+    }
+
+    // Topic Practice
+    function initPractice() {
+      const select = document.getElementById('practiceTopicSelect');
+      const topics = [
+        'SET THEORY', 'MAPPING AND FUNCTION', 'COMPLEX NUMBER', 'INEQUALITY', 'SURD',
+        'INDICES AND LOGARITHMS', 'MATHEMATICAL INDUCTION', 'BINOMIAL EXPANSION',
+        'MATRICES AND DETERMINANT', 'QUADRATIC EQUATION'
+      ];
+
+      select.innerHTML = topics.map(t => `<option value="${t}">${t}</option>`).join('');
+      select.addEventListener('change', (e) => renderPractice(e.target.value));
+      renderPractice(topics[0]);
+    }
+
+    function renderPractice(topic) {
+      const list = document.getElementById('practiceQuestionsList');
+      const qs = state.questions.filter(q => q.topic === topic);
+
+      list.innerHTML = qs.map(q => `
+        <div class="glass-card" id="card_${q.id}">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+            <strong style="color: var(--secondary); font-family: var(--font-heading);">Question ${q.question_number}</strong>
+            <span class="q-topic-badge">${q.topic}</span>
+          </div>
+          <div style="color: #FFF; font-size: 1.05rem; margin-bottom: 1rem;">${q.question}</div>
+          <div class="options-list">
+            ${Object.entries(q.options).map(([letter, text]) => `
+              <div class="option-item" data-letter="${letter}" data-qid="${q.id}">
+                <div class="opt-letter">${letter}</div>
+                <div class="opt-text">${text}</div>
+              </div>
+            `).join('')}
+          </div>
+          <div class="solution-card" id="sol_${q.id}" style="display: none;">
+            <div style="color: var(--success); font-weight: 700; margin-bottom: 0.25rem;">Official Key: ${q.answer}</div>
+            <div style="font-size: 0.88rem; color: #CBD5E1;">${q.explanation}</div>
+            <div class="speed-hack-box">${q.speed_hack}</div>
+          </div>
+        </div>
+      `).join('');
+
+      list.querySelectorAll('.option-item').forEach(item => {
+        item.addEventListener('click', () => {
+          const qid = item.getAttribute('data-qid');
+          const chosen = item.getAttribute('data-letter');
+          const q = state.questions.find(x => x.id === qid);
+          const isCorrect = chosen.toUpperCase() === q.answer.trim().toUpperCase();
+
+          const card = document.getElementById(`card_${qid}`);
+          card.querySelectorAll('.option-item').forEach(i => {
+            i.classList.remove('selected', 'correct', 'wrong');
+            if (i.getAttribute('data-letter') === q.answer.trim()) i.classList.add('correct');
+          });
+
+          if (!isCorrect) {
+            item.classList.add('wrong');
+            AudioFX.wrong();
+            if (!state.mistakes.some(m => m.id === q.id)) {
+              state.mistakes.push(q);
+              updateVaultCount();
+            }
+          } else {
+            AudioFX.correct();
+            addXP(10);
+          }
+
+          document.getElementById(`sol_${qid}`).style.display = 'block';
+        });
+      });
+    }
+
+    // Flashcards
+    function initFlashcards() {
+      const cardEl = document.getElementById('fcCard');
+      const prevBtn = document.getElementById('fcPrev');
+      const nextBtn = document.getElementById('fcNext');
+      const select = document.getElementById('fcTopicSelect');
+
+      const topics = [...new Set(state.flashcards.map(f => f.topic))];
+      select.innerHTML += topics.map(t => `<option value="${t}">${t}</option>`).join('');
+
+      select.addEventListener('change', (e) => {
+        const val = e.target.value;
+        state.fc.filteredCards = val === 'ALL' ? [...state.flashcards] : state.flashcards.filter(f => f.topic === val);
+        state.fc.currentIndex = 0;
+        state.fc.isFlipped = false;
+        renderFC();
+      });
+
+      cardEl.addEventListener('click', () => {
+        state.fc.isFlipped = !state.fc.isFlipped;
+        cardEl.classList.toggle('flipped', state.fc.isFlipped);
+        if (state.fc.isFlipped) addXP(5);
+      });
+
+      prevBtn.addEventListener('click', () => {
+        if (state.fc.currentIndex > 0) {
+          state.fc.currentIndex--;
+          state.fc.isFlipped = false;
+          renderFC();
+        }
+      });
+
+      nextBtn.addEventListener('click', () => {
+        if (state.fc.currentIndex < state.fc.filteredCards.length - 1) {
+          state.fc.currentIndex++;
+          state.fc.isFlipped = false;
+          renderFC();
+        }
+      });
+
+      state.fc.filteredCards = [...state.flashcards];
+      renderFC();
+    }
+
+    function renderFC() {
+      const cardEl = document.getElementById('fcCard');
+      cardEl.classList.remove('flipped');
+      state.fc.isFlipped = false;
+
+      const total = state.fc.filteredCards.length;
+      if (total === 0) return;
+
+      const card = state.fc.filteredCards[state.fc.currentIndex];
+      document.getElementById('fcFrontTopic').textContent = `${card.topic} • ${card.category}`;
+      document.getElementById('fcFrontText').textContent = card.front;
+      document.getElementById('fcBackTopic').textContent = card.title;
+      document.getElementById('fcBackText').textContent = card.back;
+      document.getElementById('fcCounter').textContent = `${state.fc.currentIndex + 1} / ${total}`;
+    }
+
+    // Mistake Vault
+    function initMistakeVault() {
+      renderVault();
+      document.getElementById('btnClearAllVault').addEventListener('click', () => {
+        if (confirm('Clear all saved questions from your Mistake Vault?')) {
+          state.mistakes = [];
+          updateVaultCount();
+          renderVault();
+        }
+      });
+    }
+
+    function renderVault() {
+      const list = document.getElementById('vaultQuestionsList');
+      if (state.mistakes.length === 0) {
+        list.innerHTML = `
+          <div class="glass-card" style="text-align: center; padding: 2rem;">
+            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🎉</div>
+            <h3 style="color: #FFF; font-family: var(--font-heading); margin-bottom: 0.4rem;">Vault is Empty!</h3>
+            <p style="color: var(--text-muted); font-size: 0.88rem;">Any question you get wrong in CBT or practice drills is automatically saved here so you can eliminate all weak points.</p>
+          </div>
+        `;
+        return;
+      }
+
+      list.innerHTML = state.mistakes.map(q => `
+        <div class="vault-item" id="vault_item_${q.id}">
+          <div class="vault-header">
+            <span class="q-topic-badge">${q.topic}</span>
+            <button class="btn-clear-mistake" data-id="${q.id}">✓ Mastered</button>
+          </div>
+          <div style="color: #FFF; font-size: 1rem; margin-bottom: 0.75rem;">${q.question}</div>
+          <div class="solution-card">
+            <div style="color: var(--success); font-weight: 700; margin-bottom: 0.25rem;">Answer: ${q.answer}</div>
+            <div style="font-size: 0.85rem; color: #CBD5E1;">${q.explanation}</div>
+            <div class="speed-hack-box">${q.speed_hack}</div>
+          </div>
+        </div>
+      `).join('');
+
+      list.querySelectorAll('.btn-clear-mistake').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const id = btn.getAttribute('data-id');
+          state.mistakes = state.mistakes.filter(m => m.id !== id);
+          updateVaultCount();
+          renderVault();
+          addXP(25);
+        });
+      });
+    }
+
+    // Formula Bible
+    function initFormulaBible() {
+      const grid = document.getElementById('sheetGrid');
+      const formulas = [
+        { topic: "SET THEORY", items: ["n(A ∪ B) = n(A) + n(B) - n(A ∩ B)", "Subsets: 2ⁿ | Proper: 2ⁿ - 1", "(A ∪ B)' = A' ∩ B'"] },
+        { topic: "MAPPING & FUNCTIONS", items: ["f(x) = (ax+b)/(cx+d) ⇒ f⁻¹(x) = (-dx+b)/(cx-a)", "Bijective ⟺ Invertible", "(f ∘ g)(x) = f(g(x))"] },
+        { topic: "COMPLEX NUMBERS", items: ["|z| = √(x² + y²)", "z·z̄ = x² + y² = |z|²", "i⁴ᵏ=1, i⁴ᵏ⁺¹=i, i⁴ᵏ⁺²=-1, i⁴ᵏ⁺³=-i"] },
+        { topic: "INEQUALITIES", items: ["-ax < b ⇒ x > -b/a (Sign Flips!)", "|x| ≤ a ⟺ -a ≤ x ≤ a", "|x| ≥ a ⟺ x ≤ -a OR x ≥ a"] },
+        { topic: "SURDS", items: ["(√a + √b)(√a - √b) = a - b", "Square root hack: square each option"] },
+        { topic: "INDICES & LOGS", items: ["log(xy) = log x + log y", "Change of Base: log_b(a) = log a / log b"] },
+        { topic: "MATHEMATICAL INDUCTION", items: ["Σr = n(n+1)/2", "Σr² = n(n+1)(2n+1)/6", "Test n = 1 & n = 2 into options"] },
+        { topic: "BINOMIAL EXPANSION", items: ["T_(r+1) = nCr · aⁿ⁻ʳ · bʳ", "Sum of coefficients: set variables = 1"] },
+        { topic: "MATRICES & DETERMINANTS", items: ["det [[a,b],[c,d]] = ad - bc", "A⁻¹ = (1/det) · [[d,-b],[-c,a]]", "det(A) = 0 ⇒ Singular"] },
+        { topic: "QUADRATIC EQUATIONS", items: ["α + β = -b/a | αβ = c/a", "α² + β² = (α+β)² - 2αβ", "Reciprocal roots: reverse coefficients"] }
+      ];
+
+      grid.innerHTML = formulas.map(f => `
+        <div class="topic-card">
+          <div class="topic-title" style="color: var(--secondary); margin-bottom: 0.6rem;">📐 ${f.topic}</div>
+          <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+            ${f.items.map(i => `<div style="background: rgba(0,0,0,0.3); padding: 0.4rem 0.65rem; border-radius: 6px; font-family: var(--font-mono); font-size: 0.8rem; color: #E2E8F0;">${i}</div>`).join('')}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // 30-Day Plan
+    function initRoadmap() {
+      const container = document.getElementById('roadmapContainer');
+      const weeks = [
+        { title: "Week 1: Foundations", days: ["Day 1-2: Set Theory (BSG Q1-Q60)", "Day 3-4: Mapping & Functions (BSG Q1-Q60)", "Day 5-6: Quadratic Equations (BSG Q1-Q60)", "Day 7: Weekly Mock 1 (50 Qs)"] },
+        { title: "Week 2: Algebraic Tools", days: ["Day 8-9: Surds & Conjugates (BSG Q1-Q60)", "Day 10-11: Indices & Logarithms (BSG Q1-Q60)", "Day 12-13: Inequalities (BSG Q1-Q60)", "Day 14: Weekly Mock 2 (50 Qs)"] },
+        { title: "Week 3: Advanced Topics", days: ["Day 15-17: Complex Numbers (BSG Q1-Q60)", "Day 18-19: Binomial Expansion (BSG Q1-Q40)", "Day 20: Mathematical Induction (BSG Q1-Q20)", "Day 21: Weekly Mock 3 (50 Qs)"] },
+        { title: "Week 4: Matrices & Blitz", days: ["Day 22-24: Matrices & Determinants (BSG Q1-Q60)", "Day 25: Clear Mistake Vault", "Day 26-28: Full CBT Simulation Blitz", "Day 29-30: Formula Bible & Rest"] }
+      ];
+
+      container.innerHTML = weeks.map(w => `
+        <div class="glass-card">
+          <h3 style="color: #FFF; font-family: var(--font-heading); margin-bottom: 0.75rem; font-size: 1.15rem;">${w.title}</h3>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            ${w.days.map(d => `
+              <div style="background: rgba(255,255,255,0.02); padding: 0.6rem 0.85rem; border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; display: flex; align-items: center; gap: 0.6rem;">
+                <input type="checkbox" style="accent-color: var(--success); width: 16px; height: 16px;">
+                <span>${d}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `).join('');
+    }
+  </script>
+</body>
+</html>
