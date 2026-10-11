@@ -1964,11 +1964,23 @@
       }
     };
 
-    // PWA Service Worker Registration
+    // PWA Service Worker Registration & Cache Auto-Recovery
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
+        if ('caches' in window) {
+          caches.keys().then((keys) => {
+            keys.forEach((key) => {
+              if (key !== 'futminna-100l-v8') {
+                console.log('[Cache Cleanup] Removing obsolete cache:', key);
+                caches.delete(key);
+              }
+            });
+          });
+        }
+
         navigator.serviceWorker.register('./sw.js').then((reg) => {
           console.log('[PWA] Service Worker registered:', reg.scope);
+          reg.update();
         }).catch((err) => {
           console.warn('[PWA] Service Worker registration failed:', err);
         });

@@ -1,5 +1,5 @@
 // Service Worker for FUTMINNA 100L Grade-A Master (Offline-First)
-const CACHE_NAME = 'futminna-100l-v6';
+const CACHE_NAME = 'futminna-100l-v8';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -7,8 +7,6 @@ const ASSETS_TO_CACHE = [
   './favicon.png',
   './data/questions_data.js',
   './data/flashcards_data.js',
-  './data/questions_data.js?v=3',
-  './data/flashcards_data.js?v=3',
   './data/mat101_questions.json',
   './data/phy101_questions.json',
   './data/chm111_questions.json',
@@ -58,7 +56,7 @@ self.addEventListener('activate', (event) => {
       return Promise.all(
         keys.map((key) => {
           if (key !== CACHE_NAME) {
-            console.log('[Service Worker] Removing old cache:', key);
+            console.log('[Service Worker] Wiping old cache:', key);
             return caches.delete(key);
           }
         })
@@ -69,14 +67,31 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  // Offline-first strategy
+  const isHtml = event.request.mode === 'navigate' || event.request.headers.get('accept')?.includes('text/html');
+
+  // NETWORK-FIRST for HTML navigation so users ALWAYS get updated versions when online
+  if (isHtml) {
+    event.respondWith(
+      fetch(event.request)
+        .then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const clone = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+          }
+          return networkResponse;
+        })
+        .catch(() => caches.match('./index.html') || caches.match(event.request))
+    );
+    return;
+  }
+
+  // CACHE-FIRST with network fallback for static assets
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
       if (cachedResponse) {
         return cachedResponse;
       }
       return fetch(event.request).then((networkResponse) => {
-        // Cache external fonts and successful GET requests dynamically
         if (
           event.request.method === 'GET' &&
           networkResponse &&
@@ -88,11 +103,6 @@ self.addEventListener('fetch', (event) => {
           });
         }
         return networkResponse;
-      }).catch(() => {
-        // If both cache and network fail, return offline fallback for HTML requests
-        if (event.request.headers.get('accept')?.includes('text/html')) {
-          return caches.match('./index.html');
-        }
       });
     })
   );
